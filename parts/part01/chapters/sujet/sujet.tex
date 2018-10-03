@@ -3,7 +3,31 @@
 
 \section{Présentation}
 
-Le sujet soumis à notre analyse s'intitule "Etude et mise en place d'une application Web JEE et d'une application mobile Android conformes Owasp". 
+%Le sujet qui nous a été soumis s'intitule "Etude et mise en place d'une application Web JEE et d'une application mobile Android conformes Owasp".  Il s'agit donc d'étudier, par rapport à Owasp\footnote{Open Web Application Security Project} comment s'ateler à produire des applications Web JEE et mobile Android %
+
+\section{Notions utiles à la compréhension du sujet}
+
+\subsection{Sécurité informatique}
+
+La sécurité peut être définie comme étant une situation, un état dans laquelle quelqu’un ou quelque chose n’est exposé à aucun danger, à aucun risque d’agression, de détérioration ou encore par le long processus visant à atteindre cet état. \\
+Lorsqu’on parle de sécurité dans le domaine des technologies de l’information et de la communication, on fait très souvent allusion à la sécurité de l’information. La sécurité de l'information ou encore sécurité informatique, en anglais Information Security abrégé Infosec consiste en la mise en place d’un ensemble de stratégies pour gérer les processus, les outils et les politiques nécessaires pour prévenir, détecter, documenter et contrer les menaces à l'information. La sécurité de l’information recouvre donc toutes les techniques permettant d’assurer la protection de l’information.  La sécurité de l’information se fonde sur 3 principes fondamentaux : \\
+-	la confidentialité : c’est le fait d’assurer que l’information ne puisse être accessible qu’à ceux qui ont l’autorisation de la consulter. Cela sous-entend le fait de rendre inintelligible cette information aux personnes non autorisées; \\
+-	l’intégrité : assurer que l’information n’est pas modifiable par un tiers non autorisé. Elle consiste à certifier que les données n’ont pas été détruites ou altérées tant de façon intentionnelle qu’accidentelle; \\
+-	la disponibilité : assurer que l’information est accessible en temps voulu par ceux qui en ont l’autorisation. Ne pas pouvoir accéder à une information en temps voulu est semblable à la non-possession de celle-ci.\\
+Comme principes supplémentaires, nous notons:\\
+-	l’authentification : elle consiste à assurer l’identité d’un tiers et permet de garantir qu’un tiers est bien celui qu’il prétend être ;\\
+-	la non-répudiation : le fait de ne pas pouvoir nier une action faite sur le système.\\
+
+\subsection{Cryptographie}
+
+La sécurité informatique est un domaine pluridisciplinaire. En effet, pour arriver à ses buts, elle a, tout au cours de son évolution, utilisé, entre autres, la cryptographie. La cryptographie peut être définie comme un art et une science permettant de concevoir des techniques pour garder le secret des messages transmis. Voici les problèmes que doit résoudre la cryptographie : \\
+-	la confidentialité ; \\
+-	l’intégrité ; \\
+-	l’authentification. \\
+On voit ainsi que la sécurité informatique et la cryptographie partagent des objectifs similaires. Et c’est pour cette raison que tout au long de l’histoire, elle a été utilisée dans le domaine de la sécurité informatique. De même, les évolutions dans le domaine de la sécurité informatique ont souvent été rendus possibles grâce aux avancées de la cryptographie.
+On distingue :\\
+-	la cryptographie classique qui décrit la période d’avant les ordinateurs. Elle traite des systèmes reposant sur les lettres et les caractères d’une langue naturelle. Dans cette famille, on retrouve le chiffrement par substitution qui consiste, à remplacer, sans en bouleverser l’ordre les symboles d’un texte clair par d’autres symboles et le chiffrement par transposition qui repose sur le bouleversement de l’ordre des symboles du message clair. Les techniques de chiffrement les plus connues dans cette famille sont le chiffrement de César et le chiffrement de Vigenère ; \\
+-	 la cryptographie moderne qui utilise la puissance de calcul des ordinateurs pour affiner ces techniques de chiffrement. Dans cette famille, nous avons le chiffrement symétrique qui utilise une même clé pour le chiffrement et le déchiffrement; DES en est la technique la plus connue et le chiffrement asymétrique qui utilise des clés différentes pour le chiffrement et le déchiffrement; RSA est l’algorithme de chiffrement asymétrique le plus utilisé.\\
 
 \section{Contexte}
 
@@ -11,9 +35,7 @@ Le sujet soumis à notre analyse s'intitule "Etude et mise en place d'une applic
 Aux premiers jours de l’internet, le World Wide Web\footnote{Système reliant des ressources hypertextes sur Internet grâce au protocole Http} consistait en de simples pages web, des pages d’information constituée de ressources statistiques. Le flot d'informations était à sens unique, du serveur au navigateur. L’authentification des utilisateurs n’était souvent pas nécessaire car les mêmes informations étaient affichées à tous les utilisateurs. Les risques de sécurité découlaient exclusivement de l’hébergement des sites web, c’est-à-dire au niveau des serveurs web. En cas d’attaque, il n’y avait que peu de risques car l’information au niveau des serveurs était déjà accessible au grand public. Les attaques consistaient donc le plus souvent à des démaquillages des sites web.\\
 Aujourd’hui, le World Wide Web est très différent de ce qu’il était à ses débuts. De nouveaux sites web plus poussés apparaissent : les applications Web. Ils ne se limitent plus à l’affichage de ressources statistiques. La majorité des sites web de nos jours, sont en réalité des applications web. Une application web est un site Web qui permet à ses utilisateurs de réaliser des tâches spécifiques. Le flux d’informations n’est plus à sens unique mais plutôt bidirectionnel entre le serveur et le client (navigateur, téléphone mobile, autre application). Le contenu présenté aux utilisateurs est spécifique à chaque utilisateur en fonction de préférences préalablement enregistrées ou d’autres paramètres de l’application. \\
 En plus des applications web disponibles publiquement, nous avons les applications web internes aux entreprises qui soutiennent les entreprises dans l’accomplissement de tâches spécifiques : applications de gestion de ressources humaines et de la paie, applications de collaborations, applications de messagerie interne ainsi que les applications sur mesure propres au fonctionnement de l’entreprise (ERPs, applications de gestion des assurances, applications de gestion d’examens, etc.).\\
-L’information traitée est très sensible de nos jours. Les applications web prennent en charge des fonctionnalités très délicates telles que les transactions financières ; il y a de cela quelques années, lorsqu’on voulait faire une transaction financière, il fallait aller à la banque et un agent le faisait pour vous alors qu’aujourd’hui, avec ces applications web, il est possible de faire ces transactions soit même en ligne en fournissant certaines informations. Ceci étant, si un attaquant arrivait à compromettre ce genre d’applications par exemple, il lui serait facile de faire des transactions frauduleuses et vider votre compte bancaire. De même, de nos jours, toute présence sur le net requiert la fourniture de données privées, il ne serait pas bien que ces informations tombent entre les mains d’individus malintentionnés. Il y a aussi la multiplication des sites marchands sur le net qui permettent de faire des achats en ligne. Qu’un individu malintentionné arrive à compromettre ce genre d’applications représenteraient de gros risques à la fois pour les propriétaires de ces applications dont le business repose essentiellement sur ces dernières mais aussi pour les utilisateurs qui auront fourni des informations très sensibles (mots de passe, numéros de carte de crédit entre autres). \\
-Les applications Web manipulent aujourd'hui des données hautement sensibles et fournissent 
-des informations très confidentielles. 
+Les applications Web manipulent aujourd'hui des données hautement sensibles et fournissent des informations très confidentielles. Elles prennent en charge des fonctionnalités très délicates telles que les transactions financières ; il y a de cela quelques années, lorsqu’on voulait faire une transaction financière, il fallait aller à la banque et un agent le faisait pour vous alors qu’aujourd’hui, avec ces applications web, il est possible de faire ces transactions soit même en ligne en fournissant certaines informations. Ceci étant, si un attaquant arrivait à compromettre ce genre d’applications par exemple, il lui serait facile de faire des transactions frauduleuses et vider votre compte bancaire. De même, de nos jours, toute présence sur le net requiert la fourniture de données privées, il ne serait pas bien que ces informations tombent entre les mains d’individus malintentionnés. Il y a aussi la multiplication des sites marchands sur le net qui permettent de faire des achats en ligne. Qu’un individu malintentionné arrive à compromettre ce genre d’applications représenteraient de gros risques à la fois pour les propriétaires de ces applications dont le business repose essentiellement sur ces dernières mais aussi pour les utilisateurs qui auront fourni des informations très sensibles (mots de passe, numéros de carte de crédit entre autres). \\
 
 \subsection{Développement des applications mobiles}
 Avec le développement fulgurant de l'industrie mobile au début des années 2000, les téléphones mobiles ne sont plus de vulgaires appareils dont l'utilité est limitée à la communication. Désormais, ils proposent des fonctionnalités plus poussées grâce à des systèmes d'exploitation embarqués ; nous avons notamment Android de Google et Ios de Apple. Ces systèmes d'exploitation mobiles font des appareils mobiles des mini ordinateurs offrant des fonctionnalités similaires à celles des ordinateurs. A partir de ce moment, ce fut l'explosion des applications mobiles dont les champs d'application sont infinis.
@@ -22,18 +44,29 @@ Les spécificités techniques d’une application mobile lui confèrent de nombr
 - l’exécution est plus rapide : les éléments d’interface n’ont pas besoin d’être téléchargés depuis un serveur; \\
 - l’accès aux données de l’utilisateur est plus facile; \\
 - certaines applications mobiles peuvent même fonctionner hors ligne.\\
-Conscientes de cela, les entreprises se sont attaquées massivement à ce marché et il existe aujourd'hui des milliards d'application mobiles. De même, bon nombre d'applications Web existent aujourd'hui en version mobile.  Ces applications mobiles utilisent soit des navigateurs embarqués, soit des APIS exposées par l’application web. Les fonctions et les données manipulées par les applications mobiles sont généralement les mêmes que celles manipulées par les applications Web. Cela fait que les applications mobiles sont exposées aux mêmes risques énoncés plus haut relatifs aux applications web.\\
+Du fait des nombreux avantages des applications mobiles, les entreprises se sont attaquées massivement à ce marché et il existe aujourd'hui des milliards d'application mobiles. Aujourd'hui, il existe plusieurs plateformes proposant des applications mobiles pour presque tout : on peut citer à titre d'exemple le Play Store de Google et l'Apple App Store de Apple. De même, presque toutes les applications Web sont disponibles en version mobile. \\
+Ces applications mobiles utilisent soit des navigateurs embarqués, soit des APIS exposées par l’application web. Les fonctions et les données manipulées par les applications mobiles sont généralement les mêmes que celles manipulées par les applications Web. Cela fait que les applications mobiles sont exposées aux mêmes risques énoncés plus haut relatifs aux applications web.\\
 
 \section{Problématique}
-
-
-
 Software is at a tipping point. The rapid increase in connectivity, combined with a dramatic rise in the value of assets in our systems, and the increasing use of new protocols and technologies has resulted in applications that represent significant risk to the organizations that build and use them. 
-
 C’est dans cette optique que des initiatives ont été prises pour adresser les problèmes de sécurité rencontrés le plus souvent au niveau des applications Web et mobiles afin d’éveiller les organisations et les inciter à prendre ces problèmes à la source. Parmi ces initiatives, nous avons l’OWASP Top 10 et le Mobile 10 de l’OWASP qui publiés périodiquement et qui sont respectivement un classement des dix vulnérabilités les plus fréquentes au niveau des applications Web et des dix vulnérabilités les plus fréquentes au niveau des applications mobiles.\\
 Hubso, étant une entreprise développeuse de solutions informatiques très sensibles pour des utilisateurs très variés et des clients souvent ciblés par des attaques informatiques, 
 
 \section{Objectifs}
-Pour que Hubso puisse conserver sa compétitivité et faire face à ce problème de sécurité de ses applications, elle doit adopter 
+L’objectif du projet est de mettre un guide OWASP pour développeurs et un framework Web (JEE) et Android conforme.\\
+Les objectifs spécifiques sont les suivants :\\
+- un guide des bonnes pratiques OWASP pour développeurs ;
+- une architecture type OWASP (Client Android, Serveur JEE);
+- un projet type Web JEE conforme OWASP avec à minima les fonctionnalités suivantes : \\
+	- Authentification et gestion de sessions
+	- Gestion des utilisateurs et mots de passe
+	- Gestion des profils et génération des composants graphiques
+- un projet type Android conforme OWASP avec à minima les fonctionnalités suivantes :
+	- authentification et gestion de sessions (Offline et Online)
+	- gestion des utilisateurs et mots de passe
+	- gestion des profils et génération des composants graphiques
+- Intégration BO Total et PDA Total
+
+
 \clearpage 
 %=========================================================

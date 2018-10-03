@@ -5,14 +5,17 @@
 \contentsline {xchapter}{}{4}{chapter.1}
 \addvspace {10pt}
 \contentsline {xchapter}{}{6}{chapter.2}
-\contentsline {xpart}{Etat de l'art sur la s\IeC {\'e}curit\IeC {\'e} informatique}{10}{part.2}
+\contentsline {xpart}{Etat de l'art sur la s\IeC {\'e}curit\IeC {\'e} des applications Web}{10}{part.2}
 \addvspace {10pt}
-\contentsline {xchapter}{}{10}{chapter.3}
+\contentsline {xchapter}{}{11}{chapter.3}
 \addvspace {10pt}
-\contentsline {xchapter}{}{12}{chapter.4}
+\contentsline {xchapter}{}{13}{chapter.4}
 \addvspace {10pt}
-\contentsline {xchapter}{}{15}{chapter.5}
-\contentsline {xpart}{Etat de l'art sur la s\IeC {\'e}curit\IeC {\'e} des applications Web}{17}{part.3}
-\contentsline {xpart}{Analyse et Conception}{18}{part.4}
-\contentsline {xpart}{R\IeC {\'e}alisation}{19}{part.5}
-\contentsline {xpart}{Bilan et Perspectives}{20}{part.6}
+\contentsline {xchapter}{}{17}{chapter.5}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Ann\IeC {\'e}es d'adoption de lois sur les donn\IeC {\'e}es personnelles dans diff\IeC {\'e}rents pays en Afrique}}{17}{table.5.1}
+\addvspace {10pt}
+\contentsline {xchapter}{}{21}{chapter.6}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Correspondance Top 10 Owasp A1 - CWE/Sans Top 25}}{25}{table.6.1}
+\contentsline {xpart}{Analyse et Conception}{27}{part.3}
+\contentsline {xpart}{R\IeC {\'e}alisation}{28}{part.4}
+\contentsline {xpart}{Bilan et Perspectives}{29}{part.5}

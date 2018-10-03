@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  1 OCT 2018 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  2 OCT 2018 18:03
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2158,90 +2158,97 @@ Package minitoc Info: I0010
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\french.mld"
 File: french.mld 2006/03/21
-)) (Main.aux)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip302
+\multirow@cntb=\count371
+\multirow@dima=\skip303
+\bigstrutjot=\dimen302
+) (Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 325.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 327.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 32
-5.
+7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 325
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for FMS+fncm on input line 327
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm.fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 325
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 327
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 327.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 327.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.fd"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 325.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 325.
+(Font)              scaled to size 10.18341pt on input line 327.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 327.
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 325.
-Package gensymb Info: Math companion symbols declared on input line 325.
-LaTeX Info: Redefining \degree on input line 325.
-LaTeX Info: Redefining \celsius on input line 325.
+(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 327.
+Package gensymb Info: Math companion symbols declared on input line 327.
+LaTeX Info: Redefining \degree on input line 327.
+LaTeX Info: Redefining \celsius on input line 327.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 325.
-LaTeX Info: Redefining \ohm on input line 325.
-Package gensymb Info: Using \textohm for \ohm on input line 325.
-Package gensymb Info: Using \textmu for \micro on input line 325.
+erthousand on input line 327.
+LaTeX Info: Redefining \ohm on input line 327.
+Package gensymb Info: Using \textohm for \ohm on input line 327.
+Package gensymb Info: Using \textmu for \micro on input line 327.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 325.
+Package layouts Warning: Layout scale set to 0.5 on input line 327.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
-\scratchdimen=\dimen302
+\scratchcounter=\count372
+\scratchdimen=\dimen303
 \scratchbox=\box79
-\nofMPsegments=\count372
-\nofMParguments=\count373
+\nofMPsegments=\count373
+\nofMParguments=\count374
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count374
-\MPscratchDim=\dimen303
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
+\MPscratchCnt=\count375
+\MPscratchDim=\dimen304
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
 \everyMPtoPDFconversion=\toks69
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2256,14 +2263,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \degres on input line 325.
-LaTeX Info: Redefining \dots on input line 325.
+LaTeX Info: Redefining \degres on input line 327.
+LaTeX Info: Redefining \dots on input line 327.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumerate package,
-(french.ldf)             reported on input line 325.
-LaTeX Info: Redefining \up on input line 325.
+(french.ldf)             reported on input line 327.
+LaTeX Info: Redefining \up on input line 327.
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring ON on input line 325.
+Package hyperref Info: Link coloring ON on input line 327.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2271,19 +2278,19 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count377
+\c@section@level=\count378
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 325.
-LaTeX Info: Redefining \ref on input line 325.
-LaTeX Info: Redefining \pageref on input line 325.
-LaTeX Info: Redefining \nameref on input line 325.
+LaTeX Info: Redefining \nameref on input line 327.
+LaTeX Info: Redefining \ref on input line 327.
+LaTeX Info: Redefining \pageref on input line 327.
+LaTeX Info: Redefining \nameref on input line 327.
 (Main.out) (Main.out)
 \@outlinefile=\write7
 \openout7 = `Main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 325.
+LaTeX Info: Redefining \microtypecontext on input line 327.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2298,12 +2305,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  ABD: EveryShipout initializing macros
-\c@minilofdepth=\count378
-\c@minilotdepth=\count379
-\c@partlofdepth=\count380
-\c@partlotdepth=\count381
-\c@sectlofdepth=\count382
-\c@sectlotdepth=\count383
+\c@minilofdepth=\count379
+\c@minilotdepth=\count380
+\c@partlofdepth=\count381
+\c@partlotdepth=\count382
+\c@sectlofdepth=\count383
+\c@sectlotdepth=\count384
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -2345,26 +2352,26 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 325.
+put line 327.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 325.
+t line 327.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 325.
+t line 327.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 325.
+line 327.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 325.
+line 327.
 (frontmatter/title.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 28.
-<Logos/senegal_flag.png, id=133, 1284.8pt x 856.19875pt>
+<Logos/senegal_flag.png, id=173, 1284.8pt x 856.19875pt>
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
 Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
 9.
-<Logos/logo_ucad.png, id=134, 224.84pt x 225.84375pt>
+<Logos/logo_ucad.png, id=174, 224.84pt x 225.84375pt>
 File: Logos/logo_ucad.png Graphic file (type png)
 <use Logos/logo_ucad.png>
 Package pdftex.def Info: Logos/logo_ucad.png  used on input line 32. on input l
@@ -2518,34 +2525,34 @@ Package nag Warning: Command \bf is an old LaTeX 2.09 command.
 (nag)                Use \bfseries or \textbf instead on input line 2.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 9.
+(Font)              scaled to size 8.36993pt on input line 6.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 9.
+(Font)              scaled to size 6.50995pt on input line 6.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 9.
+(Font)              scaled to size 11.03998pt on input line 6.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 9.
+(Font)              scaled to size 8.27998pt on input line 6.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 9.
+(Font)              scaled to size 6.43999pt on input line 6.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 9.
+(Font)              scaled to size 11.03998pt on input line 6.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 9.
+(Font)              scaled to size 8.27998pt on input line 6.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 9.
+(Font)              scaled to size 6.43999pt on input line 6.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 9.
+(Font)              scaled to size 11.15991pt on input line 6.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 9.
+(Font)              scaled to size 8.36993pt on input line 6.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 9.
+(Font)              scaled to size 6.50995pt on input line 6.
 [7
 
 ])
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 376.
+(Font)              scaled to size 9.29993pt on input line 378.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 9.29993pt on input line 376.
+(Font)              scaled to size 9.29993pt on input line 378.
  [8] (Main.lot
 LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/sc' tried instead on input line 2.
@@ -2556,6 +2563,15 @@ LaTeX Font Info:    Font shape `T1/fnc/b/sc' will be
 ] (Main.lof) [10
 
 ] (misc/introduction/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
 [1
 
 
@@ -2578,11 +2594,11 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 \openout6 = `Main.mtc'.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 3.
+(Font)              scaled to size 16.07027pt on input line 5.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 3.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 16.07027pt on input line 3.
+(Font)              scaled to size 16.07027pt on input line 5.
  (Main.ptc1) [3
 
 ]
@@ -2597,7 +2613,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 [4
 
 
-] [5]) (parts/part01//chapters/sujet/sujet.tex [6
+]
+<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=311, 
+963.6pt x 435.6275pt>
+File: parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png Grap
+hic file (type png)
+<use parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png>
+Package pdftex.def Info: parts/part01//chapters/structure-accueil/fig/Organnigr
+amme-HubSo.png  used on input line 37. on input line 37.
+Package pdftex.def Info: Requested size: 420.80939pt x 190.24509pt on input lin
+e 37.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 37.
+
+
+Overfull \hbox (79.37633pt too wide) in paragraph at lines 37--38
+ [][][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5 <./parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png>])
+(parts/part01//chapters/sujet/sujet.tex [6
 
 
 ]
@@ -2609,44 +2658,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--26
 
 
 ]
-Package minitoc Info: I0006
-(minitoc)             Main.ptc2 is empty on input line 3.
+\openout6 = `Main.mtc'.
 
-(parts/part02//chapters/etat-art-definitions/etat-art-definitions.tex [10
+\openout6 = `Main.mtc'.
+
+ (Main.ptc2) [10
 
 ]
-[11]) (parts/part02//chapters/etat-art-historique/etat-art-historique.tex
-[12
+(parts/part02//chapters/etat-art-definitions/etat-art-definitions.tex [11
 
 
-] [13] [14]) (parts/part02//chapters/etat-art-contexte/etat-art-contexte.tex [1
-5
+]
+[12]) (parts/part02//chapters/etat-art-historique/etat-art-historique.tex
+[13
 
 
-])) (parts/part03/part03.tex [16
+] [14] [15] [16])
+(parts/part02//chapters/etat-art-contexte/etat-art-contexte.tex [17
+
+
+] [18]
+[19] [20]) (parts/part02//chapters/owasp/owasp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+ []
+
+[21
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--53
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+[24]
+Overfull \hbox (17.60063pt too wide) in paragraph at lines 74--74
+[]|\T1/fnc/m/n/10.95 (-20) A1 :Injection|  
+ []
+
+
+Overfull \hbox (21.95914pt too wide) in paragraph at lines 70--82
+ [][] 
+ []
+
+[25])) (parts/part04/part04.tex [26
 
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc3 is empty on input line 3.
-) (parts/part04/part04.tex [17
+) (parts/part05/part05.tex [27
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc4 is empty on input line 3.
 )
-(parts/part05/part05.tex [18
+(parts/part06/part06.tex [28
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc5 is empty on input line 3.
-) (parts/part06/part06.tex [19
-
-]
-Package minitoc Info: I0006
-(minitoc)             Main.ptc6 is empty on input line 3.
-)
-(misc/conclusion/conclusion.tex)
+) (misc/conclusion/conclusion.tex)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
@@ -2679,9 +2771,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Main.log file.
 
 
-Package nag Warning: 1 complaints in total.
+Package nag Warning: 2 complaints in total.
 
-[20
+[29
 
 ]
 \tf@toc=\write8
@@ -2693,49 +2785,30 @@ Package nag Warning: 1 complaints in total.
 \tf@lof=\write10
 \openout10 = `Main.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 432.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 432.
  (Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
-
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: F16C4F6740F292FF5F01C08D6D27C926;2150
-(rerunfilecheck)             After:  B2927A075426AEB33915A5560AB30F89;2061.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 432.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 432.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 531929D8E3B9FE2114520F9DE301DD3C;2800.
  ) 
 Here is how much of TeX's memory you used:
- 31962 strings out of 493312
- 580440 string characters out of 3138882
- 888828 words of memory out of 3000000
- 34271 multiletter control sequences out of 15000+200000
- 85789 words of font info for 233 fonts, out of 3000000 for 9000
+ 32081 strings out of 493312
+ 582379 string characters out of 3138882
+ 889828 words of memory out of 3000000
+ 34346 multiletter control sequences out of 15000+200000
+ 86493 words of font info for 245 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,12n,80p,1843b,647s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.11} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.0.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.0.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.0.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncnt
-rsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.p
-fb>
-Output written on Main.pdf (31 pages, 153125 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/nc
+ntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a
+.pfb>
+Output written on Main.pdf (40 pages, 210443 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 36631 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 36716 words of extra memory for PDF output out of 42996 (max. 10000000)
 

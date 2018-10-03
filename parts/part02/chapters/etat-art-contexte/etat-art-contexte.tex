@@ -1,9 +1,83 @@
 \chapter{Contexte}
-%%\label{chap:intro}
+Compte tenu de leur rôle essentiel dans nos sociétés et nos économies modernes, les ordinateurs, les téléphones mobiles et l'internet doivent fonctionner ensemble correctement tout en fournissant un cadre qui protègent tout un chacun. \\
+Il faut donc adopter des mesures drastiques afin d’assurer la sécurité lors de nos interactions avec ces différents outils qui font partie aujourd’hui de notre quotidien. Ces mesures sont prises sur deux aspects : \\
+- l’aspect juridique : de nouvelles lois sont adoptées; \\
+- l’aspect technique : des services de protection des données sont créés aux échelles nationale, sous régionale et internationale.
 
 \section{Contexte juridique}
+\begin{table}[hbt!]
+	\centering
+	\begin{tabular}{| l | c |} 
+		\hline
+		Pays & Année \\ [0.5ex] 
+		\hline
+		Seychelles & 1988 \\ 
+		\hline
+		Cap-Vert & 2001 \\
+		\hline
+		Zimbabwe & 2002 \\
+		\hline
+		Burkina Faso ; Tunisie ; Iles Maurice & 2004 \\
+		\hline
+		Sénégal & 2008 \\
+		\hline
+		Bénin ; Maroc & 2009 \\
+		\hline
+		Ghana & 2010 \\
+		\hline
+		Gabon ; Angola & 2011 \\
+		\hline
+		Mali ; Côte d’Ivoire ; Afrique du Sud ; Lesotho & 2013 \\
+		\hline
+		Madagascar ; Comores & 2014 \\
+		\hline
+		Tchad & 2015 \\
+		\hline
+		Guinée Equatoriale & 2016 \\
+		\hline
+		Niger & 2017 \\ [1ex] 
+		\hline
+	\end{tabular}
+	\caption{Années d'adoption de lois sur les données personnelles dans différents pays en Afrique}
+	\label{table:5.1}
+\end{table}
+Dans le cadre juridique, on parle le plus souvent de données à caractère personnel ou données personnelles. La notion de données à caractère personnel est définie comme étant toute information relative à une personne physique identifiée, génétique, psychique ou identifiable directement ou indirectement, par référence à un numéro d’identification ou à un ou plusieurs éléments propres à son identité physique, physiologique, génétique, psychique, culturelle, sociale ou économique [1].
+Les premières législations sur la protection des données personnelles [1] ont été adoptées en Allemagne (1971), en Suède (1973), en France (1978), au Luxembourg (1979) et au Canada (1979).\\
+En Afrique, la protection des données à caractère personnel est promue par plusieurs organismes communautaires même si les lois sur la protection des données sont relativement récentes. Le tableau \ref{table:5.1} décrit l’ordre d’adoption des lois par différents pays.\\
+En Afrique de l’Ouest, la CEDEAO et l’UEMOA  sont intervenus en tant qu’acteur régional dans la réglementation des données personnelles en adoptant des mesures juridiques tout comme l’Union Africaine au niveau continental. \\
+Au Sénégal, nous avons la loi n° 2008-11 du 25 Janvier 2008 portant loi d’orientation relative à la société de l’information qui  définit un cadre général pour adapter le droit sénégalais aux besoins de la société de l’information. \\
+Nous avons aussi la loi n° 2008-11 du 25 Janvier 2008 portant sur la cybercriminalité .La cybercriminalité ou criminalité informatique concerne toute infraction qui implique l’utilisation des technologies de l'information et de la communication. \\
+Il y a aussi la loi sur les transactions électroniques qui vise, de façon globale, à favoriser le développement du commerce par les Technologies de l’Information et de la Communication (TIC) en posant des règles précises [1]. \\
+Il y a surtout la loi n° 2008-12 du 25 Janvier 2008 sur la protection des données à caractère personnel qui est le principal corpus protecteur des dites données.\\
+Ce cadre juridique définit des exigences de sécurité que doivent respecter les responsables des traitements des données à caractère personnel. Elles imposent à ces derniers des obligations de confidentialité, de sécurité, de conservation et de pérennité des données. En effet, tout responsable de traitement de données personnelles se doit de mettre en œuvre les mesures techniques et organisationnelles adéquates pour protéger les données collectées contre la destruction accidentelle ou illicite, la perte, l’altération, la diffusion ou l’accès non autorisé notamment lorsque le traitement comporte des transmissions des données dans un réseau, ce qui est presque toujours le cas, ainsi que contre toute autre forme de traitement illicite. Ces mesures doivent assurer un niveau de sécurité approprié au regard des risques présentés par le traitement et la nature des données manipulées, empêchant le tiers de procéder à leur modification, à leur altération ou à leur consultation sans autorisation.\\
+Cette obligation se traduit donc par la nécessité de mettre en œuvre des mesures de sécurité physique (verrous des salles serveur, coffres forts, etc.) et des mesures de sécurité logique (contrôles d’accès, cryptage des données, etc.).\\
+Au Sénégal, le fait de procéder à des traitements automatisés de données personnelles sans prendre toutes les précautions utiles pour préserver leur sécurité est passible d’une peine d’emprisonnement de 1 à 7 ans et d’une amende allant de 500 000 à 10 000 000 de francs CFA.
+Pour assurer le respect des règles juridiques quant à la protection des données personnelles, il est institué par les différentes lois, un organisme responsable. Au Sénégal, c’est la CDP (Commission des Données Personnelles) qui joue ce rôle.
 
-\section{Contexte organisationnel}
+\section{Contexte technique}
+De partout dans le monde, des CERT sont mis en place pour prendre en compte les incidents susceptibles de se produire sur Internet. Un CERT est un Centre d’alerte et de réaction aux attaques informatiques ciblant les entreprises ou administrations mais dont les informations sont généralement accessibles à tous. Le premier CERT (CERT-CC) a été créé aux Etats-Unis à l’Université Carnegie-Mellon en réponse à l’attaque du ver Morris [1]. \\
+Le but des CERT est de répondre aux incidents de sécurité informatique, de coordonner la communication entre experts lors de ces incidents de sécurité, de signaler les vulnérabilités et promouvoir des pratiques de sécurité efficaces dans toute la communauté internet afin de prévenir les incidents futurs. \\
+Dans presque tous les pays développés, nous avons au moins un CERT national : \\
+- CERT-FR en France ; \\
+- CERTBund en Allemagne; \\ 
+- JPCERT au Japon; \\
+- UKCERT au Royaume-Uni.\\
+Cette liste est loin d'être exhaustive.
+En Afrique, des efforts ont été récemment faits  dans ce domaine même s’il faudrait que plus de pays africains mettent en place des CERT. Nous avons notamment :
+- le CSIRT du Kenya;\\
+- le CERT des îles Maurice;\\
+- l’ECS-CSIRT de l’Afrique du Sud;\\
+- le TunCERT de la Tunisie;\\
+- le CI-CERT de la Cote d’Ivoire;\\
+- le CERT-GH du Ghana;\\
+- le DZ-CERT de l’Algérie;\
+- ou encore le maCERT du Maroc. \\ 
+Nous avons aussi le Forum africain des équipes de réponse aux incidents informatiques (AfricaCERT) qui veut asseoir les bases d’une coopération dynamique entre les équipes nationales africaines de CERT pour lutter contre le phénomène de la cybercriminalité qui menace l’économie, l’image et la jeunesse africaines.\\
+Au Sénégal, il urge de mettre en place un CERT
+Les CERT à travers le monde sont des entités indépendantes, bien qu'il puisse y avoir des activités coordonnées entre les groupes. Ces dernières années, de nombreux CERT ont vu le jour et font partie du Forum des équipes de réaction aux incidents de sécurité informatique (FIRST). \\
+FIRST est une organisation de premier plan et un leader mondial reconnu dans la réponse aux incidents de sécurité informatique. L'appartenance à FIRST permet aux CERTs d'intervenir plus efficacement face aux incidents de sécurité en fournissant un accès aux meilleures pratiques de sécurité, à des outils de gestion de la sécurité et à une communication de confiance entre les équipes membres. Il s'agit d'une confédération internationale de CERTs de confiance qui gèrent de manière coopérative les incidents de sécurité informatique et favorisent les programmes de prévention des incidents. Ils travaillent tous pour un objectif commun de sécurité informatique. En outre, de nombreuses sociétés privées de d’édition de logiciels anti-virus ont des divisions qui jouent le rôle de CERT.\\
+Il existe aussi en plus des CERTS, des autorités techniques nationales, sous-régionales et régionales chargées de préserver la sécurité de l’information aux niveaux nationales, sous-régionales et régionales. L’enjeu de ces autorités nationales est de préserver la souveraineté et l’autonomie de décision et d’action dans le domaine informatique et protéger l’ensemble des infrastructures critiques. \\
+En parallèle à ces initiatives étatiques, il existe des organisations indépendantes sans but lucratif qui œuvrent pour une meilleure sécurité de l’information. Parmi celles-ci, les plus connues sont Mitre, Sans Institute et Owasp.
 
 \clearpage 
 %=========================================================

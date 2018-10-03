@@ -1,0 +1,86 @@
+\chapter{Owasp}
+\section{Owasp, qu'est ce que c'est?}
+OWASP (Open Web Application Security Project) est une communauté en ligne ouverte et libre travaillant sur la sécurité des applications Web. OWASP se propose de permettre aux organisations de concevoir, développer, acquérir, exploiter et maintenir des applications logicielles fiables.\\
+OWASP est aujourd'hui reconnue dans le monde de la sécurité des systèmes d'information pour ses travaux et recommandations liées aux applications Web. Ces recommandations vont dans le sens de bonnes/mauvaises pratiques de développement, d’une base sérieuse en termes de statistiques, et d’un ensemble de ressources amenant à une base de réflexion sur la sécurité. Des outils sont aussi proposés pour effectuer des audits de sécurité.
+La Fondation OWASP, un organisme de bienfaisance à but non lucratif soutient les efforts de l'OWASP à travers le monde. Tous les outils, documents, forums et chapitres d'OWASP sont gratuits et ouverts à toute personne intéressée par l'amélioration de la sécurité des applications.\\
+OWASP est libre de toute pression commerciale et n'est affilié à aucune entreprise de technologie. Cela lui permet de fournir des informations objectives, pratiques et effectives sur la sécurité des applications. 
+Les professionnels de la sécurité peuvent intégrer les recommandations d'OWASP dans leurs travaux. Les fournisseurs de service sécurité peuvent baser leurs produits et services sur les standards OWASP. Les consommateurs peuvent utiliser les normes comme documents de référence pour tester les applications ou les services qu'ils utilisent.\\
+
+\section{Origines}
+OWASP a été créé par un certain Mark Curphey le 9 septembre 2001. Son but initial étatit de lancer un projet pour définir une méthodologie de test standard pour la sécurité des applications Web. Il continue de définir des recommandations de sécurité, des spécifications et des explications dans des domaines clés de la sécurité des applications Web.
+Sa philosophie est d'être à la fois libre et ouverte à tous. Elle a pour vocation de publier des recommandations de sécurisation Web et de proposer aux internautes, administrateurs et entreprises des méthodes et outils de référence permettant de contrôler le niveau de sécurisation de ses applications Web.
+
+
+\section{Contexte}
+De nos jours, le développement de produits informatiques est fermement axé sur la vitesse. La course du Time-To-Market est extrêmement compétitive. Pour innover, les entreprises développent à un rythme effréné, en établissant des méthodologies qui permettent de perfectionner leur logiciel tout en réduisant le temps de développement. La sécurité, cependant, est souvent une réflexion secondaire pour les développeurs et les clients poussent toujours à livrer plus rapidement. Cela ouvre la porte à des failles de sécurité, de plus en plus présentes dans les logiciels. Et le Web n’échappe pas à cet état de fait.\\ 
+De même, il est souvent difficile de trouver des conseils impartiaux, objectifs et des informations pratiques aidant à la prise en compte de la sécurité dans le développement. Le marché concurrentiel de la technologie et des services a beaucoup à dire sur ce point, mais une grande partie les conseils et recommandations sont donnés pour vous orienter vers un outil ou un fournisseur de services particulier.\\
+L'OWASP a été créé pour lutter contre ce problème, en offrant des conseils impartiaux et objectifs sur les meilleures pratiques et en encourageant la création de normes ouvertes.
+
+\section{Organismes concurrents}
+\subsection{Mitre Corporation}
+Mitre Corporation est une organisation à but non lucratif travaillant dans l’intérêt public fondé en 1958. Elle gère les centres de recherche et de développement financés par l’état fédéral (FFRDCS) notamment celui du Département de la Défense chargé de la sécurité nationale aux Etats Unis. Les FFRDCS fournissent des services dans les domaines de l'acquisition et de l'analyse de systèmes notamment sur la cyber-sécurité et la mise en réseau mondiale. Ils s'engagent également dans la recherche et le développement de technologies telles que la biosécurité et l'informatique quantique.\\
+Mitre Corporation entretient une Cyber académie avec des cours en ligne. Elle maintient aussi la liste des CVE avec le sponsoring du Département de la Sécurité Intérieure, la liste CCE, la liste CAPEC et la liste CWE. Mitre Corporation est un partenaire très proche du gouvernement fédéral des Etats-Unis.\\
+
+\subsection{Sans Institute}
+Sans Institute est une organisation privée à but lucratif qui offre des formations et des certifications en sécurité de l'information et en cyber sécurité à travers le monde fondée en 1989. Elle maintient le plus grand référentiel d'informations sur la sécurité dans le monde et est également le plus grand organisme de certification. Sans Institute fournit une vaste collection de documents de recherche sur la sécurité et supervise un système d’alerte d’attaques : Internet Storm Center. Son programme GIAC (Global Information Assurance Certification) fournit un moyen normalisé de garantir les connaissances et les compétences d'un professionnel de la sécurité. La majorité des ressources de Sans Institute sont libres.\\
+
+\subsection{PCI Standard Council}
+Le PCI Standard Council est une organisation fondée en 2006 par American Express, Discover, JCB International, MasterCard et Visa Inc. Elle recommande, maintient et évolue des normes pour la sécurité des données des titulaires de cartes dans l'industrie des cartes de paiement à travers le monde. Les normes PCI Data Security aident à protéger la sécurité des données de carte de paiement bancaires. Ils définissent les exigences opérationnelles et techniques pour les organisations acceptant ou traitant des transactions de paiement, et pour les développeurs de logiciels et les fabricants d'applications et de dispositifs utilisés dans ces transactions.
+
+\subsection{Web Application Security Consortium}
+Le WASC (Web Application Security Consortium) est une organisation mondiale consacrée à l'établissement, au perfectionnement et à la promotion des normes de sécurité sur Internet. Le consortium, créé en janvier 2004, est composé de membres indépendants ainsi que de membres associés à des entreprises, des organismes gouvernementaux et des établissements universitaires.\\
+Le champ d'actions du WASC comprend la recherche et la publication d'informations sur les problèmes de sécurité des applications Web. L’organisation informe les particuliers et les entreprises sur ces problèmes et sur les mesures à prendre pour lutter contre des menaces spécifiques. Elle accompagne également les utilisateurs d’Internet et les organisations dévouées à la sécurité des applications Web. Le WASC est une organisation indépendante, bien que les membres puissent appartenir à des sociétés impliquées dans la recherche, le développement, la conception et la distribution de produits liés à la sécurité Web.\\
+
+\section{Projets phares}
+Tous les projets OWASP d'outils, de documents et de bibliothèques de codes sont organisés dans les catégories suivantes: \\
+- Projets phares: \\
+La désignation OWASP Flagship est attribuée aux projets qui ont démontré leur valeur stratégique pour l’OWASP et la sécurité des applications dans son ensemble.\\
+- Projets de laboratoire: \\
+Les projets OWASP Labs représentent des projets qui ont produit un livrable de valeur révisé par l’OWASP.\\
+- Projets d'incubation: \\
+Les projets OWASP Incubators représentent les projets qui sont encore en cours d'élaboration, avec des idées et dont le développement sont toujours en cours.\\
+Les projets d'OWASP couvrent de nombreux aspects de la sécurité des applications. Elles concernent des documents, des outils, des environnements d'enseignement, des lignes directrices, des listes de vérification et d'autres documents pour aider les organisations à améliorer leur capacité à produire du code sécurisé. Les projets sont l'une des principales méthodes par lesquelles OWASP s'efforce de réaliser sa mission, qui est de rendre la sécurité plus « visible ».\\
+Les projets OWASP sont animés par des bénévoles et sont ouverts à tous. Cela signifie que n'importe qui peut diriger un projet, que n'importe qui peut contribuer à un projet et que n'importe qui peut utiliser un projet. \\
+Voici une liste (non exhaustive) de projets populaires, ainsi qu’une description succincte de chacun d'eux :\\
+- Owasp Testing Guide : \\
+Il s'agit d'un document de plusieurs centaines de pages destiné à aider une personne à évaluer le niveau de sécurité d'une application Web. \\
+- Owasp code Review Guide : \\
+Il s'agit d'un document de plusieurs centaines de pages présentant une méthode de revue de code sécurité.\\
+- Owasp Application Security Verification Standard : \\
+Le projet ASVS vise à créer un ensemble de normes commerciales permettant d'effectuer une vérification de sécurité rigoureuse d’une application au niveau applicatif.\\
+- Top 10 : \\
+Il s'agit d'une liste des dix failles de sécurité les plus critiques pour les applications Web.\\
+
+\section{Top 10 Owasp}
+Il s’agit d’un document de sensibilisation à la sécurité des applications Web. La liste résulte d’un consensus entre les experts en sécurité leaders dans le domaine, concernant les dix failles de sécurité les plus critiques pour les applications Web. Le classement de ces failles de sécurité est basé sur leur fréquence, la gravité des vulnérabilités et l'ampleur de leur impact commercial potentiel. Le Top 10 de l’OWASP a pour but d’informer sur l’existence de ces risques et de fournir des guides simplifiés sur les bonnes pratiques pour s’en prémunir. L’OWASP maintient le Top 10 depuis 2003. Il a été créé à l'origine pour aider les organisations à établir une base, un point de départ leur permettant de déterminer si leur infrastructure de sécurité est prête à résister aux principales menaces. La liste continue de servir de liste de contrôle et de standard de développement d'applications Web pour plusieurs des plus grandes organisations du monde. \\
+La liste est mise à jour tous les trois ou quatre ans pour suivre le rythme des changements qui se produisent sur le marché de la sécurité des applications Web. La version la plus récente a été publiée en 2017. Celle-ci, contrairement à celles précédentes, n’est plus uniquement basé sur la « vision » de l’OWASP sur le sujet. Le processus méthodologique a été entièrement revu. Il repose ainsi sur les remontées de 500 utilisateurs et de 40 sociétés spécialisées dans le domaine de la sécurité des applications. La liste des contributeurs et les données techniques issues de leurs remontées sont disponibles en Open Source sur Github. En outre, les statistiques concernent un panel de plus de 100 000 applications et services Web.\\
+Cet ensemble de vulnérabilités d'application Web largement accepté est complété par un ensemble de directives de codage et de test sécurisés. Ces guides sont disponibles sur le site de l'OWASP et s'adressent aux développeurs, architectes, chefs de projets, managers ... \\
+Evaluer la sécurité d’une application Web en se basant sur le Top 10 de l’OWASP est une pratiquement largement acceptée. De nombreuses organisations, notamment le Conseil des normes de sécurité PCI, l'Institut national des normes et technologies (NIST) et la Commission Fédérale du Commerce (FTC), citent régulièrement le Top 10 d'OWASP comme un guide de référence intégral pour atténuer les vulnérabilités des applications Web et respecter les principales normes de sécurité. \\
+
+\subsection{Démarches Concurrentes}
+
+Owasp Top 10 n’est pas la seule liste de vulnérabilités existante en matière de sécurité, il y a aussi, parmi les plus populaires : \\
+- la liste CWE : \\
+Le Common Weakness Enumeration (CWE), maintenu par Mitre Corporation, est une liste de vulnérabilités que l’on retrouve lors du développement d’applications. C'est un projet  géré par MITRE. Pour chaque entrée, le CWE fournit une description de la vulnérabilité ainsi que les étapes pour y remédier.
+Cependant, contrairement aux Top 10 d’OWASP qui recense les 10 vulnérabilités les plus critiques, le CWE se veut être une démarche plus globale. Au moment ou nous écrivons ces lignes, 714 vulnérabilités sont recensées sur la liste CWE. Elle peut constituer une suite à la gestion de la sécurité pour une organisation après que celle-ci ait pris en compte le Top 10. \\
+- le CWE/Sans Top 25 : \\
+MITRE s'est associé à Sans Institute pour développer le CWE/Sans Top 25, une liste des 25 vulnérabilités logicielles les plus critiques. Bien que le Top 10 Owasp et le CWE / 25 e OWASP soient différents, ils partagent la plupart des mêmes vulnérabilités. En effet, là où le Top 10 adresse les failles en faisant une approche groupée, le CWE/Sans Top 25 utilise une approche plus granulaire. Par exemple, la correspondance Owasp Top 10 – CWE/Sans Top 25 peut être faite sur le point A1 : Injection comme suit:
+\begin{table}[hbt!]
+	\centering
+	\begin{tabular}{| c | l |} 
+		\hline
+		Owasp Top 10 & CWE/Sans Top 25 \\
+		\hline
+		\multirow{6}{4em}{A1:Injection} & CWE-78: Improper Neutralization of Special Elements Used in an OS Command \\ 
+		& CWE-89: SQL Injection\\ 
+		& CWE-94: Code Injection\\ 
+		& CWE-434: Unrestricted Upload of File with Dangerous Type\\
+		& CWE-494: Download of Code Without Integrity Check\\
+		& CWE-829: Inclusion of Functionality from Untrusted Control Sphere\\
+		\hline
+	\end{tabular}
+	\caption{Correspondance Top 10 Owasp A1 - CWE/Sans Top 25}
+\end{table}\\
+Cette correspondance peut être faite pour toutes les entrées du Top 10 d’Owasp.
+\clearpage 
+%=========================================================
