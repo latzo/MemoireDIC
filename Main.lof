@@ -16,10 +16,10 @@
 \contentsline {xpart}{Analyse et Conception}{30}{part.3}
 \addvspace {10pt}
 \contentsline {xchapter}{}{30}{chapter.6}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Vue globale et hi\IeC {\'e}rarchique des diagrammes UML}}{34}{figure.6.1}
 \addvspace {10pt}
-\contentsline {xchapter}{}{32}{chapter.7}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Vue globale et hi\IeC {\'e}rarchique des diagrammes UML}}{34}{figure.7.1}
-\addvspace {10pt}
-\contentsline {xchapter}{}{35}{chapter.8}
-\contentsline {xpart}{R\IeC {\'e}alisation}{37}{part.4}
-\contentsline {xpart}{Bilan et Perspectives}{38}{part.5}
+\contentsline {xchapter}{}{35}{chapter.7}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me}}{39}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\'e}me "Gestion des injections"}}{39}{figure.7.2}
+\contentsline {xpart}{R\IeC {\'e}alisation}{42}{part.4}
+\contentsline {xpart}{Bilan et Perspectives}{43}{part.5}

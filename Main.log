@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  19 OCT 2018 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  23 OCT 2018 15:18
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2183,7 +2183,11 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks69
 \c@AM@survey=\count372
 \AM@templatesizebox=\box80
-) (Main.aux)
+) (Main.aux
+
+LaTeX Warning: Label `fig:8.1' multiply defined.
+
+)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 329.
@@ -2201,8 +2205,7 @@ LaTeX Font Info:    ... okay on input line 329.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 329.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 32
 9.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 329.
@@ -2391,14 +2394,14 @@ line 329.
 (frontmatter/title.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 28.
-<Logos/senegal_flag.png, id=221, 1284.8pt x 856.19875pt>
+<Logos/senegal_flag.png, id=237, 1284.8pt x 856.19875pt>
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
 Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
 9.
-<Logos/logo_ucad.png, id=222, 224.84pt x 225.84375pt>
+<Logos/logo_ucad.png, id=238, 224.84pt x 225.84375pt>
 File: Logos/logo_ucad.png Graphic file (type png)
 <use Logos/logo_ucad.png>
 Package pdftex.def Info: Logos/logo_ucad.png  used on input line 32. on input l
@@ -2632,7 +2635,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
 
 ]
-<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=372, 
+<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=396, 
 963.6pt x 435.6275pt>
 File: parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png Grap
 hic file (type png)
@@ -2707,18 +2710,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--53
 
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
-
- []
-
-[27]
-Overfull \hbox (17.60063pt too wide) in paragraph at lines 73--73
+[26] [27]
+Overfull \hbox (17.60063pt too wide) in paragraph at lines 74--74
 []|\T1/fnc/m/n/10.95 (-20) A1 :Injection|  
  []
 
 
-Overfull \hbox (21.95914pt too wide) in paragraph at lines 69--81
+Overfull \hbox (21.95914pt too wide) in paragraph at lines 70--82
  [][] 
  []
 
@@ -2734,9 +2732,8 @@ ex [30
 
 ] [31]) (parts/part04//chapters/uml/uml.tex [32
 
-
 ]
-<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=520, 1157.32375pt
+<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=544, 1157.32375pt
  x 495.8525pt>
 File: parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png Graphic file (ty
 pe png)
@@ -2752,25 +2749,108 @@ Overfull \hbox (61.1496pt too wide) in paragraph at lines 38--42
 
 [33] [34 <./parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>])
 (parts/part04//chapters/specifications_analyse_besoins/specifications_analyse_b
-esoins.tex [35
+esoins.tex
+
+LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
+(Font)              Font shape `U/wasy/b/n' tried instead on input line 18.
 
 
-]) (parts/part04//chapters/conception/conception.tex))
-(parts/part05/part05.tex [36
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
+ []
+
+[35
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--54
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
+[37]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.png,
+ id=573, 763.85374pt x 323.2075pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram
+.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.
+png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Package-Diagram.png  used on input line 123. on input line 123.
+Package pdftex.def Info: Requested size: 449.6208pt x 190.24509pt on input line
+ 123.
+
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 121--125
+ []$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--129
+
+ []
+
+[38]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-case-d
+iagram.png, id=579, 1298.60156pt x 737.75626pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-c
+ase-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-ca
+se-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Injection-use-case-diagram.png  used on input line 137. on input line 137.
+Package pdftex.def Info: Requested size: 334.85434pt x 190.24509pt on input lin
+e 137.
+) [39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diag
+ram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection
+-use-case-diagram.png>] (parts/part04//chapters/conception/conception.tex)) (pa
+rts/part05/part05.tex [40] [41
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc4 is empty on input line 3.
-) (parts/part06/part06.tex [37
+) (parts/part06/part06.tex [42
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc5 is empty on input line 3.
 )
-(misc/conclusion/conclusion.tex) (misc/annexe/annexe.tex [38
+(misc/conclusion/conclusion.tex) (misc/annexe/annexe.tex [43
 
-] [39
+] [44
 
 ]
 
@@ -2778,7 +2858,7 @@ Package pdfpages Warning: Option `page' is unknow to \includepdf.
 (pdfpages)                Did you mean `pages'? (Note the `s'!)
 (pdfpages)                OK, I'll proceed as if it were `pages'.
 
-<OWASP-Top10-2017.pdf, id=558, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=612, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf>
 Package pdftex.def Info: OWASP-Top10-2017.pdf  used on input line 3. on input l
@@ -2791,7 +2871,7 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf  used on input line 3. on input l
 ine 3.
 Package pdftex.def Info: Requested size: 542.02367pt x 722.69823pt on input lin
 e 3.
-<OWASP-Top10-2017.pdf, id=561, page=1, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=615, page=1, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 1>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page1 used on input line 3. on 
@@ -2822,8 +2902,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page1 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
-[40 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=584, page=2, pagebox=cropbox, 542.025pt x 722.7pt>
+[45 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=638, page=2, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 2>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page2 used on input line 3. on 
@@ -2839,231 +2919,231 @@ e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 2>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page2 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [41 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=612, page=3, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 3>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 3>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 3>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [42 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=631, page=4, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 4>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 4>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 4>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [43 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=637, page=5, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 5>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 5>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 5>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [44 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=662, page=6, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 6>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 6>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 6>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [45 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=784, page=7, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 7>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 7>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
-input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 7>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [46 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=813, page=8, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=666, page=3, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 8>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 3>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 8>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 3>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 8>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 3>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [47 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=831, page=9, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=685, page=4, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 9>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 4>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 9>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 4>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 9>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+<use OWASP-Top10-2017.pdf, page 4>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [48 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=839, page=10, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=691, page=5, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 10>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 5>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 10>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 5>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 10>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 5>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [49 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=845, page=11, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=715, page=6, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 11>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 6>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 11>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 6>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 11>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 6>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [50 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=852, page=12, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=838, page=7, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 12>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 7>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 12>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 7>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 12>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 7>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [51 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=858, page=13, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=867, page=8, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 13>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 8>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 13>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 8>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 13>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
- input line 3.
+<use OWASP-Top10-2017.pdf, page 8>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
+input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [52 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=864, page=14, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=885, page=9, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 9>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 9>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 9>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
+input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [53 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=893, page=10, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 10>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 10>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 10>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [54 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=899, page=11, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 11>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 11>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 11>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [55 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=905, page=12, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 12>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 12>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 12>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [56 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=912, page=13, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 13>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 13>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 13>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [57 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=918, page=14, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 14>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page14 used on input line 3. on
@@ -3083,8 +3163,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page14 used on input line 3. on
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 
-[53 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=870, page=15, pagebox=cropbox, 542.025pt x 722.7pt>
+[58 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=924, page=15, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 15>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page15 used on input line 3. on
@@ -3100,191 +3180,191 @@ e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 15>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page15 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [54 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=876, page=16, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 16>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 16>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 16>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [55 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=882, page=17, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 17>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 17>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 17>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [56 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=889, page=18, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 18>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 18>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 18>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [57 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=912, page=19, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 19>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 19>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 19>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
- [58 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=930, page=20, pagebox=cropbox, 542.025pt x 722.7pt>
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 20>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 20>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
- input line 3.
-Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
-e 3.
-File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 20>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [59 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=946, page=21, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=930, page=16, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 21>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 16>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 21>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 16>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 21>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 16>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [60 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=966, page=22, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=936, page=17, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 22>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 17>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 22>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 17>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 22>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 17>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [61 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=988, page=23, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=942, page=18, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 23>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 18>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 23>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 18>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 23>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 18>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [62 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1007, page=24, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=966, page=19, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 24>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 19>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 24>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 19>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
-<use OWASP-Top10-2017.pdf, page 24>
-Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+<use OWASP-Top10-2017.pdf, page 19>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
  [63 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1013, page=25, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=984, page=20, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 20>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 20>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 20>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [64 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1000, page=21, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 21>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 21>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 21>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [65 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1020, page=22, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 22>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 22>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 22>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [66 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1042, page=23, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 23>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 23>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 23>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [67 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1060, page=24, pagebox=cropbox, 542.025pt x 722.7pt>
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 24>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 24>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+File: OWASP-Top10-2017.pdf Graphic file (type pdf)
+<use OWASP-Top10-2017.pdf, page 24>
+Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
+ input line 3.
+Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
+e 3.
+ [68 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1067, page=25, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 25>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page25 used on input line 3. on
@@ -3303,7 +3383,7 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page25 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [64 <./OWASP-Top10-2017.pdf>] [65] [66])
+ [69 <./OWASP-Top10-2017.pdf>] [70] [71])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
@@ -3338,7 +3418,7 @@ Package minitoc(hints) Warning: W0024
 
 Package nag Warning: 1 complaints in total.
 
-[67]
+[72]
 \tf@toc=\write8
 \openout8 = `Main.toc'.
 
@@ -3354,23 +3434,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 4141ACEF5577437A7407917CA7BADC68;3662.
+(rerunfilecheck)             Checksum: 07013A2BD5352F16FAB2B3E1E88E42AD;4108.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 32912 strings out of 493312
- 597872 string characters out of 3138882
- 1029469 words of memory out of 3000000
- 35059 multiletter control sequences out of 15000+200000
- 84147 words of font info for 243 fonts, out of 3000000 for 9000
+ 32941 strings out of 493312
+ 598993 string characters out of 3138882
+ 1038284 words of memory out of 3000000
+ 35075 multiletter control sequences out of 15000+200000
+ 84361 words of font info for 244 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,18n,80p,1843b,669s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,18n,80p,1843b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/nc
-ntrsbk/uncr8a.pfb>
-Output written on Main.pdf (78 pages, 1652493 bytes).
+ntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.
+pfb>
+Output written on Main.pdf (83 pages, 1758555 bytes).
 PDF statistics:
- 1094 PDF objects out of 1200 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 36957 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1153 PDF objects out of 1200 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
+ 36999 words of extra memory for PDF output out of 42996 (max. 10000000)
 
