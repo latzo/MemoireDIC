@@ -5,21 +5,21 @@ Le Top 10 Owasp, en recensant les dix risques de sécurite les plus critiques de
 \section{Spécifications}
 
 \subsection{Spécifications fonctionnelles}
-Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des tâches préconisées par le Top 10 pour chacune des risques de sécurite. 
+Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des tâches préconisées par le Top 10 pour chacun des risques de sécurite. 
 
 \subsubsection{Les Acteurs}
-Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif matériel
-ou autre système) qui interagit directement avec le système étudié.\\
+Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif matériel ou autre système) qui interagit directement avec le système étudié.\\
 Notre système est principalement en interaction avec les autres applications utilisant les différentes fonctionnalités mises à disposition par celui-ci. 
 
 \subsubsection{Les fonctionnalités générales}
-Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Ces fonctionnalités, sont dans un premier regroupées en modules, chaque module correspondant à la gestion d'un risque.
+Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules, chaque module correspondant à la gestion d'un risque.
 
 \textbf{\RIGHTarrow Gestion des injections}\\
 Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : \\
 - la validation des entrées ; \\
+- la récupération de données de manière sécurisée ; \\
 - l’encodage des données ; \\
-- le paramétrage de requêtes ;
+- le paramétrage de requêtes vers les systèmes de gestion de base de données ; \\
 - le cryptage de données avec un algorithme fort.\\
 
 \textbf{\RIGHTarrow Gestion des violations de Gestion d’Authentification}\\
@@ -27,16 +27,16 @@ Ce module regroupe les fonctions de sécurité permettant de se protéger des vi
 - l'authentification ;\\
 - la déconnexion ;\\
 - la vérification de la force d'un mot de passe ; \\
-- la génération de mots de passe forts ; \\ 
-- la génération d'ids de session ; \\
-- la génération de tokens anti-csrf [WX] ; \\
+- la génération aléatoire de données : il s'agit de générer aléatoirement avec un algorithme non prévisibles des données aléatoires numériques et alphanumériques ; \\ 
 - la journalisation des événements de connexion (logging) ; \\
 - le cryptage de données avec un algorithme fort.\\
 
 \textbf{\RIGHTarrow Gestion des expositions de données sensibles}\\
 Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition de données sensibles. Pour ce faire, les fonctions de sécurités suivantes doivent être disponibles dans notre système : \\
 - le hachage fort de mots de passe avec un sel\footnote{donnée ajoutée au mot de passe avant hachage} ; \\
-- le paramétrage des entêtes HTTP (Entête Cache essentiellement) ; \\
+- l'ajout d'entêtes HTTP (Entête Cache essentiellement) ; \\
+- la vérification de l'utilisation d'un canal sécurisé HTTPS ; \\
+- l'authentification des requêtes HTTP en Digest\footnote{Explication Digest} ; \\
 - le cryptage de données avec un algorithme fort.\\
 
 \textbf{\RIGHTarrow Gestion des attaques sur les entités XML externes}\\
@@ -56,15 +56,17 @@ Ce module regroupe les fonctions de sécurité permettant de se protéger des vi
 Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des mauvaises configurations de sécurité. On a principalement : \\
 - le paramétrage des entêtes HTTP : il s'agit de toutes les entêtes HTTP relatives à la sécurité (Entêtes HSTS, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options, CSP, X-Permitted-Cross-Domain-Policies entre autres). \\
 
-
 \textbf{\RIGHTarrow Gestion des cross-site scripting (XSS)}\\
 Ce module regroupe un ensemble de fonctions de sécurité permettant de se protéger des attaques XSS. Il s'agit de : \\
 - la validation des entrées ;\\
 - la sanitization des entrées ;\\
 - l'encodage des sorties selon le contexte de sortie (HTML, CSS, JavaScript)\footnote{Toute donnée devant être ajoutée au code source}; \\
-- le paramétrage des entêtes HTTP (CSP principalement).\\
+- l'ajout d'entêtes HTTP (CSP principalement).\\
 
-%\textbf{\RIGHTarrow Gestion des désérialisations non sécurisée}\\
+\textbf{\RIGHTarrow Gestion des désérialisations non sécurisée}\\
+Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des désérialisations non sécurisées. On a principalement : \\
+- la signature d'un message ;
+- la vérification de signatures.\\
 
 
 \textbf{\RIGHTarrow Gestion de l'utilisation de composants vulnérables}\\
@@ -125,38 +127,264 @@ La figure \ref{fig:8.1} ci-dessous reprèsente ces différents packages.
 	\caption{Diagramme de packages du système}
 	\label{fig:8.1}
 \end{figure}
-Et, étant donné que certaines pratiques recommandées pour un risque, peuvent aussi l'être pour d'autres, nous présenterons à la volée, dans un deuxième temps, toutes les fonctionnalités attendues par les applications pour se protéger au moins des dix risques de sécurite présentes dans le Top 10.\\
 
 \subsection{Package Gestion des injections}
 
 \subsubsection{Diagramme de cas d'utilisation}
 Le diagramme de cas d'utilisation du package "Gestion des injections" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'injection.\\ 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\begin{minipage}{12cm}
 		\centering
-		{\includegraphics[height=0.27\textheight]{fig/Injection-use-case-diagram.png}}
+		{\includegraphics[height=0.30\textheight]{fig/Injection-use-case-diagram.png}}
 	\end{minipage}
-	\caption{Diagramme de cas d'utilisation du sous-systéme "Gestion des injections"}
-	\label{fig:8.1}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des injections"}
+	\label{fig:7.2}
 \end{figure}
 
 \subsection{Package Gestion des violations de gestion d'authentification}
 
 \subsubsection{Diagramme de cas d'utilisation}
 Le diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de violations de gestion d'authentification.\\ 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\begin{minipage}{12cm}
 		\centering
-		{\includegraphics[height=0.27\textheight]{fig/Injection-use-case-diagram.png}}
+		{\includegraphics[height=0.30\textheight]{fig/Violation-gestion-authentification-use-case-diagram.png}}
 	\end{minipage}
-	\caption{Diagramme de cas d'utilisation du sous-systéme "Gestion des injections"}
-	\label{fig:8.1}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification"}
+	\label{fig:7.3}
+\end{figure}
+
+\subsection{Package Gestion des expositions de données sensibles}
+
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des expositions de données sensibles" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'exposition de données sensibles.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Gestion-exposition-donnees-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des expositions de données sensibles"}
+	\label{fig:7.4}
+\end{figure}
+
+\subsection{Package Gestion des attaques sur les entités XML externes}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des attaques sur les entités XML externes" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques découlant des attaques sur les entités XML externes.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/XXE-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des attaques sur les entités XML externes"}
+	\label{fig:7.5}
+\end{figure}
+
+\subsection{Package Gestion des violations de contrôle d'accès}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des violations de contrôle d'accès" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques découlant des violations de contrôle d'accès.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Violation-controle-acces-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des violations de contrôle d'accès"}
+	\label{fig:7.6}
+\end{figure}
+
+\subsection{Package Gestion des mauvaises configurations de sécurité}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des mauvaises configurations de sécurité" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de mauvaises configurations de sécurité.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Security_misconfiguration-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des mauvaises configurations de sécurité"}
+	\label{fig:7.7}
+\end{figure}
+
+\subsection{Package Gestion des XSS }
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des XSS" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les attaques XSS.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/XSS-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des XSS"}
+	\label{fig:7.8}
+\end{figure}
+
+\subsection{Package Gestion des désérialisations non sécurisées}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des désérialisations non sécurisées" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de désérialisations non sécurisées.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Insecure_deserialization-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des désérialisations non sécurisées"}
+	\label{fig:7.9}
+\end{figure}
+
+\subsection{Package Gestion des utilisations de composants vulnérables}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion des utilisations de composants vulnérables" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques découlant de l'utilisation de composants vulnérables.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Utilisation-composants-vulnerables-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion des utilisations de composants vulnérables"}
+	\label{fig:7.10}
+\end{figure}
+
+\subsection{Package Gestion de la journalisation et de la surveillance insuffisantes}
+\subsubsection{Diagramme de cas d'utilisation}
+Le diagramme de cas d'utilisation du package "Gestion de la journalisation et de la surveillance insuffisantes" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de journalisation et de surveillance insuffisantes.\\ 
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.30\textheight]{fig/Insufficient-logging-monitoring-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du package "Gestion de la journalisation et de la surveillance insuffisantes"}
+	\label{fig:7.11}
 \end{figure}
 
 \subsection{Système global}
-Both ESAPI and this book are organized around fundamental security controls. We have not created
-chapters around common vulnerabilities or attacks, such as XSS, CSRF, SQL injection, etc… Books
-organized this way are sexy, but don’t encourage the best architecture possible. \\
-For example, if you are trying to stamp out XSS from your enterprise, the right way to do it is to establish great input validation and output encoding mechanisms that developers can use easily. We discuss these two fundamental controls in our book. But those same controls help to stop a wide range of other attacks as well. We believe that focusing on getting the right controls in place is the path to improved software security. 
+Nous avons organisé les cas d'utilisation en packages, chaque package correspondant à la gestion d'un risque du Top 10, et cela pour des questions de lisibilité mais aussi pour des questions d'identification des fonctions de sécurité à mettre en place en adéquation avec le risque en question. Cependant, le système que nous devons mettre en place tourne autour de ces fonctions de sécurité. Il s'agit de mettre à la disposition des développeurs ces fonctions de sécurités. \\
+En effet, certaines fonctions de sécurité recommandées pour un risque, peuvent aussi l'être pour d'autres.Par exemple, si l'on essaie de mitiger le risque de XSS, la meilleure façon de le faire est de mettre en place des fonctions permettant la validation des entrées ainsi que l'encodage des sorties que les développeurs peuvent facilement utiliser. Mais ces mêmes fonctions peuvent être utilisées pour se protéger de beaucoup  d’autres attaques. \\
+Ainsi, nous nous concentrons maintenant sur ces fonctions de sécurité. Nous présenterons à la volée toutes les fonctionnalités attendues par les applications pour se protéger au moins des dix risques de sécurite présentes dans le Top 10.\\
+Ci-dessous, nous avons le diagramme de cas d'utilisation global du système :
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\textwidth,height=0.95\textheight]{fig/Global-use-case-diagram.png}
+	\caption{Diagramme de cas d'utilisation global du système"}
+	\label{fig:7.12}
+\end{figure}
+Toutefois, cette représentation n'est pas non plus le meilleur car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comrenant les fonctions de sécurité de même nature.\\
+Ainsi, nous avons les modules suivants :
+- Module "Utilisateurs" comprenant les fonctions relatives aux utilisateurs ;\\
+- Module "Cryptographie" comprenant les fonctions se rapportant à la cryptographie ; \\
+- Module "Encodage" comprenant les fonctions d'encodage ; \\ 
+- Module "Validation" regroupant les fonctions relatives à la validation ; \\
+- Module "HTTP" regroupant les fonctions relatives aux paramètres HTTP;
+- Module "Interpréteurs" regroupant les fonctions relatives aux interpréteurs;
+- Module "Logging" regroupant les fonctions relatives à la journalisation ; \\
+- Module "Gestion des composants" regroupant les fonctions relatives aux composants utilisés dans l'application.\\
+Chaque module est un sous-sytème et sera représenté par un package. Cette séparation nous donne le diagramme de package suivant :
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=0.5\textheight]{fig/S-Package-diagram.png}
+	\caption{Diagramme de packages du système (réorganisé)"}
+\end{figure}
+
+
+\subsection{Sous-système "Utilisateurs"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Utilisateurs-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Utilisateurs"}
+	\label{fig:7.13}
+\end{figure}
+
+
+\subsection{Sous-système "Cryptographie"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Cryptographie-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Cryptographie"}
+	\label{fig:7.14}
+\end{figure}
+
+\subsection{Sous-système "Encodage"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Encodage-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Encodage"}
+	\label{fig:7.15}
+\end{figure}
+
+\subsection{Sous-système "Validation"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Validation-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Validation"}
+	\label{fig:7.16}
+\end{figure}
+
+\subsection{Sous-système "HTTP"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/HTTP-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "HTTP"}
+	\label{fig:7.17}
+\end{figure}
+
+\subsection{Sous-système "Interpréteurs"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Interpreteurs-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Interpreteurs"}
+	\label{fig:7.18}
+\end{figure}
+
+
+\subsection{Sous-système "Logging"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Logging-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Gestion de la journalisation et de la surveillance insuffisantes"}
+	\label{fig:7.19}
+\end{figure}
+
+\subsection{Sous-système "Gestion des composants"}
+\subsubsection{Diagramme de cas d'utilisation}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Composants-use-case-diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de cas d'utilisation du sous-système "Gestion de la journalisation et de la surveillance insuffisantes"}
+	\label{fig:7.20}
+\end{figure}
+

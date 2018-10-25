@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  23 OCT 2018 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  25 OCT 2018 13:45
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2183,11 +2183,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks69
 \c@AM@survey=\count372
 \AM@templatesizebox=\box80
-) (Main.aux
-
-LaTeX Warning: Label `fig:8.1' multiply defined.
-
-)
+) (Main.aux)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 329.
@@ -2205,7 +2201,8 @@ LaTeX Font Info:    ... okay on input line 329.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 329.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 32
 9.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 329.
@@ -2394,14 +2391,14 @@ line 329.
 (frontmatter/title.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 28.
-<Logos/senegal_flag.png, id=237, 1284.8pt x 856.19875pt>
+<Logos/senegal_flag.png, id=373, 1284.8pt x 856.19875pt>
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
 Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
 9.
-<Logos/logo_ucad.png, id=238, 224.84pt x 225.84375pt>
+<Logos/logo_ucad.png, id=374, 224.84pt x 225.84375pt>
 File: Logos/logo_ucad.png Graphic file (type png)
 <use Logos/logo_ucad.png>
 Package pdftex.def Info: Logos/logo_ucad.png  used on input line 32. on input l
@@ -2568,20 +2565,20 @@ LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 6.50995pt on input line 6.
  [7
 
-])
+]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 380.
+(Font)              scaled to size 9.29993pt on input line 71.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 9.29993pt on input line 380.
- [8]
-(Main.lot
+(Font)              scaled to size 9.29993pt on input line 71.
+ [8])
+[9] (Main.lot
 LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/fnc/b/sc' will be
 (Font)              scaled to size 10.18341pt on input line 2.
-) [9
+) [10
 
-] (Main.lof) [10
+] (Main.lof) [11
 
 ] (misc/introduction/introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -2635,17 +2632,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 
 
 ]
-<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=396, 
+<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=615, 
 963.6pt x 435.6275pt>
 File: parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png Grap
 hic file (type png)
 <use parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png>
 Package pdftex.def Info: parts/part01//chapters/structure-accueil/fig/Organnigr
-amme-HubSo.png  used on input line 36. on input line 36.
+amme-HubSo.png  used on input line 35. on input line 35.
 Package pdftex.def Info: Requested size: 420.80939pt x 190.24509pt on input lin
-e 36.
+e 35.
 
-Overfull \hbox (61.1496pt too wide) in paragraph at lines 34--38
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 33--37
  []$[]$ 
  []
 
@@ -2733,7 +2730,7 @@ ex [30
 ] [31]) (parts/part04//chapters/uml/uml.tex [32
 
 ]
-<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=544, 1157.32375pt
+<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=763, 1157.32375pt
  x 495.8525pt>
 File: parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png Graphic file (ty
 pe png)
@@ -2752,10 +2749,10 @@ Overfull \hbox (61.1496pt too wide) in paragraph at lines 38--42
 esoins.tex
 
 LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
-(Font)              Font shape `U/wasy/b/n' tried instead on input line 18.
+(Font)              Font shape `U/wasy/b/n' tried instead on input line 17.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--24
+Underfull \hbox (badness 10000) in paragraph at lines 17--24
 
  []
 
@@ -2763,12 +2760,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--24
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--35
+Underfull \hbox (badness 10000) in paragraph at lines 25--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 10000) in paragraph at lines 34--41
 
  []
 
@@ -2788,69 +2785,380 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--58
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--74
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
 [37]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.png,
- id=573, 763.85374pt x 323.2075pt>
+ id=795, 763.85374pt x 523.9575pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram
 .png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.
 png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Package-Diagram.png  used on input line 123. on input line 123.
-Package pdftex.def Info: Requested size: 449.6208pt x 190.24509pt on input line
- 123.
+fig/Package-Diagram.png  used on input line 125. on input line 125.
+Package pdftex.def Info: Requested size: 277.34154pt x 190.24509pt on input lin
+e 125.
 
-Overfull \hbox (61.1496pt too wide) in paragraph at lines 121--125
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 123--127
  []$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--129
-
  []
 
 [38]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-case-d
-iagram.png, id=579, 1298.60156pt x 737.75626pt>
+iagram.png, id=800, 1132.23pt x 690.32906pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-c
 ase-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-ca
 se-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Injection-use-case-diagram.png  used on input line 137. on input line 137.
-Package pdftex.def Info: Requested size: 334.85434pt x 190.24509pt on input lin
-e 137.
-) [39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diag
-ram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection
--use-case-diagram.png>] (parts/part04//chapters/conception/conception.tex)) (pa
-rts/part05/part05.tex [40] [41
+fig/Injection-use-case-diagram.png  used on input line 139. on input line 139.
+Package pdftex.def Info: Requested size: 346.68584pt x 211.38223pt on input lin
+e 139.
+
+Overfull \hbox (5.25278pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--143
+
+ []
+
+[39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagra
+m.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestion-au
+thentification-use-case-diagram.png, id=806, 1120.9378pt x 867.99281pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gesti
+on-authentification-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestio
+n-authentification-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Violation-gestion-authentification-use-case-diagram.png  used on input line
+ 153. on input line 153.
+Package pdftex.def Info: Requested size: 272.98161pt x 211.38223pt on input lin
+e 153.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--157
+
+ []
+
+<parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposition-d
+onnees-use-case-diagram.png, id=807, 918.43124pt x 858.95906pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposit
+ion-donnees-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-expositi
+on-donnees-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Gestion-exposition-donnees-use-case-diagram.png  used on input line 167. on
+ input line 167.
+Package pdftex.def Info: Requested size: 226.00562pt x 211.38223pt on input lin
+e 167.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
+
+ []
+
+[40 <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-
+case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/
+Violation-gestion-authentification-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-diagram
+.png, id=814, 808.52063pt x 487.8225pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-di
+agram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-dia
+gram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/XXE-use-case-diagram.png  used on input line 180. on input line 180.
+Package pdftex.def Info: Requested size: 350.34656pt x 211.38223pt on input lin
+e 180.
+
+Overfull \hbox (8.9135pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--184
+
+ []
+
+[41 <./parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposi
+tion-donnees-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Violation-controle-a
+cces-use-case-diagram.png, id=820, 1202.24156pt x 871.75688pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contr
+ole-acces-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contro
+le-acces-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Violation-controle-acces-use-case-diagram.png  used on input line 193. on i
+nput line 193.
+Package pdftex.def Info: Requested size: 291.51572pt x 211.38223pt on input lin
+e 193.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--197
+
+ []
+
+<parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconfigur
+ation-use-case-diagram.png, id=821, 1059.96pt x 508.90125pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Security_miscon
+figuration-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconf
+iguration-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Security_misconfiguration-use-case-diagram.png  used on input line 206. on 
+input line 206.
+Package pdftex.def Info: Requested size: 440.27954pt x 211.38223pt on input lin
+e 206.
+
+Overfull \hbox (98.84648pt too wide) in paragraph at lines 206--207
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--210
+
+ []
+
+[42 <./parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-d
+iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Violat
+ion-controle-acces-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-diagram
+.png, id=828, 1436.36626pt x 874.01532pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-di
+agram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-dia
+gram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/XSS-use-case-diagram.png  used on input line 219. on input line 219.
+Package pdftex.def Info: Requested size: 347.38692pt x 211.38223pt on input lin
+e 219.
+
+Overfull \hbox (5.95386pt too wide) in paragraph at lines 219--220
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--223
+
+ []
+
+[43 <./parts/part04//chapters/specifications_analyse_besoins/fig/Security_misco
+nfiguration-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deserializa
+tion-use-case-diagram.png, id=835, 666.99188pt x 445.665pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseri
+alization-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseria
+lization-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Insecure_deserialization-use-case-diagram.png  used on input line 232. on i
+nput line 232.
+Package pdftex.def Info: Requested size: 316.35626pt x 211.38223pt on input lin
+e 232.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--236
+
+ []
+
+<parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-composan
+ts-vulnerables-use-case-diagram.png, id=836, 861.2175pt x 611.28375pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-com
+posants-vulnerables-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-comp
+osants-vulnerables-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Utilisation-composants-vulnerables-use-case-diagram.png  used on input line
+ 245. on input line 245.
+Package pdftex.def Info: Requested size: 297.8037pt x 211.38223pt on input line
+ 245.
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--249
+
+ []
+
+[44 <./parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-d
+iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Insecu
+re_deserialization-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-logging
+-monitoring-use-case-diagram.png, id=843, 1130.72438pt x 561.59813pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-lo
+gging-monitoring-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-log
+ging-monitoring-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Insufficient-logging-monitoring-use-case-diagram.png  used on input line 25
+8. on input line 258.
+Package pdftex.def Info: Requested size: 425.59067pt x 211.38223pt on input lin
+e 258.
+
+Overfull \hbox (84.15761pt too wide) in paragraph at lines 258--259
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--262
+
+ []
+
+[45 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-co
+mposants-vulnerables-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-diag
+ram.png, id=849, 2894.56406pt x 2638.60782pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case
+-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-
+diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Global-use-case-diagram.png  used on input line 271. on input line 271.
+Package pdftex.def Info: Requested size: 450.99367pt x 669.35345pt on input lin
+e 271.
+ [46 <./parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-
+logging-monitoring-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagram.pn
+g, id=855, 723.70375pt x 604.2575pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagr
+am.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagra
+m.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/S-Package-diagram.png  used on input line 288. on input line 288.
+Package pdftex.def Info: Requested size: 421.93494pt x 352.30016pt on input lin
+e 288.
+ [47 <./parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-ca
+se-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use-cas
+e-diagram.png, id=861, 960.58875pt x 859.71187pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-us
+e-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use
+-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Utilisateurs-use-case-diagram.png  used on input line 299. on input line 29
+9.
+Package pdftex.def Info: Requested size: 341.42912pt x 246.60771pt on input lin
+e 299.
+ [48 <./parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-dia
+gram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-use-ca
+se-diagram.png, id=867, 974.13937pt x 786.68906pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-u
+se-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-us
+e-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Cryptographie-use-case-diagram.png  used on input line 312. on input line 3
+12.
+Package pdftex.def Info: Requested size: 341.42953pt x 246.60797pt on input lin
+e 312.
+<parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-case-di
+agram.png, id=868, 940.26282pt x 662.475pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-ca
+se-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-cas
+e-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Encodage-use-case-diagram.png  used on input line 324. on input line 324.
+Package pdftex.def Info: Requested size: 341.43555pt x 246.60797pt on input lin
+e 324.
+ [49 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-
+use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/
+fig/Cryptographie-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-case-
+diagram.png, id=876, 837.1275pt x 482.55281pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-
+case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-c
+ase-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Validation-use-case-diagram.png  used on input line 336. on input line 336.
+
+Package pdftex.def Info: Requested size: 341.42343pt x 246.61409pt on input lin
+e 336.
+<parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-diagra
+m.png, id=877, 1186.4325pt x 602.25pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-d
+iagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-di
+agram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/HTTP-use-case-diagram.png  used on input line 348. on input line 348.
+Package pdftex.def Info: Requested size: 341.43161pt x 246.61165pt on input lin
+e 348.
+
+[50 <./parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-c
+ase-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/V
+alidation-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-use-ca
+se-diagram.png, id=884, 666.23906pt x 539.76656pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-u
+se-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-us
+e-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Interpreteurs-use-case-diagram.png  used on input line 360. on input line 3
+60.
+Package pdftex.def Info: Requested size: 341.43448pt x 246.61545pt on input lin
+e 360.
+<parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case-dia
+gram.png, id=885, 907.13907pt x 431.36156pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-cas
+e-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case
+-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Logging-use-case-diagram.png  used on input line 373. on input line 373.
+Package pdftex.def Info: Requested size: 341.43591pt x 246.60925pt on input lin
+e 373.
+ [51 <./parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case
+-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Inte
+rpreteurs-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-case-
+diagram.png, id=892, 662.475pt x 525.46312pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-
+case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-c
+ase-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Composants-use-case-diagram.png  used on input line 385. on input line 385.
+
+Package pdftex.def Info: Requested size: 341.4261pt x 246.61491pt on input line
+ 385.
+)
+(parts/part04//chapters/conception/conception.tex)) (parts/part05/part05.tex
+[52 <./parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-ca
+se-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Co
+mposants-use-case-diagram.png>] [53
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc4 is empty on input line 3.
-) (parts/part06/part06.tex [42
+) (parts/part06/part06.tex [54
 
 ]
 Package minitoc Info: I0006
 (minitoc)             Main.ptc5 is empty on input line 3.
 )
-(misc/conclusion/conclusion.tex) (misc/annexe/annexe.tex [43
+(misc/conclusion/conclusion.tex) (misc/annexe/annexe.tex [55
 
-] [44
+] [56
 
 ]
 
@@ -2858,7 +3166,7 @@ Package pdfpages Warning: Option `page' is unknow to \includepdf.
 (pdfpages)                Did you mean `pages'? (Note the `s'!)
 (pdfpages)                OK, I'll proceed as if it were `pages'.
 
-<OWASP-Top10-2017.pdf, id=612, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=921, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf>
 Package pdftex.def Info: OWASP-Top10-2017.pdf  used on input line 3. on input l
@@ -2871,7 +3179,7 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf  used on input line 3. on input l
 ine 3.
 Package pdftex.def Info: Requested size: 542.02367pt x 722.69823pt on input lin
 e 3.
-<OWASP-Top10-2017.pdf, id=615, page=1, pagebox=cropbox, 542.025pt x 722.7pt>
+<OWASP-Top10-2017.pdf, id=924, page=1, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 1>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page1 used on input line 3. on 
@@ -2902,8 +3210,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page1 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
-[45 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=638, page=2, pagebox=cropbox, 542.025pt x 722.7pt>
+[57 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=947, page=2, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 2>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page2 used on input line 3. on 
@@ -2922,8 +3230,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page2 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [46 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=666, page=3, pagebox=cropbox, 542.025pt x 722.7pt>
+ [58 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=975, page=3, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 3>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on 
@@ -2942,8 +3250,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page3 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [47 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=685, page=4, pagebox=cropbox, 542.025pt x 722.7pt>
+ [59 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=994, page=4, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 4>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on 
@@ -2962,8 +3270,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page4 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [48 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=691, page=5, pagebox=cropbox, 542.025pt x 722.7pt>
+ [60 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1000, page=5, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 5>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on 
@@ -2982,8 +3290,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page5 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [49 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=715, page=6, pagebox=cropbox, 542.025pt x 722.7pt>
+ [61 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1025, page=6, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 6>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on 
@@ -3002,8 +3310,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page6 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [50 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=838, page=7, pagebox=cropbox, 542.025pt x 722.7pt>
+ [62 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1147, page=7, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 7>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on 
@@ -3022,8 +3330,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page7 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [51 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=867, page=8, pagebox=cropbox, 542.025pt x 722.7pt>
+ [63 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1176, page=8, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 8>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on 
@@ -3042,8 +3350,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page8 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [52 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=885, page=9, pagebox=cropbox, 542.025pt x 722.7pt>
+ [64 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1194, page=9, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 9>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on 
@@ -3062,8 +3370,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page9 used on input line 3. on
 input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [53 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=893, page=10, pagebox=cropbox, 542.025pt x 722.7pt>
+ [65 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1202, page=10, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 10>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
@@ -3082,8 +3390,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page10 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [54 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=899, page=11, pagebox=cropbox, 542.025pt x 722.7pt>
+ [66 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1208, page=11, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 11>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
@@ -3102,8 +3410,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page11 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [55 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=905, page=12, pagebox=cropbox, 542.025pt x 722.7pt>
+ [67 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1215, page=12, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 12>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
@@ -3122,8 +3430,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page12 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [56 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=912, page=13, pagebox=cropbox, 542.025pt x 722.7pt>
+ [68 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1221, page=13, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 13>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
@@ -3142,8 +3450,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page13 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [57 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=918, page=14, pagebox=cropbox, 542.025pt x 722.7pt>
+ [69 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1227, page=14, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 14>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page14 used on input line 3. on
@@ -3163,8 +3471,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page14 used on input line 3. on
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
 
-[58 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=924, page=15, pagebox=cropbox, 542.025pt x 722.7pt>
+[70 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1233, page=15, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 15>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page15 used on input line 3. on
@@ -3183,8 +3491,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page15 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [59 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=930, page=16, pagebox=cropbox, 542.025pt x 722.7pt>
+ [71 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1239, page=16, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 16>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
@@ -3203,8 +3511,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page16 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [60 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=936, page=17, pagebox=cropbox, 542.025pt x 722.7pt>
+ [72 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1245, page=17, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 17>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
@@ -3223,8 +3531,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page17 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [61 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=942, page=18, pagebox=cropbox, 542.025pt x 722.7pt>
+ [73 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1252, page=18, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 18>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
@@ -3243,8 +3551,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page18 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [62 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=966, page=19, pagebox=cropbox, 542.025pt x 722.7pt>
+ [74 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1275, page=19, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 19>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
@@ -3263,8 +3571,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page19 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [63 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=984, page=20, pagebox=cropbox, 542.025pt x 722.7pt>
+ [75 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1293, page=20, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 20>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
@@ -3283,8 +3591,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page20 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [64 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1000, page=21, pagebox=cropbox, 542.025pt x 722.7pt>
+ [76 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1309, page=21, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 21>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
@@ -3303,8 +3611,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page21 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [65 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1020, page=22, pagebox=cropbox, 542.025pt x 722.7pt>
+ [77 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1329, page=22, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 22>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
@@ -3323,8 +3631,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page22 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [66 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1042, page=23, pagebox=cropbox, 542.025pt x 722.7pt>
+ [78 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1351, page=23, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 23>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
@@ -3343,8 +3651,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page23 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [67 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1060, page=24, pagebox=cropbox, 542.025pt x 722.7pt>
+ [79 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1370, page=24, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 24>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
@@ -3363,8 +3671,8 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page24 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [68 <./OWASP-Top10-2017.pdf>]
-<OWASP-Top10-2017.pdf, id=1067, page=25, pagebox=cropbox, 542.025pt x 722.7pt>
+ [80 <./OWASP-Top10-2017.pdf>]
+<OWASP-Top10-2017.pdf, id=1376, page=25, pagebox=cropbox, 542.025pt x 722.7pt>
 File: OWASP-Top10-2017.pdf Graphic file (type pdf)
 <use OWASP-Top10-2017.pdf, page 25>
 Package pdftex.def Info: OWASP-Top10-2017.pdf , page25 used on input line 3. on
@@ -3383,7 +3691,7 @@ Package pdftex.def Info: OWASP-Top10-2017.pdf , page25 used on input line 3. on
  input line 3.
 Package pdftex.def Info: Requested size: 597.52782pt x 796.70377pt on input lin
 e 3.
- [69 <./OWASP-Top10-2017.pdf>] [70] [71])
+ [81 <./OWASP-Top10-2017.pdf>] [82] [83])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
@@ -3418,7 +3726,7 @@ Package minitoc(hints) Warning: W0024
 
 Package nag Warning: 1 complaints in total.
 
-[72]
+[84]
 \tf@toc=\write8
 \openout8 = `Main.toc'.
 
@@ -3434,28 +3742,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 07013A2BD5352F16FAB2B3E1E88E42AD;4108.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 2139D70D52924844A7873F0472C86709;7435.
  ) 
 Here is how much of TeX's memory you used:
- 32941 strings out of 493312
- 598993 string characters out of 3138882
- 1038284 words of memory out of 3000000
- 35075 multiletter control sequences out of 15000+200000
- 84361 words of font info for 244 fonts, out of 3000000 for 9000
+ 33175 strings out of 493312
+ 609210 string characters out of 3138882
+ 1135869 words of memory out of 3000000
+ 35205 multiletter control sequences out of 15000+200000
+ 85267 words of font info for 258 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,18n,80p,1843b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,18n,80p,1843b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/nc
 ntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.
 pfb>
-Output written on Main.pdf (83 pages, 1758555 bytes).
+Output written on Main.pdf (96 pages, 3426976 bytes).
 PDF statistics:
- 1153 PDF objects out of 1200 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 36999 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1477 PDF objects out of 1728 (max. 8388607)
+ 244 named destinations out of 1000 (max. 500000)
+ 37366 words of extra memory for PDF output out of 42996 (max. 10000000)
 
