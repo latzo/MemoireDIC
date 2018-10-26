@@ -33,12 +33,13 @@
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Diagramme de cas d'utilisation global du syst\IeC {\`e}me"}}{47}{figure.7.12}
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me (r\IeC {\'e}organis\IeC {\'e})"}}{48}{figure.7.13}
 \contentsline {figure}{\numberline {7.14}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Utilisateurs"}}{49}{figure.7.14}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Cryptographie"}}{49}{figure.7.15}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Encodage"}}{50}{figure.7.16}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Validation"}}{50}{figure.7.17}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "HTTP"}}{51}{figure.7.18}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Interpreteurs"}}{51}{figure.7.19}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{52}{figure.7.20}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{52}{figure.7.21}
-\contentsline {xpart}{R\IeC {\'e}alisation}{54}{part.4}
-\contentsline {xpart}{Bilan et Perspectives}{55}{part.5}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Diagramme d'activit\IeC {\'e}s du cas "Authentification utilisateur"}}{52}{figure.7.15}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Cryptographie"}}{53}{figure.7.16}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Encodage"}}{54}{figure.7.17}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Validation"}}{54}{figure.7.18}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "HTTP"}}{55}{figure.7.19}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Interpreteurs"}}{56}{figure.7.20}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{56}{figure.7.21}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{57}{figure.7.22}
+\contentsline {xpart}{R\IeC {\'e}alisation}{59}{part.4}
+\contentsline {xpart}{Bilan et Perspectives}{60}{part.5}

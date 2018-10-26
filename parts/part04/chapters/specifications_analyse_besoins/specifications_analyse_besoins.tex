@@ -282,7 +282,7 @@ Ainsi, nous avons les modules suivants :
 - Module "Interpréteurs" regroupant les fonctions relatives aux interpréteurs;
 - Module "Logging" regroupant les fonctions relatives à la journalisation ; \\
 - Module "Gestion des composants" regroupant les fonctions relatives aux composants utilisés dans l'application.\\
-Chaque module est un sous-sytème et sera représenté par un package. Cette séparation nous donne le diagramme de package suivant :
+Chaque module est un sous-sytème et sera représenté par un package. Cette séparation nous donne le diagramme de packages suivant :
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=0.5\textheight]{fig/S-Package-diagram.png}
@@ -291,6 +291,7 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 
 
 \subsection{Sous-système "Utilisateurs"}
+
 \subsubsection{Diagramme de cas d'utilisation}
 \begin{figure}[H]
 	\centering
@@ -301,6 +302,157 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "Utilisateurs"}
 	\label{fig:7.13}
 \end{figure}
+\subsubsection{Cas d'utilisation "Authentification utilisateur"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\underline{\underline{Sommaire d’identification}} \\
+\textbf{Titre} : Authentification utilisateur\\
+\textbf{Résumé} : Ce cas d’utilisation permet à une application d'authentifier un utilisateur\\
+\textbf{Acteur} : Application\\	
+\textbf{Responsable} : Papa Latyr Mbodj\\
+\underline{\underline{Description des scénarios}}\\
+\textbf{Précondition(s)}
+\begin{itemize}
+	\item Aucune
+\end{itemize}
+\textbf{Scénario nominal}
+\begin{enumerate}
+	\item L'application donne une requête HTTP POST contenant nom d'utilisateur et mot de passe.
+	\item Le système récupère l'utilisateur avec le nom d'utilisateur donné.
+	\item Le système enregistre l'adresse IP de connexion.
+	\item Le système s'assure que la requête est de type POST et que HTTPS est utilisé.
+	\item Le système s'assure que l'utilisateur n'est pas expiré.
+	\item Le système s'assure que l'utilisateur est activé.
+	\item Le système s'assure que l'utilisateur n'est pas bloqué.
+	%\item Le système s'assure que le délai d'inactivité de l'utilisateur n'est pas atteint.
+	%\item Le système s'assure que la session de l'utilisateur n'est pas expirée.
+	\item Le système déconnecte l'utilisateur.
+	\item Le système hashe le mot de passe donné et le compare avec celui de l'utilisateur récupéré précedemment.
+	\item Le sytème crée une nouvelle session pour l'utilisateur et l'enregistre.
+	\item Le systéme enregistre la date et l'heure de connexion 
+	\item Le systéme enregistre l'adresse IP de l'hôte ayant envoyé la requête.
+	\item Le système journalise la connexion de l'utilisateur.
+	\item Le système retourne l'utilisateur modifié.
+\end{enumerate}
+\textbf{Enchainement(s) d’erreur}\\
+\textit{E1 : Utilisateur avec nom d'utilisateur donné inexistant}\\
+L’enchaînement E1 démarre au point 2 du scénario nominal.
+\begin{itemize}
+	\item[3.] Le système logge l'échec de la connexion avec le message "Login ou mot de passe incorrect".
+	\item[4.] Le système produit une exception avec le même message.
+	\item[5.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E2 : Requête pas de type POST ou HTTPS non utilisé}\\
+L’enchaînement E2 démarre au point 4 du scénario nominal.
+\begin{itemize}
+	\item[5.] Le système met à jour la date et l'heure de la dernière connexion échouée de l'utilisateur.
+	\item[6.] Le système incrémente le nombre de tentatives de connexion échouées pour cet utilisateur.
+	\begin{itemize}
+		\item[6.a.] Nombre maximal de tentatives de connexions échouées atteint ou dépassé : 
+		\begin{itemize}
+			\item[6.a.1.] Le système bloque l'utilisateur.
+			\item[6.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+			\item[6.a.3.] Le système produit une exception avec le même message.
+		\end{itemize}	
+		\item[6.b.] Nombre maximal de tentatives de connexions échouées non atteint :
+		\begin{itemize}
+			\item[6.b.1] Le système logge l'échec de la connexion avec le message "Tentative de connexion avec une requête non sécurisée".
+			\item[6.b.2] Le système produit une exception avec le même message.
+		\end{itemize}	
+	\end{itemize}
+	\item[7.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E3 : Utilisateur expiré}\\
+L’enchaînement E3 démarre au point 5 du scénario nominal.
+\begin{itemize}
+	\item[6.] Le système logge l'échec de la connexion avec le message "Utilisateur expiré" avec le nom de l'utilisateur.
+	\item[7.] Le système produit une exception avec le même message.
+	\item[8.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E4 : Utilisateur non activé}\\
+L’enchaînement E4 démarre au point 6 du scénario nominal.
+\begin{itemize}
+	\item[7.] Le système logge l'échec de la connexion avec le message "Utilisateur inactif" avec le nom de l'utilisateur.
+	\item[8.] Le système produit une exception avec le même message.
+	\item[9.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E5 : Utilisateur bloqué}\\
+L’enchaînement E5 démarre au point 7 du scénario nominal.
+\begin{itemize}
+	\item[8.] Le système met à jour la date et l'heure de la dernière connexion échouée de l'utilisateur.
+	\item[9.] Le système incrémente le nombre de tentatives de connexion échouées pour cet utilisateur.
+	\begin{itemize}
+		\item[10.a.] Nombre maximal de tentatives de connexions échouées atteint ou dépassé : 
+		\begin{itemize}
+			\item[10.a.1.] Le système bloque l'utilisateur.
+			\item[10.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+			\item[10.a.3.] Le système produit une exception avec le même message.
+			\item[10.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+%\textit{E6 : Délai d'inactivité de l'utilisateur atteint}\\
+%L’enchaînement E6 démarre au point 8 du scénario nominal.
+%\begin{itemize}
+%	\item[9.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
+%	\item[10.] Le système déconnecte l'utilisateur.
+%\item[11.] Le système logge l'échec de la connexion avec le message "Délai d'inactivité atteint" avec le nom de l'utilisateur.
+%	\item[12.] Le système produit une exception avec le même message.
+%	\item[13.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+%\end{itemize}
+%\textit{E7 : Session utilisateur expirée}\\
+%L’enchaînement E7 démarre au point 9 du scénario nominal.
+%\begin{itemize}
+%	\item[8.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
+%	\item[9.] Le système déconnecte l'utilisateur.
+%	\item[10.] Le système logge l'échec de la connexion avec le message "Session expirée" avec le nom de l'utilisateur.
+%	\item[11.] Le système produit une exception avec le même message.
+%	\item[12.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+%\end{itemize}
+\textit{E8 : Mot de passe erroné}\\
+L’enchaînement E8 démarre au point 9 du scénario nominal.
+\begin{itemize}
+	\item[12.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
+	\item[13.] Le système incrémente le nombre de tentatives de connexion échouées pour cet utilisateur.
+	\begin{itemize}
+			\item[13.a.] Nombre maximal de tentatives de connexions échouées atteint :
+			\begin{itemize}
+				\item[13.a.1.] Le système bloque l'utilisateur.
+				\item[13.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+				\item[13.a.3.] Le système produit une exception avec le même message.
+				\item[13.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+			\end{itemize}
+			\item[13.b.] Nombre maximal de tentatives de connexions échouées non atteint :
+			\begin{itemize}
+				\item[13.b.1] Le système logge l'échec de la connexion avec le message "Login ou mot de passe incorrect".
+				\item[13.b.2] Le système produit une exception avec le même message. en échec.
+			\end{itemize}
+	\end{itemize}
+	\item[14.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textbf{Post-condition(s)}
+\begin{itemize}
+	\item L’utilisateur en question est authentifié sur l'application.
+\end{itemize}
+\underline{\underline{Exigences non fonctionnelles}}
+\begin{itemize}
+	\item L’application doit être hébergée sur un serveur protégé par un firewall anti DDoS.\\
+\end{itemize}
+
+\textbf{\RIGHTarrow Diagramme d'activités}\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\textwidth,height=0.95\textheight]{fig/Authentification-utilisateur-activity-diagram.png}
+	\caption{Diagramme d'activités du cas "Authentification utilisateur"}
+\end{figure}
+
+\subsubsection{Cas d'utilisation "Déconnexion utilisateur"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
+\subsubsection{Cas d'utilisation "Vérification force mot de passe"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
+\subsubsection{États d'un utilisateur}
+
 
 
 \subsection{Sous-système "Cryptographie"}
@@ -314,6 +466,12 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "Cryptographie"}
 	\label{fig:7.14}
 \end{figure}
+\subsubsection{Cas d'utilisation "Crypter sans clé"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
+\subsubsection{Cas d'utilisation "Hasher sans sel"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "Encodage"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -338,6 +496,9 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "Validation"}
 	\label{fig:7.16}
 \end{figure}
+\subsubsection{Cas d'utilisation "Valider donnée"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "HTTP"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -350,6 +511,12 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "HTTP"}
 	\label{fig:7.17}
 \end{figure}
+\subsubsection{Cas d'utilisation "Ajouter cookie"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
+\subsubsection{Cas d'utilisation "Authentification requête HTTP en  Digest"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "Interpréteurs"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -387,4 +554,6 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "Gestion de la journalisation et de la surveillance insuffisantes"}
 	\label{fig:7.20}
 \end{figure}
-
+\subsubsection{Cas d'utilisation "Détecter composants vulnérables"}
+\textbf{\RIGHTarrow Description textuelle}\\
+\textbf{\RIGHTarrow Diagramme d'activités}\\
