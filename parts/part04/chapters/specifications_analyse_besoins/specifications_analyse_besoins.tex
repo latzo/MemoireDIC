@@ -12,24 +12,29 @@ Un acteur représente un rôle joué par une entité externe (utilisateur humain
 Notre système est principalement en interaction avec les autres applications utilisant les différentes fonctionnalités mises à disposition par celui-ci. 
 
 \subsubsection{Les fonctionnalités générales}
-Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules, chaque module correspondant à la gestion d'un risque.
+Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.
 
 \textbf{\RIGHTarrow Gestion des injections}\\
-Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : \\
-- la validation des entrées ; \\
-- la récupération de données de manière sécurisée ; \\
-- l’encodage des données ; \\
-- le paramétrage de requêtes vers les systèmes de gestion de base de données ; \\
-- le cryptage de données avec un algorithme fort.\\
+Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : 
+\begin{itemize}
+	\itemcheck la validation des entrées ; 
+	\itemcheck la récupération de données de manière sécurisée ; 
+	\itemcheck l’encodage des données ; 
+	\itemcheck le paramétrage de requêtes vers les systèmes de gestion de base de données ; 
+	\itemcheck le cryptage de données avec un algorithme fort.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des violations de Gestion d’Authentification}\\
-Ce module regroupe les fonctions de sécurité permettant de se protéger des violations de gestion d'authentification. Pour prévenir la violation de gestion d'authentification, les fonctions de sécurités suivantes doivent être disponibles dans notre système : \\
-- l'authentification ;\\
-- la déconnexion ;\\
-- la vérification de la force d'un mot de passe ; \\
-- la génération aléatoire de données : il s'agit de générer aléatoirement avec un algorithme non prévisibles des données aléatoires numériques et alphanumériques ; \\ 
-- la journalisation des événements de connexion (logging) ; \\
-- le cryptage de données avec un algorithme fort.\\
+Ce module regroupe les fonctions de sécurité permettant de se protéger des violations de gestion d'authentification. Pour prévenir la violation de gestion d'authentification, les fonctions de sécurités suivantes doivent être disponibles dans notre système :
+ \begin{itemize}
+ 	\itemcheck l'authentification ;
+ 	\itemcheck la déconnexion ;
+ 	\itemcheck la vérification de la force d'un mot de passe ; 
+ 	\itemcheck la génération aléatoire de données : il s'agit de générer aléatoirement avec un algorithme non prévisible des données aléatoires numériques et alphanumériques ; 
+ 	\itemcheck la journalisation des événements de connexion (logging) ; 
+ 	\itemcheck le cryptage de données avec un algorithme fort.\\
+ \end{itemize}
+
 
 \textbf{\RIGHTarrow Gestion des expositions de données sensibles}\\
 Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition de données sensibles. Pour ce faire, les fonctions de sécurités suivantes doivent être disponibles dans notre système : \\
@@ -269,7 +274,7 @@ Ci-dessous, nous avons le diagramme de cas d'utilisation global du système :
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth,height=0.95\textheight]{fig/Global-use-case-diagram.png}
-	\caption{Diagramme de cas d'utilisation global du système"}
+	\caption{Diagramme de cas d'utilisation global du système}
 	\label{fig:7.12}
 \end{figure}
 Toutefois, cette représentation n'est pas non plus le meilleur car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comrenant les fonctions de sécurité de même nature.\\
@@ -302,11 +307,12 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	\caption{Diagramme de cas d'utilisation du sous-système "Utilisateurs"}
 	\label{fig:7.13}
 \end{figure}
+
 \subsubsection{Cas d'utilisation "Authentification utilisateur"}
 \textbf{\RIGHTarrow Description textuelle}\\
 \underline{\underline{Sommaire d’identification}} \\
 \textbf{Titre} : Authentification utilisateur\\
-\textbf{Résumé} : Ce cas d’utilisation permet à une application d'authentifier un utilisateur\\
+\textbf{Résumé} : Ce cas d’utilisation permet à une application d'authentifier un utilisateur.\\
 \textbf{Acteur} : Application\\	
 \textbf{Responsable} : Papa Latyr Mbodj\\
 \underline{\underline{Description des scénarios}}\\
@@ -326,18 +332,20 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 	%\item Le système s'assure que le délai d'inactivité de l'utilisateur n'est pas atteint.
 	%\item Le système s'assure que la session de l'utilisateur n'est pas expirée.
 	\item Le système déconnecte l'utilisateur.
-	\item Le système hashe le mot de passe donné et le compare avec celui de l'utilisateur récupéré précedemment.
-	\item Le sytème crée une nouvelle session pour l'utilisateur et l'enregistre.
-	\item Le systéme enregistre la date et l'heure de connexion 
-	\item Le systéme enregistre l'adresse IP de l'hôte ayant envoyé la requête.
+	\item Le système hashe le mot de passe donné et le compare avec celui de l'utilisateur récupéré précédemment.
+	\item Le système crée une nouvelle session pour l'utilisateur et l'enregistre.
+	\item Le système enregistre la date et l'heure de connexion 
+	\item Le système enregistre l'adresse IP de l'hôte ayant envoyé la requête.
+	Le système met à jour l'état de connexion de l'utilisateur
 	\item Le système journalise la connexion de l'utilisateur.
 	\item Le système retourne l'utilisateur modifié.
 \end{enumerate}
-\textbf{Enchainement(s) d’erreur}\\
+%\textbf{Enchainements alternatif(s)}\\
+\textbf{Enchainements d’erreur}\\
 \textit{E1 : Utilisateur avec nom d'utilisateur donné inexistant}\\
 L’enchaînement E1 démarre au point 2 du scénario nominal.
 \begin{itemize}
-	\item[3.] Le système logge l'échec de la connexion avec le message "Login ou mot de passe incorrect".
+	\item[3.] Le système journalise l'échec de la connexion avec le message "Login ou mot de passe incorrect".
 	\item[4.] Le système produit une exception avec le même message.
 	\item[5.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 \end{itemize}
@@ -350,12 +358,12 @@ L’enchaînement E2 démarre au point 4 du scénario nominal.
 		\item[6.a.] Nombre maximal de tentatives de connexions échouées atteint ou dépassé : 
 		\begin{itemize}
 			\item[6.a.1.] Le système bloque l'utilisateur.
-			\item[6.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+			\item[6.a.2.] Le système journalise le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
 			\item[6.a.3.] Le système produit une exception avec le même message.
 		\end{itemize}	
 		\item[6.b.] Nombre maximal de tentatives de connexions échouées non atteint :
 		\begin{itemize}
-			\item[6.b.1] Le système logge l'échec de la connexion avec le message "Tentative de connexion avec une requête non sécurisée".
+			\item[6.b.1] Le système journalise l'échec de la connexion avec le message "Tentative de connexion avec une requête non sécurisée".
 			\item[6.b.2] Le système produit une exception avec le même message.
 		\end{itemize}	
 	\end{itemize}
@@ -364,14 +372,14 @@ L’enchaînement E2 démarre au point 4 du scénario nominal.
 \textit{E3 : Utilisateur expiré}\\
 L’enchaînement E3 démarre au point 5 du scénario nominal.
 \begin{itemize}
-	\item[6.] Le système logge l'échec de la connexion avec le message "Utilisateur expiré" avec le nom de l'utilisateur.
+	\item[6.] Le système journalise l'échec de la connexion avec le message "Utilisateur expiré" avec le nom de l'utilisateur.
 	\item[7.] Le système produit une exception avec le même message.
 	\item[8.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 \end{itemize}
 \textit{E4 : Utilisateur non activé}\\
 L’enchaînement E4 démarre au point 6 du scénario nominal.
 \begin{itemize}
-	\item[7.] Le système logge l'échec de la connexion avec le message "Utilisateur inactif" avec le nom de l'utilisateur.
+	\item[7.] Le système journalise l'échec de la connexion avec le message "Utilisateur inactif" avec le nom de l'utilisateur.
 	\item[8.] Le système produit une exception avec le même message.
 	\item[9.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 \end{itemize}
@@ -384,7 +392,7 @@ L’enchaînement E5 démarre au point 7 du scénario nominal.
 		\item[10.a.] Nombre maximal de tentatives de connexions échouées atteint ou dépassé : 
 		\begin{itemize}
 			\item[10.a.1.] Le système bloque l'utilisateur.
-			\item[10.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+			\item[10.a.2.] Le système journalise le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
 			\item[10.a.3.] Le système produit une exception avec le même message.
 			\item[10.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 		\end{itemize}
@@ -395,7 +403,7 @@ L’enchaînement E5 démarre au point 7 du scénario nominal.
 %\begin{itemize}
 %	\item[9.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
 %	\item[10.] Le système déconnecte l'utilisateur.
-%\item[11.] Le système logge l'échec de la connexion avec le message "Délai d'inactivité atteint" avec le nom de l'utilisateur.
+%\item[11.] Le système journalise l'échec de la connexion avec le message "Délai d'inactivité atteint" avec le nom de l'utilisateur.
 %	\item[12.] Le système produit une exception avec le même message.
 %	\item[13.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 %\end{itemize}
@@ -404,7 +412,7 @@ L’enchaînement E5 démarre au point 7 du scénario nominal.
 %\begin{itemize}
 %	\item[8.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
 %	\item[9.] Le système déconnecte l'utilisateur.
-%	\item[10.] Le système logge l'échec de la connexion avec le message "Session expirée" avec le nom de l'utilisateur.
+%	\item[10.] Le système journalise l'échec de la connexion avec le message "Session expirée" avec le nom de l'utilisateur.
 %	\item[11.] Le système produit une exception avec le même message.
 %	\item[12.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 %\end{itemize}
@@ -417,13 +425,13 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 			\item[13.a.] Nombre maximal de tentatives de connexions échouées atteint :
 			\begin{itemize}
 				\item[13.a.1.] Le système bloque l'utilisateur.
-				\item[13.a.2.] Le système logge le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+				\item[13.a.2.] Le système journalise le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
 				\item[13.a.3.] Le système produit une exception avec le même message.
 				\item[13.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 			\end{itemize}
 			\item[13.b.] Nombre maximal de tentatives de connexions échouées non atteint :
 			\begin{itemize}
-				\item[13.b.1] Le système logge l'échec de la connexion avec le message "Login ou mot de passe incorrect".
+				\item[13.b.1] Le système journalise l'échec de la connexion avec le message "Login ou mot de passe incorrect".
 				\item[13.b.2] Le système produit une exception avec le même message. en échec.
 			\end{itemize}
 	\end{itemize}
@@ -447,13 +455,112 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 
 \subsubsection{Cas d'utilisation "Déconnexion utilisateur"}
 \textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
+\underline{\underline{Sommaire d’identification}} \\
+\textbf{Titre} : Déconnexion utilisateur\\
+\textbf{Résumé} : Ce cas d’utilisation permet à une application de déconnecter un utilisateur.\\
+\textbf{Acteur} : Application\\	
+\textbf{Responsable} : Papa Latyr Mbodj\\
+\underline{\underline{Description des scénarios}}\\
+\textbf{Précondition(s)}
+\begin{itemize}
+	\item Aucune
+\end{itemize}
+\textbf{Scénario nominal}
+\begin{enumerate}
+	\item Le système supprime le cookie "Se rappeler de moi".
+	\item Le système invalide la session contenue dans la requête courante.
+	\item Le système supprime le cookie contenant l'identificateur de session.
+	\item Le système met à jour l'état de connexion de l'utilisateur.
+	\item Le système journalise la déconnexion de l'utilisateur.
+\end{enumerate}
+%\textbf{Enchainements alternatif(s)}\\
+\textbf{Post-condition(s)}
+\begin{itemize}
+	\item L’utilisateur en question est déconnecté de l'application.
+\end{itemize}
+
 \subsubsection{Cas d'utilisation "Vérification force mot de passe"}
 \textbf{\RIGHTarrow Description textuelle}\\
+\underline{\underline{Sommaire d’identification}} \\
+\textbf{Titre} : Vérification force mot de passe\\
+\textbf{Résumé} : Ce cas d’utilisation permet à une application de vérifier qu'un nouveau mot de passe est fort.\\
+\textbf{Acteur} : Application\\	
+\textbf{Responsable} : Papa Latyr Mbodj\\
+\underline{\underline{Description des scénarios}}\\
+\textbf{Précondition(s)}
+\begin{itemize}
+	\item Aucune
+\end{itemize}
+\textbf{Scénario nominal}
+\begin{enumerate}
+	\item L'application donne le login, l'ancien mot de passe et le nouveau mot de passe.
+	\item Le système s'assure que le nouveau mot de passe n'est pas nul.
+	\item Le système s'assure que le nouveau mot de passe ne correspond pas au login.
+	\item Le système s'assure que le nouveau mot de passe ne contient pas une partie de l'ancien mot de passe (3 caractères).
+	\item Le système compte le nombre de lettres minuscules contenues dans le nouveau mot de passe.
+	\item Le système compte le nombre de lettres majuscules contenues dans le nouveau mot de passe.
+	\item Le système compte le nombre de chiffres contenus dans le nouveau mot de passe.
+	\item Le système compte le nombre de caractères spéciaux contenus dans le nouveau mot de passe.
+	\item Le système évalue la force du mot de passe.
+	\item Le mot de passe est accepté.
+\end{enumerate}
+%\textbf{Enchainements alternatif(s)}\\
+\textbf{Enchainements d’erreur}\\
+\textit{E1 : Nouveau mot de passe nul}\\
+L’enchaînement E1 démarre au point 2 du scénario nominal.
+\begin{itemize}
+	\item[3.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas être nul".
+	\item[4.] Le système produit une exception avec le même message.
+	\item[5.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E2 : Nouveau mot de passe correspondant au login}\\
+L’enchaînement E2 démarre au point 3 du scénario nominal.
+\begin{itemize}
+	\item[4.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas correspondre au login".
+	\item[5.] Le système produit une exception avec le même message.
+	\item[6.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E3 : Nouveau mot de passe contenant une partie de l'ancien mot de passe}\\
+L’enchaînement E3 démarre au point 4 du scénario nominal.
+\begin{itemize}
+	\item[5.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas contenir une partie de l'ancien mot de passe".
+	\item[6.] Le système produit une exception avec le même message.
+	\item[7.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E4 : Mot de passe faible}\\
+L’enchaînement E4 démarre au point 9 du scénario nominal.
+\begin{itemize}
+	\item[10.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe n'est pas long ou non complexe".
+	\item[11.] Le système produit une exception avec le même message.
+	\item[12.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textbf{Post-condition(s)}
+\begin{itemize}
+	\item Le nouveau mot de passe est accepté.
+\end{itemize}
+\underline{\underline{Exigences non fonctionnelles}}
+\begin{itemize}
+	\item L’application doit définir une bonne politique de mots de passe.\\
+\end{itemize}
 \textbf{\RIGHTarrow Diagramme d'activités}\\
+La force du mot de passe est calculé en considérant que la taille minimale d'un mot de passe est de 4 caractères. Et pour que ce mot de passe soit fort, il faudrait qu'il contienne 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 caractère spécial. Sa force est de (1+1+1+1) * 4 (nombre de caractères du mot de passe) ce qui donne 16. La force minimale est ainsi de 16.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\textwidth,height=0.95\textheight]{fig/Verification-force-mot-de-passe-activity-diagram.png}
+	\caption{Diagramme d'activités du cas "Authentification utilisateur"}
+\end{figure}
+
 \subsubsection{États d'un utilisateur}
-
-
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Users-statemachine-diiagram.png}}
+	\end{minipage}
+	\caption{Diagramme d'états-transition d'un utilisateur}
+	\label{fig:7.13}
+\end{figure}
+%TODO: Petite explication
 
 \subsection{Sous-système "Cryptographie"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -466,12 +573,12 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 	\caption{Diagramme de cas d'utilisation du sous-système "Cryptographie"}
 	\label{fig:7.14}
 \end{figure}
-\subsubsection{Cas d'utilisation "Crypter sans clé"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
-\subsubsection{Cas d'utilisation "Hasher sans sel"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
+%\subsubsection{Cas d'utilisation "Crypter sans clé"}
+*%\textbf{\RIGHTarrow Description textuelle}\\
+%\textbf{\RIGHTarrow Diagramme d'activités}\\
+%\subsubsection{Cas d'utilisation "Hasher sans sel"}
+%\textbf{\RIGHTarrow Description textuelle}\\
+%\textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "Encodage"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -498,6 +605,67 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 \end{figure}
 \subsubsection{Cas d'utilisation "Valider donnée"}
 \textbf{\RIGHTarrow Description textuelle}\\
+\underline{\underline{Sommaire d’identification}} \\
+\textbf{Titre} : Valider donnée \\
+\textbf{Résumé} : Ce cas d’utilisation permet à une application d'obtenir à partir d'une valeur donnée .\\
+\textbf{Acteur} : Application\\	
+\textbf{Responsable} : Papa Latyr Mbodj\\
+\underline{\underline{Description des scénarios}}\\
+\textbf{Précondition(s)}
+\begin{itemize}
+	\item Aucune
+\end{itemize}
+\textbf{Scénario nominal}
+\begin{enumerate}
+	\item L'application donne le login, l'ancien mot de passe et le nouveau mot de passe.
+	\item Le système s'assure que le nouveau mot de passe n'est pas nul.
+	\item Le système s'assure que le nouveau mot de passe ne correspond pas au login.
+	\item Le système s'assure que le nouveau mot de passe ne contient pas une partie de l'ancien mot de passe (3 caractères).
+	\item Le système compte le nombre de lettres minuscules contenues dans le nouveau mot de passe.
+	\item Le système compte le nombre de lettres majuscules contenues dans le nouveau mot de passe.
+	\item Le système compte le nombre de chiffres contenus dans le nouveau mot de passe.
+	\item Le système compte le nombre de caractères spéciaux contenus dans le nouveau mot de passe.
+	\item Le système évalue la force du mot de passe.
+	\item Le mot de passe est accepté.
+\end{enumerate}
+%\textbf{Enchainements alternatif(s)}\\
+\textbf{Enchainements d’erreur}\\
+\textit{E1 : Nouveau mot de passe nul}\\
+L’enchaînement E1 démarre au point 2 du scénario nominal.
+\begin{itemize}
+	\item[3.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas être nul".
+	\item[4.] Le système produit une exception avec le même message.
+	\item[5.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E2 : Nouveau mot de passe correspondant au login}\\
+L’enchaînement E2 démarre au point 3 du scénario nominal.
+\begin{itemize}
+	\item[4.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas correspondre au login".
+	\item[5.] Le système produit une exception avec le même message.
+	\item[6.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E3 : Nouveau mot de passe contenant une partie de l'ancien mot de passe}\\
+L’enchaînement E3 démarre au point 4 du scénario nominal.
+\begin{itemize}
+	\item[5.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas contenir une partie de l'ancien mot de passe".
+	\item[6.] Le système produit une exception avec le même message.
+	\item[7.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textit{E4 : Mot de passe faible}\\
+L’enchaînement E4 démarre au point 9 du scénario nominal.
+\begin{itemize}
+	\item[10.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe n'est pas long ou non complexe".
+	\item[11.] Le système produit une exception avec le même message.
+	\item[12.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
+\end{itemize}
+\textbf{Post-condition(s)}
+\begin{itemize}
+	\item Le nouveau mot de passe est accepté.
+\end{itemize}
+\underline{\underline{Exigences non fonctionnelles}}
+\begin{itemize}
+	\item L’application doit définir une bonne politique de mots de passe.\\
+\end{itemize}
 \textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "HTTP"}
@@ -514,9 +682,9 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 \subsubsection{Cas d'utilisation "Ajouter cookie"}
 \textbf{\RIGHTarrow Description textuelle}\\
 \textbf{\RIGHTarrow Diagramme d'activités}\\
-\subsubsection{Cas d'utilisation "Authentification requête HTTP en  Digest"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
+%\subsubsection{Cas d'utilisation "Authentification requête HTTP en  Digest"}
+%\textbf{\RIGHTarrow Description textuelle}\\
+%\textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "Interpréteurs"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -524,7 +692,7 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 	\centering
 	\begin{minipage}{12cm}
 		\centering
-		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Interpreteurs-use-case-diagram.png}}
+		{\includegraphics[height=0.3\textheight, width=1\textwidth]{fig/Interpreteurs-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du sous-système "Interpreteurs"}
 	\label{fig:7.18}
@@ -554,6 +722,105 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 	\caption{Diagramme de cas d'utilisation du sous-système "Gestion de la journalisation et de la surveillance insuffisantes"}
 	\label{fig:7.20}
 \end{figure}
-\subsubsection{Cas d'utilisation "Détecter composants vulnérables"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
+%\subsubsection{Cas d'utilisation "Détecter composants vulnérables"}
+%\textbf{\RIGHTarrow Description textuelle}\\
+%\textbf{\RIGHTarrow Diagramme d'activités}\\
+\subsection{Diagramme de classes}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Analyse-Class-Diagram.png}}
+	\end{minipage}
+	\caption{Diagramme de classes d'analyse dy système}
+	\label{fig:7.20}
+\end{figure}
+
+\section{Conception}
+\subsection{Architecture Technique}
+L’architecture désigne la structure générale inhérente à un système informatique, l'organisation des différents éléments du système et des relations entre les éléments. Cette structure fait suite à un ensemble de décisions stratégiques prises durant la conception de tout ou une partie du système.\\
+L´architecture technique est une vue tournée vers les différents éléments matériels et l'infrastructure dans laquelle le système informatique s'inscrit, les liaisons physiques et logiques entre ces éléments et les informations qui y circulent.https://fr.wikipedia.org/wiki/Architecture_(informatique)\\
+L'architecture d'une application Web ou Mobile joue aussi un rôle très important dans la sécurité de ces applications. En effet, une bonne architecture représente déjà une bonne défense. Owasp pr
+L’architecture du système est une architecture de type 3-tiers :
+Un serveur d’application gérant la logique métier de l’application.
+Un serveur web qui gère la communication entre le serveur d’application et le navigateur.
+Un serveur de base de données gérant la base de données de l’application.
+Ces trois composants seront installés dans des machines virtuelles différentes qui représentent les services du cloud.
+Un pare-feu1est mis en place pour filtrer les connexions entrantes et sortantes. Les services Web sont utilisés pour intégrer d’autres applications avec le système.
+Les utilisateurs finaux accèdent au système par le biais d’un navigateur.
+\subsection{Diagramme de déploiement}
+
+\subsection{La bibliothèque ESAPI}
+Allowing for language-specific differences, all OWASP ESAPI versions have the
+same basic design:
+ There is a set of security control interfaces. There is no application logic
+contained in these interfaces. They define for example types of parameters
+that are passed to types of security controls. There is no proprietary
+information or logic contained in these interfaces.
+ There is a reference implementation for each security control. There is
+application logic contained in these classes, i.e. contained in these interface
+implementations. However, the logic is not organization-specific and the
+logic is not application-specific. There is no proprietary information or
+logic contained in these reference implementation classes. An example:
+string-based input validation.
+ There are optionally your own implementations for each security control.
+There may be application logic contained in these classes which may be
+developed by or for your organization. The logic may be organizationspecific
+and/or application-specific. There may be proprietary
+information or logic contained in these classes which may be developed
+by or for your organization. An example: enterprise authentication.
+There are three common ways to write your own implementations for each 
+Après avoir fini la phase d'analyse, nous passons maintenant à la phase de conception
+Why you shouldn’t build your own security controls
+Writing security controls is time-consuming and extremely prone to mistakes. MITRE’s CWE project lists
+over 600 different types of security mistakes that developers can make, and most of them are not at all
+obvious. Most people recognize that developers should not build their own encryption mechanisms, but
+the same argument applies to all the security controls. 
+Why you shouldn’t use security libraries directly
+There are plenty of libraries and frameworks out there that provide various security functions – Log4j,
+Java Cryptographic Extension (JCE), JAAS, Acegi, and dozens more. Some of them are even pretty good
+at what they do. But there are several reasons why enterprise developers should not use them directly.
+Most importantly, these libraries are overpowerful. Most developers only need a very limited set of
+security functions and don’t need a complex interface. Further, many of these libraries contain security
+holes themselves – such as encoding libraries that don’t canonicalize or authentication libraries that
+don’t use strong cryptographic functions. Because many security controls use features from other
+controls, using security libraries that aren’t integrated together is a mistake.
+Why you shouldn’t rely on security in the platform or framework
+Unfortunately, the web application platforms and frameworks do not protect against many well-known
+attacks. For example, consider header injection – allowing carriage return (CR) and line-feed (LF)
+characters to be used in HTTP headers. This injection changes the way these HTTP messages are parsed,
+allowing the attacker to affect how they are interpreted. This type of injection can allow attackers to
+download malicious files to the user’s desktop among other serious impacts.
+The platforms could protect against this attack which violates the HTTP specification, but many do not.
+Instead, your application developers must know to carefully validate and filter user data before using it
+in HTTP headers.
+The platforms and frameworks are a shifting environment. Your code may be protected by something in
+your infrastructure today, but that environment may change tomorrow. The best approach is to build
+your applications so that they provide their own protection. If this results in some overlapping
+protection, also known as defense-in-depth, that’s a good outcome. 
+Interfaces
+ESAPI is primarily a set of interfaces designed to make security easy to use. These interfaces are usable
+by anyone who cares to implement them for their enterprise. By keeping the interfaces separate, we are
+trying to encourage organizations to create their own implementations.
+However, we didn’t stop there. We built a complete set of reference implementations. The reference
+implementations are complete and well tested, although there are a few limitations. In general, the
+reference implementation is designed to run without requiring any other infrastructure, such as
+database or LDAP servers.
+The Authenticator and AccessController implementations in particular work of simple text file policies,
+which may not be appropriate for enterprise applications. However, the rest of the reference
+implementation is scalable and appropriate for enterprise applications. You will likely want to hook up
+the Logger to your logging infrastructure. 
+Assurance
+It’s absolutely critical to get your applications security controls right. An error could expose many
+applications. Confidence in your security controls comes from evidence like design documentation, code
+review, security testing, and other analysis. 
+The ESAPI project involves a world-class team of software security experts from vendors and industry.
+The reference implementation is small and well structured – about 5,000 lines of well-documented and
+extensively reviewed code. The code is clean in all the major static analysis tools, including FindBugs,
+PMD, Ounce, and Fortify. The project also includes about 600 test cases that test all aspects of the
+security mechanisms. 
+
+\subsubsection{Architecture fonctionnelle}
+\subsubsection{Architecture Fonctionnelle détaillée}
+
+\subsection{Diagramme de classes de conception}
