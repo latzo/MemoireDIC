@@ -1,3 +1,43 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{cours-corenthin}
+Alex Corenthin.
+\newblock Cours de sécurité des systèmes d'information - partie 1.
+\newblock page~5, 2018.
+
+\bibitem{monde-cryptage}
+Bienvenue dans le monde du cryptage.
+\newblock \url{http://wallu.pagesperso-orange.fr/pag-cryptage.htm}.
+
+\bibitem{xebia-hashage}
+Introduction à la sécurisation des applications web.
+\newblock
+  \url{https://blog.xebia.fr/2010/12/10/introduction-a-la-securisation-des-applications-web/}.
+
+\bibitem{signature-wikipedia}
+Signature numérique.
+\newblock \url{https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique}.
+
+\bibitem{whatsapp-usage}
+Nombre d'utilisateurs actifs mensuels de whatsapp dans le monde d'avril 2013 à
+  décembre 2017 (en millions).
+\newblock
+  \url{https://fr.statista.com/statistiques/564832/nombre-d-utilisateurs-actifs-mensuels-de-whatsapp}.
+
+\bibitem{consumer-barometer}
+Baromètre utilisateurs.
+\newblock
+  \url{https://www.consumerbarometer.com/en/trending/?countryCode=US&category=TRN-NOFILTER-ALL}.
+
+\bibitem{hacker-handbook}
+Marcus~Pinto Dafydd~Stuttard.
+\newblock {\em The Web Application Hacker’s Handbook: Finding and Exploiting
+  Security Flaws, Second Edition}.
+\newblock Wiley Inc., second edition binder edition.
+
+\bibitem{cours-crypto-mendy}
+Gervais Mendy.
+\newblock Ingénierie de la cryptographie.
+\newblock page~5, 2018.
 
 \end{thebibliography}

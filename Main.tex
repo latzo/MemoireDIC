@@ -29,6 +29,7 @@
 %
 %
 % Adding metadata:
+
 \usepackage{gensymb}
 \usepackage{datetime}
 \usepackage{ifpdf}
@@ -317,7 +318,12 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 
 
 %Added packages latyr nee
+\usepackage{nomencl}
+\makenomenclature
 \newcommand{\itemcheck}{\item[\checkmark]}
+\newcommand{\itemtirait}{\item[$-$]}
+%\usepackage{biblatex}
+\usepackage{natbib}
 %pour les formess rectangles et autres
 \usepackage{tikz}
 %pour les tables of contents in each part
@@ -347,6 +353,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	% 
 	\frontmatter
 	\pagenumbering{roman}
+	\dominitoc% Initialization
 	%
 	\input{frontmatter/title}
 	
@@ -370,7 +377,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\input{frontmatter/abstract}
 	
 	%
-	%\input{frontmatter/nomenclature}
+	\input{frontmatter/nomenclature}
 	
 	
 	%
@@ -431,6 +438,6 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	%\printindex
 	%  
 %	\part*{Bibliographie}
-%	\bibliographystyle{unsrt}
-%	\bibliography{bibliography.bib}
+	\bibliographystyle{unsrt}
+	\bibliography{bibliography}
 \end{document}

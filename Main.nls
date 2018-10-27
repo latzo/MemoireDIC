@@ -1,0 +1,10 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.1}
+		\nompageref{7}
+  \item [{OWASP}]\begingroup Open Web Application Security Project\nomeqref {1.1}
+		\nompageref{10}
+
+\end{thenomenclature}

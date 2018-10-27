@@ -1,108 +1,186 @@
-\chapter{Le Sujet}
+\section{Le Sujet}
 %%\label{chap:intro}
 
 %\section{Présentation}
 %Le sujet qui nous a été soumis s'intitule "Etude et mise en place d'une application Web JEE et d'une application mobile Android conformes Owasp".  Il s'agit donc d'étudier, par rapport à Owasp\footnote{Open Web Application Security Project} comment s'ateler à produire des applications Web JEE et mobile Android %
 
-\section{Terminologie}
+\subsection{Terminologie}
 
-\subsection{Sécurité informatique}
+\subsubsection{Sécurité informatique}
+La sécurité peut être définie comme étant un état, une situation dans laquelle quelqu’un ou quelque chose n’est exposé à aucun danger, à aucun risque d’agression, de détérioration ou encore par le long processus visant à atteindre cet état.\cite{cours-corenthin}\\
+Lorsqu’on parle de sécurité dans le domaine des technologies de l’information et de la communication, on fait très souvent allusion à la sécurité de l’information. La sécurité de l'information, en anglais Information Security abrégé Infosec consiste en la mise en place d’un ensemble de stratégies pour gérer les processus, les outils et les politiques nécessaires pour prévenir, détecter, documenter et contrer les menaces à l'information. La sécurité de l’information recouvre donc toutes les techniques permettant d’assurer la protection de l’information.  La sécurité de l’information se fonde sur 3 principes fondamentaux : 
+\begin{itemize}
+	\itemcheck la confidentialité : c’est le fait d’assurer que l’information ne puisse être accessible qu’à ceux qui ont l’autorisation de la consulter. Cela sous-entend le fait de rendre inintelligible cette information aux personnes non autorisées ; 
+	\itemcheck l’intégrité : assurer que l’information n’est pas modifiable par un tiers non autorisé. Elle consiste à certifier que les données n’ont pas été détruites ou altérées tant de façon intentionnelle qu’accidentelle ; 
+	\itemcheck la disponibilité : assurer que l’information est accessible en temps voulu par ceux qui en ont l’autorisation. Ne pas pouvoir accéder à une information en temps voulu est semblable à la non-possession de celle-ci.
+\end{itemize}
+Comme principes supplémentaires, nous notons :
+\begin{itemize}
+	\itemcheck l’authentification : elle consiste à assurer l’identité d’un tiers et permet de garantir qu’un tiers est bien celui qu’il prétend être ;
+	\itemcheck la non-répudiation : le fait de ne pas pouvoir nier une action faite sur le système.
+\end{itemize}
 
-La sécurité peut être définie comme étant un état, une situation dans laquelle quelqu’un ou quelque chose n’est exposé à aucun danger, à aucun risque d’agression, de détérioration ou encore par le long processus visant à atteindre cet état. \\
-Lorsqu’on parle de sécurité dans le domaine des technologies de l’information et de la communication, on fait très souvent allusion à la sécurité de l’information. La sécurité de l'information ou encore sécurité informatique, en anglais Information Security abrégé Infosec consiste en la mise en place d’un ensemble de stratégies pour gérer les processus, les outils et les politiques nécessaires pour prévenir, détecter, documenter et contrer les menaces à l'information. La sécurité de l’information recouvre donc toutes les techniques permettant d’assurer la protection de l’information.  La sécurité de l’information se fonde sur 3 principes fondamentaux : \\
--	la confidentialité : c’est le fait d’assurer que l’information ne puisse être accessible qu’à ceux qui ont l’autorisation de la consulter. Cela sous-entend le fait de rendre inintelligible cette information aux personnes non autorisées; \\
--	l’intégrité : assurer que l’information n’est pas modifiable par un tiers non autorisé. Elle consiste à certifier que les données n’ont pas été détruites ou altérées tant de façon intentionnelle qu’accidentelle; \\
--	la disponibilité : assurer que l’information est accessible en temps voulu par ceux qui en ont l’autorisation. Ne pas pouvoir accéder à une information en temps voulu est semblable à la non-possession de celle-ci.\\
-Comme principes supplémentaires, nous notons:\\
--	l’authentification : elle consiste à assurer l’identité d’un tiers et permet de garantir qu’un tiers est bien celui qu’il prétend être ;\\
--	la non-répudiation : le fait de ne pas pouvoir nier une action faite sur le système.
 
-\subsection{Cryptographie}
+\subsubsection{Cryptographie}
+La sécurité de l'information est un domaine pluridisciplinaire. En effet, pour arriver à ses buts, elle a, tout au cours de son évolution, utilisé, entre autres, la cryptographie. La cryptographie peut être définie comme un art et une science permettant de concevoir des techniques pour garder le secret des messages transmis. Voici les problèmes que doit résoudre la cryptographie : 
+\begin{itemize}
+	\itemcheck la confidentialité ;
+	\itemcheck l’intégrité ; 
+	\itemcheck l’authentification.
+\end{itemize}
+On voit ainsi que la sécurité de l'information et la cryptographie partagent des objectifs similaires. Et c’est pour cette raison que tout au long de l’histoire, elle a été utilisée dans le domaine de la sécurité informatique. De même, les évolutions dans le domaine de la sécurité informatique ont souvent été rendus possibles grâce aux avancées de la cryptographie.
+On distingue :
+\begin{itemize}
+	\itemtirait la cryptographie classique qui décrit la période d’avant les ordinateurs. Elle traite des systèmes reposant sur les lettres et les caractères d’une langue naturelle. Dans cette famille, on retrouve le chiffrement par substitution qui consiste, à remplacer, sans en bouleverser l’ordre les symboles d’un texte clair par d’autres symboles et le chiffrement par transposition qui repose sur le bouleversement de l’ordre des symboles du message clair. Les techniques de chiffrement les plus connues dans cette famille sont le chiffrement de César et le chiffrement de Vigenère ; 
+	\itemtirait la cryptographie moderne qui utilise la puissance de calcul des ordinateurs pour affiner ces techniques de chiffrement. Dans cette famille, nous avons le chiffrement symétrique qui utilise une même clé pour le chiffrement et le déchiffrement (DES en est la technique la plus connue) et le chiffrement asymétrique qui utilise des clés différentes pour le chiffrement et le déchiffrement (RSA est l’algorithme de chiffrement asymétrique le plus utilisé).
+\end{itemize}
+Il existe de nombreuses fonctions de cryptographie. Il y a notamment :
+\begin{itemize}
+	\itemtirait le cryptage ou chiffrement \cite{monde-cryptage} : \\  
+	Les données, souvent désignées comme texte en clair, sont chiffrées à l'aide d'un algorithme et d'une clé de chiffrement. Ce processus génère un texte chiffré, ou cryptogramme, qui ne peut être affiché dans sa forme d'origine que s'il est déchiffré à l'aide de la bonne clé.\\
+	Le déchiffrement est simplement le contraire du chiffrement, suivant les mêmes étapes mais dans l'ordre inverse de l'application des clés. Les algorithmes de chiffrement actuels relèvent de deux catégories : symétriques et asymétriques.\\
+	Les fonctions de chiffrement symétrique utilisent la même clé pour le chiffrement et le déchiffrement d'un message. Le chiffrement à clé symétrique est beaucoup plus rapide que son homologue asymétrique, mais l'expéditeur doit échanger la clé utilisée pour chiffrer les données avec le destinataire pour que ce dernier puisse les déchiffrer.\\
+	\begin{comment}
+		Le plus couramment utilisé est AES, créé à l'origine pour protéger les informations confidentielles du gouvernement des Etats-Unis.
+		Les fonctions de chiffrement asymétriques sont généralement utilisées pour les besoins suivants :
+		\begin{itemize}
+		\itemcheck l'échange de clé secrètes dans les chiffrements symétriques ;
+		\itemcheck les protocoles sécurisés comme
+		\itemcheck la construction de jetons : comme les jetons « remember me ».
+		\end{itemize}
+	\end{comment}
+	Les fonctions de chiffrement asymétrique utilisent deux clés différentes mais mathématiquement liées, une publique et l'autre privée. La clé publique peut être partagée avec quiconque, tandis que la clé privée doit rester secrète. Le texte en clair est chiffré avec la clé privée alors que la clé publique est utilisée pour le déchiffrement.\\
+	Dans la mesure où il y a obligation de distribuer et de gérer en toute sécurité de grands nombres de clés, les processus cryptographiques utilisent généralement un algorithme symétrique pour chiffrer efficacement les données, mais un algorithme asymétrique pour l'échange des clès.
+	\itemtirait le hashage \cite{xebia-hashage}: \\
+	Les fonctions de hashage permettent de calculer une empreinte (appelée aussi hash) d’une donnée informatique. Les fonctions de hashage implémentent quelques propriétés que nous allons définir maintenant :
+	\begin{itemize}
+		\itemtirait le grand nombre de hash possibles ;
+		\itemtirait la taille de l’empreinte est fixe, quelle que soit la taille de la donnée hachée ;
+		\itemtirait L’empreinte d’un mot de passe de huit caractères aura donc la même taille que l’empreinte d’un fichier de plusieurs centaines de méga-octets ;
+		\itemtirait un changement infime dans la donnée hachée entraîne un changement important dans l’empreinte correspondante (ce qui rend une recherche inverse par dichotomie impossible) ;
+		\itemtirait le calcul d’une empreinte est très rapide ;
+		\itemtirait il n’est pas possible, en connaissant l’empreinte et la fonction de hashage utilisée, de calculer la donnée d’origine.
+	\end{itemize}
+	Le cassage d’une donnée hachée se fait le plus souvent par l’utilisation de Rainbow Tables\footnote{Ensemble de hash précalculées en hashant des données courantes avec un algorithme de hashage}.\\
+	Le salage du hash est une technique efficace permettant de se prémunir de ces attaques. Elle consiste à ajouter à la donnée à hasher un sel, qui peut être une valeur arbitraire, et qui rendra donc les attaques par Rainbow Table inneficaces : \\
+	\begin{equation}
+	empreinte = hashage(mot-de-passe + sel)
+	\end{equation}
+	Il n’est pas nécessaire que le sel soit une information secrète, son utilité étant de rendre les dictionnaires inversés inefficaces.
+	Ces fonctions sont généralement utilisées pour les besoins suivants :
+	\begin{itemize}
+		\itemcheck la vérification de l’intégrité d’une donnée : dans ce cas, le hash (généralement appelée somme de contrôle ou checksum) est utilisé pour s’assurer qu’une donnée informatique n’a pas été corrompue ;
+		\itemcheck le stockage des mots de passes : le hashage du mot de passe permet d’éviter que ce dernier soit stocké en clair. Nous reviendrons sur ce cas d’utilisation dans la suite de cet article ;
+		\itemcheck la construction de jetons : comme les jetons « remember me ».
+	\end{itemize}
+	\begin{comment}
+	Il existe différents algorithmes de hashage :
+	MD5 (Message Digest 5) : probablement le plus connu, il est souvent utilisé pour les sommes de contrôle ou le stockage de mot de passes (notamment dans sa version salée dans diverses distributions Linux). Son empreinte est représentée sur 128 bits. Actuellement, le MD5 est mis de côté au profit des algorithmes SHA1 et SHA256 réputés plus sûrs.
+	SHA1 (Secure Hash Algorithm) : cette fonction de hashage crée dese hash sur 160 bits. Cet algorithme est lui aussi progressivement remplacé par le SHA256, beaucoup moins facile a casser grâce à son empreinte sur 256 bits.
+	\end{comment}
+	\begin{comment}
+		peut se faire par brute force\footnote{Tests de l'ensemble des combinaisons possibles} si l’on a beaucoup de puissance de calcul et de temps, par dictionnaire (on parcourt successivement les mots de passe les plus courants), en utilisant des dictionnaires\footnote{Ensemble de hash précalculées avec un algorithme de hashage} qui permettent de retrouver le mot de passe à partir du hash ou encore plus efficacement 
+		Cette dernière technique reste la plus efficace pour retrouver un mot de passe faible, à condition d’avoir accès au hash d’origine. On peut l’imaginer comme une grosse HashMap dont la clé serait l’empreinte et la valeur la donnée d’origine. Les mots de passe les plus simples ont donc de grandes chances de s’y retrouver.
+	\end{comment}
+	\itemtirait la signature \cite{signature-wikipedia} : \\
+	Les fonctions de signature numérique, par analogie avec la signature manuscrite d’un document papier permettent de s'assurer qu'une donnée provient bien d'une entité donnée et qu'elle n'a pas été modifiée.\\
+	Les fonctions de signature numérique utilisent surtout des algorithmes à clé publique, pour lesquels deux clés différentes (privée et publique) sont nécessaires. Le signataire utilise sa clé privée pour chiffrer l'empreinte numérique du message à transmettre, préalablement calculée à l'aide d'une fonction de hashage, tandis que le destinataire utilise la clé publique du signataire pour déchiffrer l'empreinte du message qu'il compare avec l'empreinte obtenue après hashage du même message en clair.\\ 
+	La signature numérique correspond ainsi à une marque personnelle apposée à un document électronique par l'utilisation d'un procédé technologique : généralement la cryptographie asymétrique. La signature numérique équivaut à une signature manuscrite, en ce sens qu'elle offre une preuve de l'identité du signataire du message ou du document électronique reçu.\\ 
+	Une signature numérique permet en fait d'attribuer trois qualités à un document électronique : l'authentification, l'intégrité et la non-répudiation des données. En effet, une vérification réussie de la signature numérique permet au destinataire de confirmer l'identité de l'expéditeur (authentification), de s'assurer que le document reçu est identique au document expédié (intégrité des données) et d'empêcher l'expéditeur de répudier le document, c'est-à-dire de nier l'avoir transmis (non-répudiation).  
+\end{itemize}
 
-La sécurité informatique est un domaine pluridisciplinaire. En effet, pour arriver à ses buts, elle a, tout au cours de son évolution, utilisé, entre autres, la cryptographie. La cryptographie peut être définie comme un art et une science permettant de concevoir des techniques pour garder le secret des messages transmis. Voici les problèmes que doit résoudre la cryptographie : \\
--	la confidentialité ; \\
--	l’intégrité ; \\
--	l’authentification. \\
-On voit ainsi que la sécurité informatique et la cryptographie partagent des objectifs similaires. Et c’est pour cette raison que tout au long de l’histoire, elle a été utilisée dans le domaine de la sécurité informatique. De même, les évolutions dans le domaine de la sécurité informatique ont souvent été rendus possibles grâce aux avancées de la cryptographie.
-On distingue :\\
--	la cryptographie classique qui décrit la période d’avant les ordinateurs. Elle traite des systèmes reposant sur les lettres et les caractères d’une langue naturelle. Dans cette famille, on retrouve le chiffrement par substitution qui consiste, à remplacer, sans en bouleverser l’ordre les symboles d’un texte clair par d’autres symboles et le chiffrement par transposition qui repose sur le bouleversement de l’ordre des symboles du message clair. Les techniques de chiffrement les plus connues dans cette famille sont le chiffrement de César et le chiffrement de Vigenère ; \\
--	 la cryptographie moderne qui utilise la puissance de calcul des ordinateurs pour affiner ces techniques de chiffrement. Dans cette famille, nous avons le chiffrement symétrique qui utilise une même clé pour le chiffrement et le déchiffrement; DES en est la technique la plus connue et le chiffrement asymétrique qui utilise des clés différentes pour le chiffrement et le déchiffrement; RSA est l’algorithme de chiffrement asymétrique le plus utilisé.
-
-\section{Contexte}
-%\subsection{Evolution des applications Web et Mobiles}
-Aux premiers jours de l’internet, le World Wide Web\footnote{Système reliant des ressources hypertextes sur Internet grâce au protocole Http} consistait en de simples pages web, des pages d’information constituées de ressources statistiques. Le flot d'informations était à sens unique, du serveur au navigateur. L’authentification des utilisateurs n’était souvent pas nécessaire car les mêmes informations étaient affichées à tous les utilisateurs. Les risques de sécurité découlaient exclusivement de l’hébergement des sites web, c’est-à-dire au niveau des serveurs web. En cas d’attaque, il n’y avait que peu de risques car l’information au niveau des serveurs était déjà accessible au grand public. Les attaques consistaient donc le plus souvent à des démaquillages des sites web.\\
+\subsection{Contexte}
+\subsubsection{Evolution des applications Web et Mobiles}
+Aux premiers jours de l’internet, le World Wide Web\footnote{Système reliant des ressources hypertextes sur Internet grâce au protocole Http\footnote{L'Hypertext Transfer Protocol, plus connu sous l'abréviation HTTP, littéralement « protocole de transfert hypertexte » est un protocole de communication client-serveur développé pour le World Wide Web}} \nomenclature{HTTP}{Hypertext Transfer Protocol} consistait en de simples pages web, des pages d’information constituées de ressources statistiques. Le flot d'informations était à sens unique, du serveur au navigateur. L’authentification des utilisateurs n’était souvent pas nécessaire car les mêmes informations étaient affichées à tous les utilisateurs. Les risques de sécurité découlaient exclusivement de l’hébergement des sites web, c’est-à-dire au niveau des serveurs web. En cas d’attaque, il n’y avait que peu de risques car l’information au niveau des serveurs était déjà accessible au grand public. Les attaques consistaient donc le plus souvent à des démaquillages des sites web.\\
 De nos jours, le World Wide Web est très différent de ce qu’il était à ses débuts. De nouveaux sites web plus poussés apparaissent : les applications Web. Ils ne se limitent plus à l’affichage de ressources statistiques. La majorité des sites web de nos jours, sont en réalité des applications web. Une application web est un site Web qui permet à ses utilisateurs de réaliser des tâches spécifiques. Le flux d’informations n’est plus à sens unique mais plutôt bidirectionnel entre le serveur et le client (navigateur, téléphone mobile, autre application).\\
-Le contenu présenté aux utilisateurs est spécifique à chaque utilisateur en fonction de préférences préalablement enregistrées par ce dernier ou encore d’autres paramètres de l’application. Les applications web peuvent assurer pratiquement toutes sortes de fonctionnalités. Voici quelques types d’applications que l’on retrouve très souvent :\\
-- Réseaux sociaux : Facebook, Twitter, Google plus entre autres;\\
-- Vente en ligne : Amazon, Ebay;\\
-- Banque en ligne : Cbao, Citibank;\\
-- Mailing : Yahoo, Gmail\\
-En plus des applications web disponibles publiquement, nous avons les applications web internes aux entreprises qui soutiennent les entreprises dans l’accomplissement de tâches spécifiques : \\
-- applications de gestion de ressources humaines et de la paie;\\
-- applications de collaborations;\\
-- applications de messagerie interne;\\
-- applications sur mesure propres au fonctionnement de l’entreprise.\\
+Le contenu présenté aux utilisateurs est spécifique à chaque utilisateur en fonction de préférences préalablement enregistrées par ce dernier ou encore d’autres paramètres de l’application. Les applications web peuvent assurer pratiquement toutes sortes de fonctionnalités. Voici quelques types d’applications que l’on retrouve très souvent :
+\begin{itemize}
+	\itemtirait Réseaux sociaux : Facebook, Twitter, Google plus entre autres ;
+	\itemtirait Vente en ligne : Amazon, Ebay ;
+	\itemtirait Banque en ligne : Cbao, Citibank ;
+	\itemtirait Mailing : Yahoo, Gmail.
+\end{itemize}
+En plus des applications web disponibles publiquement, nous avons les applications web internes aux entreprises qui soutiennent les entreprises dans l’accomplissement de tâches spécifiques :
+\begin{itemize}
+	\itemtirait applications de gestion de ressources humaines et de la paie ;
+	\itemtirait applications de collaborations ;
+	\itemtirait applications de messagerie interne ;
+	\itemtirait applications sur mesure propres au fonctionnement de l’entreprise.
+\end{itemize}
+Cette évolution très rapide des applications Web s'explique par plusieurs facteurs :
+\begin{itemize}
+	\itemcheck HTTP (HyperText Transfer Protocol), le principal protocole de communication utilisé par le Web est assez simple. Il permet également au serveur de communiquer avec tous les clients sans avoir à maintenir une connexion ouverte à chaque utilisateur grâce au paradigme requête/réponse ;
+	\itemcheck Chaque utilisateur Web a déjà un navigateur installé sur son ordinateur et appareil mobile. Les applications Web se déploient une seule fois au niveau du serveur évitant ainsi de distribuer et de gérer séparément chaque logiciel client, comme ce fut le cas pour les applications pré-web. La maintenance est simple et changements faits ne nécessitent qu'un seul redéploiement au niveau du serveur et ont effet immédiat sur tous les clients ;
+	\itemcheck Les navigateurs sont devenus aujourd'hui hautement sophistiquées permettant ainsi une très bonne expérience utilisateur ;
+	\itemcheck Les technologies de base et les langages utilisés pour développer des applications web sont relativement simples. Un large éventail de plates-formes et d'outils de développement sont disponible pour faciliter le développement d'applications puissantes.
+\end{itemize}
+Toutes ces raisons ont fait que les applications Web sont devenus des outils incontournables de nos quotidiens aussi bien pour des raisons personnelles que professionnelles.\\
 Parallèlement, avec le développement fulgurant de l'industrie mobile au début des années 2000, les téléphones mobiles ne sont plus de vulgaires appareils dont l'utilité est limitée à la communication. Désormais, ils proposent des fonctionnalités plus poussées grâce à des systèmes d'exploitation embarqués ; nous avons notamment Android de Google et Ios de Apple. Ces systèmes d'exploitation mobiles font des appareils mobiles des mini ordinateurs offrant des fonctionnalités similaires à celles des ordinateurs. A partir de ce moment, ce fut l'explosion des applications mobiles. Une application mobile ou encore de façon plus simple une App, est un type de logiciel conçu pour fonctionner sur un appareil mobile tel un smartphone, une tablette ou encore un assistant personnel. \\
+\begin{comment}
 Il existe principalement trois types d'applications mobiles :\\
 - Native : applications mobiles spécifiques systèmes d'exploitation mobile Ios, Android ou Windows Phone;\\
 - Hybride : applications mobiles disponibles à la fois pour toutes les plateformes;\\
 - Web : Version responsive\footnote{Le Responsive Web Design (RWD), ou conception web adaptative, regroupe une série de techniques de conception graphique et de développement permettant de créer un site qui pourra s'auto-adapter en fonction de la taille d'un écran.} utilisant des navigateurs web embarqués.\\
-Les applications mobiles permettent de mettre à la disposition des utilisateurs des services similaires à ceux accédés à travers un ordinateur personnel. Ainsi,leurs champs d'application sont infinis et similaires à ceux des applications Web et même parfois plus poussés :\\
-- Paiement de transactions;\\
-- Consultation médicale;\\
-- Applications de sauvegarde de mots de passe.\\
-En plus, les spécificités techniques d’une application mobile lui confèrent de nombreux avantages par rapport aux applications Web :\\
-- l'utilisation est plus simple et plus intuitive; \\
-- l’exécution est plus rapide : les éléments d’interface n’ont pas besoin d’être téléchargés depuis un serveur; \\
-- l’accès aux données de l’utilisateur est plus facile; \\
-- certaines applications mobiles peuvent même fonctionner hors ligne.\\
-Du fait des nombreux avantages des applications mobiles et surtout de leur simple accessibilité, les applications sont devenues très prisées et sont utilisées quotidiennement par des milliards d'utilisateurs	. Il suffit de voir le nombre d'utilisateurs d'une application telle que WhatsApp qui, en 2017 [W1], était utilisée par plus d'un milliard de personnes quotidiennement, pour s'en convaincre. Aujourd'hui, il existe plusieurs plateformes proposant des applications mobiles en téléchargement : on peut citer à titre d'exemple le Play Store de Google et l'Apple App Store de Apple. Les entreprises se sont attaquées massivement à ce marché et il existe aujourd'hui des milliards d'application mobiles. Depuis 2017, plus de la moitié de la population mondiale utilise désormais un smartphone. [W1 : https://www.lauyan.com/fr/responsive-webdesign-faq.html]
+\end{comment}
+Les applications mobiles permettent de mettre à la disposition des utilisateurs des services similaires à ceux accédés à travers un ordinateur personnel. Ainsi,leurs champs d'application sont infinis et similaires à ceux des applications Web et même parfois plus poussés :
+\begin{itemize}
+	\itemtirait Paiement de transactions ;
+	\itemtirait Consultation médicale ;
+	\itemtirait Applications de sauvegarde de mots de passe.
+\end{itemize}
+En plus, les spécificités techniques d’une application mobile lui confèrent de nombreux avantages par rapport aux applications Web :
+\begin{itemize}
+	\itemcheck l'utilisation est plus simple et plus intuitive ;
+	\itemcheck l’exécution est plus rapide : les éléments d’interface n’ont pas besoin d’être téléchargés depuis un serveur ;
+	\itemcheck l’accès aux données de l’utilisateur est plus facile ; 
+	\itemcheck le fonctionnement en mode hors ligne est possible.
+\end{itemize}
+Du fait des nombreux avantages des applications mobiles et surtout de leur simple accessibilité, les applications sont devenues très prisées et sont utilisées quotidiennement par des milliards d'utilisateurs. Il suffit de voir le nombre d'utilisateurs d'une application telle que WhatsApp qui, en 2017, était utilisée par plus d'un milliard de personnes mensuellement, pour s'en convaincre \cite{whatsapp-usage}. Aujourd'hui, il existe plusieurs plateformes proposant des applications mobiles en téléchargement : on peut citer à titre d'exemple le Play Store de Google et l'Apple App Store de Apple. Les entreprises se sont attaquées massivement à ce marché et il existe aujourd'hui des milliards d'application mobiles. Depuis 2017, plus de la moitié de la population mondiale utilise désormais un smartphone et plus de la moitié du trafic internet mondial s’effectue désormais à partir de téléphones mobiles.\cite{consumer-barometer}\\
 Ces applications mobiles utilisent soit des navigateurs embarqués, soit des APIS exposées par une application web. Les fonctions et les données manipulées par les applications mobiles sont généralement les mêmes que celles manipulées par les applications Web. De même, presque toutes les applications Web sont disponibles en version mobile.\\
-Les applications Web et mobiles manipulent aujourd'hui des données hautement sensibles et fournissent des informations très confidentielles. Elles prennent en charge des fonctionnalités très délicates telles que les transactions financières ; il y a de cela quelques années, lorsqu’on voulait faire une transaction financière, il fallait aller à la banque et un agent le faisait pour vous alors qu’aujourd’hui, avec ces applications web, il est possible de faire ces transactions soit même en ligne en fournissant certaines informations. Ceci étant, si un attaquant arrivait à compromettre ce genre d’applications par exemple, il lui serait facile de faire des transactions frauduleuses et vider votre compte bancaire. Qu’un individu malintentionné arrive à compromettre ce genre d’applications représenterait de gros risques à la fois pour les propriétaires de ces applications dont le business repose essentiellement sur ces dernières mais aussi pour les utilisateurs qui auront fourni des informations très sensibles (mots de passe, numéros de carte de crédit entre autres). \\
+Les applications Web et mobiles manipulent aujourd'hui des données hautement sensibles et fournissent des informations très confidentielles. Elles prennent en charge des fonctionnalités très délicates telles que les transactions financières.
+\begin{comment}
+; il y a de cela quelques années, lorsqu’on voulait faire une transaction financière, il fallait aller à la banque et un agent le faisait pour vous alors qu’aujourd'hui, avec ces applications web, il est possible de faire ces transactions soit même en ligne en fournissant certaines informations. Ceci étant, si un attaquant arrivait à compromettre ce genre d’applications par exemple, il lui serait facile de faire des transactions frauduleuses et vider votre compte bancaire. Qu’un individu malintentionné arrive à compromettre ce genre d’applications représenterait de gros risques à la fois pour les propriétaires de ces applications dont le business repose essentiellement sur ces dernières mais aussi pour les utilisateurs qui auront fourni des informations très sensibles (mots de passe, numéros de carte de crédit entre autres). 
+\end{comment}
+De même, dans le monde des applications Web et mobiles, les besoins évoluent très rapidement et pour arriver à satisfaire ces besoins nouvelles technologies sont créées. On assite à la naissance de mutiples nouvelles technologies.\\
 
 
-\section{Problématique et Objectifs}
-
-- HubSo dafay liggey ak ay entreprises de renom comme ay Total yo khamni ils souven la cible de bmenaces terrorustes yo kham ni ba ci web da ciye am; da niouye attaquer seini infrastrructures ak seni applications. Donc bala hubso di leine diokh ay app you niouye mettre en prod faut que mou assurer aue app yo you am nagne sec. et pour lolou , partenaites yoyou tre souvent da niouye indi ay equipe d auditeurs youye verifier securite app bi dont ay mozart ak 3eme mondial mo takh hubso proposer etudier nou mouy def ba prouire ay apps you secu
-
+\subsection{Problématique et Objectifs}
 La Sécurité de ces applications est devenue très critique. L’augmentation rapide de la connectivité, combinée à l’augmentation spectaculaire de la valeur des données manipulées par ces applications ainsi que l’utilisation croissante de nouveaux protocoles et technologies ont abouti à des applications représentant un risque important à la fois pour les organisations qui les mettent en place et pour les utilisateurs de ces applications.\\
-Le principal problème de sécurité rencontré par la majorité des applications Web et Mobile découle du fait qu’elles doivent accepter et traiter des données, lesquelles données pouvant être non fiables ou malveillantes. Cependant, plusieurs autres facteurs contribuent à cet état de fait et expliquent pourquoi tant d'applications Web et mobiles sont vulnérables.\\
-• Bien que la prise de conscience quant aux problèmes de sécurité des applications Web ait augmenté ces dernières années grâce aux différentes initiatives dans ce sens, elle reste moins développée que dans des domaines plus anciens tels que les réseaux et les systèmes d'exploitation. De fausses idées existent encore à propos de la plupart des concepts de base de la sécurité des applications Web. De nos jours, le travail d’un développeur Web consiste de plus en plus à intégrer, réutiliser des dizaines, voire des centaines, de composants tiers, conçus pour abstraire la complexité inhérente à ces différents composants et à réduire les temps de développement. Cependant, il est courant de voir des développeurs Web expérimentés faire des hypothèses sur la sécurité de leurs applications basées sur les frameworks qu’ils utilisent et à qui l’explication de simples failles de sécurité vient comme une révélation.\\
-• Pour réduire les temps de développement des applications web, de plus en plus de composants tiers sont réutilisés. Cependant, ces composants ont parfois des failles de sécurité qui ouvrent des brèches aux attaquants. Et très souvent, avant que ces failles de sécurité ne soient découvertes par les éditeurs et ne soient corrigées par des patchs, elles sont déjà exploitées.\\
-• De nos jours, de plus en plus d’outils sont créés afin de permettre à des non professionnels de l’informatique de pouvoir créer de puissantes applications Web en quelques clics. Ces outils fournissent du code prêt à l’emploi et pouvant gérer de nombreux cas de figures : blogs, vente en ligne, entre autres. Ils fournissent de nombreuses fonctionnalités prêtes à l’emploi incluant même des fonctionnalités de sécurité telles que l’authentification, la gestion des utilisateurs entre autres. Ces outils permettent la création d’applications sans nécessiter une compréhension technique de la façon dont les applications fonctionnent ou des risques potentiels qu'elles peuvent contenir et comment ils doivent être pris en compte. Et il y a une énorme différence entre produire un code fonctionnel et un code sécurisé. Or ce genre d’outils est très utilisé et parfois même par des entreprises de renom. Il n’est pas rare que des failles de sécurité soient découvertes dans ces outils. Ainsi, quand une vulnérabilité est découverte, il affecte de nombreuses applications à la fois.\\
-• Les menaces évoluent très rapidement. De même, elles apparaissent plus rapidement qu’elles ne sont résolues. Il est courant que les défenses acceptées pour une certaine menace d’être dépassées par de nouvelles formes d’attaques. Une équipe de développement qui commence un projet avec une connaissance avancée de plusieurs menaces et de leurs contre-mesures peut être complètement dépassée avant la fin du projet du fait de l’évolution rapide des techniques d’attaques.\\
-• Le développement des applications Web est très souvent soumis à des contraintes de temps et de ressources. Pour la plupart des organisations, il est impossible d’engager une équipe d’experts sécurité dédiée à la gestion des besoins de sécurité. De même, dans le cycle de développement logiciel, les considérations de sécurité ne sont pas très souvent prises en compte. En effet, la plupart des méthodologies utilisées de nos jours sont des méthodes agiles. Elles sont orientées rapidité de développement, c’est-à-dire produire plus de fonctionnalités très rapidement. Et dans ces méthodologies agiles, les exigences de sécurité tombent dans le champ des exigences non fonctionnelles. Aussi, les fonctions de sécurité n’ont pas la même visibilité que les fonctions business de l’application. Les équipes de développement dans les méthodologies agiles sont amenées à produire des fonctionnalités qui sont visibles pour le client. \\
-Tous ces facteurs contribuent à rendre les applications Web et Mobile encore plus vulnérables. 
+Le principal problème de sécurité rencontré par la majorité des applications Web et Mobile découle du fait qu’elles doivent accepter et traiter des données, lesquelles données pouvant être non fiables ou malveillantes. Cependant, plusieurs autres facteurs \cite{hacker-handbook} contribuent à cet état de fait et expliquent pourquoi tant d'applications Web et mobiles sont vulnérables :
+\begin{itemize}
+	\itemtirait Bien que la prise de conscience quant aux problèmes de sécurité des applications Web ait augmenté ces dernières années grâce aux différentes initiatives dans ce sens, elle reste moins développée que dans des domaines plus anciens tels que les réseaux et les systèmes d'exploitation. De fausses idées existent encore à propos de la plupart des concepts de base de la sécurité des applications Web. De nos jours, le travail d’un développeur Web consiste de plus en plus à intégrer, réutiliser des dizaines, voire des centaines, de composants tiers, conçus pour abstraire la complexité inhérente à ces différents composants et à réduire les temps de développement. Cependant, il est courant de voir des développeurs Web expérimentés faire des hypothèses sur la sécurité de leurs applications basées sur les frameworks qu’ils utilisent et à qui l’explication de simples failles de sécurité vient comme une révélation ;
+	\itemtirait Pour réduire les temps de développement des applications web, de plus en plus de composants tiers sont réutilisés. Cependant, ces composants ont parfois des failles de sécurité qui ouvrent des brèches aux attaquants. Et très souvent, avant que ces failles de sécurité ne soient découvertes par les éditeurs et ne soient corrigées par des patchs, elles sont déjà exploitées ;
+	\itemtirait De nos jours, de plus en plus d’outils sont créés afin de permettre à des non professionnels de l’informatique de pouvoir créer de puissantes applications Web en quelques clics. Ces outils fournissent du code prêt à l’emploi et pouvant gérer de nombreux cas de figures : blogs, vente en ligne, entre autres. Ils fournissent de nombreuses fonctionnalités prêtes à l’emploi incluant même des fonctionnalités de sécurité telles que l’authentification, la gestion des utilisateurs entre autres. Ces outils permettent la création d’applications sans nécessiter une compréhension technique de la façon dont les applications fonctionnent ou des risques potentiels qu'elles peuvent contenir et comment ils doivent être pris en compte. Et il y a une énorme différence entre produire un code fonctionnel et un code sécurisé. Or ce genre d’outils est très utilisé et parfois même par des entreprises de renom. Il n’est pas rare que des failles de sécurité soient découvertes dans ces outils. Ainsi, quand une vulnérabilité est découverte, il affecte de nombreuses applications à la fois ;
+	\itemtirait Les menaces évoluent très rapidement. De même, elles apparaissent plus rapidement qu’elles ne sont résolues. Il est courant que les défenses acceptées pour une certaine menace d’être dépassées par de nouvelles formes d’attaques. Une équipe de développement qui commence un projet avec une connaissance avancée de plusieurs menaces et de leurs contre-mesures peut être complètement dépassée avant la fin du projet du fait de l’évolution rapide des techniques d’attaques ;
+	\itemtirait Le développement des applications Web est très souvent soumis à des contraintes de temps et de ressources. Pour la plupart des organisations, il est impossible d’engager une équipe d’experts sécurité dédiée à la gestion des besoins de sécurité. De même, dans le cycle de développement logiciel, les considérations de sécurité ne sont pas très souvent prises en compte. En effet, la plupart des méthodologies utilisées de nos jours sont des méthodes agiles. Elles sont orientées « Minimum functionnal value » c'est-à-dire vers la production d'un livrable fonctionnel le plus rapidement possible. Et dans ces méthodologies agiles, les exigences de sécurité tombent dans le champ des exigences non fonctionnelles. Aussi, les fonctions de sécurité n’ont pas la même visibilité que les fonctions business de l’application. Les équipes de développement dans les méthodologies agiles sont amenées à produire des fonctionnalités qui sont visibles pour le client.
+\end{itemize}
+Beaucoup d’entreprises attendent de leurs développeurs des applications avec un certain degré de sécurité sans faire grand-chose pour permettre à ces développeurs d’en construire. C'est la raison pour laquelle HubSo s'est proposée de faire une étude sur la mise en place d'applications Web et Mobiles conformes par rapport à Owasp (Open Web Application Security Project), \nomenclature{OWASP}{Open Web Application Security Project} étude dont la finalité est de fournir à ses développeurs les éléments dont ils ont besoin pour produire du code sécurisé. \\
+En effet, HubSo travaille souvent avec des entreprises de renom comme Total qui est une multinationale présente un peu partout dans le monde. Et de nos jours, ces genres d'entreprises, du fait de ce qu'ils représentent en terme de valeur monétaire, d'intérêts sont souvent la cible d'individus mal intentionnés : cybercriminels, terroristes... C'est pourquoi avant d'accepter les applications qui leurs sont livrées, ces applications sont d'abord sujettes à des audits de sécurité. C'est dans ce sens que HubSo reçoit souvent des équipes d'audit de sécurité dont celles de Mozart qui est très reconnu dans le domaine de l'audit de sécurité des applications web et mobiles. Dès lors, HubSo se doit de leur fournir des applications avec un certain de sécurité pour ne pas compromettre leurs intérêts mais aussi pour des questions de sa propre renommée.
+Pour y arriver, les objectifs suivants ont été assigné :
+\begin{itemize}
+	\itemcheck Le premier objectif est de mettre à la disposition des développeurs un ensemble de contrôles de sécurité disponibles dans leur environnement. Chaque organisation par défaut dispose d’un certain nombre de contrôles de sécurité dans son infrastructure, tels que des bibliothèques de chiffrement, des serveurs de logs, des serveurs d'authentification, etc. Les développeurs ont besoin d'un accès facile à ces contrôles et cela permet à la longue d’avoir une manière standard de prendre en compte la sécurité durant le cycle de développement logiciel : il s'agira d'une bibliothèque disponible pour les projets Web et Mobile.
+	\itemcheck Une fois ces contrôles de sécurité disponibles, il faut élaborer un ensemble de directives de codage sécurisé par rapport à Owasp. C'est un ensemble de règles que les développeurs doivent suivre lors du développement d'applications. Ces directives doivent être spécifiques à l’entreprise et contenir de nombreux extraits de code et des exemples de codage sécurisé. En outre, la directive doit être adaptée à l’environnement, aux règles et aux technologies utilisés car les stratégies théoriques (polices de sécurité, recommandation…) ne sont souvent pas très parlant aux développeurs : ce sera un guide de bonnes pratiques Owasp pour développeurs.
+	\itemcheck La dernière chose à faire pour aider les développeurs est de leur donner un peu de formation en codage sécurisé. Cette formation devrait couvrir quand et comment utiliser tous les principaux contrôles de sécurité, en donnant des exemples des failles de sécurité courantes associées à chaque contrôle et comment suivre les directives de codage sécurisé afin d'utiliser les contrôles pour éviter ces vulnérabilités.
+\end{itemize}
+Les autres objectifs sont les suivants :
+\begin{itemize}
+	\itemcheck Architecture type Owasp (Client Android, Serveur JEE) ;
+	\itemcheck Intégration d'une application existante ;
+	\itemcheck Projet type Web JEE conforme Owasp avec à minima les fonctionnalités suivantes :
+	\begin{itemize}
+		\itemtirait Authentification et gestion de sessions
+		\itemtirait Gestion des utilisateurs et mots de passe
+		\itemtirait Gestion des profils et génération des composants graphiques
+	\end{itemize}
+	\itemcheck Projet type Android conforme Owasp avec à minima les fonctionnalités suivantes :
+	\begin{itemize}	
+		\itemtirait Authentification et gestion de sessions (Offline et Online)
+		\itemtirait Gestion des utilisateurs et mots de passe
+		\itemtirait Gestion des profils et génération des composants graphiques
+	\end{itemize}
+\end{itemize}
 
-Boo indiwe lou bess a chaque fois daye andak ay problemes de securite/ tei legui li bess dafa beuri ;
-Cette évolution très rapide des applications Web s'explique par plusieurs facteurs : \\
-- HTTP, le principal protocole de communication utilisé par le Web est assez simple. Il permet également au serveur de communiquer avec tous les clients sans avoir à maintenir une connexion ouverte à chaque utilisateur grâce au paradigme requête/réponse;\\
-- Chaque utilisateur Web a déjà un navigateur installé sur son ordinateur et appareil mobile. Les applications Web se déploient une seule fois au niveau du serveur évitant ainsi de distribuer et de gérer séparément chaque logiciel client, comme ce fut le cas pour les applications pré-web. La maintenance est simple et changements faits ne nécessitent qu'un seul redéploiement au niveau du serveur et ont effet immédiat sur tous les clients;\\
-- Les navigateurs sont devenus aujourd'hui hautement sophistiquées permettant ainsi une très bonne expérience utilisateur;\\
-- Les technologies de base et les langages utilisés pour développer des applications web sont relativement simples. Un large éventail de plates-formes et d'outils de développement sont disponible pour faciliter le développement d'applications puissantes.\\
-Toutes ces raisons ont fait que les applications Web sont devenus des outils incontournables de nos quotidiens aussi bien pour des raisons personnelles que professionnelles.\\
 
-- securite lou ci eup entreprises dou niou ci focaliser wou et tamit bene besoin non fonctionnel lay nek ndakh client bi dou ko guiss donc niom da niouye appesantireou ci yenene yi bayi securite bi de cote
-
-Beaucoup d’entreprises attendent de leurs développeurs des applications avec un certain degré de sécurité sans faire grand-chose pour permettre à ces développeurs d’en construire. C'est la raison pour laquelle HubSo s'est proposée de faire une étude sur la mise en place d'applications Web et Mobiles conformes par rapport à Owasp, étude dont la finalité est de fournir à ses développeurs les éléments dont ils ont besoin pour produire du code sécurisé. \\
-Le premier objectif est de mettre à la disposition des développeurs un ensemble de contrôles de sécurité disponibles dans leur environnement. Chaque organisation par défaut dispose d’un certain nombre de contrôles de sécurité dans son infrastructure, tels que des bibliothèques de chiffrement, des serveurs de logs, des serveurs d'authentification, etc. Les développeurs ont besoin d'un accès facile à ces contrôles et cela permet à la longue d’avoir une manière standard de prendre en compte la sécurité durant le cycle de développement logiciel : il s'agira d'une bibliothèque disponible pour les projets Web et Mobile.\\
-Une fois ces contrôles de sécurité disponibles, il faut élaborer un ensemble de directives de codage sécurisé par rapport à Owasp. C'est un ensemble de règles que les développeurs doivent suivre lors du développement d'applications. Ces directives doivent être spécifiques à l’entreprise et contenir de nombreux extraits de code et des exemples de codage sécurisé. En outre, la directive doit être adaptée à l’environnement, aux règles et aux technologies utilisés car les stratégies théoriques (polices de sécurité, recommandation…) ne sont souvent pas très parlant aux développeurs : ce sera un guide de bonnes pratiques Owasp pour développeurs.
-La dernière chose à faire pour aider les développeurs est de leur donner un peu de formation en codage sécurisé. Cette formation devrait couvrir quand et comment utiliser tous les principaux contrôles de sécurité, en donnant des exemples des failles de sécurité courantes associées à chaque contrôle et comment suivre les directives de codage sécurisé afin d'utiliser les contrôles pour éviter ces vulnérabilités.\\
-Les autres objectifs sont les suivants :\\
-- une architecture type OWASP (Client Android, Serveur JEE);
-- un projet type Web JEE conforme OWASP avec à minima les fonctionnalités suivantes : \\
-	- Authentification et gestion de sessions
-	- Gestion des utilisateurs et mots de passe
-	- Gestion des profils et génération des composants graphiques
-- un projet type Android conforme OWASP avec à minima les fonctionnalités suivantes :
-	- authentification et gestion de sessions (Offline et Online)
-	- gestion des utilisateurs et mots de passe
-	- gestion des profils et génération des composants graphiques
-- Intégration BO Total et PDA Total
-
-
-\section{Périmètre}
+\subsection{Périmètre}
 La sécurité des applications web implique la sécurité au niveau de ces infrastructures qui communiquent en réseau (Sécurité réseau) mais aussi la sécurité lors de l’utilisation des technologies web et mobiles utilisées (Sécurité applicative). Nous nous intéressons, dans le cadre de ce stage, à la sécurité applicative.
 
-\clearpage 
-%=========================================================

@@ -1,0 +1,8 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.1}
+		\nompageref{7}
+
+\end{thenomenclature}
