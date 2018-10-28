@@ -2,9 +2,19 @@
 
  \nomgroup{A}
 
+  \item [{CERT}]\begingroup Computer Emergency Response Team\nomeqref {2.0}
+		\nompageref{17}
+  \item [{DARPA}]\begingroup Defense Advanced Research Projects Agency\nomeqref {2.0}
+		\nompageref{17}
+  \item [{DDOS}]\begingroup Distributed Denial of Service\nomeqref {2.0}
+		\nompageref{16}
+  \item [{DOS}]\begingroup Denial Of Service\nomeqref {2.0}
+		\nompageref{16}
   \item [{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.1}
-		\nompageref{7}
+		\nompageref{8}
   \item [{OWASP}]\begingroup Open Web Application Security Project\nomeqref {1.1}
-		\nompageref{10}
+		\nompageref{11}
+  \item [{TCP/IP}]\begingroup Transmission Control Protocol/Internet Protocol\nomeqref {2.0}
+		\nompageref{17}
 
 \end{thenomenclature}

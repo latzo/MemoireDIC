@@ -28,3 +28,51 @@ Les composants logiciels, bibliothèques et frameworks utilisés dans les applic
 \subsection*{A10 : 2017 – LOGGING ET MONITORING INSUFFISANTS}
 Les événements tels que les tentatives de connexion réussies et infructueuses, l'adresse IP des connexions entrantes, les événements importants tels que les transactions de grande valeur doivent être enregistrés et surveillés régulièrement. Ce faisant, l’on peut comprendre tout ce qui se passe sur l’application et être prêt à réagir en cas d’attaque. Autrement, il peut être très difficile de répondre à une attaque ou de connaître l’origine d’une certaine faille.
 
+\section{Le Protocole SSL}
+SSL
+Ce protocole vient en réponse à la préoccupation croissante de la sécurité sur Internet et tire profit des nouveaux algorithmes de chiffrement tels que l’AES venu remplacé le DES et jugé très sécurisé. 
+L’objectif du protocole SSL est de créer un canal de données sécurisé entre le client et le serveur. SSL fournit des améliorations de sécurité au protocole HTTP utilisé jusqu’alors. 
+SSL assure 3 choses:
+-	la confidentialité avec des mécanismes de chiffrements
+-	l’intégrité avec le hachage des données transmises
+-	l’authentification avec l’utilisation de certificats
+Les certificats 
+Pour être sûr que la clé publique provient bien de celui que l'on croit, on utilise une autorité tierce (appelé le tiers de confiance). Cette autorité est celle qui va générer une clé publique certifiée par exemple pour un serveur Web, puis c'est ensuite elle qui garantira à tout demandeur (par exemple le client web) que la clé publique envoyée appartient bien à celui qui le prétend (au serveur Web).
+La garantie qu'une clé publique provient bien de l'émetteur qu'il prétend être, s'effectue donc via un certificat d'authenticité émanant d'une autorité de certification (AC), le tiers de confiance.
+Un certificat est un simple fichier informatique délivré par une autorité de certification qui contient :
+-	la clé publique liée à la clé privée de son détenteur et des informations sur son identité ;
+-	le nom distinctif de l'autorité de certification ;
+-	la signature électronique (chiffrement de l'empreinte par clé privée) de l'autorité de certification.
+C’est ce certificat qui permet d’initialiser une connexion SSL.
+SSL consiste en 2 protocoles:
+-	SSL Handshake protocol: avant de communiquer, les 2 programmes SSL négocient des clés et des protocoles de chiffrement communs.
+-	SSL Record protocol: Une fois négociés, ils chiffrent toutes les informations échangées et effectuent divers contrôles.
+La négociation SSL (« handshake »)
+Au début de la communication le client et le serveur s'échangent:
+-	la version SSL avec laquelle ils veulent communiquer,
+-	la liste des méthodes de chiffrement (symétrique et asymétrique) et de signature que chacun connaît (avec longueurs de clés),
+-	les méthodes de compression que chacun connaît,
+-	des nombres aléatoires,
+-	les certificats.
+Client et serveur essaient d'utiliser le protocole de chiffrement le plus puissant et diminuent jusqu'à trouver un protocole commun aux deux. Une fois que cela est fait, ils peuvent commencer à échanger des données. 
+La communication SSL (« record »)
+Avec SSL, l'expéditeur des données:
+•	découpe les données en paquets,
+•	compresse les données,
+•	signe cryptographiquement les données,
+•	chiffre les données,
+•	les envoie.
+Celui qui réceptionne les données:
+•	déchiffre les données,
+•	vérifie la signature des données,
+•	décompresse les données,
+•	réassemble les paquets de données.
+SSL utilise:
+-	un système de chiffrement asymétrique (comme RSA ou Diffie-Hellman). Vous pouvez Ce système est utilisé pour générer la clé principale qui permettra de générer des clés de session.
+-	un système de chiffrement symétrique (DES, 3DES, IDEA, RC4...) en utilisant les clés de session pour chiffrer les données.
+-	un système de signature cryptographique des messages (HMAC, utilisant MD5, SHA...) pour s'assurer que les messages ne sont pas corrompus.
+C'est lors de la négociation SSL que le client et le serveur choisissent les différents systèmes qu’ils utiliseront tout au long de leur communication.
+Avec le protocole SSL, la sécurité a été sensiblement améliorée. Bien que, comme tout système de chiffrement, le SSL/TLS ne pourra jamais être totalement infaillible, le grand nombre de banques et de sites de commerce électronique l'utilisant pour protéger les transactions de leurs clients peut être considéré comme un gage de sa résistance aux attaques malveillantes. Il faut noter cependant que SSL ne garantit que le transport sécurisé des messages.
+SSL est un protocole indépendant qui peut être appliqué à plusieurs autres protocoles. Son utilisation la plus connue est son association avec le protocole HTTP connue comme le protocole HTTPS pour dire, chez certain HTTP over SSL et pour d’autres HTTP Secure. Il a en outre d’autres applications telles que le SSH permettant la connexion à une machine distante et le FTPS permettant le transfert de fichiers.
+
+

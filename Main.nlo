@@ -1,2 +1,13 @@
 \nomenclatureentry{aHTTP@[{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.1}|nompageref}{8}
 \nomenclatureentry{aOWASP@[{OWASP}]\begingroup Open Web Application Security Project\nomeqref {1.1}|nompageref}{11}
+\nomenclatureentry{aARPA@[{ARPA}]\begingroup Advanced Research Project Agency\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{aDOS@[{DOS}]\begingroup Denial Of Service\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{aDDOS@[{DDOS}]\begingroup Distributed Denial of Service\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{aDARPA@[{DARPA}]\begingroup Defense Advanced Research Projects Agency\nomeqref {2.0}|nompageref}{17}
+\nomenclatureentry{aCERT@[{CERT}]\begingroup Computer Emergency Response Team\nomeqref {2.0}|nompageref}{17}
+\nomenclatureentry{aTCP/IP@[{TCP/IP}]\begingroup Transmission Control Protocol/Internet Protocol\nomeqref {2.0}|nompageref}{17}
+\nomenclatureentry{aSSL@[{SSL}]\begingroup Secure Socket Layer\nomeqref {2.0}|nompageref}{18}
+\nomenclatureentry{aSSL/TLS@[{SSL/TLS}]\begingroup Secure Socket Layer/Transport Layer Security\nomeqref {2.0}|nompageref}{18}
+\nomenclatureentry{aCDP@[{CDP}]\begingroup Commission des Données Personnelles\nomeqref {2.0}|nompageref}{20}
+\nomenclatureentry{aADIE@[{ADIE}]\begingroup Agence De l'Informatique de l'Etat\nomeqref {2.0}|nompageref}{21}
+\nomenclatureentry{aFIRST@[{FIRST}]\begingroup Forum of Incident Response and Security Teams\nomeqref {2.0}|nompageref}{21}

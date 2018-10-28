@@ -8,9 +8,9 @@ Scanning style file C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist...
    -- Unknown specifier lethead_flag.
 ...done (10 attributes redefined, 3 ignored).
 Scanning input file Main.idx...done (0 entries accepted, 0 rejected).
-Scanning input file Main.nlo....done (2 entries accepted, 0 rejected).
-Overall 2 files read (2 entries accepted, 0 rejected).
-Sorting entries....done (2 comparisons).
-Generating output file Main.nls....done (10 lines written, 0 warnings).
+Scanning input file Main.nlo....done (7 entries accepted, 0 rejected).
+Overall 2 files read (7 entries accepted, 0 rejected).
+Sorting entries....done (21 comparisons).
+Generating output file Main.nls....done (20 lines written, 0 warnings).
 Output written in Main.nls.
 Transcript written in Main.ilg.

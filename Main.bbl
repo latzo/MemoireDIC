@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{cours-corenthin}
 Alex Corenthin.
@@ -39,5 +39,44 @@ Marcus~Pinto Dafydd~Stuttard.
 Gervais Mendy.
 \newblock Ingénierie de la cryptographie.
 \newblock page~5, 2018.
+
+\bibitem{checkmarx-history}
+The history of application security testing – part 1.
+\newblock
+  \url{https://www.checkmarx.com/2017/02/27/history-application-security-testing/}.
+
+\bibitem{multics}
+F.~J. Corbató.
+\newblock Introduction and overview of the multics system.
+
+\bibitem{b2}
+Multics b2 security evaluation.
+
+\bibitem{infosec-history}
+The history of penetration testing.
+\newblock
+  \url{https://resources.infosecinstitute.com/the-history-of-penetration-testing/#gref}.
+
+\bibitem{arpanet}
+Arpanet.
+\newblock \url{https://icannwiki.org/ARPANET}.
+
+\bibitem{morris-worm}
+By~Larry Boettger.
+\newblock The morris worm: How it affected computer security and lessons
+  learned by it.
+\newblock 2000.
+
+\bibitem{internet}
+David D. Clark Robert E. Kahn Leonard Kleinrock Daniel C. Lynch Jon Postel
+  Larry G. Roberts Stephen~Wolf Barry M.~Leiner, Vinton G.~Cerf.
+\newblock Brief history of the internet.
+\newblock 1997.
+
+\bibitem{pdp}
+Dr.Mouhamadou LO.
+\newblock {\em La Protection des données à caractère personnel en Afrique,
+  Réglementation et régulation}.
+\newblock Baol Editions, 9 2017.
 
 \end{thebibliography}
