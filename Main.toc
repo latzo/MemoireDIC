@@ -1,7 +1,7 @@
 \select@language {french}
 \par \penalty \@M \unhbox \voidb@x \hbox {}\hfill {\nag@@warning@vi \bfseries Page}\par \penalty \@M 
-\contentsline {chapter}{Liste des tableaux}{xi}{section*.8}
-\contentsline {chapter}{Table des figures}{xii}{section*.9}
+\contentsline {chapter}{Table des figures}{xii}{section*.8}
+\contentsline {chapter}{Liste des tableaux}{xiv}{section*.9}
 \contentsline {starchapter}{Introduction}{1}{chapter*.10}
 \contentsline {chapter}{\chapternumberline {1}Pr\IeC {\'e}sentation G\IeC {\'e}n\IeC {\'e}rale}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}La Structure d'accueil}{3}{section.1.1}
@@ -24,85 +24,84 @@
 \contentsline {subsection}{\numberline {2.1.3}Vers un usage massif d'Internet}{16}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Contexte}{18}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Contexte juridique}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Contexte technique}{20}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Contexte organisationnel}{21}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}Mitre Corporation}{21}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}Sans Institute}{21}{subsubsection.2.2.3.2}
-\contentsline {subsubsection}{\numberline {2.2.3.3}PCI Standard Council}{22}{subsubsection.2.2.3.3}
-\contentsline {subsubsection}{\numberline {2.2.3.4}Web Application Security Consortium}{22}{subsubsection.2.2.3.4}
-\contentsline {section}{\numberline {2.3}Owasp}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Pr\IeC {\'e}sentation}{22}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.2.2}Contexte technique et organisationnel}{20}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Organismes nationaux}{20}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Organismes ind\IeC {\'e}pendants}{21}{subsubsection.2.2.2.2}
+\contentsline {section}{\numberline {2.3}Owasp}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pr\IeC {\'e}sentation}{23}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Origines}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Contexte}{23}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Projets phares}{23}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Top 10 Owasp}{24}{subsection.2.3.5}
-\contentsline {subsubsection}{\numberline {2.3.5.1}Pr\IeC {\'e}sentation}{24}{subsubsection.2.3.5.1}
+\contentsline {subsection}{\numberline {2.3.3}Contexte}{24}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Projets OWASP}{24}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Top 10 Owasp}{25}{subsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.5.1}Pr\IeC {\'e}sentation}{25}{subsubsection.2.3.5.1}
 \contentsline {subsubsection}{\numberline {2.3.5.2}D\IeC {\'e}marches Concurrentes}{25}{subsubsection.2.3.5.2}
-\contentsline {chapter}{\chapternumberline {3}M\IeC {\'e}thodologie de d\IeC {\'e}veloppement}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Qu'est ce qu'une m\IeC {\'e}thodologie de d\IeC {\'e}veloppement ?}{28}{section.3.1}
-\contentsline {section}{\numberline {3.2}Int\IeC {\'e}r\IeC {\^e}t d'une m\IeC {\'e}thodologie}{28}{section.3.2}
-\contentsline {section}{\numberline {3.3}Cat\IeC {\'e}gories de m\IeC {\'e}thodologies de d\IeC {\'e}veloppement}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Choix d'une m\IeC {\'e}thodologie de d\IeC {\'e}veloppement}{29}{section.3.4}
-\contentsline {section}{\numberline {3.5}Int\IeC {\'e}r\IeC {\^e}t d'une mod\IeC {\'e}lisation}{30}{section.3.5}
-\contentsline {section}{\numberline {3.6}Pr\IeC {\'e}sentation d'UML}{30}{section.3.6}
-\contentsline {section}{\numberline {3.7}Diagrammes UML}{31}{section.3.7}
+\contentsline {chapter}{\chapternumberline {3}M\IeC {\'e}thodologie}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}M\IeC {\'e}thodologie de d\IeC {\'e}veloppement}{28}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Qu'est ce qu'une m\IeC {\'e}thodologie de d\IeC {\'e}veloppement ?}{28}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Int\IeC {\'e}r\IeC {\^e}t d'une m\IeC {\'e}thodologie}{28}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Cat\IeC {\'e}gories de m\IeC {\'e}thodologies de d\IeC {\'e}veloppement}{28}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Scrum}{29}{subsubsection.3.1.3.1}
+\contentsline {subsection}{\numberline {3.1.4}Choix d'une m\IeC {\'e}thodologie de d\IeC {\'e}veloppement}{30}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Outil de mod\IeC {\'e}lisation}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Int\IeC {\'e}r\IeC {\^e}t d'une mod\IeC {\'e}lisation}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\'e}sentation d'UML}{30}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Diagrammes UML}{31}{subsection.3.2.3}
 \contentsline {chapter}{\chapternumberline {4}Analyse et Conception}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Sp\IeC {\'e}cifications}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Sp\IeC {\'e}cifications fonctionnelles}{33}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Les Acteurs}{33}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Les fonctionnalit\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales}{33}{subsubsection.4.1.1.2}
-\contentsline {subsection}{\numberline {4.1.2}Sp\IeC {\'e}cifications non fonctionnelles}{36}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Analyse}{36}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Package Gestion des injections}{37}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Diagramme de cas d'utilisation}{37}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}Package Gestion des violations de gestion d'authentification}{38}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Diagramme de cas d'utilisation}{38}{subsubsection.4.2.2.1}
-\contentsline {subsection}{\numberline {4.2.3}Package Gestion des expositions de donn\IeC {\'e}es sensibles}{39}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Diagramme de cas d'utilisation}{39}{subsubsection.4.2.3.1}
-\contentsline {subsection}{\numberline {4.2.4}Package Gestion des attaques sur les entit\IeC {\'e}s XML externes}{39}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}Diagramme de cas d'utilisation}{39}{subsubsection.4.2.4.1}
-\contentsline {subsection}{\numberline {4.2.5}Package Gestion des violations de contr\IeC {\^o}le d'acc\IeC {\`e}s}{40}{subsection.4.2.5}
-\contentsline {subsubsection}{\numberline {4.2.5.1}Diagramme de cas d'utilisation}{40}{subsubsection.4.2.5.1}
-\contentsline {subsection}{\numberline {4.2.6}Package Gestion des mauvaises configurations de s\IeC {\'e}curit\IeC {\'e}}{41}{subsection.4.2.6}
-\contentsline {subsubsection}{\numberline {4.2.6.1}Diagramme de cas d'utilisation}{41}{subsubsection.4.2.6.1}
-\contentsline {subsection}{\numberline {4.2.7}Package Gestion des XSS }{41}{subsection.4.2.7}
-\contentsline {subsubsection}{\numberline {4.2.7.1}Diagramme de cas d'utilisation}{41}{subsubsection.4.2.7.1}
-\contentsline {subsection}{\numberline {4.2.8}Package Gestion des d\IeC {\'e}s\IeC {\'e}rialisations non s\IeC {\'e}curis\IeC {\'e}es}{42}{subsection.4.2.8}
-\contentsline {subsubsection}{\numberline {4.2.8.1}Diagramme de cas d'utilisation}{42}{subsubsection.4.2.8.1}
-\contentsline {subsection}{\numberline {4.2.9}Package Gestion des utilisations de composants vuln\IeC {\'e}rables}{43}{subsection.4.2.9}
-\contentsline {subsubsection}{\numberline {4.2.9.1}Diagramme de cas d'utilisation}{43}{subsubsection.4.2.9.1}
-\contentsline {subsection}{\numberline {4.2.10}Package Gestion de la journalisation et de la surveillance insuffisantes}{43}{subsection.4.2.10}
-\contentsline {subsubsection}{\numberline {4.2.10.1}Diagramme de cas d'utilisation}{43}{subsubsection.4.2.10.1}
-\contentsline {subsection}{\numberline {4.2.11}Syst\IeC {\`e}me global}{44}{subsection.4.2.11}
-\contentsline {subsection}{\numberline {4.2.12}Sous-syst\IeC {\`e}me "Utilisateurs"}{47}{subsection.4.2.12}
-\contentsline {subsubsection}{\numberline {4.2.12.1}Diagramme de cas d'utilisation}{47}{subsubsection.4.2.12.1}
-\contentsline {subsubsection}{\numberline {4.2.12.2}Cas d'utilisation "Authentification utilisateur"}{47}{subsubsection.4.2.12.2}
-\contentsline {subsubsection}{\numberline {4.2.12.3}Cas d'utilisation "D\IeC {\'e}connexion utilisateur"}{51}{subsubsection.4.2.12.3}
-\contentsline {subsubsection}{\numberline {4.2.12.4}Cas d'utilisation "V\IeC {\'e}rification force mot de passe"}{51}{subsubsection.4.2.12.4}
-\contentsline {subsubsection}{\numberline {4.2.12.5}\IeC {\'E}tats d'un utilisateur}{54}{subsubsection.4.2.12.5}
-\contentsline {subsection}{\numberline {4.2.13}Sous-syst\IeC {\`e}me "Cryptographie"}{54}{subsection.4.2.13}
-\contentsline {subsubsection}{\numberline {4.2.13.1}Diagramme de cas d'utilisation}{54}{subsubsection.4.2.13.1}
-\contentsline {subsection}{\numberline {4.2.14}Sous-syst\IeC {\`e}me "Encodage"}{55}{subsection.4.2.14}
-\contentsline {subsubsection}{\numberline {4.2.14.1}Diagramme de cas d'utilisation}{55}{subsubsection.4.2.14.1}
-\contentsline {subsection}{\numberline {4.2.15}Sous-syst\IeC {\`e}me "Validation"}{55}{subsection.4.2.15}
-\contentsline {subsubsection}{\numberline {4.2.15.1}Diagramme de cas d'utilisation}{55}{subsubsection.4.2.15.1}
-\contentsline {subsubsection}{\numberline {4.2.15.2}Cas d'utilisation "Valider donn\IeC {\'e}e"}{56}{subsubsection.4.2.15.2}
-\contentsline {subsection}{\numberline {4.2.16}Sous-syst\IeC {\`e}me "HTTP"}{57}{subsection.4.2.16}
-\contentsline {subsubsection}{\numberline {4.2.16.1}Diagramme de cas d'utilisation}{57}{subsubsection.4.2.16.1}
-\contentsline {subsubsection}{\numberline {4.2.16.2}Cas d'utilisation "Ajouter cookie"}{57}{subsubsection.4.2.16.2}
-\contentsline {subsection}{\numberline {4.2.17}Sous-syst\IeC {\`e}me "Interpr\IeC {\'e}teurs"}{58}{subsection.4.2.17}
-\contentsline {subsubsection}{\numberline {4.2.17.1}Diagramme de cas d'utilisation}{58}{subsubsection.4.2.17.1}
-\contentsline {subsection}{\numberline {4.2.18}Sous-syst\IeC {\`e}me "Logging"}{58}{subsection.4.2.18}
-\contentsline {subsubsection}{\numberline {4.2.18.1}Diagramme de cas d'utilisation}{58}{subsubsection.4.2.18.1}
-\contentsline {subsection}{\numberline {4.2.19}Sous-syst\IeC {\`e}me "Gestion des composants"}{59}{subsection.4.2.19}
-\contentsline {subsubsection}{\numberline {4.2.19.1}Diagramme de cas d'utilisation}{59}{subsubsection.4.2.19.1}
-\contentsline {subsection}{\numberline {4.2.20}Diagramme de classes}{59}{subsection.4.2.20}
-\contentsline {section}{\numberline {4.3}Conception}{60}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Architecture Technique}{60}{subsection.4.3.1}
-\contentsline {part}{\partnumberline {I}R\IeC {\'e}alisation}{61}{part.1}
-\contentsline {xpart}{R\IeC {\'e}alisation}{62}{part.1}
-\contentsline {part}{\partnumberline {II}Bilan et Perspectives}{63}{part.2}
-\contentsline {xpart}{Bilan et Perspectives}{64}{part.2}
-\partbegin 
-\contentsline {section}{\numberline {4.4}Le Protocole SSL}{70}{section.4.4}
-\contentsline {chapter}{Bibliographie}{72}{chapter*.28}
+\contentsline {section}{\numberline {4.1}Sp\IeC {\'e}cifications}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Sp\IeC {\'e}cifications fonctionnelles}{35}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Les Acteurs}{35}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Les fonctionnalit\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales}{35}{subsubsection.4.1.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Sp\IeC {\'e}cifications non fonctionnelles}{37}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Analyse}{38}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Package Gestion des injections}{38}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Diagramme de cas d'utilisation}{38}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Package Gestion des violations de gestion d'authentification}{39}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Diagramme de cas d'utilisation}{39}{subsubsection.4.2.2.1}
+\contentsline {subsection}{\numberline {4.2.3}Package Gestion des expositions de donn\IeC {\'e}es sensibles}{40}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Diagramme de cas d'utilisation}{40}{subsubsection.4.2.3.1}
+\contentsline {subsection}{\numberline {4.2.4}Package Gestion des attaques sur les entit\IeC {\'e}s XML externes}{41}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}Diagramme de cas d'utilisation}{41}{subsubsection.4.2.4.1}
+\contentsline {subsection}{\numberline {4.2.5}Package Gestion des violations de contr\IeC {\^o}le d'acc\IeC {\`e}s}{41}{subsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.5.1}Diagramme de cas d'utilisation}{41}{subsubsection.4.2.5.1}
+\contentsline {subsection}{\numberline {4.2.6}Package Gestion des mauvaises configurations de s\IeC {\'e}curit\IeC {\'e}}{42}{subsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.6.1}Diagramme de cas d'utilisation}{42}{subsubsection.4.2.6.1}
+\contentsline {subsection}{\numberline {4.2.7}Package Gestion des XSS }{43}{subsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.7.1}Diagramme de cas d'utilisation}{43}{subsubsection.4.2.7.1}
+\contentsline {subsection}{\numberline {4.2.8}Package Gestion des d\IeC {\'e}s\IeC {\'e}rialisations non s\IeC {\'e}curis\IeC {\'e}es}{43}{subsection.4.2.8}
+\contentsline {subsubsection}{\numberline {4.2.8.1}Diagramme de cas d'utilisation}{43}{subsubsection.4.2.8.1}
+\contentsline {subsection}{\numberline {4.2.9}Package Gestion des utilisations de composants vuln\IeC {\'e}rables}{44}{subsection.4.2.9}
+\contentsline {subsubsection}{\numberline {4.2.9.1}Diagramme de cas d'utilisation}{44}{subsubsection.4.2.9.1}
+\contentsline {subsection}{\numberline {4.2.10}Package Gestion de la journalisation et de la surveillance insuffisantes}{44}{subsection.4.2.10}
+\contentsline {subsubsection}{\numberline {4.2.10.1}Diagramme de cas d'utilisation}{44}{subsubsection.4.2.10.1}
+\contentsline {subsection}{\numberline {4.2.11}Syst\IeC {\`e}me global}{45}{subsection.4.2.11}
+\contentsline {subsection}{\numberline {4.2.12}Sous-syst\IeC {\`e}me "Utilisateurs"}{48}{subsection.4.2.12}
+\contentsline {subsubsection}{\numberline {4.2.12.1}Diagramme de cas d'utilisation}{48}{subsubsection.4.2.12.1}
+\contentsline {subsubsection}{\numberline {4.2.12.2}Cas d'utilisation "Authentification utilisateur"}{48}{subsubsection.4.2.12.2}
+\contentsline {subsubsection}{\numberline {4.2.12.3}Cas d'utilisation "D\IeC {\'e}connexion utilisateur"}{52}{subsubsection.4.2.12.3}
+\contentsline {subsubsection}{\numberline {4.2.12.4}Cas d'utilisation "V\IeC {\'e}rification force mot de passe"}{52}{subsubsection.4.2.12.4}
+\contentsline {subsubsection}{\numberline {4.2.12.5}\IeC {\'E}tats d'un utilisateur}{55}{subsubsection.4.2.12.5}
+\contentsline {subsection}{\numberline {4.2.13}Sous-syst\IeC {\`e}me "Cryptographie"}{56}{subsection.4.2.13}
+\contentsline {subsubsection}{\numberline {4.2.13.1}Diagramme de cas d'utilisation}{56}{subsubsection.4.2.13.1}
+\contentsline {subsection}{\numberline {4.2.14}Sous-syst\IeC {\`e}me "Encodage"}{56}{subsection.4.2.14}
+\contentsline {subsubsection}{\numberline {4.2.14.1}Diagramme de cas d'utilisation}{56}{subsubsection.4.2.14.1}
+\contentsline {subsection}{\numberline {4.2.15}Sous-syst\IeC {\`e}me "Validation"}{57}{subsection.4.2.15}
+\contentsline {subsubsection}{\numberline {4.2.15.1}Diagramme de cas d'utilisation}{57}{subsubsection.4.2.15.1}
+\contentsline {subsubsection}{\numberline {4.2.15.2}Cas d'utilisation "Valider donn\IeC {\'e}e"}{57}{subsubsection.4.2.15.2}
+\contentsline {subsection}{\numberline {4.2.16}Sous-syst\IeC {\`e}me "HTTP"}{59}{subsection.4.2.16}
+\contentsline {subsubsection}{\numberline {4.2.16.1}Diagramme de cas d'utilisation}{59}{subsubsection.4.2.16.1}
+\contentsline {subsubsection}{\numberline {4.2.16.2}Cas d'utilisation "Ajouter cookie"}{59}{subsubsection.4.2.16.2}
+\contentsline {subsection}{\numberline {4.2.17}Sous-syst\IeC {\`e}me "Interpr\IeC {\'e}teurs"}{60}{subsection.4.2.17}
+\contentsline {subsubsection}{\numberline {4.2.17.1}Diagramme de cas d'utilisation}{60}{subsubsection.4.2.17.1}
+\contentsline {subsection}{\numberline {4.2.18}Sous-syst\IeC {\`e}me "Logging"}{60}{subsection.4.2.18}
+\contentsline {subsubsection}{\numberline {4.2.18.1}Diagramme de cas d'utilisation}{60}{subsubsection.4.2.18.1}
+\contentsline {subsection}{\numberline {4.2.19}Sous-syst\IeC {\`e}me "Gestion des composants"}{61}{subsection.4.2.19}
+\contentsline {subsubsection}{\numberline {4.2.19.1}Diagramme de cas d'utilisation}{61}{subsubsection.4.2.19.1}
+\contentsline {subsection}{\numberline {4.2.20}Structure statique du syst\IeC {\`e}me}{62}{subsection.4.2.20}
+\contentsline {subsubsection}{\numberline {4.2.20.1}Diagramme de classes d'analyse}{62}{subsubsection.4.2.20.1}
+\contentsline {section}{\numberline {4.3}Conception}{62}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Synth\IeC {\`e}se de la solution}{62}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Architecture Technique}{63}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {5}R\IeC {\'e}alisation}{64}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Bilan et Perspectives}{65}{chapter.6}
+\contentsline {chapter}{Bibliographie}{67}{chapter*.12}
+\contentsline {section}{\numberline {6.1}Le Protocole SSL}{72}{section.6.1}

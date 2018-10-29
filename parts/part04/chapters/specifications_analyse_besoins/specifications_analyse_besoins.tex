@@ -1,4 +1,6 @@
 \chapter{Analyse et Conception}
+\minitoc
+\clearpage
 Nous nous sommes intéressés au Top 10 d'Owasp qui nous a servi de cahiers de charge pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible en annexe.\\
 Le Top 10 Owasp, en recensant les dix risques de sécurite les plus critiques des applications Web, les explique et donne pour chacune de celles-ci, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurite. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des specifications et de l'analyse.
 
@@ -12,7 +14,7 @@ Un acteur représente un rôle joué par une entité externe (utilisateur humain
 Notre système est principalement en interaction avec les autres applications utilisant les différentes fonctionnalités mises à disposition par celui-ci. 
 
 \subsubsection{Les fonctionnalités générales}
-Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.
+Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.\\
 
 \textbf{\RIGHTarrow Gestion des injections}\\
 Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : 
@@ -35,93 +37,104 @@ Ce module regroupe les fonctions de sécurité permettant de se protéger des vi
  	\itemcheck le cryptage de données avec un algorithme fort.\\
  \end{itemize}
 
-
 \textbf{\RIGHTarrow Gestion des expositions de données sensibles}\\
-Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition de données sensibles. Pour ce faire, les fonctions de sécurités suivantes doivent être disponibles dans notre système : \\
-- le hachage fort de mots de passe avec un sel\footnote{donnée ajoutée au mot de passe avant hachage} ; \\
-- l'ajout d'entêtes HTTP (Entête Cache essentiellement) ; \\
-- la vérification de l'utilisation d'un canal sécurisé HTTPS ; \\
-- l'authentification des requêtes HTTP en Digest\footnote{Explication Digest} ; \\
-- le cryptage de données avec un algorithme fort.\\
+Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition de données sensibles. Pour ce faire, les fonctions de sécurités suivantes doivent être disponibles dans notre système :
+\begin{itemize}
+	\itemcheck le hachage fort de mots de passe avec un sel\footnote{donnée ajoutée au mot de passe avant hachage} ;
+	\itemcheck l'ajout d'entêtes HTTP (Entête Cache essentiellement) ;
+	\itemcheck la vérification de l'utilisation d'un canal sécurisé HTTPS ;
+	\itemcheck l'authentification des requêtes HTTP en Digest (Voir annexe) ;
+	\itemcheck le cryptage de données avec un algorithme fort.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des attaques sur les entités XML externes}\\
-Ce module regroupe les fonctions de sécurité permettant de se protéger des attaques sur les entités XML externes. Il contient les fonctions de sécurités : \\
-- l'encodage de données en HTML ; \\
-- la validation des entrées.\\
+Ce module regroupe les fonctions de sécurité permettant de se protéger des attaques sur les entités XML externes. Il contient les fonctions de sécurités :
+\begin{itemize}
+	\itemcheck l'encodage de données en HTML ;
+	\itemcheck la validation des entrées.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des violations de contrôle d’accès}\\
-Ce module regroupe les fonctions de sécurité permettant de se protéger des violations de contrôle d'accès. Pour prévenir les violations de contrôle d'accès, les fonctions de sécurités suivantes doivent être mises à disposition par le système : \\
-- la vérification des autorisations sur les ressources (autorisations sur les fichiers, urls, fonctions) ; \\
-- la vérification des rôles des utilisateurs ; \\
-- l'authentification ; \\
-- la déconnexion ; \\
-- la journalisation des accès aux ressources et évènements de connexion.\\
+Ce module regroupe les fonctions de sécurité permettant de se protéger des violations de contrôle d'accès. Pour prévenir les violations de contrôle d'accès, les fonctions de sécurités suivantes doivent être mises à disposition par le système :
+\begin{itemize}
+	\itemcheck la vérification des autorisations sur les ressources (autorisations sur les fichiers, urls, fonctions) ; 
+	\itemcheck la vérification des rôles des utilisateurs ; 
+	\itemcheck l'authentification ; 
+	\itemcheck la déconnexion ; 
+	\itemcheck la journalisation des accès aux ressources et évènements de connexion.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des mauvaises configurations de sécurité}\\
-Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des mauvaises configurations de sécurité. On a principalement : \\
-- le paramétrage des entêtes HTTP : il s'agit de toutes les entêtes HTTP relatives à la sécurité (Entêtes HSTS, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options, CSP, X-Permitted-Cross-Domain-Policies entre autres). \\
+Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des mauvaises configurations de sécurité. On a principalement :
+\begin{itemize}
+	\itemcheck le paramétrage des entêtes HTTP : il s'agit de toutes les entêtes HTTP relatives à la sécurité (Entêtes HSTS, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options, CSP, X-Permitted-Cross-Domain-Policies entre autres). \\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des cross-site scripting (XSS)}\\
-Ce module regroupe un ensemble de fonctions de sécurité permettant de se protéger des attaques XSS. Il s'agit de : \\
-- la validation des entrées ;\\
-- la sanitization des entrées ;\\
-- l'encodage des sorties selon le contexte de sortie (HTML, CSS, JavaScript)\footnote{Toute donnée devant être ajoutée au code source}; \\
-- l'ajout d'entêtes HTTP (CSP principalement).\\
+Ce module regroupe un ensemble de fonctions de sécurité permettant de se protéger des attaques XSS. Il s'agit de :
+\begin{itemize}
+	\itemcheck la validation des entrées ;
+	\itemcheck la sanitization des entrées ;
+	\itemcheck l'encodage des sorties selon le contexte de sortie (HTML, CSS, JavaScript)\footnote{Toute donnée devant être ajoutée au code source};
+	\itemcheck l'ajout d'entêtes HTTP (CSP principalement).\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des désérialisations non sécurisée}\\
-Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des désérialisations non sécurisées. On a principalement : \\
-- la signature d'un message ;
-- la vérification de signatures.\\
-
+Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des désérialisations non sécurisées. On a principalement :
+\begin{itemize}
+	\itemcheck la signature d'un message ;
+	\itemcheck la vérification de signatures ; 
+	\itemcheck la validaation de données.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion de l'utilisation de composants vulnérables}\\
-Ce module regroupe les fonctions de sécurité relatives à l'utilisation de composants vulnérables. Il regroupe les fonctionnalités suivantes : \\
-- la détection de composants vulnérables ; \\
-- la notification de nouvelle version d'un composant.\\
+Ce module regroupe les fonctions de sécurité relatives à l'utilisation de composants vulnérables. Il regroupe les fonctionnalités suivantes :
+\begin{itemize}
+	\itemcheck la détection de composants vulnérables ;
+	\itemcheck la notification de nouvelle version d'un composant.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion de la journalisation et de la surveillance insuffisante}\\
-Ce module regroupe les fonctions de sécurité relatives à la journalisation et à la surveillance. Il s'agit de journaliser afin d'avoir une trace de ce qui se passe dans le système mais aussi surveiller afin d'être réactif par rapport aux évènements du système. Les fonctionnalités sont les suivantes :\\
-- la journalisation des évènements. \\
-
+Ce module regroupe les fonctions de sécurité relatives à la journalisation et à la surveillance. Il s'agit de journaliser afin d'avoir une trace de ce qui se passe dans le système mais aussi surveiller afin d'être réactif par rapport aux évènements du système. Les fonctionnalités sont les suivantes :
+\begin{itemize}
+	\itemcheck la journalisation des évènements.
+\end{itemize}
 
 \subsection{Spécifications non fonctionnelles}
 Les besoins non fonctionnelles ou exigences techniques portent sur les différents points suivants :
-- le pinning de certificats ; \\
-- l'utilisation de protocoles sécurisés; \\
-- The preferred option is to use a safe API, which avoids the The preferred option is to use a safe API, which avoids the The preferred option is to use a safe API, which avoids use of the interpreter entirely or provides a parameterized interface or migrate to use Object Relational Mapping Tools (ORMs).\\
-- Do not ship or deploy with any default credentials, particularly for admin users.\\
-- Implement weak-password checks, such as testing new or changed passwords against a list of the top 10000 worst passwords.\\
-- etablir une politique de mots de passe; \\
-- A repeatable hardening process that makes it fast and easy to deploy another environment that is properly locked down. Development, QA, and production environments should all be configured identically, with different credentials used in each environment. This process should be automated to minimize the effort required to setup a new secure environment ;
-- A minimal platform without any unnecessary features, components, documentation, and samples. - Remove or do not install unused features and frameworks.
-- A task to review and update the configurations appropriate to all security notes, updates and patches as part of the patch management process (see A9:2017-Using Components with Known Vulnerabilities). In particular, review cloud storage permissions (e.g. S3 bucket permissions). \\
-- A segmented application architecture that provides effective, secure separation between components or tenants, with segmentation, containerization, or cloud security groups (ACLs).
-- Sending security directives to clients, e.g. Security Headers.
-- An automated process to verify the effectiveness of the configurations and settings in all environments.\\
-- portabilité \\
-- compatibilité\\
-- formation\\
-- efficacité : efficacité en temps, efficacité en ressources\\
-- facilité d'intégration\\
-- Toute information confidentielle fournie par les  clients via l’Internet sera cryptée avec le système XYZ  ou par l’algorithme, la méthode....ABC..  \\
-- Tous les logiciels du côté client vont être  téléchargés et installés à partir du navigateur, sans que  le poste du client ne soit redémarré ou configuré manuellement \\
-- Le comportement du programme doit être paramétrable par des fichiers texte de configuration \\
-%\textbf{\RIGHTarrow Gestion des mauvaises configurations de sécurité}\\
-%\textbf{\RIGHTarrow Gestion des désérialisations non sécurisée}\\
-- autres besoins non fonctionnels specifies par les autres points;
-
+\begin{itemize}
+	\itemcheck «pinner» les certificats ; 
+	\itemcheck utiliser de protocoles sécurisés ;
+	\itemcheck ne jamais déployer avec les credentials par défaut ;
+	\itemcheck implémenter des mécanismes de vérifications de mots de passe par rapport à une politique de mots de passe prédéfinie ;
+	\itemcheck A minimal platform without any unnecessary features, components, documentation, and samples ;
+	\itemcheck Remove or do not install unused features and frameworks.
+	\itemcheck A segmented application architecture that provides effective, secure separation between components ;
+	\itemcheck Sending security directives to clients, e.g. Security Headers ;
+	\itemcheck An automated process to verify the effectiveness of the configurations and settings in all environments.
+	\itemcheck portabilité ;
+	\itemcheck compatibilité ;
+	\itemcheck formation ;
+	\itemcheck efficacité : efficacité en temps, efficacité en ressources ;
+	\itemcheck facilité d'intégration ;
+	\itemcheck Toute information confidentielle fournie par les  clients via l’Internet sera cryptée avec le système XYZ  ou par l’algorithme, la méthode....ABC.. ;
+	\itemcheck Tous les logiciels du côté client vont être  téléchargés et installés à partir du navigateur, sans que  le poste du client ne soit redémarré ou configuré manuellement ;
+	\itemcheck Le comportement du programme doit être paramétrable par des fichiers texte de configuration.
+\end{itemize}
 
 \section{Analyse}
 Après avoir défini les acteurs et énuméré les fonctionnalités générales du système, nous passons à la phase d'analyse. Nous utiliserons les diagrammes de cas d'utilisation pour mieux représenter ce qui est attendu du système. Pour certains cas d'utilisation, une description textuelle sera faite. Nous utiliserons aussi des diagrammes d'activité pour illustrer le séquencement des actions par rapport à certains cas d'utilisation.\\
-Pour des besoins de concision, chaque point du Top 10 sera considéré comme un package et comportera les fonctionnalités définies plus tôt. Ces packages sont les suivants : \\
-- package gestion des injections\\
-- package gestion des violations de Gestion d’Authentification\\
-- package gestion des expositions de données sensibles\\
-- package gestion des attaques sur les entités XML externes\\
-- package gestion des violations de contrôle d’accès\\
-- package gestion des cross-site scripting (XSS)\\
-- package gestion de l'utilisation de composants vulnérables\\
-- package gestion de la journalisation et de la surveillance insuffisante\\
+Pour des besoins de concision, chaque point du Top 10 sera considéré comme un package et comportera les fonctions définies plus tôt. Ces packages sont les suivants :
+\begin{itemize}
+	\itemtirait package gestion des injections ;
+	\itemtirait package gestion des violations de Gestion d’Authentification ;
+	\itemtirait package gestion des expositions de données sensibles ;
+	\itemtirait package gestion des attaques sur les entités XML externes ;
+	\itemtirait package gestion des violations de contrôle d’accès ;
+	\itemtirait package gestion des cross-site scripting (XSS) ;
+	\itemtirait package gestion de l'utilisation de composants vulnérables ;
+	\itemtirait package gestion de la journalisation et de la surveillance insuffisante.
+\end{itemize}
 La figure \ref{fig:8.1} ci-dessous reprèsente ces différents packages.
 \begin{figure}[h!]
 	\centering
@@ -234,7 +247,7 @@ Le diagramme de cas d'utilisation du package "Gestion des désérialisations non
 	\centering
 	\begin{minipage}{12cm}
 		\centering
-		{\includegraphics[height=0.30\textheight]{fig/Insecure_deserialization-use-case-diagram.png}}
+		{\includegraphics[height=0.25\textheight]{fig/Insecure_deserialization-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des désérialisations non sécurisées"}
 	\label{fig:7.9}
@@ -277,16 +290,18 @@ Ci-dessous, nous avons le diagramme de cas d'utilisation global du système :
 	\caption{Diagramme de cas d'utilisation global du système}
 	\label{fig:7.12}
 \end{figure}
-Toutefois, cette représentation n'est pas non plus le meilleur car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comrenant les fonctions de sécurité de même nature.\\
+Toutefois, cette représentation n'est pas non plus le meilleur car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comprenant les fonctions de sécurité de même nature.\\
 Ainsi, nous avons les modules suivants :
-- Module "Utilisateurs" comprenant les fonctions relatives aux utilisateurs ;\\
-- Module "Cryptographie" comprenant les fonctions se rapportant à la cryptographie ; \\
-- Module "Encodage" comprenant les fonctions d'encodage ; \\ 
-- Module "Validation" regroupant les fonctions relatives à la validation ; \\
-- Module "HTTP" regroupant les fonctions relatives aux paramètres HTTP;
-- Module "Interpréteurs" regroupant les fonctions relatives aux interpréteurs;
-- Module "Logging" regroupant les fonctions relatives à la journalisation ; \\
-- Module "Gestion des composants" regroupant les fonctions relatives aux composants utilisés dans l'application.\\
+\begin{itemize}
+	\itemcheck Module "Utilisateurs" comprenant les fonctions relatives aux utilisateurs ;
+	\itemcheck Module "Cryptographie" comprenant les fonctions se rapportant à la cryptographie ; 
+	\itemcheck Module "Encodage" comprenant les fonctions d'encodage ; 
+	\itemcheck Module "Validation" regroupant les fonctions relatives à la validation ; 
+	\itemcheck Module "HTTP" regroupant les fonctions relatives aux paramètres HTTP ;
+	\itemcheck Module "Interpréteurs" regroupant les fonctions relatives aux interpréteurs ;
+	\itemcheck Module "Logging" regroupant les fonctions relatives à la journalisation ; 
+	\itemcheck Module "Gestion des composants" regroupant les fonctions relatives aux composants utilisés dans l'application.
+\end{itemize}
 Chaque module est un sous-sytème et sera représenté par un package. Cette séparation nous donne le diagramme de packages suivant :
 \begin{figure}[H]
 	\centering
@@ -560,7 +575,7 @@ La force du mot de passe est calculé en considérant que la taille minimale d'u
 	\caption{Diagramme d'états-transition d'un utilisateur}
 	\label{fig:7.13}
 \end{figure}
-%TODO: Petite explication
+Lorsqu'un uilisateur est nouvellement créé, il se doit d'activer son compte. S'il ne le fait pas au bout d'un certain délai, l'utilisateur nouvellement créé \textit{expire} et il n'a plus la possibilité de se connecter à l'application. Après activation, l'utilisateur est \textit{activé} peut se connecter. Après une connexion réussie, l'utilisateur est \textit{connecté}. Lorsque connecté, une déconnexion, un délai de session écoulé ou une inactivité au bout d'un certain délai, cet utilisateur est \textit{déconnecté} et seule une nouvelle authentification réussie lui permet d'être \textit{connecté} à nouveau. Lors de l'authentification, après un certain nombre de tentatives de connexion échouées préalablement fixé, l'utilisateur est \textit{bloqué} et seul le déblocage de l'utilisateur par un administrateur peut le remettre à un état \textit{débloqué}
 
 \subsection{Sous-système "Cryptographie"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -725,16 +740,76 @@ L’enchaînement E4 démarre au point 9 du scénario nominal.
 %\subsubsection{Cas d'utilisation "Détecter composants vulnérables"}
 %\textbf{\RIGHTarrow Description textuelle}\\
 %\textbf{\RIGHTarrow Diagramme d'activités}\\
-\subsection{Diagramme de classes}
+\subsection{Structure statique du système}
+\subsubsection{Diagramme de classes d'analyse}
 \begin{figure}[H]
 	\centering
 	\begin{minipage}{12cm}
 		\centering
-		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Analyse-Class-Diagram.png}}
+		{\includegraphics[height=0.5\textheight, width=1.2\textwidth]{fig/Analyse-Class-Diagram.png}}
 	\end{minipage}
-	\caption{Diagramme de classes d'analyse dy système}
+	\caption{Diagramme de classes d'analyse du système}
 	\label{fig:7.20}
 \end{figure}
 
 \section{Conception}
-\subsection{Architecture Technique}
+\subsection{Synthèse de la solution}
+Notre solution repose donc sur la mise en place d'une bibliothèque de fonctions de sécurité permettant aux applications de se protéger au moins des risques énoncés dans Top 10 OWASP 2017. Cependant, il faut le dire, ces fonctions peuvent aussi permettre de se protéger d'autres risques qui ne sont pas énoncés dans le Top 10. Les modules fonctionnels sont les suivants :
+\begin{itemize}
+	\itemcheck Module "Utilisateurs" ;
+	\itemcheck Module "Cryptographie" ; 
+	\itemcheck Module "Encodage" ; 
+	\itemcheck Module "Validation" ; 
+	\itemcheck Module "HTTP" ;
+	\itemcheck Module "Interpréteurs" regroupant les fonctions relatives aux interpréteur
+	\itemcheck Module "Logging" regroupant les fonctions relatives à la journalisation ; 
+	\itemcheck Module "Gestion des composants".
+\end{itemize}
+Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité déjà existante mise à disposition par l'Owasp, Owasp ESAPI pour mettre en place notre propre bibliothèque de sécurité que nous appelons HubSo ESAPI.
+\subsection{Utilisation de la bibliothèque ESAPI}
+Why you shouldn’t build your own security controls
+Writing security controls is time-consuming and extremely prone to mistakes. MITRE’s CWE project lists
+over 600 different types of security mistakes that developers can make, and most of them are not at all
+obvious. Most people recognize that developers should not build their own encryption mechanisms, but
+the same argument applies to all the security controls.
+
+Why you shouldn’t use security libraries directly
+There are plenty of libraries and frameworks out there that provide various security functions – Log4j,
+Java Cryptographic Extension (JCE), JAAS, Acegi, and dozens more. Some of them are even pretty good
+at what they do. But there are several reasons why enterprise developers should not use them directly.
+Most importantly, these libraries are overpowerful. Most developers only need a very limited set of
+security functions and don’t need a complex interface. Further, many of these libraries contain security
+holes themselves – such as encoding libraries that don’t canonicalize or authentication libraries that
+don’t use strong cryptographic functions. Because many security controls use features from other
+controls, using security libraries that aren’t integrated together is a mistake.
+
+Why you shouldn’t rely on security in the platform or framework
+Unfortunately, the web application platforms and frameworks do not protect against many well-known
+attacks. For example, consider header injection – allowing carriage return (CR) and line-feed (LF)
+characters to be used in HTTP headers. This injection changes the way these HTTP messages are parsed,
+allowing the attacker to affect how they are interpreted. This type of injection can allow attackers to download malicious files to the user’s desktop among other serious impacts.
+The platforms could protect against this attack which violates the HTTP specification, but many do not. Instead, your application developers must know to carefully validate and filter user data before using it in HTTP headers.
+The platforms and frameworks are a shifting environment. Your code may be protected by something in
+your infrastructure today, but that environment may change tomorrow. The best approach is to build
+your applications so that they provide their own protection. If this results in some overlapping
+protection, also known as defense-in-depth, that’s a good outcome. 
+
+Create a security API that matches YOUR enterprise
+Even if you don’t trust open source code, please consider the concept of establishing an ESAPI. With the OWASP project as a model, it would not take much time at all to create a custom ESAPI for your
+organization. You could adopt just the ESAPI interfaces and use parts of the reference implementation
+that make sense for you.
+
+Interfaces
+ESAPI is primarily a set of interfaces designed to make security easy to use. These interfaces are usable by anyone who cares to implement them for their enterprise. By keeping the interfaces separate, we are trying to encourage organizations to create their own implementations.
+However, we didn’t stop there. We built a complete set of reference implementations. The reference
+implementations are complete and well tested, although there are a few limitations. In general, the
+reference implementation is designed to run without requiring any other infrastructure, such as
+database or LDAP servers. The Authenticator and AccessController implementations in particular work of simple text file policies, which may not be appropriate for enterprise applications. However, the rest of the reference implementation is scalable and appropriate for enterprise applications. You will likely want to hook up the Logger to your logging infrastructure. 
+
+\subsection{Conception Architecturale}
+\subsubsection{Architecture Générique}
+\subsubsection{Architecture détaillée HubSo ESAPI}
+\subsubsection{Architecture technique d'une application sécurisée}
+\subsection{Déploiement}
+La figure suivante représente le diagramme de déploiement d'une application donnée utilisant notre bibliothèque de sécurité.
+%TODO figure

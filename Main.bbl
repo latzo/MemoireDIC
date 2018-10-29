@@ -62,21 +62,29 @@ Arpanet.
 \newblock \url{https://icannwiki.org/ARPANET}.
 
 \bibitem{morris-worm}
-By~Larry Boettger.
+Larry Boettger.
 \newblock The morris worm: How it affected computer security and lessons
   learned by it.
 \newblock 2000.
 
 \bibitem{internet}
-David D. Clark Robert E. Kahn Leonard Kleinrock Daniel C. Lynch Jon Postel
-  Larry G. Roberts Stephen~Wolf Barry M.~Leiner, Vinton G.~Cerf.
+David D.~Clark Barry M.~Leiner, Vinton G.~Cerf.
 \newblock Brief history of the internet.
 \newblock 1997.
 
 \bibitem{pdp}
-Dr.Mouhamadou LO.
+Dr.~Mouhamadou LO.
 \newblock {\em La Protection des données à caractère personnel en Afrique,
   Réglementation et régulation}.
 \newblock Baol Editions, 9 2017.
+
+\bibitem{cross}
+Threat classification taxonomy cross reference view.
+\newblock
+  \url{http://projects.webappsec.org/w/page/13246975/Threat%20Classification%20Taxonomy%20Cross%20Reference%20View}.
+
+\bibitem{scrum}
+Introduction aux méthodes agiles et scrum.
+\newblock \url{https://www.agiliste.fr/introduction-methodes-agiles/}.
 
 \end{thebibliography}

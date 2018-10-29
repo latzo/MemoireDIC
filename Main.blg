@@ -14,17 +14,5 @@ Warning--empty author in b2
 Warning--empty journal in b2
 Warning--empty year in b2
 Warning--empty journal in morris-worm
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, Stephen Wolf" for entry internet
-while executing---line 944 of file unsrt.bst
 Warning--empty journal in internet
-(There were 7 error messages)
+(There was 1 error message)

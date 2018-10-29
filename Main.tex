@@ -328,10 +328,19 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 \usepackage{tikz}
 %pour les tables of contents in each part
 \usepackage{minitoc}
+\setcounter{minitocdepth}{5}
+\dominitoc% Initialization
 %pour regrouper les lignnes d un tableau
 \usepackage{multirow}
 %pour inserer un pdf
 \usepackage{pdfpages}
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 
 \begin{document}
 	% UoB guidlines:
@@ -353,10 +362,11 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	% 
 	\frontmatter
 	\pagenumbering{roman}
-	\dominitoc% Initialization
+	
 	%
 	\input{frontmatter/title}
-	
+	\shipout\null
+	\input{frontmatter/title}
 	%
 	\input{frontmatter/certification}
 	
@@ -377,8 +387,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\input{frontmatter/abstract}
 	
 	%
-	\input{frontmatter/nomenclature}
-	
+	%\input{frontmatter/nomenclature}
 	
 	%
 	\renewcommand{\contentsname}{Table des matières}
@@ -387,14 +396,19 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\addtocontents{toc}{\par\nobreak \mbox{}\hfill{\bf Page}\par\nobreak}
 	\clearpage
 	%
-	\listoftables
-	\addtocontents{lot}{\par\nobreak\textbf{{\scshape Table} \hfill Page}\par\nobreak}
+	\renewcommand{\nomname}{Sigles et Abbréviations}
+	\printnomenclature[1in]
 	\clearpage
 	%
 	\listoffigures
+	\adjustmtc
 	\addtocontents{lof}{\par\nobreak\textbf{{\scshape Figure} \hfill Page}\par\nobreak}
 	\clearpage
-	
+	%
+	\listoftables
+	\adjustmtc
+	\addtocontents{lot}{\par\nobreak\textbf{{\scshape Table} \hfill Page}\par\nobreak}
+	\clearpage
 	%Introduction
 	%\input{frontmatter/introduction.tex}
 	%
@@ -413,7 +427,6 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\import{parts/part05/}{part05.tex} % Réalisation
 	\import{parts/part06/}{part06.tex} % Bilan et Perspectives
 	\import{misc/conclusion/}{conclusion}
-	\import{misc/annexe/}{annexe}
 	% And the appendix goes here
 	%\appendix
 	%\import{chapters/appendices/}{app0A.tex}
@@ -440,4 +453,6 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 %	\part*{Bibliographie}
 	\bibliographystyle{unsrt}
 	\bibliography{bibliography}
+	\import{misc/annexe/}{annexe}
+	%\pagebreak
 \end{document}

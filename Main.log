@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  28 OCT 2018 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  29 OCT 2018 08:39
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2170,6 +2170,49 @@ Package minitoc Info: I0010
 ("C:\Program Files\MiKTeX 2.9\tex\latex\minitoc\french.mld"
 File: french.mld 2006/03/21
 ))
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM Main.toc on input line 334.
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc1.
+\openout7 = `Main.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc2.
+\openout7 = `Main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc3.
+\openout7 = `Main.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc4.
+\openout7 = `Main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc5.
+\openout7 = `Main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc6.
+\openout7 = `Main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc7.
+\openout7 = `Main.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc8.
+\openout7 = `Main.mtc8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc9.
+\openout7 = `Main.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc10.
+\openout7 = `Main.mtc10'.
+
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip303
@@ -2194,6 +2237,12 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks69
 \c@AM@survey=\count372
 \AM@templatesizebox=\box80
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks70
+\AP@partial=\box81
+\AP@footins=\box82
 ) (Main.aux
 
 LaTeX Warning: Label `fig:7.13' multiply defined.
@@ -2204,87 +2253,87 @@ LaTeX Warning: Label `fig:7.20' multiply defined.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 336.
-LaTeX Font Info:    Try loading font information for FML+fncmi on input line 33
-6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 345.
+LaTeX Font Info:    Try loading font information for FML+fncmi on input line 34
+5.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 336.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 336
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 345.
+LaTeX Font Info:    Try loading font information for FMS+fncm on input line 345
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm.fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 336.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 336
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 345.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 345
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 336.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 336.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 345.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 345.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 336.
-LaTeX Font Info:    ... okay on input line 336.
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 336.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 345.
+LaTeX Font Info:    ... okay on input line 345.
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 345.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.fd"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 336.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 336.
+(Font)              scaled to size 10.18341pt on input line 345.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 345.
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 336.
-Package gensymb Info: Math companion symbols declared on input line 336.
-LaTeX Info: Redefining \degree on input line 336.
-LaTeX Info: Redefining \celsius on input line 336.
+(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 345.
+Package gensymb Info: Math companion symbols declared on input line 345.
+LaTeX Info: Redefining \degree on input line 345.
+LaTeX Info: Redefining \celsius on input line 345.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 336.
-LaTeX Info: Redefining \ohm on input line 336.
-Package gensymb Info: Using \textohm for \ohm on input line 336.
-Package gensymb Info: Using \textmu for \micro on input line 336.
+erthousand on input line 345.
+LaTeX Info: Redefining \ohm on input line 345.
+Package gensymb Info: Using \textohm for \ohm on input line 345.
+Package gensymb Info: Using \textmu for \micro on input line 345.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 336.
+Package layouts Warning: Layout scale set to 0.5 on input line 345.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count373
 \scratchdimen=\dimen307
-\scratchbox=\box81
+\scratchbox=\box83
 \nofMPsegments=\count374
 \nofMParguments=\count375
-\everyMPshowfont=\toks70
+\everyMPshowfont=\toks71
 \MPscratchCnt=\count376
 \MPscratchDim=\dimen308
 \MPnumerator=\count377
 \makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks71
+\everyMPtoPDFconversion=\toks72
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2298,14 +2347,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \degres on input line 336.
-LaTeX Info: Redefining \dots on input line 336.
+LaTeX Info: Redefining \degres on input line 345.
+LaTeX Info: Redefining \dots on input line 345.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumerate package,
-(french.ldf)             reported on input line 336.
-LaTeX Info: Redefining \up on input line 336.
-\AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring ON on input line 336.
+(french.ldf)             reported on input line 345.
+LaTeX Info: Redefining \up on input line 345.
+\AtBeginShipoutBox=\box84
+Package hyperref Info: Link coloring ON on input line 345.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2317,15 +2366,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 336.
-LaTeX Info: Redefining \ref on input line 336.
-LaTeX Info: Redefining \pageref on input line 336.
-LaTeX Info: Redefining \nameref on input line 336.
+LaTeX Info: Redefining \nameref on input line 345.
+LaTeX Info: Redefining \ref on input line 345.
+LaTeX Info: Redefining \pageref on input line 345.
+LaTeX Info: Redefining \nameref on input line 345.
 (Main.out) (Main.out)
 \@outlinefile=\write8
 \openout8 = `Main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 336.
+LaTeX Info: Redefining \microtypecontext on input line 345.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2395,93 +2444,181 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 336.
+put line 345.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 336.
+t line 345.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 336.
+t line 345.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 336.
+line 345.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 336.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Main.toc on input line 358.
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc1.
-\openout7 = `Main.mtc1'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc2.
-\openout7 = `Main.mtc2'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc3.
-\openout7 = `Main.mtc3'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc4.
-\openout7 = `Main.mtc4'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc5.
-\openout7 = `Main.mtc5'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc6.
-\openout7 = `Main.mtc6'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc7.
-\openout7 = `Main.mtc7'.
-
-\openout7 = `Main.mtc'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc8.
-\openout7 = `Main.mtc8'.
-
+line 345.
 
 (frontmatter/title.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 28.
-<Logos/senegal_flag.png, id=418, 1284.8pt x 856.19875pt>
+LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 28.
+<Logos/senegal_flag.png, id=422, 1284.8pt x 856.19875pt>
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
 Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
 9.
-<Logos/logo_ucad.png, id=419, 224.84pt x 225.84375pt>
+<Logos/logo_ucad.png, id=423, 224.84pt x 225.84375pt>
 File: Logos/logo_ucad.png Graphic file (type png)
 <use Logos/logo_ucad.png>
-Package pdftex.def Info: Logos/logo_ucad.png  used on input line 32. on input l
-ine 32.
+Package pdftex.def Info: Logos/logo_ucad.png  used on input line 34. on input l
+ine 34.
 Package pdftex.def Info: Requested size: 67.64725pt x 67.95006pt on input line 
-32.
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 10.18341pt on input line 42.
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 19.28804pt on input line 42.
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 46.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 46.
-LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 10.18341pt on input line 53.
+34.
+LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
+(Font)              scaled to size 11.15991pt on input line 39.
 LaTeX Font Info:    Font shape `T1/fnc/bx/it' in size <12> not available
-(Font)              Font shape `T1/fnc/b/it' tried instead on input line 58.
+(Font)              Font shape `T1/fnc/b/it' tried instead on input line 46.
 LaTeX Font Info:    Font shape `T1/fnc/b/it' will be
-(Font)              scaled to size 11.15991pt on input line 58.
+(Font)              scaled to size 11.15991pt on input line 46.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 50.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 50.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 50.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 50.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 50.
+LaTeX Font Info:    Try loading font information for FML+fncm on input line 50.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm.fd"
+File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 50.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 50.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
+LaTeX Font Info:    Try loading font information for U+lasy on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for TS1+fnc on input line 50.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.fd"
+File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
+)
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 50.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fnc' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 50.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 50.
+LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 10.18341pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 19.28804pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.71893pt on input line 57.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 57.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 57.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 57.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 57.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 57.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 57.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 57.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 10.18341pt on input line 57.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 7.71893pt on input line 57.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 57.
+LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
+(Font)              scaled to size 10.18341pt on input line 64.
  [1
 
 
 {C:/Users/latyr.mbodj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Log
-os/senegal_flag.png> <./Logos/logo_ucad.png>])
-(frontmatter/certification.tex
+os/senegal_flag.png> <./Logos/logo_ucad.png>])pdfTeX warning (ext4): destinatio
+n with the same identifier (name{page.i}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.368 	\shipout\null
+                     [1] (frontmatter/title.tex
+File: Logos/senegal_flag.png Graphic file (type png)
+<use Logos/senegal_flag.png>
+Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
+t line 29.
+Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
+9.
+File: Logos/logo_ucad.png Graphic file (type png)
+<use Logos/logo_ucad.png>
+Package pdftex.def Info: Logos/logo_ucad.png  used on input line 34. on input l
+ine 34.
+Package pdftex.def Info: Requested size: 67.64725pt x 67.95006pt on input line 
+34.
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 \end{titlingpage}
+                       [1
+
+
+]) (frontmatter/certification.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 13.39188pt on input line 21.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <14.4> not available
@@ -2492,8 +2629,9 @@ LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/fnc/b/sc' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/fnc/b/sc' will be
 (Font)              scaled to size 13.39188pt on input line 21.
-) (frontmatter/dedicaces.texpdfTeX warning (ext4): destination with the same id
-entifier (name{page.i}) has been already used, duplicate ignored
+)
+(frontmatter/dedicaces.texpdfTeX warning (ext4): destination with the same iden
+tifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 \chapter
@@ -2507,29 +2645,13 @@ l.7 \chapter
 
 
 ])
-(frontmatter/avantpropos.tex
-LaTeX Font Info:    Try loading font information for TS1+fnc on input line 24.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.fd"
-File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
-)
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 24.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `fnc' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
-(frontmatter/resume.tex [4
+(frontmatter/avantpropos.tex) (frontmatter/resume.tex [4
 
 
 ] [5
 
-]) (frontmatter/abstract.tex [6
-
-
 ])
-(frontmatter/nomenclature.tex (Main.nls) [7
+(frontmatter/abstract.tex [6
 
 
 ]) (Main.toc
@@ -2537,108 +2659,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
 (nag)                Use \bfseries or \textbf instead on input line 2.
 
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.71893pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
-LaTeX Font Info:    Try loading font information for FML+fncm on input line 3.
-("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm.fd"
-File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+Overfull \hbox (0.42758pt too wide) detected at line 4
+ \T1/fnc/b/n/10.95 xiv
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+stmry on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
-LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+wasy on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
-File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-eur.cfg"
-File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-)
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 7.71893pt on input line 3.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 3.
- [8
+[7
 
 ]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 74.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
 (Font)              scaled to size 9.29993pt on input line 74.
- [9]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 102.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 102.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 102.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 102.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 102.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 102.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 102.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 102.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 102.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 102.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 102.
-)
-[10] (Main.lot
+ [8]) [9] (Main.nls [10
+
+
+]) [11] (Main.lof
 LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/fnc/b/sc' will be
 (Font)              scaled to size 10.18341pt on input line 2.
-) [11
+ [12
 
-] (Main.lof [12
+]) [13] (Main.lot) [14
 
-]) [13] (misc/introduction/introduction.tex
+]
+(misc/introduction/introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2658,15 +2704,37 @@ LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
 (Font)              scaled to size 13.39188pt on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 19.28804pt on input line 1.
-Package minitoc Info: I0006
-(minitoc)             Main.mtc2 is empty on input line 3.
- [2
+\openout7 = `Main.mtc'.
+
+\openout7 = `Main.mtc'.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.06795pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 3.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 3.
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 7.06795pt on input line 3.
+ (Main.mtc4
+LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10> not available
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 9.29993pt on input line 1.
+)
+[2
 
 
 ] [3
 
 ]
-<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=672, 
+<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=702, 
 963.6pt x 435.6275pt>
 File: parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png Grap
 hic file (type png)
@@ -2680,313 +2748,282 @@ Overfull \hbox (61.1496pt too wide) in paragraph at lines 44--48
  []$[]$ 
  []
 
+LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
+(Font)              scaled to size 10.18341pt on input line 52.
+LaTeX Font Info:    Font shape `T1/fnc/m/sl' will be
+(Font)              scaled to size 10.18341pt on input line 56.
 ) (parts/part01//chapters/sujet/sujet.tex [4 <./parts/part01//chapters/structur
 e-accueil/fig/Organnigramme-HubSo.png>] [5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 94.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 94.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 94.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 7.06795pt on input line 94.
 [7] [8] [9] [10] [11])) (parts/part02/part02.tex
 (parts/part02//chapters/etat-art-historique/etat-art-historique.tex [12]
-Package minitoc Info: I0006
-(minitoc)             Main.mtc3 is empty on input line 3.
+\openout7 = `Main.mtc'.
 
-[13
+\openout7 = `Main.mtc'.
+
+
+(Main.mtc5) [13
 
 ] [14
 
-] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 27--40
+] [15] [16] [17])
+(parts/part02//chapters/etat-art-contexte/etat-art-contexte.tex [18] [19]
+[20]
 
- []
-
-[16] [17]) (parts/part02//chapters/etat-art-contexte/etat-art-contexte.tex
-[18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
+LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
+(Font)              Font shape `U/wasy/b/n' tried instead on input line 85.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
-) (parts/part02//chapters/owasp/owasp.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--8
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 21--39
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
-[23] [24]
-Overfull \hbox (17.60063pt too wide) in paragraph at lines 60--60
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+[22]) (parts/part02//chapters/owasp/owasp.tex [23] [24] [25]
+Overfull \hbox (17.60063pt too wide) in paragraph at lines 57--57
 []|\T1/fnc/m/n/10.95 (-20) A1 :Injection|  
  []
 
 
-Overfull \hbox (21.95914pt too wide) in paragraph at lines 56--68
+Overfull \hbox (21.95914pt too wide) in paragraph at lines 53--65
  [][] 
  []
 
-[25] [26])) (parts/part04/part04.tex
+)) (parts/part04/part04.tex
 (parts/part04//chapters/methodologie_developpement/methodologie_developpement.t
-ex
+ex [26]
 \openout7 = `Main.mtc'.
 
 \openout7 = `Main.mtc'.
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 3.
- (Main.mtc4
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 9.29993pt on input line 1.
-) [27
-
+ (Main.mtc6) [27
 
 ] [28
 
-] [29]) (parts/part04//chapters/uml/uml.tex [30
-
-]
-<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=846, 1157.32375pt
+] [29]) (parts/part04//chapters/uml/uml.tex
+[30] [31]
+<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=910, 1157.32375pt
  x 495.8525pt>
 File: parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png Graphic file (ty
 pe png)
 <use parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>
 Package pdftex.def Info: parts/part04//chapters/uml/fig/Uml-Diagrams-overview.p
-ng  used on input line 40. on input line 40.
+ng  used on input line 45. on input line 45.
 Package pdftex.def Info: Requested size: 444.02583pt x 190.24509pt on input lin
-e 40.
+e 45.
 
-Overfull \hbox (61.1496pt too wide) in paragraph at lines 38--42
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 43--47
  []$[]$ 
  []
 
-[31] [32 <./parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>])
+[32 <./parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>])
 (parts/part04//chapters/specifications_analyse_besoins/specifications_analyse_b
 esoins.tex
+\openout7 = `Main.mtc'.
 
-LaTeX Font Warning: Font shape `U/wasy/bx/n' in size <10.95> not available
-(Font)              Font shape `U/wasy/b/n' tried instead on input line 17.
+\openout7 = `Main.mtc'.
 
-[33
+ (Main.mtc7 [33
 
+
+]) [34]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--46
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--59
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--70
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--81
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--85
-
- []
-
-[35]
+[37]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.png,
- id=878, 763.85374pt x 523.9575pt>
+ id=996, 763.85374pt x 523.9575pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram
 .png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.
 png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Package-Diagram.png  used on input line 130. on input line 130.
+fig/Package-Diagram.png  used on input line 143. on input line 143.
 Package pdftex.def Info: Requested size: 277.34154pt x 190.24509pt on input lin
-e 130.
+e 143.
 
-Overfull \hbox (61.1496pt too wide) in paragraph at lines 128--132
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 141--145
  []$[]$ 
  []
 
-[36]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-case-d
-iagram.png, id=883, 1132.23pt x 874.01532pt>
+iagram.png, id=997, 1132.23pt x 874.01532pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-c
 ase-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-ca
 se-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Injection-use-case-diagram.png  used on input line 144. on input line 144.
+fig/Injection-use-case-diagram.png  used on input line 157. on input line 157.
 Package pdftex.def Info: Requested size: 273.83119pt x 211.38223pt on input lin
-e 144.
+e 157.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--148
+Underfull \hbox (badness 10000) in paragraph at lines 152--161
 
  []
 
-[37 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagra
-m.png>]
+[38]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestion-au
-thentification-use-case-diagram.png, id=889, 1120.9378pt x 1046.40938pt>
+thentification-use-case-diagram.png, id=1003, 1120.9378pt x 1046.40938pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gesti
 on-authentification-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestio
 n-authentification-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Violation-gestion-authentification-use-case-diagram.png  used on input line
- 158. on input line 158.
+ 171. on input line 171.
 Package pdftex.def Info: Requested size: 226.42422pt x 211.38223pt on input lin
-e 158.
+e 171.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--162
+Underfull \hbox (badness 10000) in paragraph at lines 166--175
 
  []
 
+[39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagra
+m.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection-u
+se-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposition-d
-onnees-use-case-diagram.png, id=890, 918.43124pt x 933.4875pt>
+onnees-use-case-diagram.png, id=1010, 918.43124pt x 933.4875pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposit
 ion-donnees-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-expositi
 on-donnees-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Gestion-exposition-donnees-use-case-diagram.png  used on input line 172. on
- input line 172.
+fig/Gestion-exposition-donnees-use-case-diagram.png  used on input line 185. on
+ input line 185.
 Package pdftex.def Info: Requested size: 207.96945pt x 211.38223pt on input lin
-e 172.
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--176
-
- []
-
-[38 <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-
-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/
-Violation-gestion-authentification-use-case-diagram.png>]
-<parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-diagram
-.png, id=897, 808.52063pt x 492.33937pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-di
-agram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-dia
-gram.png>
-Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/XXE-use-case-diagram.png  used on input line 185. on input line 185.
-Package pdftex.def Info: Requested size: 347.13895pt x 211.38223pt on input lin
 e 185.
-
-Overfull \hbox (5.70589pt too wide) in paragraph at lines 185--186
- [][] 
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 180--189
 
  []
 
-[39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposi
-tion-donnees-use-case-diagram.png>]
-<parts/part04//chapters/specifications_analyse_besoins/fig/Violation-controle-a
-cces-use-case-diagram.png, id=903, 1202.24156pt x 871.75688pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contr
-ole-acces-use-case-diagram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contro
-le-acces-use-case-diagram.png>
+<parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-diagram
+.png, id=1011, 808.52063pt x 492.33937pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-di
+agram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-dia
+gram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Violation-controle-acces-use-case-diagram.png  used on input line 198. on i
-nput line 198.
-Package pdftex.def Info: Requested size: 291.51572pt x 211.38223pt on input lin
+fig/XXE-use-case-diagram.png  used on input line 198. on input line 198.
+Package pdftex.def Info: Requested size: 347.13895pt x 211.38223pt on input lin
 e 198.
+
+Overfull \hbox (5.70589pt too wide) in paragraph at lines 198--199
+ [][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--202
 
  []
 
-<parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconfigur
-ation-use-case-diagram.png, id=904, 1059.96pt x 508.90125pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/Security_miscon
-figuration-use-case-diagram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconf
-iguration-use-case-diagram.png>
+[40 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gest
+ion-authentification-use-case-diagram.png> <./parts/part04//chapters/specificat
+ions_analyse_besoins/fig/Gestion-exposition-donnees-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Violation-controle-a
+cces-use-case-diagram.png, id=1018, 1202.24156pt x 871.75688pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contr
+ole-acces-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contro
+le-acces-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Security_misconfiguration-use-case-diagram.png  used on input line 211. on 
-input line 211.
-Package pdftex.def Info: Requested size: 440.27954pt x 211.38223pt on input lin
+fig/Violation-controle-acces-use-case-diagram.png  used on input line 211. on i
+nput line 211.
+Package pdftex.def Info: Requested size: 291.51572pt x 211.38223pt on input lin
 e 211.
-
-Overfull \hbox (98.84648pt too wide) in paragraph at lines 211--212
- [][] 
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--215
 
  []
 
-[40 <./parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-d
-iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Violat
-ion-controle-acces-use-case-diagram.png>]
-<parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-diagram
-.png, id=911, 1436.36626pt x 874.01532pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-di
-agram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-dia
-gram.png>
+[41 <./parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-d
+iagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconfigur
+ation-use-case-diagram.png, id=1024, 1059.96pt x 508.90125pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Security_miscon
+figuration-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconf
+iguration-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/XSS-use-case-diagram.png  used on input line 224. on input line 224.
-Package pdftex.def Info: Requested size: 347.38692pt x 211.38223pt on input lin
+fig/Security_misconfiguration-use-case-diagram.png  used on input line 224. on 
+input line 224.
+Package pdftex.def Info: Requested size: 440.27954pt x 211.38223pt on input lin
 e 224.
 
-Overfull \hbox (5.95386pt too wide) in paragraph at lines 224--225
+Overfull \hbox (98.84648pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
@@ -2995,319 +3032,307 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--228
 
  []
 
-[41 <./parts/part04//chapters/specifications_analyse_besoins/fig/Security_misco
-nfiguration-use-case-diagram.png>]
-<parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deserializa
-tion-use-case-diagram.png, id=918, 666.99188pt x 445.665pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseri
-alization-use-case-diagram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseria
-lization-use-case-diagram.png>
+<parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-diagram
+.png, id=1025, 1436.36626pt x 874.01532pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-di
+agram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-dia
+gram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Insecure_deserialization-use-case-diagram.png  used on input line 237. on i
-nput line 237.
-Package pdftex.def Info: Requested size: 316.35626pt x 211.38223pt on input lin
+fig/XSS-use-case-diagram.png  used on input line 237. on input line 237.
+Package pdftex.def Info: Requested size: 347.38692pt x 211.38223pt on input lin
 e 237.
+
+Overfull \hbox (5.95386pt too wide) in paragraph at lines 237--238
+ [][] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--241
 
  []
 
+[42 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-cont
+role-acces-use-case-diagram.png> <./parts/part04//chapters/specifications_analy
+se_besoins/fig/Security_misconfiguration-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deserializa
+tion-use-case-diagram.png, id=1032, 666.99188pt x 445.665pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseri
+alization-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseria
+lization-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Insecure_deserialization-use-case-diagram.png  used on input line 250. on i
+nput line 250.
+Package pdftex.def Info: Requested size: 263.62683pt x 176.15007pt on input lin
+e 250.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--254
+
+ []
+
 <parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-composan
-ts-vulnerables-use-case-diagram.png, id=919, 861.2175pt x 611.28375pt>
+ts-vulnerables-use-case-diagram.png, id=1033, 861.2175pt x 611.28375pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-com
 posants-vulnerables-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-comp
 osants-vulnerables-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Utilisation-composants-vulnerables-use-case-diagram.png  used on input line
- 250. on input line 250.
+ 263. on input line 263.
 Package pdftex.def Info: Requested size: 297.8037pt x 211.38223pt on input line
- 250.
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
-
- []
-
-[42 <./parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-d
-iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Insecu
-re_deserialization-use-case-diagram.png>]
-<parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-logging
--monitoring-use-case-diagram.png, id=926, 1130.72438pt x 561.59813pt>
-File: parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-lo
-gging-monitoring-use-case-diagram.png Graphic file (type png)
-<use parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-log
-ging-monitoring-use-case-diagram.png>
-Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Insufficient-logging-monitoring-use-case-diagram.png  used on input line 26
-3. on input line 263.
-Package pdftex.def Info: Requested size: 425.59067pt x 211.38223pt on input lin
-e 263.
-
-Overfull \hbox (84.15761pt too wide) in paragraph at lines 263--264
- [][] 
- []
-
+ 263.
 
 Underfull \hbox (badness 10000) in paragraph at lines 258--267
 
  []
 
-[43 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-co
+[43 <./parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-d
+iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Insecu
+re_deserialization-use-case-diagram.png>]
+<parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-logging
+-monitoring-use-case-diagram.png, id=1040, 1130.72438pt x 561.59813pt>
+File: parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-lo
+gging-monitoring-use-case-diagram.png Graphic file (type png)
+<use parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-log
+ging-monitoring-use-case-diagram.png>
+Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
+fig/Insufficient-logging-monitoring-use-case-diagram.png  used on input line 27
+6. on input line 276.
+Package pdftex.def Info: Requested size: 425.59067pt x 211.38223pt on input lin
+e 276.
+
+Overfull \hbox (84.15761pt too wide) in paragraph at lines 276--277
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--280
+
+ []
+
+[44 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-co
 mposants-vulnerables-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-diag
-ram.png, id=932, 2894.56406pt x 2638.60782pt>
+ram.png, id=1047, 2894.56406pt x 2638.60782pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case
 -diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-
 diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Global-use-case-diagram.png  used on input line 276. on input line 276.
+fig/Global-use-case-diagram.png  used on input line 289. on input line 289.
 Package pdftex.def Info: Requested size: 450.99367pt x 669.35345pt on input lin
-e 276.
- [44 <./parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-
-logging-monitoring-use-case-diagram.png>]
+e 289.
+ [45 <./parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-
+logging-monitoring-use-case-diagram.png>] [46 <./parts/part04//chapters/specifi
+cations_analyse_besoins/fig/Global-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagram.pn
-g, id=938, 723.70375pt x 603.25375pt>
+g, id=1058, 723.70375pt x 603.25375pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagr
 am.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagra
 m.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/S-Package-diagram.png  used on input line 293. on input line 293.
+fig/S-Package-diagram.png  used on input line 308. on input line 308.
 Package pdftex.def Info: Requested size: 422.64168pt x 352.30016pt on input lin
-e 293.
- [45 <./parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-ca
-se-diagram.png>]
+e 308.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use-cas
-e-diagram.png, id=944, 960.58875pt x 859.71187pt>
+e-diagram.png, id=1059, 960.58875pt x 859.71187pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-us
 e-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use
 -case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Utilisateurs-use-case-diagram.png  used on input line 305. on input line 30
-5.
+fig/Utilisateurs-use-case-diagram.png  used on input line 320. on input line 32
+0.
 Package pdftex.def Info: Requested size: 341.42912pt x 246.60771pt on input lin
-e 305.
- [46 <./parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-dia
-gram.png>] [47 <./parts/part04//chapters/specifications_analyse_besoins/fig/Uti
-lisateurs-use-case-diagram.png>]
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 10.18341pt on input line 345.
- [48]
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+e 320.
+ [47 <./parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-dia
+gram.png>] [48 <./parts/part04//chapters/specifications_analyse_besoins/fig/Uti
+lisateurs-use-case-diagram.png>] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Authentification-uti
-lisateur-activity-diagram.png, id=974, 1717.91812pt x 2707.86656pt>
+lisateur-activity-diagram.png, id=1088, 1717.91812pt x 2707.86656pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Authentificatio
 n-utilisateur-activity-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Authentification
 -utilisateur-activity-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Authentification-utilisateur-activity-diagram.png  used on input line 452. 
-on input line 452.
+fig/Authentification-utilisateur-activity-diagram.png  used on input line 467. 
+on input line 467.
 Package pdftex.def Info: Requested size: 450.99959pt x 669.36235pt on input lin
-e 452.
+e 467.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--454
+Underfull \hbox (badness 10000) in paragraph at lines 464--469
 
  []
 
-[49] [50 <./parts/part04//chapters/specifications_analyse_besoins/fig/Authentif
-ication-utilisateur-activity-diagram.png>] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+[50] [51 <./parts/part04//chapters/specifications_analyse_besoins/fig/Authentif
+ication-utilisateur-activity-diagram.png>] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Verification-force-m
-ot-de-passe-activity-diagram.png, id=999, 1638.87282pt x 2018.29031pt>
+ot-de-passe-activity-diagram.png, id=1114, 1638.87282pt x 2018.29031pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Verification-fo
 rce-mot-de-passe-activity-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Verification-for
 ce-mot-de-passe-activity-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Verification-force-mot-de-passe-activity-diagram.png  used on input line 54
-9. on input line 549.
+fig/Verification-force-mot-de-passe-activity-diagram.png  used on input line 56
+4. on input line 564.
 Package pdftex.def Info: Requested size: 451.00401pt x 669.3639pt on input line
- 549.
-[52]
+ 564.
+[53]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachine-d
-iiagram.png, id=1008, 981.6675pt x 716.6775pt>
+iiagram.png, id=1123, 981.6675pt x 716.6775pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemach
 ine-diiagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachi
 ne-diiagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Users-statemachine-diiagram.png  used on input line 558. on input line 558.
+fig/Users-statemachine-diiagram.png  used on input line 573. on input line 573.
 
 Package pdftex.def Info: Requested size: 341.4318pt x 246.60881pt on input line
- 558.
- [53 <./parts/part04//chapters/specifications_analyse_besoins/fig/Verification-
+ 573.
+ [54 <./parts/part04//chapters/specifications_analyse_besoins/fig/Verification-
 force-mot-de-passe-activity-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-use-ca
-se-diagram.png, id=1015, 974.13937pt x 907.89188pt>
+se-diagram.png, id=1129, 974.13937pt x 907.89188pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-u
 se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Cryptographie-use-case-diagram.png  used on input line 571. on input line 5
-71.
+fig/Cryptographie-use-case-diagram.png  used on input line 586. on input line 5
+86.
 Package pdftex.def Info: Requested size: 341.42953pt x 246.61638pt on input lin
-e 571.
+e 586.
+ [55 <./parts/part04//chapters/specifications_analyse_besoins/fig/Users-statema
+chine-diiagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-case-di
-agram.png, id=1016, 940.26282pt x 662.475pt>
+agram.png, id=1135, 940.26282pt x 662.475pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-ca
 se-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-cas
 e-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Encodage-use-case-diagram.png  used on input line 589. on input line 589.
+fig/Encodage-use-case-diagram.png  used on input line 604. on input line 604.
 Package pdftex.def Info: Requested size: 341.43555pt x 246.60797pt on input lin
-e 589.
- [54 <./parts/part04//chapters/specifications_analyse_besoins/fig/Users-statema
-chine-diiagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fi
-g/Cryptographie-use-case-diagram.png>]
+e 604.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-case-
-diagram.png, id=1023, 837.1275pt x 482.55281pt>
+diagram.png, id=1136, 837.1275pt x 482.55281pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-
 case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Validation-use-case-diagram.png  used on input line 601. on input line 601.
+fig/Validation-use-case-diagram.png  used on input line 616. on input line 616.
 
 Package pdftex.def Info: Requested size: 341.42343pt x 246.61409pt on input lin
-e 601.
- [55 <./parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-
-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/
-Validation-use-case-diagram.png>] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
+e 616.
+ [56 <./parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie
+-use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
+/fig/Encodage-use-case-diagram.png>] [57 <./parts/part04//chapters/specificatio
+ns_analyse_besoins/fig/Validation-use-case-diagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 682--683
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-diagra
-m.png, id=1044, 1186.4325pt x 602.25pt>
+m.png, id=1156, 1186.4325pt x 602.25pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-d
 iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/HTTP-use-case-diagram.png  used on input line 677. on input line 677.
+fig/HTTP-use-case-diagram.png  used on input line 692. on input line 692.
 Package pdftex.def Info: Requested size: 341.43161pt x 246.61165pt on input lin
-e 677.
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--688
+e 692.
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 698--703
 
  []
 
-[57 <./parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-
-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-use-ca
-se-diagram.png, id=1050, 666.23906pt x 539.76656pt>
+se-diagram.png, id=1164, 666.23906pt x 539.76656pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-u
 se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Interpreteurs-use-case-diagram.png  used on input line 695. on input line 6
-95.
+fig/Interpreteurs-use-case-diagram.png  used on input line 710. on input line 7
+10.
 Package pdftex.def Info: Requested size: 341.43448pt x 211.38113pt on input lin
-e 695.
+e 710.
+[59 <./parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-
+diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case-dia
-gram.png, id=1051, 907.13907pt x 431.36156pt>
+gram.png, id=1170, 907.13907pt x 431.36156pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-cas
 e-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case
 -diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Logging-use-case-diagram.png  used on input line 708. on input line 708.
+fig/Logging-use-case-diagram.png  used on input line 723. on input line 723.
 Package pdftex.def Info: Requested size: 341.43591pt x 246.60925pt on input lin
-e 708.
+e 723.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-case-
-diagram.png, id=1052, 662.475pt x 525.46312pt>
+diagram.png, id=1171, 662.475pt x 525.46312pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-
 case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Composants-use-case-diagram.png  used on input line 720. on input line 720.
+fig/Composants-use-case-diagram.png  used on input line 735. on input line 735.
 
 Package pdftex.def Info: Requested size: 341.4261pt x 246.61491pt on input line
- 720.
- [58 <./parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs
+ 735.
+ [60 <./parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs
 -use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
 /fig/Logging-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-Diagra
-m.png, id=1059, 1108.8928pt x 745.28438pt>
+m.png, id=1178, 1108.8928pt x 745.28438pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-D
 iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-Di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Analyse-Class-Diagram.png  used on input line 733. on input line 733.
-Package pdftex.def Info: Requested size: 341.43513pt x 246.60419pt on input lin
-e 733.
-)
-(parts/part04//chapters/conception/conception.tex)) (parts/part05/part05.tex
-[59 <./parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use
--case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig
-/Analyse-Class-Diagram.png>] [60]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 23.13821pt on input line 1.
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 23.13821pt on input line 1.
- [61
+fig/Analyse-Class-Diagram.png  used on input line 749. on input line 749.
+Package pdftex.def Info: Requested size: 409.70863pt x 352.29657pt on input lin
+e 749.
+
+Overfull \hbox (68.27557pt too wide) in paragraph at lines 749--750
+ [][] 
+ []
+
+[61 <./parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use
+-case-diagram.png>]) (parts/part04//chapters/conception/conception.tex))
+(parts/part05/part05.tex [62 <./parts/part04//chapters/specifications_analyse_b
+esoins/fig/Analyse-Class-Diagram.png>] [63]
+Package minitoc Info: I0006
+(minitoc)             Main.mtc8 is empty on input line 3.
+ [64
+
+]) (parts/part06/part06.tex)
+(misc/conclusion/conclusion.tex [65
+
+
+]) (Main.bbl [66
 
 ]
-\openout7 = `Main.mtc'.
-
-\openout7 = `Main.mtc'.
-
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 16.07027pt on input line 3.
-LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 16.07027pt on input line 3.
- (Main.ptc1) [62
-
-])
-(parts/part06/part06.tex [63
-
-
-]
-\openout7 = `Main.mtc'.
-
-\openout7 = `Main.mtc'.
-
- (Main.ptc2 [64
-
-]) [65])
-(misc/conclusion/conclusion.tex) (misc/annexe/annexe.tex [66
-
-
-] [67
-
-] [68]
-[69]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 31.
-
-[70]) (Main.bbl [71]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3340,19 +3365,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []history-[]of-[]penetration-[]testing /
  []
 
-[72
+[67
 
-])
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[][][]$\T1/cmtt/m/n/10.95 http : / / projects . webappsec . org / w / page / 13
+246975 / Threat % 20Classification %
+ []
+
+) (misc/annexe/annexe.tex [68]
+Package minitoc Info: I0006
+(minitoc)             Main.mtc9 is empty on input line 3.
+ [69
+
+] [70
+
+] [71] [72])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
 \openout7 = `Main.maf'.
-
-
-
-Package minitoc(hints) Warning: W0062
-(minitoc(hints))                You have used \parttoc, 
-(minitoc(hints))                but not \doparttoc.
 
 Package minitoc(hints) Info: I0053
 (minitoc(hints))             You have loaded the float package; 
@@ -3365,6 +3397,7 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the rotfloat package.
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Main.log file.
@@ -3376,172 +3409,40 @@ Package nag Warning: 1 complaints in total.
 \tf@toc=\write9
 \openout9 = `Main.toc'.
 
-\tf@lot=\write10
-\openout10 = `Main.lot'.
+\tf@lof=\write10
+\openout10 = `Main.lof'.
 
-\tf@lof=\write11
-\openout11 = `Main.lof'.
+\tf@lot=\write11
+\openout11 = `Main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 443.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 3BC4D386D65D618C888CDB19EF6B1E74;8679.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 
+
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: 96279A3B6AE6820D5907A7BB9C8718F7;8815
+(rerunfilecheck)             After:  8009201C847868A93EAAD65806566A38;8897.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33474 strings out of 493312
- 614377 string characters out of 3138882
- 901112 words of memory out of 3000000
- 35355 multiletter control sequences out of 15000+200000
- 102671 words of font info for 304 fonts, out of 3000000 for 9000
+ 33485 strings out of 493312
+ 614399 string characters out of 3138882
+ 899526 words of memory out of 3000000
+ 35370 multiletter control sequences out of 15000+200000
+ 102485 words of font info for 321 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,13n,80p,1886b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.6.3.4} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.20} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.19} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.18} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.17} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.16} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.15} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.14} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.13} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.12} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.10} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
+ 52i,13n,80p,1882b,705s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
+st, replaced by a fixed one
 
  <C:\Users\latyr.mbodj\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
 600\ectt1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
@@ -3550,10 +3451,11 @@ les/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /ncntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr
-i8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.pfb>
-Output written on Main.pdf (87 pages, 3048233 bytes).
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.pfb>
+Output written on Main.pdf (90 pages, 3071939 bytes).
 PDF statistics:
- 1418 PDF objects out of 1440 (max. 8388607)
- 354 named destinations out of 1000 (max. 500000)
- 43990 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1424 PDF objects out of 1440 (max. 8388607)
+ 315 named destinations out of 1000 (max. 500000)
+ 50142 words of extra memory for PDF output out of 51595 (max. 10000000)
 
