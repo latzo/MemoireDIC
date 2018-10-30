@@ -35,6 +35,8 @@ Voici une liste (non exhaustive) de projets OWASP populaires, ainsi qu’une des
 	\itemcheck Top 10 Owasp : \\
 	Il s'agit d'une liste des dix risques de sécurité les plus critiques pour les applications Web.
 	\itemcheck Owasp Enterprise Security API (ESAPI) : \\ 
+	\nomenclature{ESAPI}{Enterprise Security API}
+	\nomenclature{API}{Application Programming Interface}
 	Owasp ESAPI est une bibliothèque de contrôle de sécurité pour applications Web gratuite et opensource qui permet aux programmeurs d'écrire plus facilement des applications à faible risque en mettant à leur disposition un ensemble de fonctions de sécurité.
 \end{itemize}
 \subsection{Top 10 Owasp}
@@ -43,18 +45,18 @@ Il s’agit d’un document de sensibilisation à la sécurité des applications
 La liste est mise à jour tous les trois ou quatre ans pour suivre le rythme des changements qui se produisent sur le marché de la sécurité des applications Web. La version la plus récente a été publiée en 2017. Celle-ci, contrairement à celles précédentes, n’est plus uniquement basé sur la « vision » de l’OWASP sur le sujet. Le processus méthodologique a été entièrement revu. Il repose ainsi sur les remontées de 500 utilisateurs et de 40 sociétés spécialisées dans le domaine de la sécurité des applications. La liste des contributeurs et les données techniques issues de leurs remontées sont disponibles en Open Source sur Github. En outre, les statistiques concernent un panel de plus de 100 000 applications et services Web.\\
 Cet ensemble de risques de sécurité des applications Web largement accepté est complété par un ensemble de directives de codage et de test sécurisés. Ces guides sont disponibles sur le site de l'OWASP et s'adressent aux développeurs, architectes, chefs de projets, managers ...
 \subsubsection{Démarches Concurrentes}
-Le Top 10 Owasp n’est pas la seule liste de risques de sécurité existante en matière de sécurité, il y a aussi, parmi les plus populaires : 
+Le Top 10 OWASP n’est pas la seule liste de risques de sécurité existante en matière de sécurité, il y a aussi, parmi les plus populaires : 
 \begin{itemize}
 	\itemcheck la liste CWE : \\
 	Le Common Weakness Enumeration (CWE), maintenu par Mitre Corporation, est une liste de vulnérabilités que l’on retrouve lors du développement d’applications. C'est un projet  géré par MITRE. Pour chaque entrée, le CWE fournit une description de la vulnérabilité ainsi que les étapes pour y remédier.\\
 	Cependant, contrairement aux Top 10 d’OWASP qui recense les 10 risques de sécurité les plus critiques, le CWE se veut être une démarche plus globale. Au moment ou nous écrivons ces lignes, 714 vulnérabilités sont recensées sur la liste CWE. Elle peut constituer une suite à la gestion de la sécurité pour une organisation après que celle-ci ait pris en compte le Top 10.
 	\itemcheck le CWE/Sans Top 25 : \\
-	MITRE s'est associé à Sans Institute pour développer le CWE/Sans Top 25, une liste des 25 vulnérabilités logicielles les plus critiques. Bien que le Top 10 Owasp et le CWE/Sans Top 25 soient différents, ils partagent la plupart des mêmes vulnérabilités. En effet, là où le Top 10 adresse les risques de sécurité en faisant une approche groupée, le CWE/Sans Top 25 utilise une approche plus granulaire. Par exemple, la correspondance Owasp Top 10 - CWE/Sans Top 25 peut être faite sur le point A1 : Injection comme suit \cite{cross}:
+	MITRE s'est associé à Sans Institute pour développer le CWE/Sans Top 25, une liste des 25 vulnérabilités logicielles les plus critiques. Bien que le Top 10 OWASP et le CWE/Sans Top 25 soient différents, ils partagent la plupart des mêmes vulnérabilités. En effet, là où le Top 10 adresse les risques de sécurité en faisant une approche groupée, le CWE/Sans Top 25 utilise une approche plus granulaire. Par exemple, la correspondance OWASP Top 10 - CWE/Sans Top 25 peut être faite sur le point A1 : Injection comme suit \cite{cross}:
 	\begin{table}[hbt!]
 		\centering
 		\begin{tabular}{| c | l |} 
 			\hline
-			Owasp Top 10 & CWE/Sans Top 25 \\
+			OWASP Top 10 & CWE/Sans Top 25 \\
 			\hline
 			\multirow{6}{4em}{A1:Injection} & CWE-78: Improper Neutralization of Special Elements Used in an OS Command \\ 
 			& CWE-89: SQL Injection\\ 
@@ -64,37 +66,24 @@ Le Top 10 Owasp n’est pas la seule liste de risques de sécurité existante en
 			& CWE-829: Inclusion of Functionality from Untrusted Control Sphere\\
 			\hline
 		\end{tabular}
-		\caption{Correspondance Top 10 Owasp A1 - CWE/Sans Top 25}
+		\caption{Correspondance Top 10 OWASP A1 - CWE/Sans Top 25}
 	\end{table}\\
-	Cette correspondance peut être faite pour toutes les entrées du Top 10 d’Owasp.
+	Cette correspondance peut être faite pour toutes les entrées du Top 10 d’OWASP.
 \end{itemize}
-\subsection{Owasp ESAPI}
-ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library that makes it easier for programmers to write lower-risk applications. The ESAPI libraries are designed to make it easier for programmers to retrofit security into existing applications. The ESAPI libraries also serve as a solid foundation for new development.\\
-Allowing for language-specific differences, all OWASP ESAPI versions have the same basic design:
+\subsection{OWASP ESAPI}
+\subsubsection{Présentation}
+OWASP ESAPI est une bibliothèque de contrôle de sécurité pour applications Web gratuite et opensource. La bibliothèque OWASP ESAPI a été conçue pour aider les programmeurs à intégrer plus facilement la sécurité dans des applications existantes  en mettant à leur disposition un ensemble de fonctions de sécurité. La bibliothèque ESAPI constituent également une base solide pour les nouveaux développements.\\
+Le code source de la bibliothèque OWASP ESAPI est sous licence BSD La documentation du projet est sous licence Creative Commons. L'on peut utiliser ou modifier OWASP ESAPI comme bon nous semble et même l'inclure dans des produits commerciaux.
+\subsubsection{Architecture}
+La bibliothèque OWASP ESAPI est conçue de la sorte suivante:
 \begin{itemize}
-	\itemcheck There is a set of security control interfaces. There is no application logic
-	contained in these interfaces. They define for example types of parameters
-	that are passed to types of security controls. There is no proprietary
-	information or logic contained in these interfaces.
-	\itemcheck There is a reference implementation for each security control. There is
-	application logic contained in these classes, i.e. contained in these interface
-	implementations. However, the logic is not organization-specific and the
-	logic is not application-specific. There is no proprietary information or
-	logic contained in these reference implementation classes. An example:
-	string-based input validation.
-	\itemcheck There are optionally your own implementations for each security control.
-	There may be application logic contained in these classes which may be
-	developed by or for your organization. The logic may be organizationspecific
-	and/or application-specific. There may be proprietary
-	information or logic contained in these classes which may be developed
-	by or for your organization. An example: enterprise authentication.
+	\itemcheck un ensemble d'interfaces de contrôle de sécurité. Ces interfaces ne contiennent pas de logique d'application. Ils définissent par exemple des types de paramètres qui sont passés aux types de contrôles de sécurité. Il n'y a pas de propriétés informationnelles ou de logique contenues dans ces interfaces.
+	\itemcheck une implémentation de référence pour chaque contrôle de sécurité c'est-à-dire un ensemble de classes qui implémentent les interfaces prédéfinies et qui contiennent une certaine logique applicative. Cependant, ces implémentations ne sont ni orientées application, ni orientées organisation.
+	\itemcheck éventuellement une implémentation propre à l'organisation ou aux applications pour chaque contrôle de sécurité.
 \end{itemize}
-This project source code is licensed under the BSD license, which is very permissive and about as close to public domain as is possible. The project documentation is licensed under the Creative Commons license. You can use or modify ESAPI however you want, even include it in commercial products.
-Assurance
-It’s absolutely critical to get your applications security controls right. An error could expose many
-applications. Confidence in your security controls comes from evidence like design documentation, code review, security testing, and other analysis. The ESAPI project involves a world-class team of software security experts from vendors and industry. The reference implementation is small and well structured – about 5,000 lines of well-documented and extensively reviewed code. The code is clean in all the major static analysis tools, including FindBugs, PMD, Ounce, and Fortify. The project also includes about 600 test cases that test all aspects of the security mechanisms. 
-The following organizations are a few of the many organizations that are starting to adopt ESAPI to secure their web applications: American Express, Apache Foundation, Booz Allen Hamilton, Aspect Security, Coraid, The Hartford, Infinite Campus, Lockheed Martin, MITRE, U.S. Navy - SPAWAR, The World Bank, SANS Institute.
-
-
+\subsubsection{Qualité}
+Il est d'une importance capitale que les contrôles de sécurité des applications soient bien en place. Une simple erreur pourrait exposer une application à de gros risques de sécurité. L'assurance par rapport à ces contrôles de sécurité provient de preuves telles que la documentation de conception, la révision de code, les tests de sécurité et autres analyses.\\
+Le projet ESAPI implique une équipe d'experts de classe mondiale en sécurité logicielle issus de l'industrie de la sécurité. L'implémentation de référence est assez courte et bien structurée, environ 5 000 lignes de code bien documenté et revu en détail. Le code a été analysé dans tous les principaux outils d'analyse statique, y compris FindBugs, PMD, Ounce et Fortify et est «clean». Le projet comprend également environ 600 cas de test qui testent toutes les fonctions de sécurité.\\
+Beaucoup d'organisations, et, pas des moindres, commencent à adopter la bibliothèque Owasp ESAPI pour sécuriser leurs applications. Parmi celles-ci, nous avons : American Express, Apache Foundation, Booz Allen Hamilton, Aspect Security, Coraid, The Hartford, Infinite Campus, Lockheed Martin, MITRE, US Navy. - SPAWAR, Banque mondiale, SANS Institute.
 %\clearpage 
 %=========================================================

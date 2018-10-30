@@ -1,20 +1,20 @@
 \chapter{Analyse et Conception}
 \minitoc
 \clearpage
-Nous nous sommes intéressés au Top 10 d'Owasp qui nous a servi de cahiers de charge pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible en annexe.\\
-Le Top 10 Owasp, en recensant les dix risques de sécurite les plus critiques des applications Web, les explique et donne pour chacune de celles-ci, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurite. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des specifications et de l'analyse.
+Nous nous sommes intéressés au Top 10 d'OWASP. qui nous a servi de cahiers de charge pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible en annexe.\\
+Le Top 10 OWASP, en recensant les dix risques de sécurité les plus critiques des applications Web, les explique et donne pour chacune de celles-ci, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurité. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des spécifications et de l'analyse.
 
 \section{Spécifications}
 
 \subsection{Spécifications fonctionnelles}
-Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des tâches préconisées par le Top 10 pour chacun des risques de sécurite. 
+Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des tâches préconisées par le Top 10 pour chacun des risques de sécurité. 
 
 \subsubsection{Les Acteurs}
 Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif matériel ou autre système) qui interagit directement avec le système étudié.\\
 Notre système est principalement en interaction avec les autres applications utilisant les différentes fonctionnalités mises à disposition par celui-ci. 
 
 \subsubsection{Les fonctionnalités générales}
-Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurite énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.\\
+Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurité énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.\\
 
 \textbf{\RIGHTarrow Gestion des injections}\\
 Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : 
@@ -107,19 +107,16 @@ Les besoins non fonctionnelles ou exigences techniques portent sur les différen
 	\itemcheck utiliser de protocoles sécurisés ;
 	\itemcheck ne jamais déployer avec les credentials par défaut ;
 	\itemcheck implémenter des mécanismes de vérifications de mots de passe par rapport à une politique de mots de passe prédéfinie ;
-	\itemcheck A minimal platform without any unnecessary features, components, documentation, and samples ;
-	\itemcheck Remove or do not install unused features and frameworks.
-	\itemcheck A segmented application architecture that provides effective, secure separation between components ;
-	\itemcheck Sending security directives to clients, e.g. Security Headers ;
-	\itemcheck An automated process to verify the effectiveness of the configurations and settings in all environments.
-	\itemcheck portabilité ;
-	\itemcheck compatibilité ;
-	\itemcheck formation ;
+	\itemcheck supprimer ou ne pas installer des composants inutilisés.
+	\itemcheck mettre en place une architecture d'application segmentée offrant une séparation efficace et sécurisée entre les composants ;
+	\itemcheck envoi de directives de sécurité aux clients, par exemple des entêtes HTTP de sécurité ;
+	\itemcheck toujours vérifier l'efficacité des configurations et des paramètres dans tous les environnements ;
+	\itemcheck portabilité de la bibliothèque ;
+	\itemcheck compatibilité de la bibliothèque avec les applications existantes ;
+	\itemcheck formation sur l'utilisation ;
 	\itemcheck efficacité : efficacité en temps, efficacité en ressources ;
 	\itemcheck facilité d'intégration ;
-	\itemcheck Toute information confidentielle fournie par les  clients via l’Internet sera cryptée avec le système XYZ  ou par l’algorithme, la méthode....ABC.. ;
-	\itemcheck Tous les logiciels du côté client vont être  téléchargés et installés à partir du navigateur, sans que  le poste du client ne soit redémarré ou configuré manuellement ;
-	\itemcheck Le comportement du programme doit être paramétrable par des fichiers texte de configuration.
+	\itemcheck paramétrabilité de la bibliothèque par des fichiers texte de configuration.
 \end{itemize}
 
 \section{Analyse}
@@ -282,7 +279,7 @@ Le diagramme de cas d'utilisation du package "Gestion de la journalisation et de
 \subsection{Système global}
 Nous avons organisé les cas d'utilisation en packages, chaque package correspondant à la gestion d'un risque du Top 10, et cela pour des questions de lisibilité mais aussi pour des questions d'identification des fonctions de sécurité à mettre en place en adéquation avec le risque en question. Cependant, le système que nous devons mettre en place tourne autour de ces fonctions de sécurité. Il s'agit de mettre à la disposition des développeurs ces fonctions de sécurités. \\
 En effet, certaines fonctions de sécurité recommandées pour un risque, peuvent aussi l'être pour d'autres.Par exemple, si l'on essaie de mitiger le risque de XSS, la meilleure façon de le faire est de mettre en place des fonctions permettant la validation des entrées ainsi que l'encodage des sorties que les développeurs peuvent facilement utiliser. Mais ces mêmes fonctions peuvent être utilisées pour se protéger de beaucoup  d’autres attaques. \\
-Ainsi, nous nous concentrons maintenant sur ces fonctions de sécurité. Nous présenterons à la volée toutes les fonctionnalités attendues par les applications pour se protéger au moins des dix risques de sécurite présentes dans le Top 10.\\
+Ainsi, nous nous concentrons maintenant sur ces fonctions de sécurité. Nous présenterons à la volée toutes les fonctionnalités attendues par les applications pour se protéger au moins des dix risques de sécurité présentes dans le Top 10.\\
 Ci-dessous, nous avons le diagramme de cas d'utilisation global du système :
 \begin{figure}[H]
 	\centering
@@ -618,70 +615,9 @@ Lorsqu'un uilisateur est nouvellement créé, il se doit d'activer son compte. S
 	\caption{Diagramme de cas d'utilisation du sous-système "Validation"}
 	\label{fig:7.16}
 \end{figure}
-\subsubsection{Cas d'utilisation "Valider donnée"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\underline{\underline{Sommaire d’identification}} \\
-\textbf{Titre} : Valider donnée \\
-\textbf{Résumé} : Ce cas d’utilisation permet à une application d'obtenir à partir d'une valeur donnée .\\
-\textbf{Acteur} : Application\\	
-\textbf{Responsable} : Papa Latyr Mbodj\\
-\underline{\underline{Description des scénarios}}\\
-\textbf{Précondition(s)}
-\begin{itemize}
-	\item Aucune
-\end{itemize}
-\textbf{Scénario nominal}
-\begin{enumerate}
-	\item L'application donne le login, l'ancien mot de passe et le nouveau mot de passe.
-	\item Le système s'assure que le nouveau mot de passe n'est pas nul.
-	\item Le système s'assure que le nouveau mot de passe ne correspond pas au login.
-	\item Le système s'assure que le nouveau mot de passe ne contient pas une partie de l'ancien mot de passe (3 caractères).
-	\item Le système compte le nombre de lettres minuscules contenues dans le nouveau mot de passe.
-	\item Le système compte le nombre de lettres majuscules contenues dans le nouveau mot de passe.
-	\item Le système compte le nombre de chiffres contenus dans le nouveau mot de passe.
-	\item Le système compte le nombre de caractères spéciaux contenus dans le nouveau mot de passe.
-	\item Le système évalue la force du mot de passe.
-	\item Le mot de passe est accepté.
-\end{enumerate}
-%\textbf{Enchainements alternatif(s)}\\
-\textbf{Enchainements d’erreur}\\
-\textit{E1 : Nouveau mot de passe nul}\\
-L’enchaînement E1 démarre au point 2 du scénario nominal.
-\begin{itemize}
-	\item[3.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas être nul".
-	\item[4.] Le système produit une exception avec le même message.
-	\item[5.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
-\end{itemize}
-\textit{E2 : Nouveau mot de passe correspondant au login}\\
-L’enchaînement E2 démarre au point 3 du scénario nominal.
-\begin{itemize}
-	\item[4.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas correspondre au login".
-	\item[5.] Le système produit une exception avec le même message.
-	\item[6.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
-\end{itemize}
-\textit{E3 : Nouveau mot de passe contenant une partie de l'ancien mot de passe}\\
-L’enchaînement E3 démarre au point 4 du scénario nominal.
-\begin{itemize}
-	\item[5.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe ne peut pas contenir une partie de l'ancien mot de passe".
-	\item[6.] Le système produit une exception avec le même message.
-	\item[7.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
-\end{itemize}
-\textit{E4 : Mot de passe faible}\\
-L’enchaînement E4 démarre au point 9 du scénario nominal.
-\begin{itemize}
-	\item[10.] Le système journalise l'invalidité du mot de passe avec le message "Le nouveau mot de passe n'est pas long ou non complexe".
-	\item[11.] Le système produit une exception avec le même message.
-	\item[12.] Le système refuse le mot de passe; le cas d'utilisation se termine en échec.
-\end{itemize}
-\textbf{Post-condition(s)}
-\begin{itemize}
-	\item Le nouveau mot de passe est accepté.
-\end{itemize}
-\underline{\underline{Exigences non fonctionnelles}}
-\begin{itemize}
-	\item L’application doit définir une bonne politique de mots de passe.\\
-\end{itemize}
-\textbf{\RIGHTarrow Diagramme d'activités}\\
+%TODO \subsubsection{Cas d'utilisation "Valider donnée"}
+%TODO \textbf{\RIGHTarrow Description textuelle}\\
+%TODO \textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "HTTP"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -694,12 +630,9 @@ L’enchaînement E4 démarre au point 9 du scénario nominal.
 	\caption{Diagramme de cas d'utilisation du sous-système "HTTP"}
 	\label{fig:7.17}
 \end{figure}
-\subsubsection{Cas d'utilisation "Ajouter cookie"}
-\textbf{\RIGHTarrow Description textuelle}\\
-\textbf{\RIGHTarrow Diagramme d'activités}\\
-%\subsubsection{Cas d'utilisation "Authentification requête HTTP en  Digest"}
-%\textbf{\RIGHTarrow Description textuelle}\\
-%\textbf{\RIGHTarrow Diagramme d'activités}\\
+%TODO \subsubsection{Cas d'utilisation "Ajouter cookie"}
+%TODO \textbf{\RIGHTarrow Description textuelle}\\
+%TODO \textbf{\RIGHTarrow Diagramme d'activités}\\
 
 \subsection{Sous-système "Interpréteurs"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -754,7 +687,7 @@ L’enchaînement E4 démarre au point 9 du scénario nominal.
 
 \section{Conception}
 \subsection{Synthèse de la solution}
-Notre solution repose donc sur la mise en place d'une bibliothèque de fonctions de sécurité permettant aux applications de se protéger au moins des risques énoncés dans Top 10 OWASP 2017. Cependant, il faut le dire, ces fonctions peuvent aussi permettre de se protéger d'autres risques qui ne sont pas énoncés dans le Top 10. Les modules fonctionnels sont les suivants :
+Notre solution consiste en la mise en place d'une bibliothèque de fonctions de sécurité permettant aux applications de se protéger au moins des risques énoncés dans Top 10 OWASP 2017. Cependant, il faut le dire, ces fonctions peuvent aussi permettre de se protéger d'autres risques qui ne sont pas énoncés dans le Top 10. Les modules fonctionnels sont les suivants :
 \begin{itemize}
 	\itemcheck Module "Utilisateurs" ;
 	\itemcheck Module "Cryptographie" ; 
@@ -765,51 +698,58 @@ Notre solution repose donc sur la mise en place d'une bibliothèque de fonctions
 	\itemcheck Module "Logging" regroupant les fonctions relatives à la journalisation ; 
 	\itemcheck Module "Gestion des composants".
 \end{itemize}
-Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité déjà existante mise à disposition par l'Owasp, Owasp ESAPI pour mettre en place notre propre bibliothèque de sécurité que nous appelons HubSo ESAPI.
-\subsection{Utilisation de la bibliothèque ESAPI}
-Why you shouldn’t build your own security controls
-Writing security controls is time-consuming and extremely prone to mistakes. MITRE’s CWE project lists
-over 600 different types of security mistakes that developers can make, and most of them are not at all
-obvious. Most people recognize that developers should not build their own encryption mechanisms, but
-the same argument applies to all the security controls.
-
-Why you shouldn’t use security libraries directly
-There are plenty of libraries and frameworks out there that provide various security functions – Log4j,
-Java Cryptographic Extension (JCE), JAAS, Acegi, and dozens more. Some of them are even pretty good
-at what they do. But there are several reasons why enterprise developers should not use them directly.
-Most importantly, these libraries are overpowerful. Most developers only need a very limited set of
-security functions and don’t need a complex interface. Further, many of these libraries contain security
-holes themselves – such as encoding libraries that don’t canonicalize or authentication libraries that
-don’t use strong cryptographic functions. Because many security controls use features from other
-controls, using security libraries that aren’t integrated together is a mistake.
-
-Why you shouldn’t rely on security in the platform or framework
-Unfortunately, the web application platforms and frameworks do not protect against many well-known
-attacks. For example, consider header injection – allowing carriage return (CR) and line-feed (LF)
-characters to be used in HTTP headers. This injection changes the way these HTTP messages are parsed,
-allowing the attacker to affect how they are interpreted. This type of injection can allow attackers to download malicious files to the user’s desktop among other serious impacts.
-The platforms could protect against this attack which violates the HTTP specification, but many do not. Instead, your application developers must know to carefully validate and filter user data before using it in HTTP headers.
-The platforms and frameworks are a shifting environment. Your code may be protected by something in
-your infrastructure today, but that environment may change tomorrow. The best approach is to build
-your applications so that they provide their own protection. If this results in some overlapping
-protection, also known as defense-in-depth, that’s a good outcome. 
-
-Create a security API that matches YOUR enterprise
-Even if you don’t trust open source code, please consider the concept of establishing an ESAPI. With the OWASP project as a model, it would not take much time at all to create a custom ESAPI for your
-organization. You could adopt just the ESAPI interfaces and use parts of the reference implementation
-that make sense for you.
-
-Interfaces
-ESAPI is primarily a set of interfaces designed to make security easy to use. These interfaces are usable by anyone who cares to implement them for their enterprise. By keeping the interfaces separate, we are trying to encourage organizations to create their own implementations.
-However, we didn’t stop there. We built a complete set of reference implementations. The reference
-implementations are complete and well tested, although there are a few limitations. In general, the
-reference implementation is designed to run without requiring any other infrastructure, such as
-database or LDAP servers. The Authenticator and AccessController implementations in particular work of simple text file policies, which may not be appropriate for enterprise applications. However, the rest of the reference implementation is scalable and appropriate for enterprise applications. You will likely want to hook up the Logger to your logging infrastructure. 
-
+Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité déjà existante mise à disposition par l'OWASP, OWASP ESAPI pour mettre en place notre propre bibliothèque de sécurité que nous appelons HubSo ESAPI.
+\subsection{Utilisation de la bibliothèque OWASP ESAPI}
+Comme nous l'avons dit précédemment, nous utiliserons la bibliothèque OWASP ESAPI qui contient déjà presque toutes les fonctions de sécurité énoncées dans nos différents modules. Ce choix a été fait à plusieurs égards :
+\begin{itemize}
+	\itemtirait L'implémentation de fonctions de sécurité prend du temps et est extrêmement sujette aux erreurs. Le projet CWE de MITRE répertorie plus de 600 types d’erreurs de sécurité que les développeurs peuvent commettre, et la plupart d’entre elles ne sont pas évidentes. Il est couramment accepté que les développeurs ne doivent pas créer leurs propres mécanismes de chiffrement, mais le même argument s'applique aux autres fonctions de sécurité.
+	\itemtirait Il existe de nombreuses bibliothèques offrant diverses fonctions de sécurité: Log4j, JCE (Java Cryptographic Extension), JAAS, Acegi entre autres. Certains d'entre eux sont même très bons. Cependant, il y a plusieurs raisons faisant qu'il n'est pas idéal de les utiliser directement. La plus importante est que la majorité ces bibliothèques sont trop puissantes. La plupart des développeurs n’ont besoin que d’un ensemble très limité de fonctions de sécurité et n’ont pas besoin d’une interface complexe. En outre, beaucoup de ces bibliothèques contiennent elles-mêmes des failles de sécurité.
+	\itemtirait OWASP ESAPI est avant tout un ensemble d'interfaces conçues pour faciliter la mise en place de la sécurité dans une application. Ces interfaces sont utilisables par quiconque se soucie de les implémenter par rapport à sa propre organisation. En maintenant les interfaces séparées, chacun peut produire sa propre implémentation. Cependant, OWASP ne s'est pas arrêté là : il y a déjà une implémentation de référence complète et bien testée.
+	\itemtirait Même si l'on n'est pas adepte de l'opensource, toute entreprise rigoureuse devrait envisager de mettre en place une bibliothèque de sécurité pour ses développeur. Avec le projet OWASP comme modèle, cette tâche devient simple. On peut adopter uniquement les interfaces ESAPI et utiliser des parties de l’implémentation de référence.
+\end{itemize}
 \subsection{Conception Architecturale}
 \subsubsection{Architecture Générique}
-\subsubsection{Architecture détaillée HubSo ESAPI}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		\includegraphics[width=0.7\linewidth]{parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI}
+	\end{minipage}
+		\caption{Architecture fonctionnelle Générique de HubSo ESAPI}
+		\label{fig:architecturefonctionnellehubsoesapi}
+\end{figure}
+\subsubsection{Architecture détaillée HubSo ESAPI croisée au Top 10 OWASP 2017}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		\includegraphics[width=0.7\linewidth,height=0.25\textheight]{parts/part04/chapters/conception/fig/EsapiXtop10}
+	\end{minipage}
+	\caption{Architecture détaillée HubSo ESAPI croisée au Top 10 OWASP 2017}
+	\label{fig:architecturedet}
+\end{figure}
 \subsubsection{Architecture technique d'une application sécurisée}
-\subsection{Déploiement}
-La figure suivante représente le diagramme de déploiement d'une application donnée utilisant notre bibliothèque de sécurité.
-%TODO figure
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		\includegraphics[width=1\linewidth,height=0.90\textheight]{parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png}
+	\end{minipage}
+	\caption{Exemple d'architecture technique sécurisée d'une application}
+	\label{fig:architecturedet}
+\end{figure}
+\subsubsection{Architecture fonctionnelle d'une application sécurisée}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		\includegraphics[width=0.7\linewidth]{parts/part04/chapters/conception/fig/archi.jpg}
+	\end{minipage}
+	\caption{Architecture fonctionnelle d'une application sécurisée utilisant HubSo ESAPI}
+	\label{fig:architecturefonctionnellehubsoesapi}
+\end{figure}
+
+%TODO \subsection{Diagramme de classes de conception}
+
+%TODO \subsection{Déploiement}
+%La figure suivante représente le diagramme de déploiement d'une application donnée utilisant notre %bibliothèque de sécurité.

@@ -1,18 +1,18 @@
-\BOOKMARK [0][-]{section*.8}{Table des figures}{}% 1
-\BOOKMARK [0][-]{section*.9}{Liste des tableaux}{}% 2
-\BOOKMARK [0][-]{chapter*.10}{Introduction}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Pr\351sentation G\351n\351rale}{}% 4
-\BOOKMARK [1][-]{section.1.1}{La Structure d'accueil}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.1}{Pr\351sentation de HubSo}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.2}{Domaines d'activit\351s}{section.1.1}% 7
-\BOOKMARK [2][-]{subsection.1.1.3}{Quelques Solutions de HubSo }{section.1.1}% 8
-\BOOKMARK [2][-]{subsection.1.1.4}{Organisation}{section.1.1}% 9
-\BOOKMARK [1][-]{section.1.2}{Le Sujet}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.2.1}{Terminologie}{section.1.2}% 11
-\BOOKMARK [3][-]{subsubsection.1.2.1.1}{S\351curit\351 informatique}{subsection.1.2.1}% 12
-\BOOKMARK [3][-]{subsubsection.1.2.1.2}{Cryptographie}{subsection.1.2.1}% 13
-\BOOKMARK [2][-]{subsection.1.2.2}{Contexte}{section.1.2}% 14
-\BOOKMARK [3][-]{subsubsection.1.2.2.1}{Evolution des applications Web et Mobiles}{subsection.1.2.2}% 15
+\BOOKMARK [0][-]{chapter*.7}{Sigles et Abbr\351viations}{}% 1
+\BOOKMARK [0][-]{section*.8}{Table des figures}{}% 2
+\BOOKMARK [0][-]{section*.9}{Liste des tableaux}{}% 3
+\BOOKMARK [0][-]{chapter*.10}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Pr\351sentation G\351n\351rale}{}% 5
+\BOOKMARK [1][-]{section.1.1}{La Structure d'accueil}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Pr\351sentation de HubSo}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Domaines d'activit\351s}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.3}{Quelques Solutions de HubSo }{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.4}{Organisation}{section.1.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Le Sujet}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{Terminologie}{section.1.2}% 12
+\BOOKMARK [3][-]{subsubsection.1.2.1.1}{S\351curit\351 informatique}{subsection.1.2.1}% 13
+\BOOKMARK [3][-]{subsubsection.1.2.1.2}{Cryptographie}{subsection.1.2.1}% 14
+\BOOKMARK [2][-]{subsection.1.2.2}{Contexte}{section.1.2}% 15
 \BOOKMARK [2][-]{subsection.1.2.3}{Probl\351matique et Objectifs}{section.1.2}% 16
 \BOOKMARK [2][-]{subsection.1.2.4}{P\351rim\350tre}{section.1.2}% 17
 \BOOKMARK [0][-]{chapter.2}{Etat de l'art}{}% 18
@@ -33,73 +33,107 @@
 \BOOKMARK [2][-]{subsection.2.3.5}{Top 10 Owasp}{section.2.3}% 33
 \BOOKMARK [3][-]{subsubsection.2.3.5.1}{Pr\351sentation}{subsection.2.3.5}% 34
 \BOOKMARK [3][-]{subsubsection.2.3.5.2}{D\351marches Concurrentes}{subsection.2.3.5}% 35
-\BOOKMARK [0][-]{chapter.3}{M\351thodologie}{}% 36
-\BOOKMARK [1][-]{section.3.1}{M\351thodologie de d\351veloppement}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.1.1}{Qu'est ce qu'une m\351thodologie de d\351veloppement ?}{section.3.1}% 38
-\BOOKMARK [2][-]{subsection.3.1.2}{Int\351r\352t d'une m\351thodologie}{section.3.1}% 39
-\BOOKMARK [2][-]{subsection.3.1.3}{Cat\351gories de m\351thodologies de d\351veloppement}{section.3.1}% 40
-\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Scrum}{subsection.3.1.3}% 41
-\BOOKMARK [2][-]{subsection.3.1.4}{Choix d'une m\351thodologie de d\351veloppement}{section.3.1}% 42
-\BOOKMARK [1][-]{section.3.2}{Outil de mod\351lisation}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.2.1}{Int\351r\352t d'une mod\351lisation}{section.3.2}% 44
-\BOOKMARK [2][-]{subsection.3.2.2}{Pr\351sentation d'UML}{section.3.2}% 45
-\BOOKMARK [2][-]{subsection.3.2.3}{Diagrammes UML}{section.3.2}% 46
-\BOOKMARK [0][-]{chapter.4}{Analyse et Conception}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Sp\351cifications}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.1.1}{Sp\351cifications fonctionnelles}{section.4.1}% 49
-\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Les Acteurs}{subsection.4.1.1}% 50
-\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Les fonctionnalit\351s g\351n\351rales}{subsection.4.1.1}% 51
-\BOOKMARK [2][-]{subsection.4.1.2}{Sp\351cifications non fonctionnelles}{section.4.1}% 52
-\BOOKMARK [1][-]{section.4.2}{Analyse}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.2.1}{Package Gestion des injections}{section.4.2}% 54
-\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Diagramme de cas d'utilisation}{subsection.4.2.1}% 55
-\BOOKMARK [2][-]{subsection.4.2.2}{Package Gestion des violations de gestion d'authentification}{section.4.2}% 56
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Diagramme de cas d'utilisation}{subsection.4.2.2}% 57
-\BOOKMARK [2][-]{subsection.4.2.3}{Package Gestion des expositions de donn\351es sensibles}{section.4.2}% 58
-\BOOKMARK [3][-]{subsubsection.4.2.3.1}{Diagramme de cas d'utilisation}{subsection.4.2.3}% 59
-\BOOKMARK [2][-]{subsection.4.2.4}{Package Gestion des attaques sur les entit\351s XML externes}{section.4.2}% 60
-\BOOKMARK [3][-]{subsubsection.4.2.4.1}{Diagramme de cas d'utilisation}{subsection.4.2.4}% 61
-\BOOKMARK [2][-]{subsection.4.2.5}{Package Gestion des violations de contr\364le d'acc\350s}{section.4.2}% 62
-\BOOKMARK [3][-]{subsubsection.4.2.5.1}{Diagramme de cas d'utilisation}{subsection.4.2.5}% 63
-\BOOKMARK [2][-]{subsection.4.2.6}{Package Gestion des mauvaises configurations de s\351curit\351}{section.4.2}% 64
-\BOOKMARK [3][-]{subsubsection.4.2.6.1}{Diagramme de cas d'utilisation}{subsection.4.2.6}% 65
-\BOOKMARK [2][-]{subsection.4.2.7}{Package Gestion des XSS }{section.4.2}% 66
-\BOOKMARK [3][-]{subsubsection.4.2.7.1}{Diagramme de cas d'utilisation}{subsection.4.2.7}% 67
-\BOOKMARK [2][-]{subsection.4.2.8}{Package Gestion des d\351s\351rialisations non s\351curis\351es}{section.4.2}% 68
-\BOOKMARK [3][-]{subsubsection.4.2.8.1}{Diagramme de cas d'utilisation}{subsection.4.2.8}% 69
-\BOOKMARK [2][-]{subsection.4.2.9}{Package Gestion des utilisations de composants vuln\351rables}{section.4.2}% 70
-\BOOKMARK [3][-]{subsubsection.4.2.9.1}{Diagramme de cas d'utilisation}{subsection.4.2.9}% 71
-\BOOKMARK [2][-]{subsection.4.2.10}{Package Gestion de la journalisation et de la surveillance insuffisantes}{section.4.2}% 72
-\BOOKMARK [3][-]{subsubsection.4.2.10.1}{Diagramme de cas d'utilisation}{subsection.4.2.10}% 73
-\BOOKMARK [2][-]{subsection.4.2.11}{Syst\350me global}{section.4.2}% 74
-\BOOKMARK [2][-]{subsection.4.2.12}{Sous-syst\350me "Utilisateurs"}{section.4.2}% 75
-\BOOKMARK [3][-]{subsubsection.4.2.12.1}{Diagramme de cas d'utilisation}{subsection.4.2.12}% 76
-\BOOKMARK [3][-]{subsubsection.4.2.12.2}{Cas d'utilisation "Authentification utilisateur"}{subsection.4.2.12}% 77
-\BOOKMARK [3][-]{subsubsection.4.2.12.3}{Cas d'utilisation "D\351connexion utilisateur"}{subsection.4.2.12}% 78
-\BOOKMARK [3][-]{subsubsection.4.2.12.4}{Cas d'utilisation "V\351rification force mot de passe"}{subsection.4.2.12}% 79
-\BOOKMARK [3][-]{subsubsection.4.2.12.5}{\311tats d'un utilisateur}{subsection.4.2.12}% 80
-\BOOKMARK [2][-]{subsection.4.2.13}{Sous-syst\350me "Cryptographie"}{section.4.2}% 81
-\BOOKMARK [3][-]{subsubsection.4.2.13.1}{Diagramme de cas d'utilisation}{subsection.4.2.13}% 82
-\BOOKMARK [2][-]{subsection.4.2.14}{Sous-syst\350me "Encodage"}{section.4.2}% 83
-\BOOKMARK [3][-]{subsubsection.4.2.14.1}{Diagramme de cas d'utilisation}{subsection.4.2.14}% 84
-\BOOKMARK [2][-]{subsection.4.2.15}{Sous-syst\350me "Validation"}{section.4.2}% 85
-\BOOKMARK [3][-]{subsubsection.4.2.15.1}{Diagramme de cas d'utilisation}{subsection.4.2.15}% 86
-\BOOKMARK [3][-]{subsubsection.4.2.15.2}{Cas d'utilisation "Valider donn\351e"}{subsection.4.2.15}% 87
-\BOOKMARK [2][-]{subsection.4.2.16}{Sous-syst\350me "HTTP"}{section.4.2}% 88
-\BOOKMARK [3][-]{subsubsection.4.2.16.1}{Diagramme de cas d'utilisation}{subsection.4.2.16}% 89
-\BOOKMARK [3][-]{subsubsection.4.2.16.2}{Cas d'utilisation "Ajouter cookie"}{subsection.4.2.16}% 90
-\BOOKMARK [2][-]{subsection.4.2.17}{Sous-syst\350me "Interpr\351teurs"}{section.4.2}% 91
-\BOOKMARK [3][-]{subsubsection.4.2.17.1}{Diagramme de cas d'utilisation}{subsection.4.2.17}% 92
-\BOOKMARK [2][-]{subsection.4.2.18}{Sous-syst\350me "Logging"}{section.4.2}% 93
-\BOOKMARK [3][-]{subsubsection.4.2.18.1}{Diagramme de cas d'utilisation}{subsection.4.2.18}% 94
-\BOOKMARK [2][-]{subsection.4.2.19}{Sous-syst\350me "Gestion des composants"}{section.4.2}% 95
-\BOOKMARK [3][-]{subsubsection.4.2.19.1}{Diagramme de cas d'utilisation}{subsection.4.2.19}% 96
-\BOOKMARK [2][-]{subsection.4.2.20}{Structure statique du syst\350me}{section.4.2}% 97
-\BOOKMARK [3][-]{subsubsection.4.2.20.1}{Diagramme de classes d'analyse}{subsection.4.2.20}% 98
-\BOOKMARK [1][-]{section.4.3}{Conception}{chapter.4}% 99
-\BOOKMARK [2][-]{subsection.4.3.1}{Synth\350se de la solution}{section.4.3}% 100
-\BOOKMARK [2][-]{subsection.4.3.2}{Architecture Technique}{section.4.3}% 101
-\BOOKMARK [0][-]{chapter.5}{R\351alisation}{}% 102
-\BOOKMARK [0][-]{chapter.6}{Bilan et Perspectives}{}% 103
-\BOOKMARK [0][-]{chapter*.12}{Bibliographie}{}% 104
-\BOOKMARK [1][-]{section.6.1}{Le Protocole SSL}{chapter*.12}% 105
+\BOOKMARK [2][-]{subsection.2.3.6}{OWASP ESAPI}{section.2.3}% 36
+\BOOKMARK [3][-]{subsubsection.2.3.6.1}{Pr\351sentation}{subsection.2.3.6}% 37
+\BOOKMARK [3][-]{subsubsection.2.3.6.2}{Architecture}{subsection.2.3.6}% 38
+\BOOKMARK [3][-]{subsubsection.2.3.6.3}{Qualit\351}{subsection.2.3.6}% 39
+\BOOKMARK [0][-]{chapter.3}{M\351thodologie}{}% 40
+\BOOKMARK [1][-]{section.3.1}{M\351thodologie de d\351veloppement}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.1.1}{Qu'est ce qu'une m\351thodologie de d\351veloppement ?}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.2}{Int\351r\352t d'une m\351thodologie}{section.3.1}% 43
+\BOOKMARK [2][-]{subsection.3.1.3}{Cat\351gories de m\351thodologies de d\351veloppement}{section.3.1}% 44
+\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Scrum}{subsection.3.1.3}% 45
+\BOOKMARK [1][-]{section.3.2}{Outil de mod\351lisation}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.2.1}{Int\351r\352t d'une mod\351lisation}{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.2}{Pr\351sentation d'UML}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.3}{Diagrammes UML}{section.3.2}% 49
+\BOOKMARK [0][-]{chapter.4}{Analyse et Conception}{}% 50
+\BOOKMARK [1][-]{section.4.1}{Sp\351cifications}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.1.1}{Sp\351cifications fonctionnelles}{section.4.1}% 52
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Les Acteurs}{subsection.4.1.1}% 53
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Les fonctionnalit\351s g\351n\351rales}{subsection.4.1.1}% 54
+\BOOKMARK [2][-]{subsection.4.1.2}{Sp\351cifications non fonctionnelles}{section.4.1}% 55
+\BOOKMARK [1][-]{section.4.2}{Analyse}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.2.1}{Package Gestion des injections}{section.4.2}% 57
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{Diagramme de cas d'utilisation}{subsection.4.2.1}% 58
+\BOOKMARK [2][-]{subsection.4.2.2}{Package Gestion des violations de gestion d'authentification}{section.4.2}% 59
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Diagramme de cas d'utilisation}{subsection.4.2.2}% 60
+\BOOKMARK [2][-]{subsection.4.2.3}{Package Gestion des expositions de donn\351es sensibles}{section.4.2}% 61
+\BOOKMARK [3][-]{subsubsection.4.2.3.1}{Diagramme de cas d'utilisation}{subsection.4.2.3}% 62
+\BOOKMARK [2][-]{subsection.4.2.4}{Package Gestion des attaques sur les entit\351s XML externes}{section.4.2}% 63
+\BOOKMARK [3][-]{subsubsection.4.2.4.1}{Diagramme de cas d'utilisation}{subsection.4.2.4}% 64
+\BOOKMARK [2][-]{subsection.4.2.5}{Package Gestion des violations de contr\364le d'acc\350s}{section.4.2}% 65
+\BOOKMARK [3][-]{subsubsection.4.2.5.1}{Diagramme de cas d'utilisation}{subsection.4.2.5}% 66
+\BOOKMARK [2][-]{subsection.4.2.6}{Package Gestion des mauvaises configurations de s\351curit\351}{section.4.2}% 67
+\BOOKMARK [3][-]{subsubsection.4.2.6.1}{Diagramme de cas d'utilisation}{subsection.4.2.6}% 68
+\BOOKMARK [2][-]{subsection.4.2.7}{Package Gestion des XSS }{section.4.2}% 69
+\BOOKMARK [3][-]{subsubsection.4.2.7.1}{Diagramme de cas d'utilisation}{subsection.4.2.7}% 70
+\BOOKMARK [2][-]{subsection.4.2.8}{Package Gestion des d\351s\351rialisations non s\351curis\351es}{section.4.2}% 71
+\BOOKMARK [3][-]{subsubsection.4.2.8.1}{Diagramme de cas d'utilisation}{subsection.4.2.8}% 72
+\BOOKMARK [2][-]{subsection.4.2.9}{Package Gestion des utilisations de composants vuln\351rables}{section.4.2}% 73
+\BOOKMARK [3][-]{subsubsection.4.2.9.1}{Diagramme de cas d'utilisation}{subsection.4.2.9}% 74
+\BOOKMARK [2][-]{subsection.4.2.10}{Package Gestion de la journalisation et de la surveillance insuffisantes}{section.4.2}% 75
+\BOOKMARK [3][-]{subsubsection.4.2.10.1}{Diagramme de cas d'utilisation}{subsection.4.2.10}% 76
+\BOOKMARK [2][-]{subsection.4.2.11}{Syst\350me global}{section.4.2}% 77
+\BOOKMARK [2][-]{subsection.4.2.12}{Sous-syst\350me "Utilisateurs"}{section.4.2}% 78
+\BOOKMARK [3][-]{subsubsection.4.2.12.1}{Diagramme de cas d'utilisation}{subsection.4.2.12}% 79
+\BOOKMARK [3][-]{subsubsection.4.2.12.2}{Cas d'utilisation "Authentification utilisateur"}{subsection.4.2.12}% 80
+\BOOKMARK [3][-]{subsubsection.4.2.12.3}{Cas d'utilisation "D\351connexion utilisateur"}{subsection.4.2.12}% 81
+\BOOKMARK [3][-]{subsubsection.4.2.12.4}{Cas d'utilisation "V\351rification force mot de passe"}{subsection.4.2.12}% 82
+\BOOKMARK [3][-]{subsubsection.4.2.12.5}{\311tats d'un utilisateur}{subsection.4.2.12}% 83
+\BOOKMARK [2][-]{subsection.4.2.13}{Sous-syst\350me "Cryptographie"}{section.4.2}% 84
+\BOOKMARK [3][-]{subsubsection.4.2.13.1}{Diagramme de cas d'utilisation}{subsection.4.2.13}% 85
+\BOOKMARK [2][-]{subsection.4.2.14}{Sous-syst\350me "Encodage"}{section.4.2}% 86
+\BOOKMARK [3][-]{subsubsection.4.2.14.1}{Diagramme de cas d'utilisation}{subsection.4.2.14}% 87
+\BOOKMARK [2][-]{subsection.4.2.15}{Sous-syst\350me "Validation"}{section.4.2}% 88
+\BOOKMARK [3][-]{subsubsection.4.2.15.1}{Diagramme de cas d'utilisation}{subsection.4.2.15}% 89
+\BOOKMARK [2][-]{subsection.4.2.16}{Sous-syst\350me "HTTP"}{section.4.2}% 90
+\BOOKMARK [3][-]{subsubsection.4.2.16.1}{Diagramme de cas d'utilisation}{subsection.4.2.16}% 91
+\BOOKMARK [2][-]{subsection.4.2.17}{Sous-syst\350me "Interpr\351teurs"}{section.4.2}% 92
+\BOOKMARK [3][-]{subsubsection.4.2.17.1}{Diagramme de cas d'utilisation}{subsection.4.2.17}% 93
+\BOOKMARK [2][-]{subsection.4.2.18}{Sous-syst\350me "Logging"}{section.4.2}% 94
+\BOOKMARK [3][-]{subsubsection.4.2.18.1}{Diagramme de cas d'utilisation}{subsection.4.2.18}% 95
+\BOOKMARK [2][-]{subsection.4.2.19}{Sous-syst\350me "Gestion des composants"}{section.4.2}% 96
+\BOOKMARK [3][-]{subsubsection.4.2.19.1}{Diagramme de cas d'utilisation}{subsection.4.2.19}% 97
+\BOOKMARK [2][-]{subsection.4.2.20}{Structure statique du syst\350me}{section.4.2}% 98
+\BOOKMARK [3][-]{subsubsection.4.2.20.1}{Diagramme de classes d'analyse}{subsection.4.2.20}% 99
+\BOOKMARK [1][-]{section.4.3}{Conception}{chapter.4}% 100
+\BOOKMARK [2][-]{subsection.4.3.1}{Synth\350se de la solution}{section.4.3}% 101
+\BOOKMARK [2][-]{subsection.4.3.2}{Utilisation de la biblioth\350que OWASP ESAPI}{section.4.3}% 102
+\BOOKMARK [2][-]{subsection.4.3.3}{Conception Architecturale}{section.4.3}% 103
+\BOOKMARK [3][-]{subsubsection.4.3.3.1}{Architecture G\351n\351rique}{subsection.4.3.3}% 104
+\BOOKMARK [3][-]{subsubsection.4.3.3.2}{Architecture d\351taill\351e HubSo ESAPI crois\351e au Top 10 OWASP 2017}{subsection.4.3.3}% 105
+\BOOKMARK [3][-]{subsubsection.4.3.3.3}{Architecture technique d'une application s\351curis\351e}{subsection.4.3.3}% 106
+\BOOKMARK [3][-]{subsubsection.4.3.3.4}{Architecture fonctionnelle d'une application s\351curis\351e}{subsection.4.3.3}% 107
+\BOOKMARK [0][-]{chapter.5}{R\351alisation}{}% 108
+\BOOKMARK [1][-]{section.5.1}{Outils et Technologies}{chapter.5}% 109
+\BOOKMARK [2][-]{subsection.5.1.1}{Outils}{section.5.1}% 110
+\BOOKMARK [3][-]{subsubsection.5.1.1.1}{Eclipse IDE}{subsection.5.1.1}% 111
+\BOOKMARK [3][-]{subsubsection.5.1.1.2}{Astah Comunity Edition}{subsection.5.1.1}% 112
+\BOOKMARK [3][-]{subsubsection.5.1.1.3}{Git}{subsection.5.1.1}% 113
+\BOOKMARK [3][-]{subsubsection.5.1.1.4}{Apache Maven}{subsection.5.1.1}% 114
+\BOOKMARK [2][-]{subsection.5.1.2}{Langages et Technologies}{section.5.1}% 115
+\BOOKMARK [3][-]{subsubsection.5.1.2.1}{Java}{subsection.5.1.2}% 116
+\BOOKMARK [3][-]{subsubsection.5.1.2.2}{Java Enterprise Edition}{subsection.5.1.2}% 117
+\BOOKMARK [3][-]{subsubsection.5.1.2.3}{ZK Framework}{subsection.5.1.2}% 118
+\BOOKMARK [3][-]{subsubsection.5.1.2.4}{Hibernate}{subsection.5.1.2}% 119
+\BOOKMARK [2][-]{subsection.5.1.3}{Autres technologies}{section.5.1}% 120
+\BOOKMARK [3][-]{subsubsection.5.1.3.1}{MySQL}{subsection.5.1.3}% 121
+\BOOKMARK [3][-]{subsubsection.5.1.3.2}{JBoss}{subsection.5.1.3}% 122
+\BOOKMARK [2][-]{subsection.5.1.4}{Forge logicielle HubSo}{section.5.1}% 123
+\BOOKMARK [3][-]{subsubsection.5.1.4.1}{Gestionnaire de projets JIRA}{subsection.5.1.4}% 124
+\BOOKMARK [3][-]{subsubsection.5.1.4.2}{Gitlab}{subsection.5.1.4}% 125
+\BOOKMARK [3][-]{subsubsection.5.1.4.3}{Jenkins}{subsection.5.1.4}% 126
+\BOOKMARK [3][-]{subsubsection.5.1.4.4}{Nexus}{subsection.5.1.4}% 127
+\BOOKMARK [3][-]{subsubsection.5.1.4.5}{Sonar}{subsection.5.1.4}% 128
+\BOOKMARK [1][-]{section.5.2}{Architecture fonctionnelle des applications utilisatrices de HubSo ESAPI}{chapter.5}% 129
+\BOOKMARK [1][-]{section.5.3}{Mise en place de la biblioth\350que HubSo ESAPI}{chapter.5}% 130
+\BOOKMARK [2][-]{subsubsection.5.3.0.1}{Clonage de la biblioth\350que OWASP ESAPI}{section.5.3}% 131
+\BOOKMARK [3][-]{subsubsection.5.3.0.2}{Configuration}{subsubsection.5.3.0.1}% 132
+\BOOKMARK [3][-]{subsubsection.5.3.0.3}{D\351ploiement}{subsubsection.5.3.0.1}% 133
+\BOOKMARK [1][-]{section.5.4}{Int\351gration de HubSo ESAPI dans TouchWeb}{chapter.5}% 134
+\BOOKMARK [2][-]{subsubsection.5.4.0.1}{Etat initial TouchWeb}{section.5.4}% 135
+\BOOKMARK [3][-]{subsubsection.5.4.0.2}{Corrections}{subsubsection.5.4.0.1}% 136
+\BOOKMARK [3][-]{subsubsection.5.4.0.3}{Etat final}{subsubsection.5.4.0.1}% 137
+\BOOKMARK [0][-]{chapter*.12}{Bibliographie}{}% 138
+\BOOKMARK [0][-]{chapter*.13}{Annexe}{}% 139

@@ -6,36 +6,38 @@
 \addvspace {10pt}
 \contentsline {xchapter}{}{13}{chapter.2}
 \addvspace {10pt}
-\contentsline {xchapter}{}{27}{chapter.3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sch\IeC {\'e}ma d'ensemble des diagrammes UML}}{32}{figure.3.1}
+\contentsline {xchapter}{}{29}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sch\IeC {\'e}ma d'ensemble des diagrammes UML}}{34}{figure.3.1}
 \addvspace {10pt}
-\contentsline {xchapter}{}{33}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me}}{39}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des injections"}}{39}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification"}}{40}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des expositions de donn\IeC {\'e}es sensibles"}}{40}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des attaques sur les entit\IeC {\'e}s XML externes"}}{41}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des violations de contr\IeC {\^o}le d'acc\IeC {\`e}s"}}{42}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des mauvaises configurations de s\IeC {\'e}curit\IeC {\'e}"}}{42}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des XSS"}}{43}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des d\IeC {\'e}s\IeC {\'e}rialisations non s\IeC {\'e}curis\IeC {\'e}es"}}{43}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des utilisations de composants vuln\IeC {\'e}rables"}}{44}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion de la journalisation et de la surveillance insuffisantes"}}{45}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de cas d'utilisation global du syst\IeC {\`e}me}}{46}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me (r\IeC {\'e}organis\IeC {\'e})"}}{47}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Utilisateurs"}}{48}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagramme d'activit\IeC {\'e}s du cas "Authentification utilisateur"}}{51}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme d'activit\IeC {\'e}s du cas "Authentification utilisateur"}}{54}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagramme d'\IeC {\'e}tats-transition d'un utilisateur}}{55}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Cryptographie"}}{56}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Encodage"}}{56}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Validation"}}{57}{figure.4.20}
+\contentsline {xchapter}{}{35}{chapter.4}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me}}{41}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des injections"}}{41}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification"}}{42}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des expositions de donn\IeC {\'e}es sensibles"}}{42}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des attaques sur les entit\IeC {\'e}s XML externes"}}{43}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des violations de contr\IeC {\^o}le d'acc\IeC {\`e}s"}}{44}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des mauvaises configurations de s\IeC {\'e}curit\IeC {\'e}"}}{44}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des XSS"}}{45}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des d\IeC {\'e}s\IeC {\'e}rialisations non s\IeC {\'e}curis\IeC {\'e}es"}}{45}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion des utilisations de composants vuln\IeC {\'e}rables"}}{46}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagramme de cas d'utilisation du package "Gestion de la journalisation et de la surveillance insuffisantes"}}{47}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de cas d'utilisation global du syst\IeC {\`e}me}}{48}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagramme de packages du syst\IeC {\`e}me (r\IeC {\'e}organis\IeC {\'e})"}}{49}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Utilisateurs"}}{50}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagramme d'activit\IeC {\'e}s du cas "Authentification utilisateur"}}{53}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme d'activit\IeC {\'e}s du cas "Authentification utilisateur"}}{56}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagramme d'\IeC {\'e}tats-transition d'un utilisateur}}{57}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Cryptographie"}}{58}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Encodage"}}{58}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Validation"}}{59}{figure.4.20}
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "HTTP"}}{59}{figure.4.21}
 \contentsline {figure}{\numberline {4.22}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Interpreteurs"}}{60}{figure.4.22}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{60}{figure.4.23}
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Diagramme de cas d'utilisation du sous-syst\IeC {\`e}me "Gestion de la journalisation et de la surveillance insuffisantes"}}{61}{figure.4.24}
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Diagramme de classes d'analyse du syst\IeC {\`e}me}}{62}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Architecture fonctionnelle G\IeC {\'e}n\IeC {\'e}rique de HubSo ESAPI}}{64}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Architecture d\IeC {\'e}taill\IeC {\'e}e HubSo ESAPI crois\IeC {\'e}e au Top 10 OWASP 2017}}{64}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Exemple d'architecture technique s\IeC {\'e}curis\IeC {\'e}e d'une application}}{65}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Architecture fonctionnelle d'une application s\IeC {\'e}curis\IeC {\'e}e utilisant HubSo ESAPI}}{66}{figure.4.29}
 \addvspace {10pt}
-\contentsline {xchapter}{}{64}{chapter.5}
-\addvspace {10pt}
-\contentsline {xchapter}{}{65}{chapter.6}
+\contentsline {xchapter}{}{67}{chapter.5}

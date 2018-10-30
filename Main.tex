@@ -318,7 +318,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 
 
 %Added packages latyr nee
-\usepackage{nomencl}
+\usepackage[intoc]{nomencl}
 \makenomenclature
 \newcommand{\itemcheck}{\item[\checkmark]}
 \newcommand{\itemtirait}{\item[$-$]}
@@ -335,6 +335,8 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 %pour inserer un pdf
 \usepackage{pdfpages}
 \usepackage{afterpage}
+\DeclareUnicodeCharacter{200B}{$\bullet$}
+%\usepackage[intoc]{nomencl}
 
 \newcommand\blankpage{%
 	\null
@@ -367,7 +369,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\input{frontmatter/title}
 	\shipout\null
 	\input{frontmatter/title}
-	%
+	%visa
 	\input{frontmatter/certification}
 	
 	%
@@ -382,12 +384,12 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	%
 	\input{frontmatter/resume}
 	
-	
 	%
 	\input{frontmatter/abstract}
 	
 	%
-	%\input{frontmatter/nomenclature}
+	
+	\adjustmtc
 	
 	%
 	\renewcommand{\contentsname}{Table des matières}
@@ -396,6 +398,7 @@ allcolors=black]{hyperref}              %Creates hyperlinks in cross references
 	\addtocontents{toc}{\par\nobreak \mbox{}\hfill{\bf Page}\par\nobreak}
 	\clearpage
 	%
+	%\input{frontmatter/nomenclature}
 	\renewcommand{\nomname}{Sigles et Abbréviations}
 	\printnomenclature[1in]
 	\clearpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  29 OCT 2018 08:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  30 OCT 2018 21:51
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2212,6 +2212,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc10.
 \openout7 = `Main.mtc10'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc11.
+\openout7 = `Main.mtc11'.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
@@ -2243,83 +2247,92 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks70
 \AP@partial=\box81
 \AP@footins=\box82
-) (Main.aux
+)
+   defining Unicode char U+200B (decimal 8203)
+ (Main.aux
 
 LaTeX Warning: Label `fig:7.13' multiply defined.
 
 
 LaTeX Warning: Label `fig:7.20' multiply defined.
 
+
+LaTeX Warning: Label `fig:architecturedet' multiply defined.
+
+
+LaTeX Warning: Label `fig:architecturefonctionnellehubsoesapi' multiply defined
+.
+
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 345.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 347.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 34
-5.
+7.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmlfncmi.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 345.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 345
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 347.
+LaTeX Font Info:    Try loading font information for FMS+fncm on input line 347
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm.fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 345.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 345
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 347.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 347
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 345.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 345.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 347.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 347.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 345.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 347.
+LaTeX Font Info:    ... okay on input line 347.
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 347.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.fd"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 345.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 345.
+(Font)              scaled to size 10.18341pt on input line 347.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 347.
 \symgns@font=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 345.
-Package gensymb Info: Math companion symbols declared on input line 345.
-LaTeX Info: Redefining \degree on input line 345.
-LaTeX Info: Redefining \celsius on input line 345.
+(Font)                  TS1/fnc/m/n --> TS1/fnc/bx/n on input line 347.
+Package gensymb Info: Math companion symbols declared on input line 347.
+LaTeX Info: Redefining \degree on input line 347.
+LaTeX Info: Redefining \celsius on input line 347.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 345.
-LaTeX Info: Redefining \ohm on input line 345.
-Package gensymb Info: Using \textohm for \ohm on input line 345.
-Package gensymb Info: Using \textmu for \micro on input line 345.
+erthousand on input line 347.
+LaTeX Info: Redefining \ohm on input line 347.
+Package gensymb Info: Using \textohm for \ohm on input line 347.
+Package gensymb Info: Using \textmu for \micro on input line 347.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 345.
+Package layouts Warning: Layout scale set to 0.5 on input line 347.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2347,14 +2360,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \degres on input line 345.
-LaTeX Info: Redefining \dots on input line 345.
+LaTeX Info: Redefining \degres on input line 347.
+LaTeX Info: Redefining \dots on input line 347.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumerate package,
-(french.ldf)             reported on input line 345.
-LaTeX Info: Redefining \up on input line 345.
+(french.ldf)             reported on input line 347.
+LaTeX Info: Redefining \up on input line 347.
 \AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring ON on input line 345.
+Package hyperref Info: Link coloring ON on input line 347.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2366,15 +2379,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 345.
-LaTeX Info: Redefining \ref on input line 345.
-LaTeX Info: Redefining \pageref on input line 345.
-LaTeX Info: Redefining \nameref on input line 345.
+LaTeX Info: Redefining \nameref on input line 347.
+LaTeX Info: Redefining \ref on input line 347.
+LaTeX Info: Redefining \pageref on input line 347.
+LaTeX Info: Redefining \nameref on input line 347.
 (Main.out) (Main.out)
 \@outlinefile=\write8
 \openout8 = `Main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 345.
+LaTeX Info: Redefining \microtypecontext on input line 347.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2444,15 +2457,15 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 345.
+put line 347.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 345.
+t line 347.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 345.
+t line 347.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 345.
+line 347.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 345.
+line 347.
 
 (frontmatter/title.tex
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
@@ -2461,14 +2474,14 @@ LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 11.15991pt on input line 28.
-<Logos/senegal_flag.png, id=422, 1284.8pt x 856.19875pt>
+<Logos/senegal_flag.png, id=562, 1284.8pt x 856.19875pt>
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
 Package pdftex.def Info: Logos/senegal_flag.png  used on input line 29. on inpu
 t line 29.
 Package pdftex.def Info: Requested size: 22.55138pt x 15.0242pt on input line 2
 9.
-<Logos/logo_ucad.png, id=423, 224.84pt x 225.84375pt>
+<Logos/logo_ucad.png, id=563, 224.84pt x 225.84375pt>
 File: Logos/logo_ucad.png Graphic file (type png)
 <use Logos/logo_ucad.png>
 Package pdftex.def Info: Logos/logo_ucad.png  used on input line 34. on input l
@@ -2596,7 +2609,7 @@ n with the same identifier (name{page.i}) has been already used, duplicate igno
 red
 <to be read again> 
                    \relax 
-l.368 	\shipout\null
+l.370 	\shipout\null
                      [1] (frontmatter/title.tex
 File: Logos/senegal_flag.png Graphic file (type png)
 <use Logos/senegal_flag.png>
@@ -2614,7 +2627,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \end{titlingpage}
+l.90 \end{titlingpage}
                        [1
 
 
@@ -2639,19 +2652,37 @@ l.7 \chapter
 
 
 
-] [2
+]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
-]) (frontmatter/remerciements.tex [3
+ []
+
+[2
+
+]) (frontmatter/remerciements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[3
 
 
-])
-(frontmatter/avantpropos.tex) (frontmatter/resume.tex [4
+]) (frontmatter/avantpropos.tex) (frontmatter/resume.tex [4
 
 
-] [5
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
 
-])
-(frontmatter/abstract.tex [6
+ []
+
+[5
+
+]) (frontmatter/abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+[6
 
 
 ]) (Main.toc
@@ -2660,8 +2691,8 @@ Package nag Warning: Command \bf is an old LaTeX 2.09 command.
 (nag)                Use \bfseries or \textbf instead on input line 2.
 
 
-Overfull \hbox (0.42758pt too wide) detected at line 4
- \T1/fnc/b/n/10.95 xiv
+Overfull \hbox (1.74115pt too wide) detected at line 4
+ \T1/fnc/b/n/10.95 xiii
  []
 
 [7
@@ -2671,26 +2702,21 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 74.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
 (Font)              scaled to size 9.29993pt on input line 74.
- [8]) [9] (Main.nls [10
+ [8] [9]) [10] (Main.nls [11
 
 
-]) [11] (Main.lof
+]) [12] (Main.lof
 LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/sc' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/fnc/b/sc' will be
 (Font)              scaled to size 10.18341pt on input line 2.
- [12
+ [13
 
-]) [13] (Main.lot) [14
+]) [14] (Main.lot) [15
 
 ]
 (misc/introduction/introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
@@ -2722,7 +2748,7 @@ LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 9.29993pt on input line 3.
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 7.06795pt on input line 3.
- (Main.mtc4
+ (Main.mtc5
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
@@ -2734,7 +2760,7 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 ] [3
 
 ]
-<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=702, 
+<parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png, id=888, 
 963.6pt x 435.6275pt>
 File: parts/part01//chapters/structure-accueil/fig/Organnigramme-HubSo.png Grap
 hic file (type png)
@@ -2765,7 +2791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 \openout7 = `Main.mtc'.
 
 
-(Main.mtc5) [13
+(Main.mtc6) [13
 
 ] [14
 
@@ -2802,30 +2828,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--102
  []
 
 [22]) (parts/part02//chapters/owasp/owasp.tex [23] [24] [25]
-Overfull \hbox (17.60063pt too wide) in paragraph at lines 57--57
+Overfull \hbox (17.60063pt too wide) in paragraph at lines 61--61
 []|\T1/fnc/m/n/10.95 (-20) A1 :Injection|  
  []
 
 
-Overfull \hbox (21.95914pt too wide) in paragraph at lines 53--65
+Overfull \hbox (28.03862pt too wide) in paragraph at lines 57--69
  [][] 
  []
 
-)) (parts/part04/part04.tex
+[26])) (parts/part04/part04.tex [27]
 (parts/part04//chapters/methodologie_developpement/methodologie_developpement.t
-ex [26]
+ex [28]
 \openout7 = `Main.mtc'.
 
 \openout7 = `Main.mtc'.
 
- (Main.mtc6) [27
+ (Main.mtc7) [29
 
-] [28
+] [30
 
-] [29]) (parts/part04//chapters/uml/uml.tex
-[30] [31]
-<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=910, 1157.32375pt
- x 495.8525pt>
+] [31]) (parts/part04//chapters/uml/uml.tex
+[32] [33]
+<parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png, id=1108, 1157.32375p
+t x 495.8525pt>
 File: parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png Graphic file (ty
 pe png)
 <use parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>
@@ -2838,17 +2864,23 @@ Overfull \hbox (61.1496pt too wide) in paragraph at lines 43--47
  []$[]$ 
  []
 
-[32 <./parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>])
+[34 <./parts/part04//chapters/uml/fig/Uml-Diagrams-overview.png>])
 (parts/part04//chapters/specifications_analyse_besoins/specifications_analyse_b
 esoins.tex
 \openout7 = `Main.mtc'.
 
 \openout7 = `Main.mtc'.
 
- (Main.mtc7 [33
+ (Main.mtc8 [35
 
 
-]) [34]
+]
+Overfull \hbox (3.23738pt too wide) in paragraph at lines 55--55
+ [][] [][][]\T1/fnc/m/n/10 (-20) Architecture dé-taillée HubSo ESAPI croi-sée a
+u Top 10 OWASP 
+ []
+
+) [36]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -2858,7 +2890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[35
+[37
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
@@ -2885,7 +2917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[36]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -2900,19 +2932,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[37]
+[39]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.png,
- id=996, 763.85374pt x 523.9575pt>
+ id=1199, 763.85374pt x 523.9575pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram
 .png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagram.
 png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Package-Diagram.png  used on input line 143. on input line 143.
+fig/Package-Diagram.png  used on input line 140. on input line 140.
 Package pdftex.def Info: Requested size: 277.34154pt x 190.24509pt on input lin
-e 143.
+e 140.
 
-Overfull \hbox (61.1496pt too wide) in paragraph at lines 141--145
+Overfull \hbox (61.1496pt too wide) in paragraph at lines 138--142
  []$[]$ 
  []
 
@@ -2920,419 +2952,456 @@ Overfull \hbox (61.1496pt too wide) in paragraph at lines 141--145
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-case-d
-iagram.png, id=997, 1132.23pt x 874.01532pt>
+iagram.png, id=1200, 1132.23pt x 874.01532pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-c
 ase-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Injection-use-ca
 se-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Injection-use-case-diagram.png  used on input line 157. on input line 157.
+fig/Injection-use-case-diagram.png  used on input line 154. on input line 154.
 Package pdftex.def Info: Requested size: 273.83119pt x 211.38223pt on input lin
-e 157.
+e 154.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--161
+Underfull \hbox (badness 10000) in paragraph at lines 149--158
 
  []
 
-[38]
+[40]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestion-au
-thentification-use-case-diagram.png, id=1003, 1120.9378pt x 1046.40938pt>
+thentification-use-case-diagram.png, id=1205, 1120.9378pt x 1046.40938pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gesti
 on-authentification-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gestio
 n-authentification-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Violation-gestion-authentification-use-case-diagram.png  used on input line
- 171. on input line 171.
+ 168. on input line 168.
 Package pdftex.def Info: Requested size: 226.42422pt x 211.38223pt on input lin
-e 171.
+e 168.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--175
+Underfull \hbox (badness 10000) in paragraph at lines 163--172
 
  []
 
-[39 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagra
+[41 <./parts/part04//chapters/specifications_analyse_besoins/fig/Package-Diagra
 m.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Injection-u
 se-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposition-d
-onnees-use-case-diagram.png, id=1010, 918.43124pt x 933.4875pt>
+onnees-use-case-diagram.png, id=1212, 918.43124pt x 933.4875pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-exposit
 ion-donnees-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Gestion-expositi
 on-donnees-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Gestion-exposition-donnees-use-case-diagram.png  used on input line 185. on
- input line 185.
+fig/Gestion-exposition-donnees-use-case-diagram.png  used on input line 182. on
+ input line 182.
 Package pdftex.def Info: Requested size: 207.96945pt x 211.38223pt on input lin
-e 185.
+e 182.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--189
+Underfull \hbox (badness 10000) in paragraph at lines 177--186
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-diagram
-.png, id=1011, 808.52063pt x 492.33937pt>
+.png, id=1213, 808.52063pt x 492.33937pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-di
 agram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-dia
 gram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/XXE-use-case-diagram.png  used on input line 198. on input line 198.
+fig/XXE-use-case-diagram.png  used on input line 195. on input line 195.
 Package pdftex.def Info: Requested size: 347.13895pt x 211.38223pt on input lin
-e 198.
+e 195.
 
-Overfull \hbox (5.70589pt too wide) in paragraph at lines 198--199
+Overfull \hbox (5.70589pt too wide) in paragraph at lines 195--196
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--202
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
-[40 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gest
+[42 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-gest
 ion-authentification-use-case-diagram.png> <./parts/part04//chapters/specificat
 ions_analyse_besoins/fig/Gestion-exposition-donnees-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Violation-controle-a
-cces-use-case-diagram.png, id=1018, 1202.24156pt x 871.75688pt>
+cces-use-case-diagram.png, id=1220, 1202.24156pt x 871.75688pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contr
 ole-acces-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Violation-contro
 le-acces-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Violation-controle-acces-use-case-diagram.png  used on input line 211. on i
-nput line 211.
+fig/Violation-controle-acces-use-case-diagram.png  used on input line 208. on i
+nput line 208.
 Package pdftex.def Info: Requested size: 291.51572pt x 211.38223pt on input lin
-e 211.
+e 208.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--215
+Underfull \hbox (badness 10000) in paragraph at lines 203--212
 
  []
 
-[41 <./parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-d
+[43 <./parts/part04//chapters/specifications_analyse_besoins/fig/XXE-use-case-d
 iagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconfigur
-ation-use-case-diagram.png, id=1024, 1059.96pt x 508.90125pt>
+ation-use-case-diagram.png, id=1227, 1059.96pt x 508.90125pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Security_miscon
 figuration-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Security_misconf
 iguration-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Security_misconfiguration-use-case-diagram.png  used on input line 224. on 
-input line 224.
+fig/Security_misconfiguration-use-case-diagram.png  used on input line 221. on 
+input line 221.
 Package pdftex.def Info: Requested size: 440.27954pt x 211.38223pt on input lin
-e 224.
+e 221.
 
-Overfull \hbox (98.84648pt too wide) in paragraph at lines 224--225
+Overfull \hbox (98.84648pt too wide) in paragraph at lines 221--222
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--228
+Underfull \hbox (badness 10000) in paragraph at lines 216--225
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-diagram
-.png, id=1025, 1436.36626pt x 874.01532pt>
+.png, id=1228, 1436.36626pt x 874.01532pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-di
 agram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-dia
 gram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/XSS-use-case-diagram.png  used on input line 237. on input line 237.
+fig/XSS-use-case-diagram.png  used on input line 234. on input line 234.
 Package pdftex.def Info: Requested size: 347.38692pt x 211.38223pt on input lin
-e 237.
+e 234.
 
-Overfull \hbox (5.95386pt too wide) in paragraph at lines 237--238
+Overfull \hbox (5.95386pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--241
+Underfull \hbox (badness 10000) in paragraph at lines 229--238
 
  []
 
-[42 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-cont
+[44 <./parts/part04//chapters/specifications_analyse_besoins/fig/Violation-cont
 role-acces-use-case-diagram.png> <./parts/part04//chapters/specifications_analy
 se_besoins/fig/Security_misconfiguration-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deserializa
-tion-use-case-diagram.png, id=1032, 666.99188pt x 445.665pt>
+tion-use-case-diagram.png, id=1235, 666.99188pt x 445.665pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseri
 alization-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Insecure_deseria
 lization-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Insecure_deserialization-use-case-diagram.png  used on input line 250. on i
-nput line 250.
+fig/Insecure_deserialization-use-case-diagram.png  used on input line 247. on i
+nput line 247.
 Package pdftex.def Info: Requested size: 263.62683pt x 176.15007pt on input lin
-e 250.
+e 247.
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 242--251
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-composan
-ts-vulnerables-use-case-diagram.png, id=1033, 861.2175pt x 611.28375pt>
+ts-vulnerables-use-case-diagram.png, id=1236, 861.2175pt x 611.28375pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-com
 posants-vulnerables-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-comp
 osants-vulnerables-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Utilisation-composants-vulnerables-use-case-diagram.png  used on input line
- 263. on input line 263.
+ 260. on input line 260.
 Package pdftex.def Info: Requested size: 297.8037pt x 211.38223pt on input line
- 263.
+ 260.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--267
+Underfull \hbox (badness 10000) in paragraph at lines 255--264
 
  []
 
-[43 <./parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-d
+[45 <./parts/part04//chapters/specifications_analyse_besoins/fig/XSS-use-case-d
 iagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fig/Insecu
 re_deserialization-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-logging
--monitoring-use-case-diagram.png, id=1040, 1130.72438pt x 561.59813pt>
+-monitoring-use-case-diagram.png, id=1243, 1130.72438pt x 561.59813pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-lo
 gging-monitoring-use-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-log
 ging-monitoring-use-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Insufficient-logging-monitoring-use-case-diagram.png  used on input line 27
-6. on input line 276.
+3. on input line 273.
 Package pdftex.def Info: Requested size: 425.59067pt x 211.38223pt on input lin
-e 276.
+e 273.
 
-Overfull \hbox (84.15761pt too wide) in paragraph at lines 276--277
+Overfull \hbox (84.15761pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--280
+Underfull \hbox (badness 10000) in paragraph at lines 268--277
 
  []
 
-[44 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-co
+[46 <./parts/part04//chapters/specifications_analyse_besoins/fig/Utilisation-co
 mposants-vulnerables-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-diag
-ram.png, id=1047, 2894.56406pt x 2638.60782pt>
+ram.png, id=1249, 2894.56406pt x 2638.60782pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case
 -diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Global-use-case-
 diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Global-use-case-diagram.png  used on input line 289. on input line 289.
+fig/Global-use-case-diagram.png  used on input line 286. on input line 286.
 Package pdftex.def Info: Requested size: 450.99367pt x 669.35345pt on input lin
-e 289.
- [45 <./parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-
-logging-monitoring-use-case-diagram.png>] [46 <./parts/part04//chapters/specifi
+e 286.
+ [47 <./parts/part04//chapters/specifications_analyse_besoins/fig/Insufficient-
+logging-monitoring-use-case-diagram.png>] [48 <./parts/part04//chapters/specifi
 cations_analyse_besoins/fig/Global-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagram.pn
-g, id=1058, 723.70375pt x 603.25375pt>
+g, id=1260, 723.70375pt x 603.25375pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagr
 am.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-diagra
 m.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/S-Package-diagram.png  used on input line 308. on input line 308.
+fig/S-Package-diagram.png  used on input line 305. on input line 305.
 Package pdftex.def Info: Requested size: 422.64168pt x 352.30016pt on input lin
-e 308.
+e 305.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use-cas
-e-diagram.png, id=1059, 960.58875pt x 859.71187pt>
+e-diagram.png, id=1261, 960.58875pt x 859.71187pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-us
 e-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Utilisateurs-use
 -case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Utilisateurs-use-case-diagram.png  used on input line 320. on input line 32
-0.
+fig/Utilisateurs-use-case-diagram.png  used on input line 317. on input line 31
+7.
 Package pdftex.def Info: Requested size: 341.42912pt x 246.60771pt on input lin
-e 320.
- [47 <./parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-dia
-gram.png>] [48 <./parts/part04//chapters/specifications_analyse_besoins/fig/Uti
-lisateurs-use-case-diagram.png>] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+e 317.
+ [49 <./parts/part04//chapters/specifications_analyse_besoins/fig/S-Package-dia
+gram.png>] [50 <./parts/part04//chapters/specifications_analyse_besoins/fig/Uti
+lisateurs-use-case-diagram.png>] [51]
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Authentification-uti
-lisateur-activity-diagram.png, id=1088, 1717.91812pt x 2707.86656pt>
+lisateur-activity-diagram.png, id=1291, 1717.91812pt x 2707.86656pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Authentificatio
 n-utilisateur-activity-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Authentification
 -utilisateur-activity-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Authentification-utilisateur-activity-diagram.png  used on input line 467. 
-on input line 467.
+fig/Authentification-utilisateur-activity-diagram.png  used on input line 464. 
+on input line 464.
 Package pdftex.def Info: Requested size: 450.99959pt x 669.36235pt on input lin
-e 467.
+e 464.
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--469
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
 
  []
 
-[50] [51 <./parts/part04//chapters/specifications_analyse_besoins/fig/Authentif
-ication-utilisateur-activity-diagram.png>] [52]
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
+[52] [53 <./parts/part04//chapters/specifications_analyse_besoins/fig/Authentif
+ication-utilisateur-activity-diagram.png>] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Verification-force-m
-ot-de-passe-activity-diagram.png, id=1114, 1638.87282pt x 2018.29031pt>
+ot-de-passe-activity-diagram.png, id=1316, 1638.87282pt x 2018.29031pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Verification-fo
 rce-mot-de-passe-activity-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Verification-for
 ce-mot-de-passe-activity-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
 fig/Verification-force-mot-de-passe-activity-diagram.png  used on input line 56
-4. on input line 564.
+1. on input line 561.
 Package pdftex.def Info: Requested size: 451.00401pt x 669.3639pt on input line
- 564.
-[53]
+ 561.
+[55]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachine-d
-iiagram.png, id=1123, 981.6675pt x 716.6775pt>
+iiagram.png, id=1326, 981.6675pt x 716.6775pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemach
 ine-diiagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachi
 ne-diiagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Users-statemachine-diiagram.png  used on input line 573. on input line 573.
+fig/Users-statemachine-diiagram.png  used on input line 570. on input line 570.
 
 Package pdftex.def Info: Requested size: 341.4318pt x 246.60881pt on input line
- 573.
- [54 <./parts/part04//chapters/specifications_analyse_besoins/fig/Verification-
+ 570.
+ [56 <./parts/part04//chapters/specifications_analyse_besoins/fig/Verification-
 force-mot-de-passe-activity-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-use-ca
-se-diagram.png, id=1129, 974.13937pt x 907.89188pt>
+se-diagram.png, id=1332, 974.13937pt x 907.89188pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-u
 se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Cryptographie-use-case-diagram.png  used on input line 586. on input line 5
-86.
+fig/Cryptographie-use-case-diagram.png  used on input line 583. on input line 5
+83.
 Package pdftex.def Info: Requested size: 341.42953pt x 246.61638pt on input lin
-e 586.
- [55 <./parts/part04//chapters/specifications_analyse_besoins/fig/Users-statema
+e 583.
+ [57 <./parts/part04//chapters/specifications_analyse_besoins/fig/Users-statema
 chine-diiagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-case-di
-agram.png, id=1135, 940.26282pt x 662.475pt>
+agram.png, id=1338, 940.26282pt x 662.475pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-ca
 se-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-cas
 e-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Encodage-use-case-diagram.png  used on input line 604. on input line 604.
+fig/Encodage-use-case-diagram.png  used on input line 601. on input line 601.
 Package pdftex.def Info: Requested size: 341.43555pt x 246.60797pt on input lin
-e 604.
+e 601.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-case-
-diagram.png, id=1136, 837.1275pt x 482.55281pt>
+diagram.png, id=1339, 837.1275pt x 482.55281pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-
 case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Validation-use-case-diagram.png  used on input line 616. on input line 616.
+fig/Validation-use-case-diagram.png  used on input line 613. on input line 613.
 
 Package pdftex.def Info: Requested size: 341.42343pt x 246.61409pt on input lin
-e 616.
- [56 <./parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie
+e 613.
+ [58 <./parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie
 -use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
-/fig/Encodage-use-case-diagram.png>] [57 <./parts/part04//chapters/specificatio
-ns_analyse_besoins/fig/Validation-use-case-diagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
-
- []
-
+/fig/Encodage-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-diagra
-m.png, id=1156, 1186.4325pt x 602.25pt>
+m.png, id=1346, 1186.4325pt x 602.25pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-d
 iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/HTTP-use-case-diagram.png  used on input line 692. on input line 692.
+fig/HTTP-use-case-diagram.png  used on input line 628. on input line 628.
 Package pdftex.def Info: Requested size: 341.43161pt x 246.61165pt on input lin
-e 692.
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 698--703
-
- []
-
+e 628.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-use-ca
-se-diagram.png, id=1164, 666.23906pt x 539.76656pt>
+se-diagram.png, id=1347, 666.23906pt x 539.76656pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-u
 se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Interpreteurs-use-case-diagram.png  used on input line 710. on input line 7
-10.
+fig/Interpreteurs-use-case-diagram.png  used on input line 643. on input line 6
+43.
 Package pdftex.def Info: Requested size: 341.43448pt x 211.38113pt on input lin
-e 710.
-[59 <./parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-
-diagram.png>]
+e 643.
+ [59 <./parts/part04//chapters/specifications_analyse_besoins/fig/Validation-us
+e-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fi
+g/HTTP-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case-dia
-gram.png, id=1170, 907.13907pt x 431.36156pt>
+gram.png, id=1354, 907.13907pt x 431.36156pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-cas
 e-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case
 -diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Logging-use-case-diagram.png  used on input line 723. on input line 723.
+fig/Logging-use-case-diagram.png  used on input line 656. on input line 656.
 Package pdftex.def Info: Requested size: 341.43591pt x 246.60925pt on input lin
-e 723.
+e 656.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-case-
-diagram.png, id=1171, 662.475pt x 525.46312pt>
+diagram.png, id=1355, 662.475pt x 525.46312pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-
 case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Composants-use-case-diagram.png  used on input line 735. on input line 735.
+fig/Composants-use-case-diagram.png  used on input line 668. on input line 668.
 
 Package pdftex.def Info: Requested size: 341.4261pt x 246.61491pt on input line
- 735.
+ 668.
  [60 <./parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs
 -use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
 /fig/Logging-use-case-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-Diagra
-m.png, id=1178, 1108.8928pt x 745.28438pt>
+m.png, id=1362, 1108.8928pt x 745.28438pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-D
 iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-Di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Analyse-Class-Diagram.png  used on input line 749. on input line 749.
+fig/Analyse-Class-Diagram.png  used on input line 682. on input line 682.
 Package pdftex.def Info: Requested size: 409.70863pt x 352.29657pt on input lin
-e 749.
+e 682.
 
-Overfull \hbox (68.27557pt too wide) in paragraph at lines 749--750
+Overfull \hbox (68.27557pt too wide) in paragraph at lines 682--683
  [][] 
  []
 
 [61 <./parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use
--case-diagram.png>]) (parts/part04//chapters/conception/conception.tex))
-(parts/part05/part05.tex [62 <./parts/part04//chapters/specifications_analyse_b
-esoins/fig/Analyse-Class-Diagram.png>] [63]
-Package minitoc Info: I0006
-(minitoc)             Main.mtc8 is empty on input line 3.
- [64
+-case-diagram.png>] [62 <./parts/part04//chapters/specifications_analyse_besoin
+s/fig/Analyse-Class-Diagram.png>]
+<parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI.png, 
+id=1374, 607.26875pt x 529.98pt>
+File: parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI.
+png Graphic file (type png)
+<use parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI.p
+ng>
+Package pdftex.def Info: parts/part04/chapters/conception/fig/ArchitectureFonct
+ionnelleHubSoESAPI.png  used on input line 716. on input line 716.
+Package pdftex.def Info: Requested size: 239.00209pt x 208.58368pt on input lin
+e 716.
+ [63]
+<parts/part04/chapters/conception/fig/EsapiXtop10.png, id=1379, 731.73375pt x 4
+14.04688pt>
+File: parts/part04/chapters/conception/fig/EsapiXtop10.png Graphic file (type p
+ng)
+<use parts/part04/chapters/conception/fig/EsapiXtop10.png>
+Package pdftex.def Info: parts/part04/chapters/conception/fig/EsapiXtop10.png  
+used on input line 726. on input line 726.
+Package pdftex.def Info: Requested size: 239.00534pt x 176.15396pt on input lin
+e 726.
+<parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png, id=
+1380, 2733.21124pt x 3526.17375pt>
+File: parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png
+ Graphic file (type png)
+<use parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png>
 
-]) (parts/part06/part06.tex)
-(misc/conclusion/conclusion.tex [65
+Package pdftex.def Info: parts/part04/chapters/conception/fig/ArchitectureHubso
+WebApplications.png  used on input line 736. on input line 736.
+Package pdftex.def Info: Requested size: 341.40033pt x 634.09204pt on input lin
+e 736.
+ [64 <./parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAP
+I.png> <./parts/part04/chapters/conception/fig/EsapiXtop10.png>]
+<parts/part04/chapters/conception/fig/archi.jpg, id=1387, 552.0625pt x 315.1775
+pt>
+File: parts/part04/chapters/conception/fig/archi.jpg Graphic file (type jpg)
+<use parts/part04/chapters/conception/fig/archi.jpg>
+Package pdftex.def Info: parts/part04/chapters/conception/fig/archi.jpg  used o
+n input line 746. on input line 746.
+Package pdftex.def Info: Requested size: 239.00209pt x 136.45186pt on input lin
+e 746.
+ [65 <./parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.p
+ng>]) (parts/part04//chapters/conception/conception.tex)) (parts/part05/part05.
+tex [66 <./parts/part04/chapters/conception/fig/archi.jpg>]
+\openout7 = `Main.mtc'.
+
+\openout7 = `Main.mtc'.
+
+ (Main.mtc9) [67
+
+] [68
+
+] [69] [70] [71] [72] [73] [74] [75] [76]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 277.
 
 
-]) (Main.bbl [66
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 281.
+
+) (parts/part06/part06.tex) (misc/conclusion/conclusion.tex [77]) (Main.bbl
+[78
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 10.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3365,7 +3434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []history-[]of-[]penetration-[]testing /
  []
 
-[67
+[79
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
@@ -3373,14 +3442,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 246975 / Threat % 20Classification %
  []
 
-) (misc/annexe/annexe.tex [68]
-Package minitoc Info: I0006
-(minitoc)             Main.mtc9 is empty on input line 3.
- [69
 
-] [70
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[][][]$\T1/cmtt/m/n/10.95 http : / / collaboration . cmc . ec . gc . ca / scien
+ce / rpn / biblio / ddj / Website / articles /
+ []
 
-] [71] [72])
+[80]) (misc/annexe/annexe.tex [81] [82
+
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
@@ -3405,7 +3475,7 @@ Package minitoc(hints) Warning: W0024
 
 Package nag Warning: 1 complaints in total.
 
-[73]
+[83]
 \tf@toc=\write9
 \openout9 = `Main.toc'.
 
@@ -3415,32 +3485,26 @@ Package nag Warning: 1 complaints in total.
 \tf@lot=\write11
 \openout11 = `Main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
  (Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 461.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 0BB5B6A721987DA31FC03248A90C4CF3;11689.
 
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: 96279A3B6AE6820D5907A7BB9C8718F7;8815
-(rerunfilecheck)             After:  8009201C847868A93EAAD65806566A38;8897.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33485 strings out of 493312
- 614399 string characters out of 3138882
- 899526 words of memory out of 3000000
- 35370 multiletter control sequences out of 15000+200000
- 102485 words of font info for 321 fonts, out of 3000000 for 9000
+ 33636 strings out of 493312
+ 617821 string characters out of 3138882
+ 899539 words of memory out of 3000000
+ 35454 multiletter control sequences out of 15000+200000
+ 103008 words of font info for 329 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,13n,80p,1882b,705s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,13n,80p,1882b,701s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3453,9 +3517,9 @@ nts/type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /ncntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.pfb>
-Output written on Main.pdf (90 pages, 3071939 bytes).
+Output written on Main.pdf (101 pages, 3462501 bytes).
 PDF statistics:
- 1424 PDF objects out of 1440 (max. 8388607)
- 315 named destinations out of 1000 (max. 500000)
- 50142 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1731 PDF objects out of 2073 (max. 8388607)
+ 360 named destinations out of 1000 (max. 500000)
+ 50442 words of extra memory for PDF output out of 51595 (max. 10000000)
 

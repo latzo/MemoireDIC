@@ -1,8 +1,294 @@
 \chapter{Réalisation}
 \minitoc % Enable table of contents for this part
 \clearpage
-%
-%\subimport{/chapters/structure-accueil/}{structure-accueil.tex}
+\section{Outils et Technologies}
+\subsection{Outils}
+\subsubsection{Eclipse IDE}
+Eclipse est un environnement de développement intégré (Integrated Development Environment) dont le but est de fournir une plate-forme modulaire pour permettre de réaliser des développements informatiques. I.B.M. est à l'origine du développement d'Eclipse qui est d'ailleurs toujours le coeur de son outil Websphere Studio Workbench (WSW), lui même à la base de la famille des derniers outils de développement en Java d'I.B.M.\cite{eclipse} \\ \nomenclature{IDE}{Integrated Development Environment}
+Tout le code d'Eclipse a été donné à la communauté par I.B.M afin de poursuivre son développement. Eclipse utilise énormément le concept de modules nommés "plug-ins" dans son architecture. D'ailleurs, hormis le noyau de la plate-forme nommé "Runtime", tout le reste de la plate-forme est développé sous la forme de plug-ins. Ce concept permet de fournir un mécanisme pour l'extension de la plate-forme et ainsi fournir la possibilité à des tiers de développer des fonctionnalités qui ne sont pas fournies en standard par Eclipse. Les principaux modules fournis en standard avec Eclipse concernent Java.\\
+Il est possible de développer en Java EE avec Eclipse, en partant par exemple du package "Eclipse for JavaEE Developers" ou alors, en installant une version d'Eclipse pour Java EE (Eclipse JEE Oxygen par exemple que nous utilisons). Ainsi, on a la possibilité d'utiliser les outils suivants : \nomenclature{Java EE}{Java Entreprise Edition} \nomenclature{WAR}{Web Application Archive} \nomenclature{EAR}{Enterprise Application Archive} \nomenclature{EJB}{Entreprise Java Bean} \nomenclature{JSP}{Java Server Pages} 
+\begin{itemize}
+	\itemcheck Assistants pour la génération d'applications Web WAR (Web Application Archive) ou EAR (Enterprise Application Archive).
+	\itemcheck Assistants pour la création de Servlets, Filters, EJBs (Entreprise Java Bean), etc.
+	\itemcheck Editeur de fichiers HTML, JSP (Java Server Pages), CSS et JavaScript.
+	\itemcheck Support natif des serveurs les plus populaires (Tomcat, JBoss, WebSphere, etc.).
+	\itemcheck Support de JSF (Java Server Faces). \nomenclature{JSF}{Java Server Faces}
+	\itemcheck Support de JPA (Java Persistence API) \nomenclature{JPA}{Java Persistence API}
+	\itemcheck Intégration d'autres plugins.
+\end{itemize}
+\subsubsection{Astah Comunity Edition}
+Anciennement appelé Jude, Astah est un outil de modélisation UML créé
+par la compagnie japonaise ChangeVision. Il fonctionne avec l'environnement d'exécution Java.
+Astah est un logiciel propriétaire distribué gratuitement en version community. L'achat d'une
+licence "Professional" permet de bénéficier d'un support client. Une fonctionnalité notable du
+logiciel est l'exportation en Java du modèle UML créé. Astah supporte officiellement les
+systèmes Windows, mais peut aussi fonctionner sous Linux et MacOs. \cite{astah}
+Astah supporte officiellement les systèmes Windows, mais peut aussi fonctionner sous Linux et MacOS.
+Astah supporte les fonctionnalités suivantes :
+\begin{itemize}
+	\itemcheck Diagrammes : 
+	\begin{itemize}
+		\itemtirait UML 2.x
+		\itemtirait Mind Map
+		\itemtirait ER Diagram
+		\itemtirait Flowchart
+		\itemtirait CRUD
+		\itemtirait Data Flow Diagram (DFD)
+		\itemtirait Requirement Table
+		\itemtirait Requirement Diagram
+	\end{itemize}
+	\itemcheck Langages, API, Plug-ins :
+	\begin{itemize}
+		\itemtirait Ingénierie inverse en Java, C\#, C++
+		\itemtirait Génération de code source en Java, C\#, C++ et PHP
+		\itemtirait Intégration de plug-ins (toutes libres) : Atlassian JIRA/Confluence integrations, XMI import, Twitter Integration, FreeMind files import, yUML plug-in import, Script Plug-in, etc...
+	\end{itemize}
+	\itemcheck Autres fonctionnalités 
+	\begin{itemize}
+		\itemtirait State Transition Table
+		\itemtirait State Transition Path
+		\itemtirait DSM
+		\itemtirait Inconsistency Check
+	\end{itemize}
+\end{itemize}
+\subsubsection{Git}	
+Git est un logiciel de gestion de versions décentralisé. Un gestionnaire de version est un système qui enregistre l'évolution d'un fichier ou d'un ensemble de fichiers au cours du temps de manière à ce qu'on puisse rappeler une version antérieure d'un fichier à tout moment. \\
+Git est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2. En 2016, il s’agit du logiciel de gestion de versions le plus populaire qui est utilisé par plus de douze millions de personnes. \cite{git}. \\
+Si vous êtes un développeur web, et que vous voulez conserver toutes les versions d'une ressource donnée, un système de gestion de version (VCS en anglais pour Version Control System) est un outil qu'il est très sage d'utiliser. Il vous permet de ramener un fichier à un état précédent, de ramener le projet complet à un état précédent, de visualiser les changements au cours du temps, de voir qui a modifié quelque chose qui pourrait causer un problème, qui a introduit un problème et quand, et plus encore. Utiliser un VCS signifie aussi généralement que si vous vous trompez ou que vous perdez des fichiers, vous pouvez facilement revenir à un état stable. De plus, vous obtenez tous ces avantages avec peu de travail additionnel. Git repose sur l'utilisation de dépôts («repository» en anlais).Le répertoire .git est un répertoire caché, qui contient tout l’historique des fichiers.\\
+\nomenclature{VCS}{Version Control System}
+Git dispose notamment des commandes suivantes :
+\begin{itemize}
+	\itemcheck «git init» crée un nouveau dépôt ;
+	\itemcheck «git clone» clone un dépôt distant ;
+	\itemcheck «git add» ajoute de nouveaux objets blobs dans la base des objets pour chaque fichier modifié depuis le dernier commit. Les objets précédents restent inchangés ;
+	\itemcheck «git commit» intègre la somme de contrôle SHA-1 d'un objet tree et les sommes de contrôle des objets commits parents pour créer un nouvel objet commit ;
+	\itemcheck «git branch» liste les branches ;
+	\itemcheck «git merge» fusionne une branche dans une autre ;
+	\itemcheck «git rebase» déplace les commits de la branche courante devant les nouveaux commits d’une autre branche ;
+	\itemcheck «git log» affiche la liste des commits effectués sur une branche ;
+	\itemcheck «git push» publie les nouvelles révisions sur le dépôt distant. (La commande prend différents paramètres) ;
+	\itemcheck «git pull» récupère les dernières modifications distantes du projet (depuis le Remote) et les fusionner dans la branche courante ;
+	\itemcheck «git stash» stocke de côté un état non commité afin d’effectuer d’autres tâches.
+\end{itemize}
+L'utilisation standard de Git se passe comme suit :
+\begin{enumerate}
+	\item vous modifiez des fichiers dans votre répertoire de travail ;
+	\item vous indexez les fichiers modifiés, ce qui ajoute des instantanés de ces fichiers dans la zone d'index (git add) ;
+	\item vous validez, ce qui a pour effet de basculer les instantanés des fichiers de l'index dans la base de données du répertoire Git (git commit) ;
+	\item vous vérifiez s'il n'y a pas eu des changements non encore pris en compte dans votre dépôt local dans le cas où il y a un dépôt distant (git pull);
+	\item vous publiez les nouvelles révisions sur le dépôt distant (git push).
+\end{enumerate}
+\subsubsection{Apache Maven}
+Couramment appelé Maven, Apache Maven est un outil de gestion et d'automatisation de production des projets logiciels Java en général et Java EE en particulier. Maven est géré par l'organisation Apache Software Foundation. L'outil était précédemment une branche de l'organisation Jakarta Project. Maven est un outil à plusieurs facettes :
+\begin{itemize}
+	\itemcheck un outil de compilation et de déploiement des applications Java (JAR, WAR);
+	\itemcheck un gestionnaire de dépendances ;
+	\itemcheck un outil d'exécution de tests unitaires ;
+	\itemcheck un outil de production de documentation.
+\end{itemize}
+L'objectif recherché est de produire un logiciel à partir de ses sources, en optimisant les tâches réalisées à cette fin et en garantissant le bon ordre de fabrication.On peut le comparer au système make sous Unix ou à l'outil Ant.\\
+Maven utilise un paradigme connu sous le nom de «Convention over Configuration» grâce à un Project Object Model (POM) afin de décrire un projet logiciel, ses dépendances avec des modules externes et l'ordre à suivre pour sa production. Il est livré avec un grand nombre de tâches pré-définies, comme la compilation de code Java ou encore sa modularisation. \nomenclature{POM}{Project Object Model}\\
+Un élément clé et relativement spécifique de Maven est son aptitude à fonctionner en réseau. Une des motivations historiques de cet outil est de fournir un moyen de synchroniser des projets indépendants : publication standardisée d'information, distribution automatique de modules jar. Ainsi en version de base, Maven peut dynamiquement télécharger du matériel sur des dépôts logiciels connus. Il propose ainsi la synchronisation transparente de modules nécessaires à un projet. \cite{maven}\\
+Chaque projet ou sous-projet est configuré par un POM qui contient les informations nécessaires à Maven pour traiter le projet (nom du projet, numéro de version, dépendances vers d'autres projets, bibliothèques nécessaires à la compilation, noms des contributeurs, etc.). Ce POM se matérialise par un fichier \textit{pom.xml} à la racine du projet. Cette approche permet l'héritage des propriétés du projet parent. Si une propriété est redéfinie dans le POM du projet, elle recouvre celle qui est définie dans le projet parent. Ceci introduit le concept de réutilisation de configuration. Le fichier pom du projet principal est nommé pom parent. Il contient une description détaillée de votre projet, avec en particulier des informations concernant le versionning et la gestion des configurations, les dépendances, les ressources de l'application, les tests, les membres de l'équipe, la structure et bien plus.\\
+A l'aide de nombreux archétypes déjà existants que propose Maven, il est possible de créer un projet prêt à être compilé et déployé. Un Archétype est un outil pour générer des templates de projet Maven. Il est possible d'utiliser des archétypes existants ou de créer ses propres archétypes Maven. Il existe plusieurs archétypes Maven. Comme exemples, nous avons notamment :
+\begin{itemize}
+	\itemcheck «maven-archetype-j2ee-simple» : \\
+	un archétype pour générer une application J2EE de base.
+	\itemcheck «maven-archetype-quickstart» : \\
+	un archétype pour générer un projet Maven de base.
+	\itemcheck «maven-archetype-simple» : \\
+	un archétype pour générer un projet Maven de base.
+	\itemcheck «maven-archetype-site-simple» : \\
+	un archétype pour générer un site Maven (documentation).
+	\itemcheck «maven-archetype-webapp» : \\
+	un archétype pour générer un projet Maven WebApp de base..
+\end{itemize}
+Le cycle de vie d'un projet est décomposé en phases. A une phase, correspond zéro ou plusieurs buts (goal en anglais). Les buts (goals en anglais) principaux du cycle de vie d'un projet Maven sont:
+\begin{itemize}
+	\itemcheck compile
+	\itemcheck test
+	\itemcheck package
+	\itemcheck install
+	\itemcheck deploy
+\end{itemize}
+L'idée est que, pour n'importe quel but, tous les buts en amont doivent être exécutés sauf s'ils ont déjà été exécutés avec succès et qu'aucun changement n'a été fait dans le projet depuis. Par exemple, quand on exécute mvn install, Maven va vérifier que mvn package s'est terminé avec succès (le jar existe dans target/), auquel cas cela ne sera pas ré-exécuté.\\
+D'autres buts sont exécutables en dehors du cycle de vie et ne font pas partie du cycle de vie par défaut de Maven (ils ne sont pas indispensables). Voici les principaux :
+\begin{itemize}
+	\itemcheck clean
+	\itemcheck assembly:assembly
+	\itemcheck site
+	\itemcheck site-deploy
+	\itemcheck etc.
+\end{itemize}
+Ils peuvent néanmoins être rajoutés au cycle de vie via le POM.
+\subsection{Langages et Technologies}
+\subsubsection{Java}
+Java est un langage de programmation à usage général, évolué et orienté objet dont la syntaxe est proche du C. Ses caractéristiques ainsi que la richesse de son écosystème et de sa communauté lui ont permis d'être très largement utilisé pour le développement d'applications de types très disparates. Java est notamment largement utilisé pour le développement d'applications d'entreprises et mobiles \cite{java}.\\
+Quelques chiffres et faits à propos de Java en 2011 :
+\begin{itemize}
+	\itemcheck 97\% des machines d'entreprises ont une machine vituelle Java ou JVM (Java Virtual Machine) installée. \nomenclature{JVM}{Java Virtual Machine}
+	\itemcheck Java est téléchargé plus d'un milliards de fois chaque année.
+	\itemcheck Il y a plus de 9 millions de développeurs Java dans le monde.
+	\itemcheck Java est un des langages les plus utilisés dans le monde.
+	\itemcheck Tous les lecteurs de Blue-Ray utilisent Java.
+	\itemcheck Plus de 3 milliards d'appareils mobiles peuvent mettre en œuvre Java.
+	\itemcheck Plus de 1,4 milliards de cartes à puce utilisant Java sont produites chaque année.
+\end{itemize}
+Java possède un certain nombre de caractéristiques qui ont largement contribué à son énorme succès :
+\begin{itemize}
+	\itemcheck Java est interprété	: \\
+	le code source est compilé en pseudo code ou bytecode puis exécuté par un interpréteur Java : la Java Virtual Machine (JVM). Ce concept est à la base du slogan de Sun pour Java : WORA (Write Once, Run Anywhere : écrire une fois, exécuter partout). En effet, le bytecode, s'il ne contient pas de code spécifique à une plate-forme particulière peut être exécuté et obtenir quasiment les mêmes résultats sur toutes les machines disposant d'une JVM.
+	\itemcheck Java est portable : \\
+	Java est indépendant de toute plate-forme, il ny a pas de compilation spécifique pour chaque plate forme. Le code reste indépendant de la machine sur laquelle il s'exécute. Il est possible d'exécuter des programmes Java sur tous les environnements qui possèdent une Java Virtual Machine.
+	\itemcheck Java est orienté objet :	\\
+	comme la plupart des langages récents, Java est orienté objet. Chaque fichier source contient la définition d'une ou plusieurs classes qui sont utilisées les unes avec les autres pour former une application. Java n'est pas complètement objet car il définit des types primitifs (entier, caractère, flottant, booléen,...).
+	\itemcheck Java est simple	: \\
+	le choix de ses auteurs a été d'abandonner des éléments mal compris ou mal exploités des autres langages tels que la notion de pointeurs (pour éviter les incidents en manipulant directement la mémoire), l'héritage multiple et la surcharge des opérateurs, ...
+	\itemcheck Java est fortement typé	: \\
+	toutes les variables sont typées et il n'existe pas de conversion automatique qui risquerait une perte de données. Si une telle conversion doit être réalisée, le développeur doit obligatoirement utiliser un cast ou une méthode statique fournie en standard pour la réaliser.
+	\itemcheck Java assure la gestion de la mémoire : \\
+	l'allocation de la mémoire pour un objet est automatique à sa création et Java récupère automatiquement la mémoire inutilisée grâce au garbage collector qui restitue les zones de mémoire laissées libres suite à la destruction des objets.
+	\itemcheck Java est sûr : \\
+	la sécurité fait partie intégrante du système d'exécution et du compilateur. Un programme Java planté ne menace pas le système d'exploitation. Il ne peut pas y avoir d'accès direct à la mémoire. L'accès au disque dur est réglementé dans une applet. 
+	\itemcheck Java est économe : \\
+	le pseudo code a une taille relativement petite car les bibliothèques de classes requises ne sont liées qu'à l'exécution.
+	\itemcheck Java est multitâche :\\
+	il permet l'utilisation de threads qui sont des unités d'exécutions isolées. La JVM, elle même, utilise plusieurs threads.
+\end{itemize}
+Il existe 2 types de programmes avec la version standard de Java : les applets et les applications. Une application autonome (standalone program) est une application qui s'exécute sous le contrôle direct du système d'exploitation. Une applet est une application qui est chargée par un navigateur et qui est exécutée sous le contrôle d'un plug in de ce dernier.
+\subsubsection{Java Enterprise Edition}
+Java EE est l'acronyme de Java Entreprise Edition. Cette édition est dédiée à la
+réalisation d'applications pour entreprises. Java EE est basé sur JSE (Java Standard Edition) qui
+contient les API de base de Java. Java EE est une plate-forme fortement orientée serveur pour le
+développement et l'exécution d'applications distribuées \cite{jee}. Java Entreprise Edition est composée de deux parties essentielles :
+\begin{itemize}
+	\itemtirait un ensemble de spécifications pour une infrastructure dans laquelle s'exécutent les
+	composants écrits en Java : un tel environnement se nomme serveur d'applications ;
+	\itemtirait un ensemble d'API qui peut être obtenues et utilisées séparément.
+\end{itemize}
+L'utilisation de Java EE pour développer une application offre plusieurs avantages dont :
+\begin{itemize}
+	\itemtirait une architecture d'applications basée sur les composants qui permet un découpage de
+	l'application et donc une séparation des rôles lors du développement ;
+	\itemtirait la possibilité de s'interfacer avec le système d'information existant grâce à de
+	nombreuses API : JDBC, JNDI, JMS, JPA , ...
+\end{itemize}
+Java EE permet une grande flexibilité dans le choix de l'architecture de l'application en
+combinant les différents composants. Ce choix dépend des besoins auxquels doit répondre
+l'application mais aussi des compétences dans les différentes API de Java EE. L'architecture d'une
+application se découpe idéalement en au moins trois tiers :
+\begin{itemize}
+	\itemcheck le tiers client : c'est la partie qui permet le dialogue avec l'utilisateur. Elle peut être composée d'une application standalone, d'une application web ou d'applets ;
+	\itemcheck le tiers métier : c'est la partie qui encapsule les traitements (dans des EJBs ou des
+	JavaBeans) ;
+	\itemcheck le tiers donnée : c'est la partie qui se charge du stockage et de l'accès aux données.
+\end{itemize}
+\subsubsection{ZK Framework}
+ZK est un framework Java open source hautement productif destiné à la création d'applications Web et mobiles d'entreprise. Il a été développé par Potix et distribué sous licences GNU et commerciale. L’idée principale de ZK est d’introduire dans les applications Web la programmation par gestion des événements, reposant sur un moteur AJAX \cite {zk}. Cela vous permet de vous concentrer sur la conception de formulaires et la programmation des réponses en réaction aux événements possibles. La communication HTTP à bas niveau entre le navigateur et le serveur est prise en charge exclusivement par le framework.
+\nomenclature{ZUML}{ZK User Interface Markup Language} \nomenclature{MVVM}{Model View - View Model} \nomenclature{MVC}{Model View Controller} \\
+\nomenclature{XUL}{XML User Interface Language}
+\nomenclature{CRUD}{Create-Read-Update-Delete}
+Une autre fonctionnalité de ZK est l'utilisation du langage ZUML (ZK User Interface Markup Language) qui rend la conception d'interfaces utilisateur riches aussi simple que la création de pages HTML. ZUML est une variante du langage XUL (XML User Interface Language) qui hérite de toutes les fonctionnalités de XML et sépare la définition d'interface utilisateur de la logique d'exécution. ZUML permet également aux développeurs d'automatiser les opérations de CRUD (Create-Read-Update-Delete) entre les composants de l'interface utilisateur et la/les sources de données avec des annotations en MVC (Model View Controller) ou encore en MVVM (Model View - View Model). On peut également créer des formulaires en Java à l'aide d'une API dédiée, un peu comme si on utilisait la bibliothèque Swing.\\
+ZK est réputé pour son approche «Ajax sans JavaScript» depuis 2005, permettant aux développeurs de créer des applications Internet riches en toute transparence, sans aucune connaissance d'Ajax et de JavaScript. Le moteur client et le moteur de mise à jour dans ZK jouent les rôles de lanceur et de receveur, rendant la communication Ajax transparente pour les développeurs. Les événements déclenchés par les utilisateurs sont encapsulés et transmis aux «event listeners» exécutés sur le serveur.\\
+En 2010, ZK a introduit une nouvelle architecture, l'architecture fusionnée serveur + client qui combine l'approche centrée sur le serveur avec un contrôle optionnel côté client. La solution centrée sur le serveur par Ajax apporte un gain de productivité, de robustesse et de sécurité pour le développement d'applications Web tandis que les solutions côté client confèrent aux applications Web une plus grande contrôlabilité et la possibilité de tirer parti des ressources côté client. \\
+ZK est jouit d'une renommée et d'une fiabilité internationale avec une solide expérience professionnelle en tant que framework de choix dans tous les secteurs. Des dizaines de milliers de développeurs utilisent ZK pour mettre en place leurs solutions, notamment des solutions à plusieurs millions de dollars, desservant des millions d'utilisateurs et des dizaines de milliers de sessions simultanées à l'échelle internationale. Avec plus de 1 500 000 téléchargements, ZK accompagne un large éventail d'entreprises et d'institutions, allant des plus petites aux plus grandes, de nombreuses industries \cite{zk-use}.
+\subsubsection{Hibernate}
+Hibernate est une solution open source de type ORM (Object Relational Mapping) qui permet de faciliter le développement de la couche persistance d'une application. Hibernate permet donc de représenter une base de données en objets Java et vice versa \cite{hbnt-jmdoudoux}. \\
+Hibernate est adaptable en termes d'architecture, il peut donc être utilisé aussi bien dans un développement client lourd, que dans un environnement web léger de type Apache Tomcat ou dans un environnement Java EE complet : WebSphere, JBoss Application Server et Oracle WebLogic Server \cite{hbnt}. \\
+Hibernate facilite la persistance et la recherche de données dans une base de données en réalisant lui-même la création des objets et les traitements de remplissage de ceux-ci en accédant à la base de données. La quantité de code ainsi épargnée est très importante d'autant que ce code est généralement fastidieux et redondant.En effet, Hibernate apporte une solution aux problèmes d'adaptation entre le paradigme objet et les SGBD en remplaçant les accès à la base de données par des appels à des méthodes objet de haut niveau. \\
+Hibernate est très populaire notamment à cause de ses bonnes performances et de son ouverture à de nombreuses bases de données. Les bases de données principales du marché supportées : DB2, Oracle, MySQL, PostgreSQL, Sybase, SQL Server, Sap DB, Interbase, ...
+\subsection{Autres technologies}
+\subsubsection{MySQL}
+MySQL est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.MySQL est développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées. Il est multi-thread et multi-utilisateur.\\
+MySQL a été acheté le 16 janvier 2008 par Sun Microsystems pour un milliard de dollars américains. En 2009, Sun Microsystems a été acquis par Oracle Corporation, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL. Ce rachat a été autorisé par la Commission européenne le 21 janvier 20105,6.
+Depuis mai 2009, son créateur Michael Widenius a créé MariaDB pour continuer son développement en tant que projet Open Source.
+MySQL fonctionne sur de nombreux systèmes d'exploitation différents, incluant Linux, Mac OS X et Windows.
+\begin{comment}
+	contenu...
+MySQL offre plusieurs avantages :
+Rapidité
+Le serveur MySQL est trés rapide. Des tests de performances sont disponibles sur le site de MySQL
+Facile à utiliser
+MySQL est beaucoup plus simple à utiliser que la plupart des serveurs de bases de données commerciaux.
+API diverses
+On peut effectuer diverses opérations sur une base MySQL en utilisant des interfaces écrits en C, Perl, C++, Java, Python, PHP.
+Coût
+Jusqu'à la version 3.20.32a, mySQL était sous licence GPL.
+Il faut une licence pour faire tourner mySQL sous Windows.
+Sous les autres plates-formes, l'utilisation de mySQL est gratuite dans un but non commercial sinon il faudra acheter une licence pour environ 200 \$ US.
+Connexion et Sécurité
+MySQL dispose d'un système de sécurité permettant de gérer les personnes et les machines pouvant accéder aux différentes bases.
+Portabilité
+MySQL tourne sur divers systèmes tels que Unix, Windows, Linux ou OS/2.
+Distribution ouverte
+Les sources étant fournies, il est possible d'améliorer mySQL.
+\end{comment} 
+\subsubsection{JBoss}
+JBoss est un serveur d'application J2EE développé à partir de 1999 par un français Marc Fleury.JBoss est écrit en Java et distribué sous licence LGPL. Il peut être employé sur tout système équipé d’une JVM. JBoss a obtenu la certification en J2EE 1.4 en juillet 2004. Puis, Red Hat achète JBoss Inc. en avril 2006 et JBoss Enterprise devient une division de Red Hat. A partir de sa version 7, JBoss devient WildFly. JBoss implémente entièrement l'ensemble des services Java EE. Il embarque :
+\begin{itemize}
+	\itemcheck Tomcat : serveur web Tomcat pour exécuter les parties servlets et JSP des applications déployées sur le serveur ;
+	\itemcheck JBoss Portal (en) : framework de portail ;
+	\itemcheck JBoss Seam (en) : framework web ;
+	\itemcheck Hibernate : framework de persistance ;
+	\itemcheck jBPM : moteur de workflow ;
+	\itemcheck Drools (ou JBoss Rules) : système de gestion de règles métier.
+\end{itemize}
+JBoss peut être obtenu sous licence LGPL auprès de jboss.org, qui regroupe les projets JBoss et la communauté des développeurs JBoss. Dans ce cas, il n’y a pas d’autre support que celui offert par la communauté.
+Il peut aussi être obtenu de manière commerciale auprès de JBoss Enterprise. Il est, alors, possible de bénéficier d’une ligne de produits et de différents services : support technique, programmes de formation, etc.\\
+JBOSS fournit toute sorte de services standardisé: conteneur d’EJB, gestion de mail, de transactions, de gestion de la sécurité, gestion du déploiement… De plus, JBoss permet de se connecter à la plupart des standards du marché (Oracle,MySQL, …).
+\begin{comment}
+	contenu...
+JBoss fournit un certains nombres de modules :
+JBossServer qui comporte une infrastructure constituée des conteneurs EJB, ainsi que du Java Management Extension (JMX).
+JBossMQ pour la gestion des messages JMS (Java Messaging service).
+JBossTX pour la gestion des transactions avec les API JTA(Java Transaction API ) et JTS(Java Transaction Service).
+JBossCMP pour la persistance CMP.
+JBossSX pour la sécurité basée sur JAAS (Java Authentication and Authorization Service).
+JBossCX pour la gestion des connecteurs avec JCA (J2EE Connector Architecture).
+Tomcat ou Jetty pour le support des servlets et des pages JSP.
+JBoss permet grâce au JMX de charger les différents modules, conteneurs ou plug-ins en fonction des besoins. Bien entendu, JBoss permet d'implémenter ses propres services. 
+\end{comment}
+\subsection{Forge logicielle HubSo}
+L'usine logicielle de HubSo est constituée d'un ensemble d'outils lui permettant de gérer un projet de façon optimale et simple de son initialisation à son déploiement et même durant sa maintenance. Les outils majeurs
+dans cette forge logicielle comprennent notamment ceux qui permettent la gestion de projet, ceux permettant la gestion de code source, ceux permettant l'automatisation des builds, ceux permettant d'éxécuter différents types de test et de revue de code notamment par rapport à la sécurité et ceux permettant la gestion des différents artefacts produits.\\
+Chez HubSo, la forge logicielle est constituée des outils suivants :
+\begin{itemize}
+	\itemcheck JIRA : il s'agit d'un outil de gestion de projets ;
+	\itemcheck Gitlab : il s'agit d'un répertoire distant de gestion de versionning ;
+	\itemcheck Jenkins : il s'agit d'un outil d'automatisation de builds ;
+	\itemcheck Nexus : il s'agit d'un répetoire de gestion d'artefacts ;
+	\itemcheck Sonar : il s'agit d'un outil de revue de code. 
+\end{itemize}
+Avec cette forge logicielle, le processus standard est le suivant :
+\begin{enumerate}
+	\item Le projet ou sprint est initialisé, le backlog et les tâches définis dans \textit{JIRA} ;
+	\item Le développement est fait et après chaque modification majeure, le projet est commité sur \textit{Gitlab} ;
+	\item Un build est déclenché au niveau de \textit{Jenkins} ;
+	\item Si le build est réussi, un artéfact est déployé sur \textit{Nexus} et une revue de code est déclenchée sur \textit{Sonar}.
+\end{enumerate}
+\subsubsection{Gestionnaire de projets JIRA}
+JIRA est une solution qui permet de gérer le processus de développement de logiciels en offrant des fonctions sociales qui facilitent les échanges en temps réel entre toutes les parties concernées : développeurs, équipes techniques, utilisateurs professionnels et clients.
+\subsubsection{Gitlab}
+\subsubsection{Jenkins}
+\subsubsection{Nexus}
+\subsubsection{Sonar}
+\section{Architecture fonctionnelle des applications utilisatrices de HubSo ESAPI}
 
-% 
-%\subimport{/chapters/sujet/}{sujet.tex}
+\section{Mise en place de la bibliothèque HubSo ESAPI}
+\subsubsection{Clonage de la bibliothèque OWASP ESAPI}
+Nous avons débuté la mise en place de HubSo ESAPI en clônant le repository github du projet OWASP ESAPI. Il est accessible à l'adresse \textit{https://github.com/ESAPI/esapi-java-legacy}.
+\begin{figure}[H]
+	\centering
+	\begin{minipage}{12cm}
+		\centering
+		\includegraphics[width=0.7\linewidth]{fig/archi.jpg}
+	\end{minipage}
+	\caption{Repository Github du projet OWASP ESAPI}
+	\label{fig:architecturefonctionnellehubsoesapi}
+\end{figure}
+\subsubsection{Configuration}
+\subsubsection{Déploiement}
+\section{Intégration de HubSo ESAPI dans TouchWeb}
+\subsubsection{Etat initial TouchWeb}
+\subsubsection{Corrections}
+\subsubsection{Etat final}

@@ -90,7 +90,7 @@ Il existe de nombreuses fonctions de cryptographie. Il y a notamment :
 \end{itemize}
 
 \subsection{Contexte}
-\subsubsection{Evolution des applications Web et Mobiles}
+%\subsubsection{Evolution des applications Web et Mobiles}
 Aux premiers jours de l’internet, le World Wide Web\footnote{Système reliant des ressources hypertextes sur Internet grâce au protocole Http\footnote{L'Hypertext Transfer Protocol, plus connu sous l'abréviation HTTP, littéralement « protocole de transfert hypertexte » est un protocole de communication client-serveur développé pour le World Wide Web}} \nomenclature{HTTP}{Hypertext Transfer Protocol} consistait en de simples pages web, des pages d’information constituées de ressources statistiques. Le flot d'informations était à sens unique, du serveur au navigateur. L’authentification des utilisateurs n’était souvent pas nécessaire car les mêmes informations étaient affichées à tous les utilisateurs. Les risques de sécurité découlaient exclusivement de l’hébergement des sites web, c’est-à-dire au niveau des serveurs web. En cas d’attaque, il n’y avait que peu de risques car l’information au niveau des serveurs était déjà accessible au grand public. Les attaques consistaient donc le plus souvent à des démaquillages des sites web.\\
 De nos jours, le World Wide Web est très différent de ce qu’il était à ses débuts. De nouveaux sites web plus poussés apparaissent : les applications Web. Ils ne se limitent plus à l’affichage de ressources statistiques. La majorité des sites web de nos jours, sont en réalité des applications web. Une application web est un site Web qui permet à ses utilisateurs de réaliser des tâches spécifiques. Le flux d’informations n’est plus à sens unique mais plutôt bidirectionnel entre le serveur et le client (navigateur, téléphone mobile, autre application).\\
 Le contenu présenté aux utilisateurs est spécifique à chaque utilisateur en fonction de préférences préalablement enregistrées par ce dernier ou encore d’autres paramètres de l’application. Les applications web peuvent assurer pratiquement toutes sortes de fonctionnalités. Voici quelques types d’applications que l’on retrouve très souvent :
@@ -143,7 +143,7 @@ Les applications Web et mobiles manipulent aujourd'hui des données hautement se
 \end{comment}
 De même, dans le monde des applications Web et mobiles, les besoins évoluent très rapidement et pour arriver à satisfaire ces besoins nouvelles technologies sont créées. On assite à la naissance de mutiples nouvelles technologies.
 \subsection{Problématique et Objectifs}
-La Sécurité de ces applications est devenue très critique. L’augmentation rapide de la connectivité, combinée à l’augmentation spectaculaire de la valeur des données manipulées par ces applications ainsi que l’utilisation croissante de nouveaux protocoles et technologies ont abouti à des applications représentant un risque important à la fois pour les organisations qui les mettent en place et pour les utilisateurs de ces applications.\\
+La Sécurité de ces applications est devenue très critique. L’augmentation rapide de la connectivité, combinée à l’augmentation spectaculaire de la valeur des données manipulées par ces applications ainsi que l’utilisation croissante de nouveaux protocoles et technologies ont abouti à des applications exposant à la fois les organisations qui les mettent en place et les utilisateurs de ces applications à des risques importants.\\
 Le principal problème de sécurité rencontré par la majorité des applications Web et Mobile découle du fait qu’elles doivent accepter et traiter des données, lesquelles données pouvant être non fiables ou malveillantes. Cependant, plusieurs autres facteurs \cite{hacker-handbook} contribuent à cet état de fait et expliquent pourquoi tant d'applications Web et mobiles sont vulnérables :
 \begin{itemize}
 	\itemtirait Bien que la prise de conscience quant aux problèmes de sécurité des applications Web ait augmenté ces dernières années grâce aux différentes initiatives dans ce sens, elle reste moins développée que dans des domaines plus anciens tels que les réseaux et les systèmes d'exploitation. De fausses idées existent encore à propos de la plupart des concepts de base de la sécurité des applications Web. De nos jours, le travail d’un développeur Web consiste de plus en plus à intégrer, réutiliser des dizaines, voire des centaines, de composants tiers, conçus pour abstraire la complexité inhérente à ces différents composants et à réduire les temps de développement. Cependant, il est courant de voir des développeurs Web expérimentés faire des hypothèses sur la sécurité de leurs applications basées sur les frameworks qu’ils utilisent et à qui l’explication de simples failles de sécurité vient comme une révélation ;
@@ -162,9 +162,9 @@ Pour y arriver, les objectifs suivants ont été assigné :
 \end{itemize}
 Les autres objectifs sont les suivants :
 \begin{itemize}
-	\itemcheck Architecture type Owasp (Client Android, Serveur JEE) ;
+	\itemcheck Architecture type Owasp (Client Android, Serveur Java EE) ;
 	\itemcheck Intégration d'une application existante ;
-	\itemcheck Projet type Web JEE conforme Owasp avec à minima les fonctionnalités suivantes :
+	\itemcheck Projet type Web Java EE conforme Owasp avec à minima les fonctionnalités suivantes :
 	\begin{itemize}
 		\itemtirait Authentification et gestion de sessions
 		\itemtirait Gestion des utilisateurs et mots de passe

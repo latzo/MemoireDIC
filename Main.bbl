@@ -87,4 +87,48 @@ Threat classification taxonomy cross reference view.
 Introduction aux méthodes agiles et scrum.
 \newblock \url{https://www.agiliste.fr/introduction-methodes-agiles/}.
 
+\bibitem{eclipse}
+Présentation de eclipse.
+\newblock \url{http://www.singaomara.com/repEclipse/Eclipse.html}.
+
+\bibitem{astah}
+Jude (outils uml.
+\newblock \url{https://fr.wikipedia.org/wiki/Jude_(outils_UML)}.
+
+\bibitem{git}
+Git.
+\newblock \url{https://fr.wikipedia.org/wiki/Git}.
+
+\bibitem{maven}
+Apache maven.
+\newblock \url{https://fr.wikipedia.org/wiki/Apache_Maven}.
+
+\bibitem{java}
+J.~M. Doudoux.
+\newblock Développons en java - chapitre 1 : Présentation de java.
+\newblock \url{https://www.jmdoudoux.fr/java/dej/chap-presentation.htm}.
+
+\bibitem{jee}
+Documentation sur j2ee.
+\newblock \url{http://java.sun.com/javaee/5/docs/tutorial/doc/}.
+
+\bibitem{zk}
+The zk framework.
+\newblock
+  \url{http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/DDJ/2008/0802/080101as01/080101as01.html}.
+
+\bibitem{zk-use}
+Zk top reasons.
+\newblock \url{https://www.zkoss.org/whyzk/TopReasons}.
+
+\bibitem{hbnt-jmdoudoux}
+J.~M. Doudoux.
+\newblock Développons en java - chapitre 54 : Hibernate.
+\newblock
+  \url{https://www.jmdoudoux.fr/java/dej/chap-hibernate.htm#hibernate-3.}
+
+\bibitem{hbnt}
+The zk framework.
+\newblock \url{https://fr.wikipedia.org/wiki/Hibernate}.
+
 \end{thebibliography}

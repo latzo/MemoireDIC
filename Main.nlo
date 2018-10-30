@@ -23,6 +23,24 @@
 \nomenclatureentry{aWASC@[{WASC}]\begingroup Web Application Security Consortium\nomeqref {2.0}|nompageref}{22}
 \nomenclatureentry{aNIST@[{NIST}]\begingroup National Institute of Standards and Technology\nomeqref {2.0}|nompageref}{23}
 \nomenclatureentry{aFTC@[{FTC}]\begingroup Federal Trade Commission\nomeqref {2.0}|nompageref}{23}
-\nomenclatureentry{aUML@[{UML}]\begingroup Unified Modeling Language\nomeqref {3.0}|nompageref}{30}
-\nomenclatureentry{aOMT@[{OMT}]\begingroup Object Modeling Technique\nomeqref {3.0}|nompageref}{31}
-\nomenclatureentry{aOOSE@[{OOSE}]\begingroup Object Oriented Software Engineering\nomeqref {3.0}|nompageref}{31}
+\nomenclatureentry{aESAPI@[{ESAPI}]\begingroup Enterprise Security API\nomeqref {2.0}|nompageref}{25}
+\nomenclatureentry{aAPI@[{API}]\begingroup Application Programming Interface\nomeqref {2.0}|nompageref}{25}
+\nomenclatureentry{aUML@[{UML}]\begingroup Unified Modeling Language\nomeqref {3.0}|nompageref}{32}
+\nomenclatureentry{aOMT@[{OMT}]\begingroup Object Modeling Technique\nomeqref {3.0}|nompageref}{33}
+\nomenclatureentry{aOOSE@[{OOSE}]\begingroup Object Oriented Software Engineering\nomeqref {3.0}|nompageref}{33}
+\nomenclatureentry{aIDE@[{IDE}]\begingroup Integrated Development Environment\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aJava EE@[{Java EE}]\begingroup Java Entreprise Edition\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aWAR@[{WAR}]\begingroup Web Application Archive\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aEAR@[{EAR}]\begingroup Enterprise Application Archive\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aEJB@[{EJB}]\begingroup Entreprise Java Bean\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aJSP@[{JSP}]\begingroup Java Server Pages\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aJSF@[{JSF}]\begingroup Java Server Faces\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aJPA@[{JPA}]\begingroup Java Persistence API\nomeqref {5.0}|nompageref}{68}
+\nomenclatureentry{aVCS@[{VCS}]\begingroup Version Control System\nomeqref {5.0}|nompageref}{69}
+\nomenclatureentry{aPOM@[{POM}]\begingroup Project Object Model\nomeqref {5.0}|nompageref}{70}
+\nomenclatureentry{aJVM@[{JVM}]\begingroup Java Virtual Machine\nomeqref {5.0}|nompageref}{72}
+\nomenclatureentry{aZUML@[{ZUML}]\begingroup ZK User Interface Markup Language\nomeqref {5.0}|nompageref}{74}
+\nomenclatureentry{aMVVM@[{MVVM}]\begingroup Model View - View Model\nomeqref {5.0}|nompageref}{74}
+\nomenclatureentry{aMVC@[{MVC}]\begingroup Model View Controller\nomeqref {5.0}|nompageref}{74}
+\nomenclatureentry{aXUL@[{XUL}]\begingroup XML User Interface Language\nomeqref {5.0}|nompageref}{74}
+\nomenclatureentry{aCRUD@[{CRUD}]\begingroup Create-Read-Update-Delete\nomeqref {5.0}|nompageref}{74}
