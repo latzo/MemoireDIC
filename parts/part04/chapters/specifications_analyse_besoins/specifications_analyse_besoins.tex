@@ -2,12 +2,12 @@
 \minitoc
 \clearpage
 Nous nous sommes intéressés au Top 10 d'OWASP. qui nous a servi de cahiers de charge pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible en annexe.\\
-Le Top 10 OWASP, en recensant les dix risques de sécurité les plus critiques des applications Web, les explique et donne pour chacune de celles-ci, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurité. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des spécifications et de l'analyse.
+Le Top 10 OWASP, en recensant les dix risques de sécurité les plus critiques des applications Web, les explique et donne pour chacun d'eux, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurité. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des spécifications et de l'analyse.
 
 \section{Spécifications}
 
 \subsection{Spécifications fonctionnelles}
-Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des tâches préconisées par le Top 10 pour chacun des risques de sécurité. 
+Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des pratiques préconisées par le Top 10 pour chacun des risques de sécurité. 
 
 \subsubsection{Les Acteurs}
 Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif matériel ou autre système) qui interagit directement avec le système étudié.\\
@@ -48,7 +48,7 @@ Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition
 \end{itemize}
 
 \textbf{\RIGHTarrow Gestion des attaques sur les entités XML externes}\\
-Ce module regroupe les fonctions de sécurité permettant de se protéger des attaques sur les entités XML externes. Il contient les fonctions de sécurités :
+Ce module regroupe les fonctions de sécurité permettant de se protéger des attaques sur les entités XML externes. Il contient les fonctions de sécurités suivantes :
 \begin{itemize}
 	\itemcheck l'encodage de données en HTML ;
 	\itemcheck la validation des entrées.\\
@@ -132,7 +132,7 @@ Pour des besoins de concision, chaque point du Top 10 sera considéré comme un 
 	\itemtirait package gestion de l'utilisation de composants vulnérables ;
 	\itemtirait package gestion de la journalisation et de la surveillance insuffisante.
 \end{itemize}
-La figure \ref{fig:8.1} ci-dessous reprèsente ces différents packages.
+La figure \ref{fig:8.1} ci-dessous représente ces différents packages.
 \begin{figure}[h!]
 	\centering
 	\begin{minipage}{18cm}
@@ -146,7 +146,7 @@ La figure \ref{fig:8.1} ci-dessous reprèsente ces différents packages.
 \subsection{Package Gestion des injections}
 
 \subsubsection{Diagramme de cas d'utilisation}
-Le diagramme de cas d'utilisation du package "Gestion des injections" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'injection.\\ 
+Le diagramme de cas d'utilisation du package "Gestion des injections" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'injection.\\ 
 \begin{figure}[H]
 	\centering
 	\begin{minipage}{12cm}
@@ -160,7 +160,7 @@ Le diagramme de cas d'utilisation du package "Gestion des injections" est repres
 \subsection{Package Gestion des violations de gestion d'authentification}
 
 \subsubsection{Diagramme de cas d'utilisation}
-Le diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de violations de gestion d'authentification.\\ 
+Le diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de violations de gestion d'authentification.\\ 
 \begin{figure}[H]
 	\centering
 	\begin{minipage}{12cm}
@@ -287,7 +287,7 @@ Ci-dessous, nous avons le diagramme de cas d'utilisation global du système :
 	\caption{Diagramme de cas d'utilisation global du système}
 	\label{fig:7.12}
 \end{figure}
-Toutefois, cette représentation n'est pas non plus le meilleur car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comprenant les fonctions de sécurité de même nature.\\
+Toutefois, cette représentation n'est pas non plus la meilleure car ne favorisant pas une bonne lisibilité. Ainsi, nous avons décidé pour des raisons de lisibilité de séparer ces fonctions en modules, chaque module comprenant les fonctions de sécurité de même nature.\\
 Ainsi, nous avons les modules suivants :
 \begin{itemize}
 	\itemcheck Module "Utilisateurs" comprenant les fonctions relatives aux utilisateurs ;
@@ -572,7 +572,7 @@ La force du mot de passe est calculé en considérant que la taille minimale d'u
 	\caption{Diagramme d'états-transition d'un utilisateur}
 	\label{fig:7.13}
 \end{figure}
-Lorsqu'un uilisateur est nouvellement créé, il se doit d'activer son compte. S'il ne le fait pas au bout d'un certain délai, l'utilisateur nouvellement créé \textit{expire} et il n'a plus la possibilité de se connecter à l'application. Après activation, l'utilisateur est \textit{activé} peut se connecter. Après une connexion réussie, l'utilisateur est \textit{connecté}. Lorsque connecté, une déconnexion, un délai de session écoulé ou une inactivité au bout d'un certain délai, cet utilisateur est \textit{déconnecté} et seule une nouvelle authentification réussie lui permet d'être \textit{connecté} à nouveau. Lors de l'authentification, après un certain nombre de tentatives de connexion échouées préalablement fixé, l'utilisateur est \textit{bloqué} et seul le déblocage de l'utilisateur par un administrateur peut le remettre à un état \textit{débloqué}
+Lorsqu'un utilisateur est nouvellement créé, il se doit d'activer son compte. S'il ne le fait pas au bout d'un certain délai, l'utilisateur nouvellement créé \textit{expire} et il n'a plus la possibilité de se connecter à l'application. Après activation, l'utilisateur est \textit{activé} peut se connecter. Après une connexion réussie, l'utilisateur est \textit{connecté}. Lorsque connecté, une déconnexion, un délai de session écoulé ou une inactivité au bout d'un certain délai, cet utilisateur est \textit{déconnecté} et seule une nouvelle authentification réussie lui permet d'être \textit{connecté} à nouveau. Lors de l'authentification, après un certain nombre de tentatives de connexion échouées préalablement fixé, l'utilisateur est \textit{bloqué} et seul le déblocage de l'utilisateur par un administrateur peut le remettre à un état \textit{débloqué}
 
 \subsection{Sous-système "Cryptographie"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -698,7 +698,7 @@ Notre solution consiste en la mise en place d'une bibliothèque de fonctions de 
 	\itemcheck Module "Logging" regroupant les fonctions relatives à la journalisation ; 
 	\itemcheck Module "Gestion des composants".
 \end{itemize}
-Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité déjà existante mise à disposition par l'OWASP, OWASP ESAPI pour mettre en place notre propre bibliothèque de sécurité que nous appelons HubSo ESAPI.
+Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité déjà existante mise à disposition par OWASP, OWASP ESAPI pour mettre en place notre propre bibliothèque de sécurité que nous appelons HubSo ESAPI.
 \subsection{Utilisation de la bibliothèque OWASP ESAPI}
 Comme nous l'avons dit précédemment, nous utiliserons la bibliothèque OWASP ESAPI qui contient déjà presque toutes les fonctions de sécurité énoncées dans nos différents modules. Ce choix a été fait à plusieurs égards :
 \begin{itemize}
