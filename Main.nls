@@ -19,7 +19,7 @@
   \item [{CERT}]\begingroup Computer Emergency Response Team\nomeqref {2.0}
 		\nompageref{17}
   \item [{CRUD}]\begingroup Create-Read-Update-Delete\nomeqref {5.0}
-		\nompageref{74}
+		\nompageref{75}
   \item [{CVE}]\begingroup Central Vulnerabilities and Exposures\nomeqref {2.0}
 		\nompageref{21}
   \item [{CWE}]\begingroup Common Weakness Enumeration\nomeqref {2.0}
@@ -31,9 +31,9 @@
   \item [{DOS}]\begingroup Denial Of Service\nomeqref {2.0}
 		\nompageref{16}
   \item [{EAR}]\begingroup Enterprise Application Archive\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{EJB}]\begingroup Entreprise Java Bean\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{ESAPI}]\begingroup Enterprise Security API\nomeqref {2.0}
 		\nompageref{25}
   \item [{FFRDC}]\begingroup Federally Funded Research and Development Center\nomeqref {2.0}
@@ -47,21 +47,21 @@
   \item [{HTTP}]\begingroup Hypertext Transfer Protocol\nomeqref {1.1}
 		\nompageref{8}
   \item [{IDE}]\begingroup Integrated Development Environment\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{Java EE}]\begingroup Java Entreprise Edition\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{JPA}]\begingroup Java Persistence API\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{JSF}]\begingroup Java Server Faces\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{JSP}]\begingroup Java Server Pages\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{JVM}]\begingroup Java Virtual Machine\nomeqref {5.0}
-		\nompageref{72}
+		\nompageref{73}
   \item [{MVC}]\begingroup Model View Controller\nomeqref {5.0}
-		\nompageref{74}
+		\nompageref{75}
   \item [{MVVM}]\begingroup Model View - View Model\nomeqref {5.0}
-		\nompageref{74}
+		\nompageref{75}
   \item [{NIST}]\begingroup National Institute of Standards and Technology\nomeqref {2.0}
 		\nompageref{23}
   \item [{OMT}]\begingroup Object Modeling Technique\nomeqref {3.0}
@@ -73,7 +73,7 @@
   \item [{PCI}]\begingroup Payment Card Industry\nomeqref {2.0}
 		\nompageref{22}
   \item [{POM}]\begingroup Project Object Model\nomeqref {5.0}
-		\nompageref{70}
+		\nompageref{71}
   \item [{SSL}]\begingroup Secure Socket Layer\nomeqref {2.0}
 		\nompageref{18}
   \item [{SSL/TLS}]\begingroup Secure Socket Layer/Transport Layer Security\nomeqref {2.0}
@@ -85,14 +85,14 @@
   \item [{UML}]\begingroup Unified Modeling Language\nomeqref {3.0}
 		\nompageref{32}
   \item [{VCS}]\begingroup Version Control System\nomeqref {5.0}
-		\nompageref{69}
+		\nompageref{70}
   \item [{WAR}]\begingroup Web Application Archive\nomeqref {5.0}
-		\nompageref{68}
+		\nompageref{69}
   \item [{WASC}]\begingroup Web Application Security Consortium\nomeqref {2.0}
 		\nompageref{22}
   \item [{XUL}]\begingroup XML User Interface Language\nomeqref {5.0}
-		\nompageref{74}
+		\nompageref{75}
   \item [{ZUML}]\begingroup ZK User Interface Markup Language\nomeqref {5.0}
-		\nompageref{74}
+		\nompageref{75}
 
 \end{thenomenclature}

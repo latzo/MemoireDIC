@@ -1,20 +1,20 @@
 \chapter{Analyse et Conception}
 \minitoc
 \clearpage
-Nous nous sommes intéressés au Top 10 d'OWASP. qui nous a servi de cahiers de charge pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible en annexe.\\
+Nous nous sommes intéressés au Top 10 d'OWASP. qui nous a servi de backlog pour notre recueil de besoins. Les spécifications ont été faites sur la base de ce document. La version originale du document est disponible sur le site officiel de OWASP : \url{www.owasp.org}.\\
 Le Top 10 OWASP, en recensant les dix risques de sécurité les plus critiques des applications Web, les explique et donne pour chacun d'eux, un ensemble de directives de codage à mettre en œuvre pour se protéger de ces risques de sécurité. Cependant, le document original n'est pas assez parlant pour bon nombre de personnes et le fait qu'il soit rédigé en anglais est un obstacle pour d'autres. Nous avons tenté d'expliquer chaque point du Top 10 afin de les faire connaître aux développeurs. Cela a fait l'objet d'un document distribué aux développeurs et affiché dans les locaux de HubSo. De même, nous avons, pour chaque risque, recensé les pratiques à mettre en œuvre pour s'en prémunir. Celles-ci feront l'objet des spécifications et de l'analyse.
 
 \section{Spécifications}
 
 \subsection{Spécifications fonctionnelles}
-Les spécifications fonctionnelles décrivent les processus métier dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des pratiques préconisées par le Top 10 pour chacun des risques de sécurité. 
+Les spécifications fonctionnelles décrivent les processus métiers dans lesquels notre système devra intervenir, les tâches prises en charge par le système. Dans notre cas, il s'agira des pratiques préconisées par le Top 10 OWASP pour chacun des risques de sécurité. 
 
 \subsubsection{Les Acteurs}
 Un acteur représente un rôle joué par une entité externe (utilisateur humain, dispositif matériel ou autre système) qui interagit directement avec le système étudié.\\
 Notre système est principalement en interaction avec les autres applications utilisant les différentes fonctionnalités mises à disposition par celui-ci. 
 
 \subsubsection{Les fonctionnalités générales}
-Notre système met à la disposition des applications qui l'utilisent un ensemble de fonctionnalités leur permettant de gérer les différentes risques de sécurité énoncées par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.\\
+Notre système met à la disposition des applications un ensemble de fonctionnalités leur permettant de gérer les différents risques de sécurité énoncés par le Top 10. Il s'agit d'une bibliothèque de sécurité. Ces fonctionnalités, sont dans un premier regroupées en modules avec chaque module correspondant à la gestion d'un risque.\\
 
 \textbf{\RIGHTarrow Gestion des injections}\\
 Ce module regroupe les fonctions de sécurité permettant de se protéger des injections. Pour prévenir les injections, les fonctions de sécurités suivantes doivent être mises à disposition par le système : 
@@ -26,16 +26,16 @@ Ce module regroupe les fonctions de sécurité permettant de se protéger des in
 	\itemcheck le cryptage de données avec un algorithme fort.\\
 \end{itemize}
 
-\textbf{\RIGHTarrow Gestion des violations de Gestion d’Authentification}\\
+\textbf{\RIGHTarrow Gestion des violations de « Gestion d’Authentification »}\\
 Ce module regroupe les fonctions de sécurité permettant de se protéger des violations de gestion d'authentification. Pour prévenir la violation de gestion d'authentification, les fonctions de sécurités suivantes doivent être disponibles dans notre système :
- \begin{itemize}
- 	\itemcheck l'authentification ;
- 	\itemcheck la déconnexion ;
- 	\itemcheck la vérification de la force d'un mot de passe ; 
- 	\itemcheck la génération aléatoire de données : il s'agit de générer aléatoirement avec un algorithme non prévisible des données aléatoires numériques et alphanumériques ; 
- 	\itemcheck la journalisation des événements de connexion (logging) ; 
- 	\itemcheck le cryptage de données avec un algorithme fort.\\
- \end{itemize}
+\begin{itemize}
+	\itemcheck l'authentification ;
+	\itemcheck la déconnexion ;
+	\itemcheck la vérification de la force d'un mot de passe ; 
+	\itemcheck la génération aléatoire de données : il s'agit de générer aléatoirement avec un algorithme non prévisible des données aléatoires numériques et alphanumériques ; 
+	\itemcheck la journalisation des événements de connexion (logging) ; 
+	\itemcheck le cryptage de données avec un algorithme fort.\\
+\end{itemize}
 
 \textbf{\RIGHTarrow Gestion des expositions de données sensibles}\\
 Ce module regroupe les fonctions de sécurité permettant d'éviter l'exposition de données sensibles. Pour ce faire, les fonctions de sécurités suivantes doivent être disponibles dans notre système :
@@ -65,7 +65,7 @@ Ce module regroupe les fonctions de sécurité permettant de se protéger des vi
 \end{itemize}
 
 \textbf{\RIGHTarrow Gestion des mauvaises configurations de sécurité}\\
-Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des mauvaises configurations de sécurité. On a principalement :
+Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes découlant des mauvaises configurations de sécurité. On a principalement :
 \begin{itemize}
 	\itemcheck le paramétrage des entêtes HTTP : il s'agit de toutes les entêtes HTTP relatives à la sécurité (Entêtes HSTS, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options, CSP, X-Permitted-Cross-Domain-Policies entre autres). \\
 \end{itemize}
@@ -80,7 +80,7 @@ Ce module regroupe un ensemble de fonctions de sécurité permettant de se prot�
 \end{itemize}
 
 \textbf{\RIGHTarrow Gestion des désérialisations non sécurisée}\\
-Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes de sécurité découlant des désérialisations non sécurisées. On a principalement :
+Ce module regroupe les fonctions de sécurité permettant d'éviter les problèmes découlant des désérialisations non sécurisées. On a principalement :
 \begin{itemize}
 	\itemcheck la signature d'un message ;
 	\itemcheck la vérification de signatures ; 
@@ -133,7 +133,7 @@ Pour des besoins de concision, chaque point du Top 10 sera considéré comme un 
 	\itemtirait package gestion de la journalisation et de la surveillance insuffisante.
 \end{itemize}
 La figure \ref{fig:8.1} ci-dessous représente ces différents packages.
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\begin{minipage}{18cm}
 		\centering
@@ -149,9 +149,8 @@ La figure \ref{fig:8.1} ci-dessous représente ces différents packages.
 Le diagramme de cas d'utilisation du package "Gestion des injections" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'injection.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
-		\centering
-		{\includegraphics[height=0.30\textheight]{fig/Injection-use-case-diagram.png}}
+	\begin{minipage}{18cm}
+		{\includegraphics[width=1\textwidth, height=0.4\textheight]{fig/Injection-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des injections"}
 	\label{fig:7.2}
@@ -163,9 +162,8 @@ Le diagramme de cas d'utilisation du package "Gestion des injections" est repré
 Le diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques de violations de gestion d'authentification.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
-		\centering
-		{\includegraphics[height=0.30\textheight]{fig/Violation-gestion-authentification-use-case-diagram.png}}
+	\begin{minipage}{14cm}
+		{\includegraphics[width=1\textwidth,height=0.40\textheight]{fig/Violation-gestion-authentification-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des violations de gestion d'authentification"}
 	\label{fig:7.3}
@@ -177,9 +175,9 @@ Le diagramme de cas d'utilisation du package "Gestion des violations de gestion 
 Le diagramme de cas d'utilisation du package "Gestion des expositions de données sensibles" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques d'exposition de données sensibles.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
+	\begin{minipage}{14cm}
 		\centering
-		{\includegraphics[height=0.30\textheight]{fig/Gestion-exposition-donnees-use-case-diagram.png}}
+		{\includegraphics[width=0.8\textwidth,height=0.30\textheight]{fig/Gestion-exposition-donnees-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des expositions de données sensibles"}
 	\label{fig:7.4}
@@ -190,7 +188,7 @@ Le diagramme de cas d'utilisation du package "Gestion des expositions de donnée
 Le diagramme de cas d'utilisation du package "Gestion des attaques sur les entités XML externes" est representé ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques découlant des attaques sur les entités XML externes.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
+	\begin{minipage}{18cm}
 		\centering
 		{\includegraphics[height=0.30\textheight]{fig/XXE-use-case-diagram.png}}
 	\end{minipage}
@@ -203,9 +201,9 @@ Le diagramme de cas d'utilisation du package "Gestion des attaques sur les entit
 Le diagramme de cas d'utilisation du package "Gestion des violations de contrôle d'accès" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les risques découlant des violations de contrôle d'accès.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
+	\begin{minipage}{18cm}
 		\centering
-		{\includegraphics[height=0.30\textheight]{fig/Violation-controle-acces-use-case-diagram.png}}
+		{\includegraphics[width=0.7\textwidth,height=0.30\textheight]{fig/Violation-controle-acces-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des violations de contrôle d'accès"}
 	\label{fig:7.6}
@@ -229,9 +227,9 @@ Le diagramme de cas d'utilisation du package "Gestion des mauvaises configuratio
 Le diagramme de cas d'utilisation du package "Gestion des XSS" est représenté ci-dessous. Il comprend les cas d'utilisation permettant à une application donnée de mitiger les attaques XSS.\\ 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
+	\begin{minipage}{18cm}
 		\centering
-		{\includegraphics[height=0.30\textheight]{fig/XSS-use-case-diagram.png}}
+		{\includegraphics[width=0.8\textwidth,height=0.30\textheight]{fig/XSS-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du package "Gestion des XSS"}
 	\label{fig:7.8}
@@ -312,9 +310,9 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 \subsubsection{Diagramme de cas d'utilisation}
 \begin{figure}[H]
 	\centering
-	\begin{minipage}{12cm}
+	\begin{minipage}{18cm}
 		\centering
-		{\includegraphics[height=0.35\textheight, width=1\textwidth]{fig/Utilisateurs-use-case-diagram.png}}
+		{\includegraphics[height=0.35\textheight]{fig/Utilisateurs-use-case-diagram.png}}
 	\end{minipage}
 	\caption{Diagramme de cas d'utilisation du sous-système "Utilisateurs"}
 	\label{fig:7.13}
@@ -330,7 +328,7 @@ Chaque module est un sous-sytème et sera représenté par un package. Cette sé
 \underline{\underline{Description des scénarios}}\\
 \textbf{Précondition(s)}
 \begin{itemize}
-	\item Aucune
+	\item Un utilisateur s'authentifie sur l'application
 \end{itemize}
 \textbf{Scénario nominal}
 \begin{enumerate}
@@ -434,18 +432,18 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 	\item[12.] Le système met à jour la date et l'heure de dernière connexion échouée de l'utilisateur.
 	\item[13.] Le système incrémente le nombre de tentatives de connexion échouées pour cet utilisateur.
 	\begin{itemize}
-			\item[13.a.] Nombre maximal de tentatives de connexions échouées atteint :
-			\begin{itemize}
-				\item[13.a.1.] Le système bloque l'utilisateur.
-				\item[13.a.2.] Le système journalise le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
-				\item[13.a.3.] Le système produit une exception avec le même message.
-				\item[13.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
-			\end{itemize}
-			\item[13.b.] Nombre maximal de tentatives de connexions échouées non atteint :
-			\begin{itemize}
-				\item[13.b.1] Le système journalise l'échec de la connexion avec le message "Login ou mot de passe incorrect".
-				\item[13.b.2] Le système produit une exception avec le même message. en échec.
-			\end{itemize}
+		\item[13.a.] Nombre maximal de tentatives de connexions échouées atteint :
+		\begin{itemize}
+			\item[13.a.1.] Le système bloque l'utilisateur.
+			\item[13.a.2.] Le système journalise le blocage de l'utilisateur avec le message "Utilisateur bloqué" avec le nom de l'utilisateur.
+			\item[13.a.3.] Le système produit une exception avec le même message.
+			\item[13.a.4.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
+		\end{itemize}
+		\item[13.b.] Nombre maximal de tentatives de connexions échouées non atteint :
+		\begin{itemize}
+			\item[13.b.1] Le système journalise l'échec de la connexion avec le message "Login ou mot de passe incorrect".
+			\item[13.b.2] Le système produit une exception avec le même message. en échec.
+		\end{itemize}
 	\end{itemize}
 	\item[14.] Le système refuse la connexion; le cas d'utilisation se termine en échec.
 \end{itemize}
@@ -475,7 +473,7 @@ L’enchaînement E8 démarre au point 9 du scénario nominal.
 \underline{\underline{Description des scénarios}}\\
 \textbf{Précondition(s)}
 \begin{itemize}
-	\item Aucune
+	\item L'utilisateur demande à changer son mot de passe.
 \end{itemize}
 \textbf{Scénario nominal}
 \begin{enumerate}
@@ -572,7 +570,7 @@ La force du mot de passe est calculé en considérant que la taille minimale d'u
 	\caption{Diagramme d'états-transition d'un utilisateur}
 	\label{fig:7.13}
 \end{figure}
-Lorsqu'un utilisateur est nouvellement créé, il se doit d'activer son compte. S'il ne le fait pas au bout d'un certain délai, l'utilisateur nouvellement créé \textit{expire} et il n'a plus la possibilité de se connecter à l'application. Après activation, l'utilisateur est \textit{activé} peut se connecter. Après une connexion réussie, l'utilisateur est \textit{connecté}. Lorsque connecté, une déconnexion, un délai de session écoulé ou une inactivité au bout d'un certain délai, cet utilisateur est \textit{déconnecté} et seule une nouvelle authentification réussie lui permet d'être \textit{connecté} à nouveau. Lors de l'authentification, après un certain nombre de tentatives de connexion échouées préalablement fixé, l'utilisateur est \textit{bloqué} et seul le déblocage de l'utilisateur par un administrateur peut le remettre à un état \textit{débloqué}
+Lorsqu'un utilisateur est nouvellement créé, il se doit d'activer son compte. S'il ne le fait pas au bout d'un certain délai, l'utilisateur nouvellement créé \textit{expire} et il n'a plus la possibilité de se connecter à l'application. Après activation, l'utilisateur est \textit{activé} peut se connecter. Après une connexion réussie, l'utilisateur est \textit{connecté}. Lorsque connecté, en cas de déconnexion ou d'un délai de session écoulé ou encore d'une inactivité au bout d'un certain délai, cet utilisateur devient \textit{déconnecté} et seule une nouvelle authentification réussie lui permet d'être \textit{connecté} à nouveau. Lors de l'authentification, après un certain nombre de tentatives de connexion échouées préalablement fixé, l'utilisateur est \textit{bloqué} et seul le déblocage de l'utilisateur par un administrateur peut le remettre à un état \textit{débloqué}
 
 \subsection{Sous-système "Cryptographie"}
 \subsubsection{Diagramme de cas d'utilisation}
@@ -586,7 +584,7 @@ Lorsqu'un utilisateur est nouvellement créé, il se doit d'activer son compte. 
 	\label{fig:7.14}
 \end{figure}
 %\subsubsection{Cas d'utilisation "Crypter sans clé"}
-*%\textbf{\RIGHTarrow Description textuelle}\\
+%\textbf{\RIGHTarrow Description textuelle}\\
 %\textbf{\RIGHTarrow Diagramme d'activités}\\
 %\subsubsection{Cas d'utilisation "Hasher sans sel"}
 %\textbf{\RIGHTarrow Description textuelle}\\
@@ -703,7 +701,7 @@ Pour ce faire, nous allons utiliser une bibliothèque de fonctions de sécurité
 Comme nous l'avons dit précédemment, nous utiliserons la bibliothèque OWASP ESAPI qui contient déjà presque toutes les fonctions de sécurité énoncées dans nos différents modules. Ce choix a été fait à plusieurs égards :
 \begin{itemize}
 	\itemtirait L'implémentation de fonctions de sécurité prend du temps et est extrêmement sujette aux erreurs. Le projet CWE de MITRE répertorie plus de 600 types d’erreurs de sécurité que les développeurs peuvent commettre, et la plupart d’entre elles ne sont pas évidentes. Il est couramment accepté que les développeurs ne doivent pas créer leurs propres mécanismes de chiffrement, mais le même argument s'applique aux autres fonctions de sécurité.
-	\itemtirait Il existe de nombreuses bibliothèques offrant diverses fonctions de sécurité: Log4j, JCE (Java Cryptographic Extension), JAAS, Acegi entre autres. Certains d'entre eux sont même très bons. Cependant, il y a plusieurs raisons faisant qu'il n'est pas idéal de les utiliser directement. La plus importante est que la majorité ces bibliothèques sont trop puissantes. La plupart des développeurs n’ont besoin que d’un ensemble très limité de fonctions de sécurité et n’ont pas besoin d’une interface complexe. En outre, beaucoup de ces bibliothèques contiennent elles-mêmes des failles de sécurité.
+	\itemtirait Il existe de nombreuses bibliothèques offrant diverses fonctions de sécurité: Log4j, JCE (Java Cryptographic Extension), JAAS, Acegi entre autres. Certains d'entre eux sont même très bons. Cependant, il y a plusieurs raisons faisant qu'il n'est pas idéal de les utiliser directement. La plus importante est que la majorité de ces bibliothèques sont trop puissantes. La plupart des développeurs n’ont besoin que d’un ensemble très limité de fonctions de sécurité et n’ont pas besoin d’une interface complexe. En outre, beaucoup de ces bibliothèques contiennent elles-mêmes des failles de sécurité.
 	\itemtirait OWASP ESAPI est avant tout un ensemble d'interfaces conçues pour faciliter la mise en place de la sécurité dans une application. Ces interfaces sont utilisables par quiconque se soucie de les implémenter par rapport à sa propre organisation. En maintenant les interfaces séparées, chacun peut produire sa propre implémentation. Cependant, OWASP ne s'est pas arrêté là : il y a déjà une implémentation de référence complète et bien testée.
 	\itemtirait Même si l'on n'est pas adepte de l'opensource, toute entreprise rigoureuse devrait envisager de mettre en place une bibliothèque de sécurité pour ses développeur. Avec le projet OWASP comme modèle, cette tâche devient simple. On peut adopter uniquement les interfaces ESAPI et utiliser des parties de l’implémentation de référence.
 \end{itemize}
@@ -715,8 +713,8 @@ Comme nous l'avons dit précédemment, nous utiliserons la bibliothèque OWASP E
 		\centering
 		\includegraphics[width=0.7\linewidth]{parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI}
 	\end{minipage}
-		\caption{Architecture fonctionnelle Générique de HubSo ESAPI}
-		\label{fig:architecturefonctionnellehubsoesapi}
+	\caption{Architecture fonctionnelle Générique de HubSo ESAPI}
+	\label{fig:architecturefonctionnellehubsoedsapi}
 \end{figure}
 \subsubsection{Architecture détaillée HubSo ESAPI croisée au Top 10 OWASP 2017}
 \begin{figure}[H]

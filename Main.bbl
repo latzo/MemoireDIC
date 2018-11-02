@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{cours-corenthin}
-Alex Corenthin.
+Dr.~Alex Corenthin.
 \newblock Cours de sécurité des systèmes d'information - partie 1.
 \newblock page~5, 2018.
 
@@ -35,8 +35,24 @@ Marcus~Pinto Dafydd~Stuttard.
   Security Flaws, Second Edition}.
 \newblock Wiley Inc., second edition binder edition.
 
+\bibitem{deloitte}
+Site officiel deloitte.
+\newblock \url{https://www2.deloitte.com/us/en.html}.
+
+\bibitem{claranet}
+Site officiel claranet.
+\newblock \url{https://www.claranet.co.uk/}.
+
+\bibitem{bssi}
+Site officiel bssi.
+\newblock \url{https://bssi.fr/}.
+
+\bibitem{maz}
+Site officiel mazars.
+\newblock \url{https://www.mazars.com/}.
+
 \bibitem{cours-crypto-mendy}
-Gervais Mendy.
+Pr.~Gervais Mendy.
 \newblock Ingénierie de la cryptographie.
 \newblock page~5, 2018.
 
@@ -83,9 +99,27 @@ Threat classification taxonomy cross reference view.
 \newblock
   \url{http://projects.webappsec.org/w/page/13246975/Threat%20Classification%20Taxonomy%20Cross%20Reference%20View}.
 
+\bibitem{methode}
+Méthodes d'analyse et de conception.
+\newblock
+  \url{https://fr.wikipedia.org/wiki/Méthodes_d%27analyse_et_de_conception}.
+
+\bibitem{agvsvl}
+Introduction aux méthodes agiles et scrum.
+\newblock \url{http://agiliste.fr/introduction-methodes-agiles/}.
+
+\bibitem{sg}
+Ken Schwaber and Jeff Sutherland.
+\newblock The scrum guide.
+\newblock page~3, 2017.
+
 \bibitem{scrum}
 Introduction aux méthodes agiles et scrum.
 \newblock \url{https://www.agiliste.fr/introduction-methodes-agiles/}.
+
+\bibitem{uml1}
+Uml (informatique).
+\newblock \url{https://fr.wikipedia.org/wiki/UML_(informatique)}.
 
 \bibitem{eclipse}
 Présentation de eclipse.

@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-Repeated entry---line 60 of file bibliography.bib
+Repeated entry---line 98 of file bibliography.bib
  : @article{cours-crypto-mendy
  :                            ,
 I'm skipping whatever remains of this entry
@@ -15,4 +15,5 @@ Warning--empty journal in b2
 Warning--empty year in b2
 Warning--empty journal in morris-worm
 Warning--empty journal in internet
+Warning--empty journal in sg
 (There was 1 error message)

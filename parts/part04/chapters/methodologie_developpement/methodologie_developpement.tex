@@ -3,20 +3,20 @@
 \clearpage
 \section{Méthodologie de développement}
 \subsection{Qu'est ce qu'une méthodologie de développement ?}
-Une méthodologie est une démarche, une ligne de conduite qui est suivie par l’ensemble de l’équipe projet du lancement jusqu'à’à la livraison de celui-ci. Elle permet d’uniformiser le processus de travail et facilite la communication de l’équipe projet via des concepts et termes bien définis et compris par tous.\\
-Une méthodologie est un processus, une démarche à suivre pour aboutir à la concrétisation d'un projet. Une méthodologie définit formellement le processus à respecter pour rassembler les exigences, les analyser et concevoir une application qui les respecte à tous les égards. Il existe de nombreuses méthodologies, chacune différant d'une manière ou d'une autre des autres. \\
+Une méthodologie est une démarche, une ligne de conduite qui est suivie par l’ensemble de l’équipe projet du lancement jusqu'à’à la livraison de celui-ci. Elle permet d’uniformiser le processus de travail et facilite la communication de l’équipe projet via des concepts et termes bien définis et compris par tous \cite{methode}.\\
+Une méthodologie est un processus, une démarche à suivre pour aboutir à la concrétisation d'un projet. Elle définit formellement le processus à respecter pour rassembler les exigences, les analyser et concevoir une application qui les respecte à tous les égards. Il existe de nombreuses méthodologies, chacune différant d'une manière ou d'une autre des autres. \\
 Il existe de nombreuses raisons pouvant faire qu'une méthodologie soit meilleure qu'une autre par rapport à un projet particulier : par exemple, certaines sont mieux adaptées aux grandes applications d'entreprise, tandis que d'autres sont conçues pour concevoir de petits systèmes intégrés ou à sécurité critique. D'un autre point de vue, certaines méthodologies supportent mieux un grand nombre d'architectes et de concepteurs travaillant sur le même projet, tandis que d'autres fonctionnent mieux lorsqu'elles sont utilisées par une seule personne ou par un petit groupe.
 \subsection{Intérêt d'une méthodologie}   
 L'intérêt de l'utilisation d'une méthodologie de développement dans la conduite d'un projet informatique se justifie par plusieurs facteurs :
 \begin{itemize}
-	\itemtirait De nombreux échecs de projets informatiques dans le passé sontdûs à un manque d'organisation, ou un non satisfaction des besoins ;
+	\itemtirait De nombreux échecs de projets informatiques dans le passé sont dûs à un manque d'organisation, ou un non satisfaction des besoins ;
 	\itemtirait La révolution de l'industrie logicielle engendrée par les échecs informatiques et qui introduit de nouveaux facteurs de validation de la qualité logicielle : le génie logiciel ;
 	\itemtirait Les nombreuses exigences liées au coût, aux délais et à la complexité des projets informatiques.
 \end{itemize}
 L'utilisation de méthodologies de développement adaptées permet ainsi l'élaboration de systèmes informatiques de manière fiable et viable tout en répondant à l'ensemble des exigences du client et du génie logiciel.                          
 \subsection{Catégories de méthodologies de développement}
 Il existe plusieurs méthodologies de développement informatique. L’on distingue principalement
-deux catégories de méthodologies qui se différencient par rapport à leurs approches : l’approche traditionnelle et l’approche agile. Les deux approches se distinguent essentiellement dans la manière de décomposer le projet.\\
+deux catégories de méthodologies qui se différencient par rapport à leurs approches : l’approche traditionnelle et l’approche agile. Les deux approches se distinguent essentiellement dans la manière de décomposer le projet \cite{agvsvl}.\\
 Les méthodes traditionnelles prônent un enchaînement séquentiel des différentes activités, depuis les spécifications jusqu'à la validation du système, selon un planning préétabli. Elles visent à mieux prédire la façon dont les choses « devraient » se passer. Malheureusement, cette vision rassurante est bien loin de la réalité des projets.\\
 La conséquence est que plus de 80\% des projets exécutés selon ces méthodologies connaissent des retards, des dépassements budgétaires, quand ils ne finissent pas en échec total, pour n’avoir pas su satisfaire les attentes des clients.\\
 Ces problèmes sont liés à plusieurs caractéristiques fondamentales de ces méthodologies :
@@ -32,10 +32,11 @@ Ces problèmes sont liés à plusieurs caractéristiques fondamentales de ces m�
 	\itemtirait Donner plus de visibilité aux clients et utilisateurs ;
 	\itemtirait Éliminer « l’effet tunnel »  en le remplaçant par des itérations courtes et maîtrisées.
 \end{itemize}
-Il existe de nombreuses méthodes Agiles. Parmi celles-ci, nous avons entre autres XP (Extreme Programming), Scrum, RAD (Rapid Application Development), PUMA, etc.
-\subsubsection{Scrum}
-Scrum est une méthode agile de gestion de projets. Elle a pour objectif d’améliorer la cohésion de
-l’équipe et la rapidité du processus de développement. Le nom Scrum renvoie à une pratique généralement connue au rugby signifiant la « mêlée ».\\
+Il existe de nombreuses méthodes Agiles. Parmi celles-ci, nous avons entre autres XP (Extreme Programming), Scrum, RAD (Rapid Application Development), PUMA, etc. \\
+La méthode Scrum soutient la livraison rapide et régulière de fonctionnalités à haute valeur ajoutée.
+Du fait de sa facilité d'utilisation, de l'optimisation de l'efficacité de ceux qui l'utilisent grâce à des mêlées quotidiennes permettant de lever tout obstacle ainsi que de ses nombreux autres avantages (Focus sur la qualité, transparence, l'adaptabilité au changement), Scrum est bien adapté à notre projet et HubSo est un grand adepte de Scrum. Ainsi, nous utiliserons Scrum pour mener à bien notre projet.
+\subsection{Scrum}
+Scrum est un « framework » \cite{sg} agile de gestion de projets. Elle a pour objectif d’améliorer la cohésion de l’équipe et la rapidité du processus de développement. Le nom Scrum renvoie à une pratique généralement connue au rugby signifiant la « mêlée ».\\
 Le cycle de vie d’un projet Scrum peut être découpé en trois parties :
 \begin{itemize}
 	\itemcheck La phase d’initiation ou démarrage : il s’agit d’une phase linéaire où l’on
@@ -50,10 +51,8 @@ Le cycle de vie d’un projet Scrum peut être découpé en trois parties :
 	\itemcheck La phase de clôture est une phase linéaire de gestion de la livraison du produit
 	final.
 \end{itemize}
-Scrum est la méthode Agile la plus utilisée de nos jours \cite{scrum}. En bref, elle définit des rôles (le Scrum Master, le Product Owner et l’équipe de développement), dicte la réitération de sprints de production à durée limitée à la fin desquels des incréments fonctionnels de logiciel sont livrés et met en place des artefacts (le carnet de produit, le carnet de sprint, les graphiques d’avancement) ainsi que des cérémonies (planification de sprint, mêlée quotidienne, revue et rétrospective).
-Scrum implique l’auto-organisation des équipes et permet beaucoup plus de réactivité pour s’adapter aux besoins (parfois changeants) du client. Elle sous-entend aussi l’application de principes Agiles, soit la transparence, la simplicité et la collaboration.\\
-La méthode Scrum soutient la livraison rapide et régulière de fonctionnalités à haute valeur ajoutée.
-Du fait de sa facilité d'utilisation, de l'optimisation de l'efficacité de ceux qui l'utilisent grâce à des mêlées quotidiennes permettant de lever tout obstacle ainsi que de ses nombreux autres avantages (Focus sur la qualité, transparence, l'adaptabilité au changement), Scrum est bien adapté à notre projet et HubSo est un grand adepte de Scrum. Ainsi, nous utiliserons Scrum pour mener à bien notre projet.
+Scrum est la méthode Agile la plus utilisée de nos jours. En bref, elle définit des rôles (le Scrum Master, le Product Owner et l’équipe de développement), dicte la réitération de sprints de production à durée limitée à la fin desquels des incréments fonctionnels de logiciel sont livrés et met en place des artefacts (le carnet de produit, le carnet de sprint, les graphiques d’avancement) ainsi que des cérémonies (planification de sprint, mêlée quotidienne, revue et rétrospective).
+Scrum implique l’auto-organisation des équipes et permet beaucoup plus de réactivité pour s’adapter aux besoins (parfois changeants) du client. Elle sous-entend aussi l’application de principes Agiles, soit la transparence, la simplicité et la collaboration \cite{scrum}.\\
 %\subsection{Choix d'une méthodologie de développement}
 \begin{comment}
 Scrum is an agile method for project management developed by Ken Schwaber. Its goal is to dramatically improve productivity in teams previously paralyzed by heavier, process-laden methodologies.
