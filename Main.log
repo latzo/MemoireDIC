@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  2 NOV 2018 08:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.7.3)  2 NOV 2018 08:55
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -3365,21 +3365,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
 [53] [54 <./parts/part04//chapters/specifications_analyse_besoins/fig/Authentif
 ication-utilisateur-activity-diagram.png>] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
 
  []
 
 <parts/part04//chapters/specifications_analyse_besoins/fig/Verification-force-m
-ot-de-passe-activity-diagram.png, id=1469, 1638.87282pt x 2018.29031pt>
+ot-de-passe-activity-diagram.png, id=1468, 1638.87282pt x 2018.29031pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Verification-fo
 rce-mot-de-passe-activity-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Verification-for
 ce-mot-de-passe-activity-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Verification-force-mot-de-passe-activity-diagram.png  used on input line 55
-9. on input line 559.
+fig/Verification-force-mot-de-passe-activity-diagram.png  used on input line 56
+1. on input line 561.
 Package pdftex.def Info: Requested size: 451.00401pt x 669.3639pt on input line
- 559.
+ 561.
 [56]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachine-d
 iiagram.png, id=1478, 981.6675pt x 716.6775pt>
@@ -3388,10 +3388,10 @@ ine-diiagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Users-statemachi
 ne-diiagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Users-statemachine-diiagram.png  used on input line 568. on input line 568.
+fig/Users-statemachine-diiagram.png  used on input line 570. on input line 570.
 
 Package pdftex.def Info: Requested size: 341.4318pt x 246.60881pt on input line
- 568.
+ 570.
  [57 <./parts/part04//chapters/specifications_analyse_besoins/fig/Verification-
 force-mot-de-passe-activity-diagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-use-ca
@@ -3401,10 +3401,10 @@ se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Cryptographie-use-case-diagram.png  used on input line 581. on input line 5
-81.
+fig/Cryptographie-use-case-diagram.png  used on input line 583. on input line 5
+83.
 Package pdftex.def Info: Requested size: 341.43301pt x 246.61348pt on input lin
-e 581.
+e 583.
  [58 <./parts/part04//chapters/specifications_analyse_besoins/fig/Users-statema
 chine-diiagram.png>]
 <parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-case-di
@@ -3414,9 +3414,9 @@ se-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Encodage-use-cas
 e-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Encodage-use-case-diagram.png  used on input line 599. on input line 599.
+fig/Encodage-use-case-diagram.png  used on input line 601. on input line 601.
 Package pdftex.def Info: Requested size: 341.43317pt x 246.61237pt on input lin
-e 599.
+e 601.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-case-
 diagram.png, id=1491, 837.1275pt x 482.55281pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-
@@ -3424,10 +3424,10 @@ case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Validation-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Validation-use-case-diagram.png  used on input line 611. on input line 611.
+fig/Validation-use-case-diagram.png  used on input line 613. on input line 613.
 
 Package pdftex.def Info: Requested size: 341.42343pt x 246.61409pt on input lin
-e 611.
+e 613.
  [59 <./parts/part04//chapters/specifications_analyse_besoins/fig/Cryptographie
 -use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
 /fig/Encodage-use-case-diagram.png>]
@@ -3438,9 +3438,9 @@ iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/HTTP-use-case-di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/HTTP-use-case-diagram.png  used on input line 626. on input line 626.
+fig/HTTP-use-case-diagram.png  used on input line 628. on input line 628.
 Package pdftex.def Info: Requested size: 341.43489pt x 246.61784pt on input lin
-e 626.
+e 628.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-use-ca
 se-diagram.png, id=1499, 507.62448pt x 469.755pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-u
@@ -3448,10 +3448,10 @@ se-case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs-us
 e-case-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Interpreteurs-use-case-diagram.png  used on input line 641. on input line 6
-41.
+fig/Interpreteurs-use-case-diagram.png  used on input line 643. on input line 6
+43.
 Package pdftex.def Info: Requested size: 341.44664pt x 211.38063pt on input lin
-e 641.
+e 643.
  [60 <./parts/part04//chapters/specifications_analyse_besoins/fig/Validation-us
 e-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins/fi
 g/HTTP-use-case-diagram.png>]
@@ -3462,9 +3462,9 @@ e-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Logging-use-case
 -diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Logging-use-case-diagram.png  used on input line 654. on input line 654.
+fig/Logging-use-case-diagram.png  used on input line 656. on input line 656.
 Package pdftex.def Info: Requested size: 341.42732pt x 246.6138pt on input line
- 654.
+ 656.
 <parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-case-
 diagram.png, id=1508, 527.86008pt x 353.25575pt>
 File: parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-
@@ -3472,10 +3472,10 @@ case-diagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Composants-use-c
 ase-diagram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Composants-use-case-diagram.png  used on input line 666. on input line 666.
+fig/Composants-use-case-diagram.png  used on input line 668. on input line 668.
 
 Package pdftex.def Info: Requested size: 341.4377pt x 246.61433pt on input line
- 666.
+ 668.
  [61 <./parts/part04//chapters/specifications_analyse_besoins/fig/Interpreteurs
 -use-case-diagram.png> <./parts/part04//chapters/specifications_analyse_besoins
 /fig/Logging-use-case-diagram.png>]
@@ -3486,11 +3486,11 @@ iagram.png Graphic file (type png)
 <use parts/part04//chapters/specifications_analyse_besoins/fig/Analyse-Class-Di
 agram.png>
 Package pdftex.def Info: parts/part04//chapters/specifications_analyse_besoins/
-fig/Analyse-Class-Diagram.png  used on input line 680. on input line 680.
+fig/Analyse-Class-Diagram.png  used on input line 682. on input line 682.
 Package pdftex.def Info: Requested size: 409.7153pt x 352.291pt on input line 6
-80.
+82.
 
-Overfull \hbox (68.28224pt too wide) in paragraph at lines 680--681
+Overfull \hbox (68.28224pt too wide) in paragraph at lines 682--683
  [][] 
  []
 
@@ -3504,9 +3504,9 @@ png Graphic file (type png)
 <use parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAPI.p
 ng>
 Package pdftex.def Info: parts/part04/chapters/conception/fig/ArchitectureFonct
-ionnelleHubSoESAPI.png  used on input line 714. on input line 714.
+ionnelleHubSoESAPI.png  used on input line 716. on input line 716.
 Package pdftex.def Info: Requested size: 239.00209pt x 208.58368pt on input lin
-e 714.
+e 716.
  [64]
 <parts/part04/chapters/conception/fig/EsapiXtop10.png, id=1531, 731.73375pt x 4
 14.04688pt>
@@ -3514,9 +3514,9 @@ File: parts/part04/chapters/conception/fig/EsapiXtop10.png Graphic file (type p
 ng)
 <use parts/part04/chapters/conception/fig/EsapiXtop10.png>
 Package pdftex.def Info: parts/part04/chapters/conception/fig/EsapiXtop10.png  
-used on input line 724. on input line 724.
+used on input line 726. on input line 726.
 Package pdftex.def Info: Requested size: 239.00534pt x 176.15396pt on input lin
-e 724.
+e 726.
 <parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png, id=
 1532, 2733.21124pt x 3526.17375pt>
 File: parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png
@@ -3524,9 +3524,9 @@ File: parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png
 <use parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.png>
 
 Package pdftex.def Info: parts/part04/chapters/conception/fig/ArchitectureHubso
-WebApplications.png  used on input line 734. on input line 734.
+WebApplications.png  used on input line 736. on input line 736.
 Package pdftex.def Info: Requested size: 341.40033pt x 634.09204pt on input lin
-e 734.
+e 736.
  [65 <./parts/part04/chapters/conception/fig/ArchitectureFonctionnelleHubSoESAP
 I.png> <./parts/part04/chapters/conception/fig/EsapiXtop10.png>]
 <parts/part04/chapters/conception/fig/archi.jpg, id=1539, 552.0625pt x 315.1775
@@ -3534,9 +3534,9 @@ pt>
 File: parts/part04/chapters/conception/fig/archi.jpg Graphic file (type jpg)
 <use parts/part04/chapters/conception/fig/archi.jpg>
 Package pdftex.def Info: parts/part04/chapters/conception/fig/archi.jpg  used o
-n input line 744. on input line 744.
+n input line 746. on input line 746.
 Package pdftex.def Info: Requested size: 239.00209pt x 136.45186pt on input lin
-e 744.
+e 746.
  [66 <./parts/part04/chapters/conception/fig/ArchitectureHubsoWebApplications.p
 ng>]) (parts/part04//chapters/conception/conception.tex)) (parts/part05/part05.
 tex [67 <./parts/part04/chapters/conception/fig/archi.jpg>]
@@ -3911,7 +3911,7 @@ es/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncbi8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/ncntrsbk/uncr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/un
 cri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasyb10.pfb>
-Output written on Main.pdf (126 pages, 9654471 bytes).
+Output written on Main.pdf (126 pages, 9654674 bytes).
 PDF statistics:
  2422 PDF objects out of 2487 (max. 8388607)
  661 named destinations out of 1000 (max. 500000)
